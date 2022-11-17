@@ -1,4 +1,4 @@
-# Raodon and Axthrix 
-* a mod about two factions(they don't like eachother)
+# Axthrix 
+* a mod about a faction.
 * Made by Otamamori  
-* Mod is still in development (radodon stuff not complete)
+* Mod is still in development 
