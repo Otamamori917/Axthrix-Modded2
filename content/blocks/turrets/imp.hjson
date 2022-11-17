@@ -21,7 +21,7 @@ ammoTypes: {
     height: 5
     damage: 20
     speed: 15
-    status: [unmoving,tarred] 
+    status: unmoving
     statusDuration: 10
     ammoMultiplier: 4
     lifetime: 200
@@ -32,11 +32,10 @@ ammoTypes: {
     height: 5
     damage: 30
     speed: 15
-    status: [burning,melting] 
+    status: burning
     statusDuration: 240
     ammoMultiplier: 4
     lifetime: 200
-  }
   }
   titanium: {
     type: BasicBulletType
@@ -44,11 +43,10 @@ ammoTypes: {
     height: 5
     damage: 30
     speed: 15
-    status: [freezing,wet]
+    status: freezing
     statusDuration: 240
     ammoMultiplier: 4
     lifetime: 200
-  }
   }
   surge-alloy: {
     type: BasicBulletType
@@ -56,22 +54,10 @@ ammoTypes: {
     height: 5
     damage: 30
     speed: 15
-    status: [electrified,shocked]
+    status: electrified
     statusDuration: 240
     ammoMultiplier: 4
     lifetime: 200
-  }
-  }
-  sandbox-heap: {
-    type: BasicBulletType
-    width: 2
-    height: 5
-    damage: 1
-    speed: 15
-    status: [electrified,shocked,freezing,wet,burning,melting,unmoving,tarred,sapped,spore-slowed,overdrive,overclock,guardian,blasted]
-    statusDuration: 24000
-    ammoMultiplier: 40000
-    lifetime: 20000
   }
 }
 inaccuracy: 15

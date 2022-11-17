@@ -23,7 +23,7 @@ ammoTypes: {
     height: 6
     damage: 60
     speed: 80
-    status: [unmoving,tarred] 
+    status: unmoving
     statusDuration: 15
     ammoMultiplier: 4
     lifetime: 200
@@ -34,7 +34,7 @@ ammoTypes: {
     height: 6
     damage: 80
     speed: 80
-    status: [burning,melting] 
+    status: burning
     statusDuration: 380
     ammoMultiplier: 4
     lifetime: 200
@@ -45,7 +45,7 @@ ammoTypes: {
     height: 6
     damage: 120
     speed: 80
-    status: [freezing,wet]
+    status: freezing
     statusDuration: 280
     ammoMultiplier: 4
     lifetime: 200
@@ -56,21 +56,10 @@ ammoTypes: {
     height: 6
     damage: 140
     speed: 80
-    status: [electrified,shocked]
+    status: electrified
     statusDuration: 280
     ammoMultiplier: 4
     lifetime: 200
-  }
-  sandbox-heap: {
-    type: BasicBulletType
-    width: 2
-    height: 5
-    damage: 1
-    speed: 15
-    status: [electrified,shocked,freezing,wet,burning,melting,unmoving,tarred,sapped,spore-slowed,overdrive,overclock,guardian,blasted]
-    statusDuration: 24000
-    ammoMultiplier: 40000
-    lifetime: 20000
   }
 }
 inaccuracy: 2
