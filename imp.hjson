@@ -1,0 +1,84 @@
+type: ItemTurret
+buildCostMultiplier: 0.1
+size: 2
+health: 120
+reload: 5
+range: 200
+maxAmmo: 20
+recoil: 5
+rotateSpeed: 10
+targetAir: true
+targetGround: true
+requirements: [
+  copper/200
+  bismuth/10
+  cobalt/20
+] 
+ammoTypes: {
+  lutetium: {
+    type: BasicBulletType
+    width: 2
+    height: 5
+    damage: 20
+    speed: 15
+    status: [unmoving,tarred] 
+    statusDuration: 10
+    ammoMultiplier: 4
+    lifetime: 200
+  }
+  pyratite: {
+    type: BasicBulletType
+    width: 2
+    height: 5
+    damage: 30
+    speed: 15
+    status: [burning,melting] 
+    statusDuration: 240
+    ammoMultiplier: 4
+    lifetime: 200
+  }
+  }
+  titanium: {
+    type: BasicBulletType
+    width: 2
+    height: 5
+    damage: 30
+    speed: 15
+    status: [freezing,wet]
+    statusDuration: 240
+    ammoMultiplier: 4
+    lifetime: 200
+  }
+  }
+  surge-alloy: {
+    type: BasicBulletType
+    width: 2
+    height: 5
+    damage: 30
+    speed: 15
+    status: [electrified,shocked]
+    statusDuration: 240
+    ammoMultiplier: 4
+    lifetime: 200
+  }
+  }
+  sandbox-heap: {
+    type: BasicBulletType
+    width: 2
+    height: 5
+    damage: 1
+    speed: 15
+    status: [electrified,shocked,freezing,wet,burning,melting,unmoving,tarred,sapped,spore-slowed,overdrive,overclock,guardian,blasted]
+    statusDuration: 24000
+    ammoMultiplier: 40000
+    lifetime: 20000
+  }
+}
+inaccuracy: 15
+category: turret
+research: {
+  parent: duo
+  requirements: [
+    plastanium/1000
+  ]
+}

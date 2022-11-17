@@ -1,0 +1,26 @@
+type: MendProjector
+size: 3
+health: 300
+range: 400
+reload: 60
+healPercent: 8
+consumes: {
+  power: 60
+  items: {
+   items: [
+     curium/1
+    ]
+    booster: false
+	optional: false
+  }
+ }
+category: effect
+research: overdrive-dome
+requirements: [
+livermorium/1
+cobalt/5
+lead/300
+curium/100
+heat-plate/10
+silicon/200
+]

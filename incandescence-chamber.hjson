@@ -1,0 +1,35 @@
+type: GenericCrafter
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 420
+itemCapacity: 200
+liquidCapacity: 8
+updateEffect: smeltsmoke
+consumes: {
+  power: 500
+  items: {
+    items: [
+      platinum/100
+      pyro-heap/10
+      bismuth/10
+      blast-compound/40
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 1
+  }
+}
+requirements: [
+  copper/2000
+  graphite/1350
+  platinum/200
+  silicon/1750
+]
+category: crafting
+research: lutetium
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: heat-plate/10

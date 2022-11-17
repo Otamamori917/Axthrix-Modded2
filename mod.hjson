@@ -1,0 +1,7 @@
+name: "ra"
+displayName: "Raodon and Axthrix" 
+author: "Otamamori#4716"
+description: "A very beta and cool mod great stuff but grindy. Requires Liplum/MultiCrafter lib"
+dependencies: ["multi-crafter"]
+version: "3.70"
+minGameVersion: "140.1"

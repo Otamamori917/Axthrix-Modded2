@@ -1,0 +1,29 @@
+type: OverdriveProjector
+health: 680
+range: 100
+size: 2
+hasPower: true
+speedBoost: 10
+speedBoostPhase: 10
+phaseRangeBoost: 50
+requirements: [
+  magnesium/5
+  cobalt/5
+  lead/40
+  heat-plate/25
+  curium/200
+  silicon/300
+]
+consumes: {
+  power: 60
+  items: {
+   items: [
+      phase-fabric/1
+    ]
+    booster: true
+	optional: true
+  }
+
+}
+category: effect
+research: mender

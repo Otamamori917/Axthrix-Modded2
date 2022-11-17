@@ -1,0 +1,212 @@
+type: multicraft.MultiCrafter
+size: 4
+menu: Transform
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+itemCapacity: 20
+updateEffect: smeltsmoke
+recipes: 
+[
+{
+  input: {
+    fluids: water/1
+    power: 0.5
+  } 
+  output: {
+    items: [
+      silicon/1
+    ]
+  }
+  craftTime: 60
+}
+{
+  input: {
+    fluids: water/1
+    power: 0.5
+  } 
+  output: {
+    items: [
+      coal/1
+    ]
+  }
+  craftTime: 60
+}
+{
+  input: {
+    fluids: water/1
+    power: 0.5
+  } 
+  output: {
+    items: [
+      titanium/1
+    ]
+  }
+  craftTime: 60
+}
+{
+  input: {
+    fluids: water/1
+    power: 0.5
+  } 
+  output: {
+    items: [
+      lead/1
+    ]
+  }
+  craftTime: 60
+}
+{
+  input: {
+    fluids: water/1
+    power: 0.5
+  } 
+  output: {
+    items: [
+      copper/1
+    ]
+  }
+  craftTime: 60
+}
+{
+  input: {
+    items: lead/1
+    fluids: water/1
+    power: 1
+  } 
+  output: {
+    items: [
+      thorium/1
+    ]
+  }
+  craftTime: 120
+}     
+{
+  input: {
+    items: titanium/1
+    fluids: water/1
+    power: 1
+  }   
+  output: {
+    items: [
+      ra-platinum/1
+    ]
+  }
+  craftTime: 120
+}
+{
+  input: {
+    items: coal/1
+    fluids: water/1
+    power: 1
+  }   
+  output: {
+    items: [
+      ra-magnesium/1
+    ]
+  }
+  craftTime: 120
+}    
+
+{
+  input: {
+    items: silicon/1
+    fluids: water/1
+    power: 2
+  }   
+  output: {
+    items: [
+      ra-cobalt/1
+    ]
+  }
+  craftTime: 120
+} 
+{
+  input: {
+    items: thorium/1
+    fluids: water/1
+    power: 1
+  }   
+  output: {
+    items: [
+      ra-bismuth/1
+    ]
+  }
+  craftTime: 140
+}  
+{
+  input: {
+    items: ra-platinum/1
+    fluids: water/1
+    power: 3
+  }   
+  output: {
+    items: [
+      ra-lutetium/1
+    ]
+  } 
+  craftTime: 140
+}    
+{
+  input: {
+    items: ra-cobalt/1
+    fluids: water/1
+    power: 3
+  }   
+  output: {
+    items: [
+      ra-gold/1
+    ]
+  }
+  craftTime: 140
+}    
+{
+  input: {
+    items: ra-bismuth/1
+    fluids: water/1
+    power: 3
+  }    
+  output: {
+    items: [
+      ra-curium/1
+    ]
+  }
+  craftTime: 140
+}
+{  
+  input: {
+    items: ra-curium/1
+    fluids: water/1
+    power: 3
+  }   
+  output: {
+    items: [
+      ra-livermorium/1
+    ]
+  }
+  craftTime: 180
+}
+{      
+  input: {
+    items: ra-livermorium/1
+    fluids: water/1
+    power: 4
+  }     
+  output: {
+    items: [
+      ra-oganesson/1
+    ]
+  }
+  craftTime: 180
+}                
+]
+requirements: [
+  graphite/250
+  silicon/250
+  titanium/200
+]
+category: crafting
+research: copper
+idleSound: respawning
+idleSoundVolume: 0.5
