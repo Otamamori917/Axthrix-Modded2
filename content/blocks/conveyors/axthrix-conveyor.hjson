@@ -1,12 +1,12 @@
 type: StackConveyor
 requirements: [
-	curium/1
-	silicon/1
+	platinum/1
+	gold/1
 	graphite/1
 ]
 health: 120
 category: distribution
-speed: 10
+speed: 5
 displayedSpeed: 20
 itemCapacity: 20
 research: plastanium-conveyor
