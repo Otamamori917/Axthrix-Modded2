@@ -28,7 +28,7 @@ ammoTypes: {
     ammoMultiplier: 1 
     lifetime: 2000 
   } 
-  pyro-heap: { 
+  pryo-heap: { 
     type: BasicBulletType 
     width: 4 
     height: 8 
