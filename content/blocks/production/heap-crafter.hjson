@@ -10,52 +10,52 @@ recipes:
 [
 {
   input: {
-    items: [titanium/10,ra-platinum/5]
+    items: [titanium/10,a-platinum/5]
     fluids: cryofluid/0.4
     power: 2
   } 
   output: {
     items: [
-      ra-cryo-heap/2
+      a-cryo-heap/2
     ]
   }
   craftTime: 130
 }
 {    
   input: {
-    items: [pyratite/10,ra-magnesium/5]
+    items: [pyratite/10,a-magnesium/5]
     fluids: slag/0.4
     power: 2
   }   
   output: {
     items: [
-      ra-pyro-heap/2
+      a-pyro-heap/2
     ]
   }
   craftTime: 130
 }
 {    
   input: {
-    items: [coal/10,ra-lutetium/5]
+    items: [coal/10,a-lutetium/5]
     fluids: oil/0.4
     power: 2
   }  
   output: {
     items: [
-      ra-unmovo-heap/2
+      a-unmovo-heap/2
     ]
   }
   craftTime: 160
 }
 {    
   input: {
-    items: [surge-alloy/10,ra-gold/5]
+    items: [surge-alloy/10,a-gold/5]
     fluids: water/0.4
     power: 2
   }  
   output: {
     items: [
-      ra-electro-heap/2
+      a-electro-heap/2
     ]
   }
   craftTime: 160

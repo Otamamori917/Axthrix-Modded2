@@ -90,7 +90,7 @@ recipes:
   }   
   output: {
     items: [
-      ra-platinum/1
+      a-platinum/1
     ]
   }
   craftTime: 120
@@ -103,7 +103,7 @@ recipes:
   }   
   output: {
     items: [
-      ra-magnesium/1
+      a-magnesium/1
     ]
   }
   craftTime: 120
@@ -117,7 +117,7 @@ recipes:
   }   
   output: {
     items: [
-      ra-cobalt/1
+      a-cobalt/1
     ]
   }
   craftTime: 120
@@ -130,72 +130,72 @@ recipes:
   }   
   output: {
     items: [
-      ra-bismuth/1
+      a-bismuth/1
     ]
   }
   craftTime: 140
 }  
 {
   input: {
-    items: ra-platinum/1
+    items: a-platinum/1
     fluids: water/1
     power: 3
   }   
   output: {
     items: [
-      ra-lutetium/1
+      a-lutetium/1
     ]
   } 
   craftTime: 140
 }    
 {
   input: {
-    items: ra-cobalt/1
+    items: a-cobalt/1
     fluids: water/1
     power: 3
   }   
   output: {
     items: [
-      ra-gold/1
+      a-gold/1
     ]
   }
   craftTime: 140
 }    
 {
   input: {
-    items: ra-bismuth/1
+    items: a-bismuth/1
     fluids: water/1
     power: 3
   }    
   output: {
     items: [
-      ra-curium/1
+      a-curium/1
     ]
   }
   craftTime: 140
 }
 {  
   input: {
-    items: ra-curium/1
+    items: a-curium/1
     fluids: water/1
     power: 3
   }   
   output: {
     items: [
-      ra-livermorium/1
+      a-livermorium/1
     ]
   }
   craftTime: 180
 }
 {      
   input: {
-    items: ra-livermorium/1
+    items: a-livermorium/1
     fluids: water/1
     power: 4
   }     
   output: {
     items: [
-      ra-oganesson/1
+      a-oganesson/1
     ]
   }
   craftTime: 180
