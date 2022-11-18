@@ -11,7 +11,7 @@ recipes:
 [
 {
   input: {
-    fluids: water/1
+    fluids: water/0.2
     power: 0.5
   } 
   output: {
@@ -23,7 +23,7 @@ recipes:
 }
 {
   input: {
-    fluids: water/1
+    fluids: water/0.2
     power: 0.5
   } 
   output: {
@@ -35,7 +35,7 @@ recipes:
 }
 {
   input: {
-    fluids: water/1
+    fluids: water/0.2
     power: 0.5
   } 
   output: {
@@ -47,7 +47,7 @@ recipes:
 }
 {
   input: {
-    fluids: water/1
+    fluids: water/0.2
     power: 0.5
   } 
   output: {
@@ -59,7 +59,7 @@ recipes:
 }
 {
   input: {
-    fluids: water/1
+    fluids: water/0.2
     power: 0.5
   } 
   output: {
@@ -72,7 +72,7 @@ recipes:
 {
   input: {
     items: lead/1
-    fluids: water/1
+    fluids: water/0.4
     power: 1
   } 
   output: {
@@ -90,7 +90,7 @@ recipes:
   }   
   output: {
     items: [
-      a-platinum/1
+      a-platinum/0.4
     ]
   }
   craftTime: 120
@@ -98,7 +98,7 @@ recipes:
 {
   input: {
     items: coal/1
-    fluids: water/1
+    fluids: water/0.4
     power: 1
   }   
   output: {
@@ -112,7 +112,7 @@ recipes:
 {
   input: {
     items: silicon/1
-    fluids: water/1
+    fluids: water/0.4
     power: 2
   }   
   output: {
@@ -125,7 +125,7 @@ recipes:
 {
   input: {
     items: thorium/1
-    fluids: water/1
+    fluids: water/0.4
     power: 1
   }   
   output: {
@@ -138,7 +138,7 @@ recipes:
 {
   input: {
     items: a-platinum/1
-    fluids: water/1
+    fluids: water/0.8
     power: 3
   }   
   output: {
@@ -151,7 +151,7 @@ recipes:
 {
   input: {
     items: a-cobalt/1
-    fluids: water/1
+    fluids: water/0.8
     power: 3
   }   
   output: {
@@ -164,7 +164,7 @@ recipes:
 {
   input: {
     items: a-bismuth/1
-    fluids: water/1
+    fluids: water/0.8
     power: 3
   }    
   output: {
@@ -190,7 +190,7 @@ recipes:
 {      
   input: {
     items: a-livermorium/1
-    fluids: water/1
+    fluids: water/1.2
     power: 4
   }     
   output: {

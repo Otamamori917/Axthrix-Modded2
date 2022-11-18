@@ -3,9 +3,9 @@ health: 680
 range: 100
 size: 2
 hasPower: true
-speedBoost: 10
-speedBoostPhase: 10
-phaseRangeBoost: 50
+speedBoost: 6
+speedBoostPhase: 5
+phaseRangeBoost: 40
 requirements: [
   magnesium/5
   cobalt/5
