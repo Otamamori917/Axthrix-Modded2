@@ -29,7 +29,7 @@ recipes:
   }   
   output: {
     items: [
-      a-pyro-heap/2
+      a-pryo-heap/2
     ]
   }
   craftTime: 130
