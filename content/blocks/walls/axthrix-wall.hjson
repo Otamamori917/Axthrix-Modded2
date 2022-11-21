@@ -1,0 +1,12 @@
+type: Wall
+health: 5300 
+size: 1
+absorbLasers: true
+chanceDeflect: 70
+requirements: [
+  curium/6
+  tungsten/6
+  heatplate/1
+]
+category: defense
+research: heat-plate
