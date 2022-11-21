@@ -1,0 +1,75 @@
+type: ItemTurret
+buildCostMultiplier: 0.1
+size: 3
+health: 2200
+reload: 500
+range: 1600 
+maxAmmo: 10 
+recoil: 10 
+rotateSpeed: 2 
+targetAir: true 
+targetGround: true 
+requirements: [ 
+  heat-plate/4 
+  platinum/1200 
+  curium/200 
+  gold/50 
+  cobalt/100 
+] 
+ammoTypes: { 
+  unmovo-heap: { 
+    type: BasicBulletType 
+    width: 4 
+    height: 8 
+    damage: 2000 
+    speed: 200 
+    status: unmoving 
+    statusDuration: 30 
+    ammoMultiplier: 1 
+    lifetime: 2000 
+  } 
+  pryo-heap: { 
+    type: BasicBulletType 
+    width: 4 
+    height: 8 
+    damage: 3000 
+    speed: 200 
+    status: burning
+    statusDuration: 480 
+    ammoMultiplier: 1 
+    lifetime: 2000  
+  } 
+  cryo-heap: { 
+    type: BasicBulletType 
+    width: 4 
+    height: 8 
+    damage: 3500 
+    speed: 200 
+    status: freezing 
+    statusDuration: 380 
+    ammoMultiplier: 1 
+    lifetime: 2000  
+  } 
+  electro-heap: { 
+    type: BasicBulletType 
+    width: 2 
+    height: 5 
+    damage: 4000 
+    speed: 15 
+    status: electrified
+    statusDuration: 300 
+    ammoMultiplier: 1 
+    lifetime: 2000  
+  } 
+} 
+shots: 1 
+inaccuracy: 4
+category: turret 
+research: { 
+  parent: stillwind 
+  requirements: [
+     titanium/1000 
+     plastanium/1000 
+     heat-plate/10 
+  ] 
+}
