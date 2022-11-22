@@ -4,8 +4,8 @@ size: 3
 health: 2200
 reload: 500
 shoot.shots: 4
-shoot.shotDelay: 5
-shoot.firstShotDelay: 120
+shoot.shotDelay: 60
+shoot.firstShotDelay: 240
 moveWhileCharging: false
 range: 1200 
 maxAmmo: 10 
