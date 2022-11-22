@@ -6,7 +6,7 @@ chanceDeflect: 80
 requirements: [
   curium/24
   tungsten/24
-  heatplate/4
+  heat-plate/4
 ]
 category: defense
 research: axthrix-wall
