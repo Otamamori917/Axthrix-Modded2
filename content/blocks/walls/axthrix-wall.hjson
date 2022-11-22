@@ -1,12 +1,14 @@
 type: Wall
+buildCostMultiplier: 0.1
 health: 5300 
 size: 1
 absorbLasers: true
-chanceDeflect: 70
+chanceDeflect: 20
 requirements: [
+  bismuth/5
+  platinum/10
   curium/6
-  tungsten/6
-  heatplate/1
+  heat-plate/1
 ]
 category: defense
 research: heat-plate
