@@ -18,7 +18,7 @@ requirements: [
 ] 
 ammoTypes: { 
   unmovo-heap: { 
-    type: BasicBulletType 
+    type: MissleBulletType 
     width: 4 
     height: 8 
     damage: 2000 
@@ -29,7 +29,7 @@ ammoTypes: {
     lifetime: 2000 
   } 
   pryo-heap: { 
-    type: BasicBulletType 
+    type: MissleBulletType 
     width: 4 
     height: 8 
     damage: 3000 
@@ -40,7 +40,7 @@ ammoTypes: {
     lifetime: 2000  
   } 
   cryo-heap: { 
-    type: BasicBulletType 
+    type: MissleBulletType  
     width: 4 
     height: 8 
     damage: 3500 
@@ -51,7 +51,7 @@ ammoTypes: {
     lifetime: 2000  
   } 
   electro-heap: { 
-    type: BasicBulletType 
+    type: MissleBulletType 
     width: 2 
     height: 5 
     damage: 4000 
@@ -62,7 +62,7 @@ ammoTypes: {
     lifetime: 2000  
   } 
 } 
-shots: 1 
+shots: 5
 inaccuracy: 4
 category: turret 
 research: { 
