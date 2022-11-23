@@ -23,7 +23,6 @@ requirements: [
 ammoTypes: { 
   unmovo-heap: { 
     type: ArtilleryBulletType
-    hitEffect: Fx.titanExplosion
     width: 4 
     height: 8 
     damage: 2000 
@@ -35,7 +34,6 @@ ammoTypes: {
   } 
   pryo-heap: { 
     type: ArtilleryBulletType 
-    hitEffect: Fx.titanExplosion
     width: 4 
     height: 8 
     damage: 3000 
@@ -47,7 +45,6 @@ ammoTypes: {
   } 
   cryo-heap: { 
     type: ArtilleryBulletType 
-    hitEffect: Fx.titanExplosion  
     width: 4 
     height: 8 
     damage: 3500 
@@ -59,7 +56,6 @@ ammoTypes: {
   } 
   electro-heap: { 
     type: ArtilleryBulletType 
-    hitEffect: Fx.titanExplosion
     width: 2 
     height: 5 
     damage: 4000 
