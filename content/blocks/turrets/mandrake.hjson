@@ -10,7 +10,7 @@ shotDelay: 10
 range: 1200 
 maxAmmo: 10 
 recoil: 10 
-rotateSpeed: 0.1
+rotateSpeed: 0.5
 targetAir: false
 targetGround: true 
 requirements: [ 
