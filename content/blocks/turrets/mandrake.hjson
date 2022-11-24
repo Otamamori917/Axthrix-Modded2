@@ -26,7 +26,12 @@ ammoTypes: {
     width: 8
     height: 10 
     damage: 2000 
-    speed: 20 
+    speed: 20
+    splashDamageRadius: 150
+    splashDamage: 1000
+    scaledSplashDamage: true
+    frontColor: 36454F
+    backColor: 000000
     status: unmoving 
     statusDuration: 30 
     ammoMultiplier: 1 
@@ -38,6 +43,11 @@ ammoTypes: {
     height: 10 
     damage: 3000 
     speed: 20
+    splashDamageRadius: 150
+    splashDamage: 1000
+    scaledSplashDamage: true
+    frontColor: DD571C
+    backColor: ED7014
     status: burning
     statusDuration: 480 
     ammoMultiplier: 1 
@@ -49,6 +59,11 @@ ammoTypes: {
     height: 10 
     damage: 3500 
     speed: 20
+    splashDamageRadius: 150
+    splashDamage: 1000
+    scaledSplashDamage: true
+    frontColor: 1FBDD2
+    backColor: 33C7D8
     status: freezing 
     statusDuration: 380 
     ammoMultiplier: 1 
@@ -60,6 +75,11 @@ ammoTypes: {
     height: 5 
     damage: 4000 
     speed: 20
+    splashDamageRadius: 150
+    splashDamage: 1000
+    scaledSplashDamage: true
+    frontColor: 00FF00
+    backColor: 72FF13
     status: electrified
     statusDuration: 300 
     ammoMultiplier: 1 

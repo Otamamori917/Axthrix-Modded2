@@ -21,6 +21,8 @@ ammoTypes: {
     height: 5
     damage: 20
     speed: 15
+    frontColor: 36454F
+    backColor: 000000
     status: unmoving
     statusDuration: 10
     ammoMultiplier: 4
@@ -32,6 +34,8 @@ ammoTypes: {
     height: 5
     damage: 30
     speed: 15
+    frontColor: DD571C
+    backColor: ED7014
     status: burning
     statusDuration: 240
     ammoMultiplier: 4
@@ -43,6 +47,8 @@ ammoTypes: {
     height: 5
     damage: 30
     speed: 15
+    frontColor: 1FBDD2
+    backColor: 33C7D8
     status: freezing
     statusDuration: 240
     ammoMultiplier: 4
@@ -54,6 +60,8 @@ ammoTypes: {
     height: 5
     damage: 30
     speed: 15
+    frontColor: 00FF00
+    backColor: 72FF13
     status: electrified
     statusDuration: 240
     ammoMultiplier: 4
