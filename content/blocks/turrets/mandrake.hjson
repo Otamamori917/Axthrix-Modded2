@@ -23,8 +23,8 @@ requirements: [
 ammoTypes: { 
   unmovo-heap: { 
     type: ArtilleryBulletType
-    width: 4 
-    height: 8 
+    width: 8
+    height: 10 
     damage: 2000 
     speed: 20 
     status: unmoving 
@@ -34,8 +34,8 @@ ammoTypes: {
   } 
   pryo-heap: { 
     type: ArtilleryBulletType 
-    width: 4 
-    height: 8 
+    width: 8
+    height: 10 
     damage: 3000 
     speed: 20
     status: burning
@@ -45,8 +45,8 @@ ammoTypes: {
   } 
   cryo-heap: { 
     type: ArtilleryBulletType 
-    width: 4 
-    height: 8 
+    width: 8
+    height: 10 
     damage: 3500 
     speed: 20
     status: freezing 
