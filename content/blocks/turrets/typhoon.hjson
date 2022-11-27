@@ -30,7 +30,6 @@ ammoTypes: {
     backColor: 000000
     status: unmoving 
     statusDuration: 30 
-    ammoMultiplier: 1 
     lifetime: 2000 
   } 
   pryo-heap: { 
@@ -46,7 +45,6 @@ ammoTypes: {
     backColor: ED7014
     status: burning
     statusDuration: 480 
-    ammoMultiplier: 1 
     lifetime: 2000  
   } 
   cryo-heap: { 
@@ -62,7 +60,6 @@ ammoTypes: {
     backColor: 33C7D8
     status: freezing 
     statusDuration: 380 
-    ammoMultiplier: 1 
     lifetime: 2000  
   } 
   electro-heap: { 
@@ -78,7 +75,6 @@ ammoTypes: {
     backColor: 72FF13
     status: electrified
     statusDuration: 300 
-    ammoMultiplier: 1 
     lifetime: 2000  
   } 
 } 

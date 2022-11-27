@@ -30,7 +30,7 @@ ammoTypes: {
     backColor: 000000
     status: unmoving
     statusDuration: 15
-    ammoMultiplier: 4
+    ammoMultiplier: 3
     lifetime: 200
   }
   pyratite: {
@@ -46,7 +46,7 @@ ammoTypes: {
     backColor: ED7014
     status: burning
     statusDuration: 380
-    ammoMultiplier: 4
+    ammoMultiplier: 3
     lifetime: 200
   }
   titanium: {
@@ -62,7 +62,7 @@ ammoTypes: {
     backColor: 33C7D8
     status: freezing
     statusDuration: 280
-    ammoMultiplier: 4
+    ammoMultiplier: 3
     lifetime: 200
   }
   surge-alloy: {
@@ -78,7 +78,7 @@ ammoTypes: {
     backColor: 72FF13
     status: electrified
     statusDuration: 280
-    ammoMultiplier: 4
+    ammoMultiplier: 3
     lifetime: 200
   }
 }

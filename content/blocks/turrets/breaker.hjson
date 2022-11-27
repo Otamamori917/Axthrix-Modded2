@@ -2,10 +2,11 @@ type: ItemTurret
 buildCostMultiplier: 0.1
 size: 3
 health: 1500
-reload: 500
+reload: 120
+shootSound: Sounds.shotgun
 shoot: {
-shots: 5
-shotDelay: 10
+shots: 4
+shotDelay: 20
 }
 range: 1200 
 maxAmmo: 10 
@@ -22,70 +23,58 @@ requirements: [
 ] 
 ammoTypes: { 
   unmovo-heap: { 
-    type: ArtilleryBulletType
-    width: 8
-    height: 10 
-    damage: 2000 
+    type: ShrapnelBulletType
+    length: brange 
+    damage: 200 
     speed: 20
-    splashDamageRadius: 150
-    splashDamage: 1000
-    scaledSplashDamage: true
     frontColor: 36454F
     backColor: 000000
     status: unmoving 
-    statusDuration: 30  
+    statusDuration: 30 
+    ammoMultiplier: 2 
     lifetime: 2000 
   } 
   pryo-heap: { 
-    type: ArtilleryBulletType 
-    width: 8
-    height: 10 
-    damage: 3000 
+    type: ShrapnelBulletType
+    length: brange 
+    damage: 200 
     speed: 20
-    splashDamageRadius: 150
-    splashDamage: 1000
-    scaledSplashDamage: true
     frontColor: DD571C
     backColor: ED7014
     status: burning
-    statusDuration: 480  
+    statusDuration: 480 
+    ammoMultiplier: 2 
     lifetime: 2000  
   } 
   cryo-heap: { 
-    type: ArtilleryBulletType 
-    width: 8
-    height: 10 
-    damage: 3500 
+    type: ShrapnelBulletType
+    length: brange  
+    damage: 200 
     speed: 20
-    splashDamageRadius: 150
-    splashDamage: 1000
-    scaledSplashDamage: true
     frontColor: 1FBDD2
     backColor: 33C7D8
     status: freezing 
-    statusDuration: 380  
+    statusDuration: 380 
+    ammoMultiplier: 2 
     lifetime: 2000  
   } 
   electro-heap: { 
-    type: ArtilleryBulletType 
-    width: 2 
-    height: 5 
-    damage: 4000 
+    type: ShrapnelBulletType
+    length: brange  
+    damage: 200 
     speed: 20
-    splashDamageRadius: 150
-    splashDamage: 1000
-    scaledSplashDamage: true
     frontColor: 00FF00
     backColor: 72FF13
     status: electrified
-    statusDuration: 300  
+    statusDuration: 300 
+    ammoMultiplier: 2 
     lifetime: 2000  
   } 
 } 
 inaccuracy: 20
 category: turret 
 research: { 
-  parent: ripple 
+  parent: fuse 
   requirements: [
      titanium/1000 
      plastanium/1000 
