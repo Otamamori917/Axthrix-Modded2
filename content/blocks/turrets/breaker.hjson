@@ -24,7 +24,6 @@ requirements: [
 ammoTypes: { 
   unmovo-heap: { 
     type: ShrapnelBulletType
-    length: brange 
     damage: 200 
     speed: 20
     frontColor: 36454F
@@ -36,7 +35,6 @@ ammoTypes: {
   } 
   pryo-heap: { 
     type: ShrapnelBulletType
-    length: brange 
     damage: 200 
     speed: 20
     frontColor: DD571C
@@ -47,8 +45,7 @@ ammoTypes: {
     lifetime: 2000  
   } 
   cryo-heap: { 
-    type: ShrapnelBulletType
-    length: brange  
+    type: ShrapnelBulletType 
     damage: 200 
     speed: 20
     frontColor: 1FBDD2
@@ -59,8 +56,7 @@ ammoTypes: {
     lifetime: 2000  
   } 
   electro-heap: { 
-    type: ShrapnelBulletType
-    length: brange  
+    type: ShrapnelBulletType 
     damage: 200 
     speed: 20
     frontColor: 00FF00
