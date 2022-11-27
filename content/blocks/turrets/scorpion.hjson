@@ -19,7 +19,7 @@ requirements: [
 ammoTypes: {  
   electro-heap: { 
     type: ShrapnelBulletType 
-    width: 1 
+    width: 2 
     height: 10 
     damage: 4000 
     speed: 200
