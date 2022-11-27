@@ -2,7 +2,7 @@ type: ItemTurret
 buildCostMultiplier: 0.1
 size: 8
 health: 1200
-reload: 500
+reload: 5000
 range: 800 
 maxAmmo: 10
 shoot: {
@@ -23,7 +23,7 @@ requirements: [
 ammoTypes: {  
   electro-heap: { 
     type: PointBulletType
-    damage: 4000 
+    damage: 40 
     speed: 150
     frontColor: 00FF00
     backColor: 72FF13
