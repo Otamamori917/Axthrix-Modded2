@@ -19,7 +19,7 @@ requirements: [
 ammoTypes: {  
   electro-heap: { 
     type: PointBulletType
-    shoot: {}
+    shoot: {
     shootEffect: Fx.instShoot
     hitEffect: Fx.instHit
     smokeEffect: Fx.smokeCloud
