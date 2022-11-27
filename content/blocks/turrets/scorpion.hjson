@@ -18,7 +18,7 @@ requirements: [
 ] 
 ammoTypes: {  
   electro-heap: { 
-    type: ShrapnelBulletType 
+    type: PointBulletType 
     width: 2 
     height: 5 
     damage: 4000 
