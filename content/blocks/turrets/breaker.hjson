@@ -4,11 +4,10 @@ size: 3
 health: 1500
 reload: 120
 shoot: {
-Sound: Sounds.shotgun
 shots: 4
 shotDelay: 20
 }
-range: 1200 
+range: 50 
 maxAmmo: 10 
 recoil: 10 
 rotateSpeed: 20
@@ -31,7 +30,7 @@ ammoTypes: {
     status: unmoving 
     statusDuration: 30 
     ammoMultiplier: 2 
-    lifetime: 2000 
+    lifetime: 1 
   } 
   pryo-heap: { 
     type: ShrapnelBulletType
@@ -42,7 +41,7 @@ ammoTypes: {
     status: burning
     statusDuration: 480 
     ammoMultiplier: 2 
-    lifetime: 2000  
+    lifetime: 1  
   } 
   cryo-heap: { 
     type: ShrapnelBulletType 
@@ -53,7 +52,7 @@ ammoTypes: {
     status: freezing 
     statusDuration: 380 
     ammoMultiplier: 2 
-    lifetime: 2000  
+    lifetime: 1  
   } 
   electro-heap: { 
     type: ShrapnelBulletType 
@@ -64,7 +63,7 @@ ammoTypes: {
     status: electrified
     statusDuration: 300 
     ammoMultiplier: 2 
-    lifetime: 2000  
+    lifetime: 1  
   } 
 } 
 inaccuracy: 20
