@@ -20,11 +20,11 @@ ammoTypes: {
   electro-heap: { 
     type: PointBulletType
     shoot: {
-      shootEffect: Fx.instShoot
-      HitEffect: Fx.instHit
-      smokeEffect: Fx.smokeCloud
-      trailEffect: Fx.instTrail
-      despawnEffect: Fx.instBomb
+      shootEffect: instShoot
+      HitEffect: instHit
+      smokeEffect: smokeCloud
+      trailEffect: instTrail
+      despawnEffect: instBomb
     } 
     damage: 4000 
     speed: 150
