@@ -20,9 +20,9 @@ ammoTypes: {
   electro-heap: { 
     type: ShrapnelBulletType 
     width: 2 
-    height: 10 
+    height: 5 
     damage: 4000 
-    speed: 200
+    speed: 150
     frontColor: 00FF00
     backColor: 72FF13
     status: electrified

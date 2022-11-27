@@ -22,7 +22,7 @@ ammoTypes: {
     width: 4 
     height: 8 
     damage: 2000 
-    speed: 200
+    speed: 100
     splashDamageRadius: 100
     splashDamage: 800
     scaledSplashDamage: true 
@@ -37,7 +37,7 @@ ammoTypes: {
     width: 4 
     height: 8 
     damage: 3000 
-    speed: 200 
+    speed: 100 
     splashDamageRadius: 100
     splashDamage: 800
     scaledSplashDamage: true
@@ -52,7 +52,7 @@ ammoTypes: {
     width: 4 
     height: 8 
     damage: 3500 
-    speed: 200
+    speed: 100
     splashDamageRadius: 100
     splashDamage: 800
     scaledSplashDamage: true
@@ -67,7 +67,7 @@ ammoTypes: {
     width: 2 
     height: 5 
     damage: 4000 
-    speed: 200
+    speed: 100
     splashDamageRadius: 100
     splashDamage: 800
     scaledSplashDamage: true 
