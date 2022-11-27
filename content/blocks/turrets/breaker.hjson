@@ -2,12 +2,12 @@ type: ItemTurret
 buildCostMultiplier: 0.1
 size: 3
 health: 1500
-reload: 120
+reload: 60
 shoot: {
 shots: 4
-shotDelay: 20
+shotDelay: 10
 }
-range: 50 
+range: 150 
 maxAmmo: 10 
 recoil: 10 
 rotateSpeed: 20
@@ -30,7 +30,7 @@ ammoTypes: {
     status: unmoving 
     statusDuration: 30 
     ammoMultiplier: 2 
-    lifetime: 1 
+    lifetime: 10 
   } 
   pryo-heap: { 
     type: ShrapnelBulletType
@@ -41,7 +41,7 @@ ammoTypes: {
     status: burning
     statusDuration: 480 
     ammoMultiplier: 2 
-    lifetime: 1  
+    lifetime: 10  
   } 
   cryo-heap: { 
     type: ShrapnelBulletType 
@@ -52,7 +52,7 @@ ammoTypes: {
     status: freezing 
     statusDuration: 380 
     ammoMultiplier: 2 
-    lifetime: 1  
+    lifetime: 10  
   } 
   electro-heap: { 
     type: ShrapnelBulletType 
@@ -63,7 +63,7 @@ ammoTypes: {
     status: electrified
     statusDuration: 300 
     ammoMultiplier: 2 
-    lifetime: 1  
+    lifetime: 10  
   } 
 } 
 inaccuracy: 20
