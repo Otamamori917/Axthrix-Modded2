@@ -18,9 +18,12 @@ requirements: [
 ] 
 ammoTypes: {  
   electro-heap: { 
-    type: PointBulletType 
-    width: 2 
-    height: 5 
+    type: PointBulletType
+    shootEffect = Fx.instShoot;
+    hitEffect = Fx.instHit;
+    smokeEffect = Fx.smokeCloud;
+    trailEffect = Fx.instTrail;
+    despawnEffect = Fx.instBomb; 
     damage: 4000 
     speed: 150
     frontColor: 00FF00
