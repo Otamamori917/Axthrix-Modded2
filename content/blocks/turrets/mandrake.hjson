@@ -1,7 +1,7 @@
 type: ItemTurret
 buildCostMultiplier: 0.1
 size: 3
-health: 2200
+health: 1500
 reload: 500
 shoot: {
 shots: 5
@@ -89,7 +89,7 @@ ammoTypes: {
 inaccuracy: 20
 category: turret 
 research: { 
-  parent: stillwind 
+  parent: ripple 
   requirements: [
      titanium/1000 
      plastanium/1000 
