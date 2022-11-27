@@ -3,15 +3,15 @@ buildCostMultiplier: 0.1
 size: 3
 health: 1500
 reload: 120
-shootSound: Sounds.shotgun
 shoot: {
+Sound: Sounds.shotgun
 shots: 4
 shotDelay: 20
 }
 range: 1200 
 maxAmmo: 10 
 recoil: 10 
-rotateSpeed: 0.5
+rotateSpeed: 20
 targetAir: false
 targetGround: true 
 requirements: [ 
@@ -25,7 +25,7 @@ ammoTypes: {
   unmovo-heap: { 
     type: ShrapnelBulletType
     damage: 200 
-    speed: 20
+    speed: 0
     frontColor: 36454F
     backColor: 000000
     status: unmoving 
@@ -36,7 +36,7 @@ ammoTypes: {
   pryo-heap: { 
     type: ShrapnelBulletType
     damage: 200 
-    speed: 20
+    speed: 0
     frontColor: DD571C
     backColor: ED7014
     status: burning
@@ -47,7 +47,7 @@ ammoTypes: {
   cryo-heap: { 
     type: ShrapnelBulletType 
     damage: 200 
-    speed: 20
+    speed: 0
     frontColor: 1FBDD2
     backColor: 33C7D8
     status: freezing 
@@ -58,7 +58,7 @@ ammoTypes: {
   electro-heap: { 
     type: ShrapnelBulletType 
     damage: 200 
-    speed: 20
+    speed: 0
     frontColor: 00FF00
     backColor: 72FF13
     status: electrified
