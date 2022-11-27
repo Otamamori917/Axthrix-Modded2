@@ -7,7 +7,7 @@ range: 800
 maxAmmo: 10
 shoot: {
   shots:20
-  shotDelay: 1
+  shotDelay: 10
 }  
 recoil: 10 
 rotateSpeed: 2 
