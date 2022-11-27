@@ -1,4 +1,4 @@
-type: ItemTurret
+type: [sandboxOnly, ItemTurret]
 buildCostMultiplier: 0.1
 size: 8
 health: 1200
