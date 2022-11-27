@@ -23,6 +23,8 @@ requirements: [
 ammoTypes: { 
   unmovo-heap: { 
     type: ShrapnelBulletType
+    width: 2
+    height: 20
     damage: 200 
     speed: 0
     frontColor: 36454F
@@ -34,6 +36,8 @@ ammoTypes: {
   } 
   pryo-heap: { 
     type: ShrapnelBulletType
+    width: 2
+    height: 20
     damage: 200 
     speed: 0
     frontColor: DD571C
@@ -44,7 +48,9 @@ ammoTypes: {
     lifetime: 10  
   } 
   cryo-heap: { 
-    type: ShrapnelBulletType 
+    type: ShrapnelBulletType
+    width: 2
+    height: 20 
     damage: 200 
     speed: 0
     frontColor: 1FBDD2
@@ -55,7 +61,9 @@ ammoTypes: {
     lifetime: 10  
   } 
   electro-heap: { 
-    type: ShrapnelBulletType 
+    type: ShrapnelBulletType
+    width: 2
+    height: 20 
     damage: 200 
     speed: 0
     frontColor: 00FF00
@@ -67,6 +75,7 @@ ammoTypes: {
   } 
 } 
 inaccuracy: 20
+pierceCap: 3
 category: turret 
 research: { 
   parent: fuse 

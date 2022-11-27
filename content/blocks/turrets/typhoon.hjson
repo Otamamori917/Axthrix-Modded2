@@ -77,9 +77,9 @@ ammoTypes: {
     statusDuration: 300 
     lifetime: 2000  
   } 
-} 
-shots: 1 
-inaccuracy: 1 
+}  
+inaccuracy: 1
+pierceCap: 4 
 category: turret 
 research: { 
   parent: stillwind 

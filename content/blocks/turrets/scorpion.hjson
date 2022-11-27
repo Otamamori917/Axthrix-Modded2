@@ -1,0 +1,43 @@
+type: ItemTurret
+buildCostMultiplier: 0.1
+size: 3
+health: 1200
+reload: 500
+range: 800 
+maxAmmo: 10 
+recoil: 10 
+rotateSpeed: 2 
+targetAir: true 
+targetGround: true 
+requirements: [ 
+  heat-plate/4 
+  platinum/1200 
+  curium/200 
+  gold/50 
+  cobalt/100 
+] 
+ammoTypes: {  
+  electro-heap: { 
+    type: ShrapnelBulletType 
+    width: 1 
+    height: 10 
+    damage: 4000 
+    speed: 200
+    frontColor: 00FF00
+    backColor: 72FF13
+    status: electrified
+    statusDuration: 300 
+    lifetime: 2000  
+  } 
+} 
+inaccuracy: 0 
+pierceCap: 10
+category: turret 
+research: { 
+  parent: foreshadow
+  requirements: [
+     titanium/1000 
+     plastanium/1000 
+     heat-plate/10 
+  ] 
+}

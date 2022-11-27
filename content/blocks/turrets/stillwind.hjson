@@ -83,6 +83,7 @@ ammoTypes: {
   }
 }
 inaccuracy: 2
+pierceCap: 2
 category: turret
 research: {
   parent: imp
