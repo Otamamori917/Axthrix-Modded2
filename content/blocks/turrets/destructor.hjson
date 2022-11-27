@@ -1,13 +1,13 @@
 type: ItemTurret
 buildCostMultiplier: 0.1
-size: 3
+size: 8
 health: 1200
 reload: 500
 range: 800 
 maxAmmo: 10
 shoot: {
-  shots:20
-  shotDelay: 10
+  shots: 200
+  shotDelay: 5
 }  
 recoil: 10 
 rotateSpeed: 2 
