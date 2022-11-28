@@ -22,7 +22,7 @@ requirements: [
 ] 
 ammoTypes: {  
   electro-heap: { 
-    type: PointBulletType
+    type: ContinuousFlameBulletType
     width: 10
     damage: 500 
     speed: 150
