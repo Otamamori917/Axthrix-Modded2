@@ -23,6 +23,7 @@ requirements: [
 ammoTypes: {  
   electro-heap: { 
     type: PointBulletType
+    width: 10
     damage: 50 
     speed: 150
     frontColor: 00FF00
