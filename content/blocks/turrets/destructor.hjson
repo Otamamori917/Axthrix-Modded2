@@ -1,6 +1,6 @@
 type: ItemTurret
 buildCostMultiplier: 0.1
-size: 6
+size: 1
 health: 1200
 range: 600 
 maxAmmo: 40
@@ -23,7 +23,7 @@ requirements: [
 ammoTypes: {  
   electro-heap: { 
     type: ContinuousFlameBulletType
-    width: 25
+    width: 5
     damage: 100 
     speed: 0
     length: 580
