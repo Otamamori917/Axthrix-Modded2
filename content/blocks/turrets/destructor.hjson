@@ -3,11 +3,12 @@ buildCostMultiplier: 0.1
 size: 6
 health: 1200
 range: 600 
-maxAmmo: 10
+maxAmmo: 40
 reload: 600
 shoot: {
 shots: 60
 shotDelay: 2
+barrels: 2
 }
 rotateSpeed: 2 
 targetAir: true 

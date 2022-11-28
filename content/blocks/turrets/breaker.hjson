@@ -6,6 +6,7 @@ reload: 60
 shoot: {
 shots: 4
 shotDelay: 10
+barrels: 4
 }
 range: 120 
 maxAmmo: 10 
