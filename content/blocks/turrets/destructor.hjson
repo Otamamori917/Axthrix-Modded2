@@ -4,6 +4,11 @@ size: 6
 health: 1200
 range: 800 
 maxAmmo: 10
+reload: 200
+shoot: {
+shots: 20
+shotDelay: 2
+}
 recoil: 10 
 rotateSpeed: 2 
 targetAir: true 
