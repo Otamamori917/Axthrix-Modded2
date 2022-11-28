@@ -18,20 +18,15 @@ requirements: [
 ] 
 ammoTypes: {  
   electro-heap: { 
-    type: PointBulletType
-    shoot: {
-      shootEffect: instShoot
-      HitEffect: instHit
-      smokeEffect: smokeCloud
-      trailEffect: instTrail
-      despawnEffect: instBomb
-    } 
+    type: LaserBulletType
     damage: 4000 
     speed: 150
     frontColor: 00FF00
     backColor: 72FF13
     status: electrified
-    statusDuration: 300 
+    statusDuration: 300
+    length: 780
+    hitSize: 4 
     lifetime: 2000  
   } 
 } 
