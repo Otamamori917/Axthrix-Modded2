@@ -22,8 +22,8 @@ requirements: [
 ammoTypes: {  
   electro-heap: { 
     type: ContinuousFlameBulletType
-    width: 10
-    damage: 2500 
+    width: 100
+    damage: 400 
     speed: 0
     length: 800
     status: electrified
