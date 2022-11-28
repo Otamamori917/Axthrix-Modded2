@@ -7,7 +7,7 @@ range: 800
 maxAmmo: 10
 shoot: {
   shots: 200
-  shotDelay: 2
+  shotDelay: 10
 }  
 recoil: 10 
 rotateSpeed: 2 
@@ -24,10 +24,8 @@ ammoTypes: {
   electro-heap: { 
     type: PointBulletType
     width: 10
-    damage: 50 
+    damage: 500 
     speed: 150
-    frontColor: 00FF00
-    backColor: 72FF13
     status: electrified
     statusDuration: 300   
   } 
