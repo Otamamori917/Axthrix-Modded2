@@ -1,13 +1,13 @@
 type: ItemTurret
 buildCostMultiplier: 0.1
-size: 8
+size: 6
 health: 1200
 reload: 5000
 range: 800 
 maxAmmo: 10
 shoot: {
   shots: 200
-  shotDelay: 5
+  shotDelay: 2
 }  
 recoil: 10 
 rotateSpeed: 2 
@@ -23,20 +23,18 @@ requirements: [
 ammoTypes: {  
   electro-heap: { 
     type: PointBulletType
-    damage: 40 
+    damage: 50 
     speed: 150
     frontColor: 00FF00
     backColor: 72FF13
     status: electrified
-    statusDuration: 300 
-    lifetime: 2000  
+    statusDuration: 300   
   } 
 } 
 inaccuracy: 0 
-pierceCap: 10
 category: turret 
 research: { 
-  parent: foreshadow
+  parent: meltdown
   requirements: [
      titanium/1000 
      plastanium/1000 

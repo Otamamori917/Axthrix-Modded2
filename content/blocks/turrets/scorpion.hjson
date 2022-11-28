@@ -19,7 +19,7 @@ requirements: [
 ammoTypes: {  
   electro-heap: { 
     type: LaserBulletType
-    damage: 4000 
+    damage: 2450 
     speed: 150
     frontColor: 00FF00
     backColor: 72FF13
