@@ -7,7 +7,7 @@ UnitType (
 
   abilities(
     ForceFieldAbility(
-      60, 0.3, 400, 60 * 6
+      [60, 0.3, 400, 60 * 6]
     )
   )
 ) 
