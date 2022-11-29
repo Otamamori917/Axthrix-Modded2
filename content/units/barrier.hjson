@@ -1,4 +1,4 @@
-UnitType {{
+UnitType (
   health = 640
   armor = 0
   speed = 0
@@ -10,4 +10,4 @@ UnitType {{
       60, 0.3, 400, 60 * 6
     )
   )
-}}  
+) 
