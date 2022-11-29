@@ -1,4 +1,4 @@
-UnitType [
+UnitType 
   health: 640
   armor: 0
   speed: 0
@@ -15,4 +15,3 @@ UnitType [
       )
     )
   )
-]
