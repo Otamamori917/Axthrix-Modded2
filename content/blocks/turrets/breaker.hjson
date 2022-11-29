@@ -6,7 +6,6 @@ reload: 60
 shoot: {
 shots: 4
 shotDelay: 10
-barrels: 4
 }
 range: 120 
 maxAmmo: 10 
@@ -26,7 +25,7 @@ ammoTypes: {
     type: ShrapnelBulletType
     width: 2
     height: 20
-    damage: 200 
+    damage: 600 
     speed: 0
     frontColor: 36454F
     backColor: 000000

@@ -23,7 +23,7 @@ ammoTypes: {
   pryo-heap: { 
     type: ContinuousFlameBulletType
     width: 10
-    damage: 100 
+    damage: 25 
     speed: 0
     length: 640
     status: melting
