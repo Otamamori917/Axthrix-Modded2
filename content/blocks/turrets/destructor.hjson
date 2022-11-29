@@ -20,14 +20,14 @@ requirements: [
   cobalt/100 
 ] 
 ammoTypes: {  
-  electro-heap: { 
+  pryo-heap: { 
     type: ContinuousFlameBulletType
     width: 10
     damage: 100 
     speed: 0
     length: 580
-    status: electrified
-    statusDuration: 300   
+    status: melting
+    statusDuration: 3000   
   } 
 } 
 inaccuracy: 0 
