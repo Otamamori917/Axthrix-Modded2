@@ -1,9 +1,9 @@
-UnitType {
-  health = 640
-  armor = 0
-  speed = 0
-  hitSize = 13
-  drawShields = false
+UnitType [
+  health: 640
+  armor: 0
+  speed: 0
+  hitSize: 13
+  drawShields: false
 
   abilities(
     ForceFieldAbility(
@@ -15,4 +15,4 @@ UnitType {
       )
     )
   )
-} 
+]
