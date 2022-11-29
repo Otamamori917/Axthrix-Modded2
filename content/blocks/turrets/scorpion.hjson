@@ -21,8 +21,7 @@ ammoTypes: {
     type: LaserBulletType
     damage: 2450 
     speed: 150
-    frontColor: 00FF00
-    backColor: 72FF13
+    width: 2
     status: electrified
     statusDuration: 300
     length: 780
@@ -34,7 +33,7 @@ inaccuracy: 0
 pierceCap: 10
 category: turret 
 research: { 
-  parent: foreshadow
+  parent: lancer
   requirements: [
      titanium/1000 
      plastanium/1000 
