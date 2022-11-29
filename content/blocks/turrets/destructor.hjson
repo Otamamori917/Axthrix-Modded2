@@ -1,6 +1,6 @@
 type: ItemTurret
 buildCostMultiplier: 0.1
-size: 4
+size: 3
 health: 1200
 range: 600 
 maxAmmo: 2
@@ -25,7 +25,7 @@ ammoTypes: {
     width: 10
     damage: 100 
     speed: 0
-    length: 580
+    length: 640
     status: melting
     statusDuration: 3000   
   } 
