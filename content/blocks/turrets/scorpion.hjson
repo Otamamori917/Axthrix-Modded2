@@ -24,7 +24,7 @@ ammoTypes: {
     width: 2
     status: electrified
     statusDuration: 300
-    length: 780
+    length: 800
     hitSize: 4 
     lifetime: 20  
   } 
