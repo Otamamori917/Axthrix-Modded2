@@ -1,12 +1,13 @@
 UnitType{
-    health = 640
-    armor = 0
-    speed = 0
-    hitSize = 13
-    drawShields = false
+  health = 640
+  armor = 0
+  speed = 0
+  hitSize = 13
+  drawShields = false
 
-    abilities(
-      ForceFieldAbility(
-        60, 0.3, 400, 60 * 6
-      )
+  abilities(
+    ForceFieldAbility(
+      60, 0.3, 400, 60 * 6
     )
+  )
+}  
