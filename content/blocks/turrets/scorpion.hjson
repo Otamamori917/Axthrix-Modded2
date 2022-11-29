@@ -20,7 +20,7 @@ ammoTypes: {
   electro-heap: { 
     type: LaserBulletType
     damage: 2450 
-    speed: 150
+    speed: 0
     width: 2
     status: electrified
     statusDuration: 300
