@@ -26,7 +26,7 @@ ammoTypes: {
     statusDuration: 300
     length: 780
     hitSize: 4 
-    lifetime: 2000  
+    lifetime: 20  
   } 
 } 
 inaccuracy: 0 
