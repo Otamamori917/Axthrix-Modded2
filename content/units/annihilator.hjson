@@ -10,11 +10,27 @@ speed: 4
 rotateSpeed: 5
 armor: 5
 size: 2.18
-rotor:[
-  rotor(
-    sprite: a-rotor
-    speed: 5
-  )
+abilities: [
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 15
+   effectY: 0
+   effectX: 0
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifeTime: 20
+    length: 0
+    region: a-rotor
+    sizeFrom: 7.75
+    sizeTo: 7.75
+    spin: 24
+    layer: 95.1
+   }
+  }
 ]
 weapons: [
   {
