@@ -1,11 +1,11 @@
 type: flying
-health: 1880
+health: 230
 isEnemy: true
 flying: true
 accel: 0.8
 drag: 0.1
-speed: 8
-rotateSpeed: 1.5
+speed: 6
+rotateSpeed: 5
 armor: 5
 size: 2.18
 weapons: [
@@ -16,19 +16,19 @@ weapons: [
     mirror: false
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 90
+    reload: 120
     inaccuracy: 9
     shoot: {
-      shots: 5
+      shots: 3
       shotDelay: 10
     }
     bullet: {
       type: lightningBulletType
-      lightningLength: 15
+      lightningLength: 8
       collidesAir: true
-      damage: 60
+      damage: 200
       lifetime: 6
-      shootSound: spark
+      shootSound: Sounds.spark
     }
   }
 ]
