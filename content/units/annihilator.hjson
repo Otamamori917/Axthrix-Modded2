@@ -12,8 +12,8 @@ armor: 5
 size: 2.18
 rotor:[
   rotor(
-    sprite: rotor
-    turnSpeed: 5
+    sprite: a-rotor
+    speed: 5
   )
 ]
 weapons: [
