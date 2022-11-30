@@ -8,7 +8,7 @@ itemCapacity: 200
 liquidCapacity: 8
 updateEffect: smeltsmoke
 consumes: {
-  power: 500
+  power: 150
   items: {
     items: [
       platinum/100
