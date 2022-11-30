@@ -4,7 +4,7 @@ health: 400
 armor: 0
 size: 1.2
 hitSize: 1
-speed: 0
+speed: 2
 rotateSpeed: 5
 playerControllable: false
 controller: DefenderAI
