@@ -4,9 +4,9 @@ isEnemy: true
 flying: true
 circleTarget: true
 lowAltitude: true
-accel: 0.8
-drag: 0.1
-speed: 6
+accel: 0.4
+drag: 0.2
+speed: 4
 rotateSpeed: 5
 armor: 5
 size: 2.18
