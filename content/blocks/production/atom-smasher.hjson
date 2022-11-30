@@ -90,7 +90,7 @@ recipes:
   }   
   output: {
     items: [
-      a-platinum/0.4
+      a-platinum/1
     ]
   }
   craftTime: 120
