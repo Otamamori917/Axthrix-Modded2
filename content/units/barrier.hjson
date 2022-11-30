@@ -1,0 +1,20 @@
+type: Ground
+flying: false
+health: 400
+armor: 0
+size: 1.2
+hitSize: 1
+speed: 0 
+rotateSpeed: 5
+controller: DefenderAI
+defaultController: DefenderAI
+abilities: [
+  {
+   type: ForceFieldAbility
+   health: 2500
+   size: 10
+  }
+]
+shieldHealth: 4000
+lowAltitude: true
+drawShields: false
