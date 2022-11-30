@@ -24,8 +24,11 @@ weapons: [
     }
     bullet: {
       type: lightningBulletType
+      lightningLength: 15
+      collidesAir: true
       damage: 60
-      lifetime: lightning.lifetime
+      lifetime: 6
+      shootSound: spark
     }
   }
 ]
