@@ -85,7 +85,7 @@ recipes:
 {
   input: {
     items: titanium/1
-    fluids: water/1
+    fluids: water/0.4
     power: 1
   }   
   output: {
