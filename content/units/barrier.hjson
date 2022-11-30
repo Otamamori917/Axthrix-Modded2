@@ -1,10 +1,10 @@
 type: Ground
 flying: false
 health: 400
-armor: 0
+armor: 1
 size: 1.2
 hitSize: 1
-speed: 0 
+speed: 1 
 rotateSpeed: 5
 controller: DefenderAI
 defaultController: DefenderAI
