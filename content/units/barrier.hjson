@@ -29,9 +29,9 @@ abilities: [
     lifeTime: 20
     length: 0
     region: a-small-shield-gen
-    sizeFrom: 8
-    sizeTo: 8
-    spin: 15
+    sizeFrom: 6
+    sizeTo: 6
+    spin: 5
     layer: 95.1
    }
   }
