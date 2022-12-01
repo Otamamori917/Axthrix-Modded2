@@ -15,7 +15,7 @@ abilities: [
   {
    type: StatusFieldAbility
    effect: none 
-   reload: 40
+   reload: 41
    effectY: 0
    effectX: 0
    parentizeEffects: true
@@ -28,7 +28,7 @@ abilities: [
     region: a-small-metal-blade
     sizeFrom: 8
     sizeTo: 8
-    spin: 15
+    spin: 10
     layer: 95.1
    }
   }
