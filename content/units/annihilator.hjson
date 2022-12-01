@@ -15,7 +15,7 @@ abilities: [
   {
    type: StatusFieldAbility
    effect: none 
-   reload: 41
+   reload: 60
    effectY: 0
    effectX: 0
    parentizeEffects: true
