@@ -28,7 +28,7 @@ abilities: [
     region: a-small-metal-blade
     sizeFrom: 8
     sizeTo: 8
-    spin: 10
+    spin: 15
     layer: 95.1
    }
   }
