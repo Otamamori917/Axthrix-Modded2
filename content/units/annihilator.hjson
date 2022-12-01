@@ -25,8 +25,8 @@ abilities: [
     lifeTime: 20
     length: 0
     region: a-small-metal-blade
-    sizeFrom: 7.75
-    sizeTo: 7.75
+    sizeFrom: 1
+    sizeTo: 1
     spin: 24
     layer: 95.1
    }
