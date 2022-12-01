@@ -4,7 +4,6 @@ isEnemy: true
 flying: true
 circleTarget: true
 lowAltitude: true
-range: 420
 accel: 0.4
 drag: 0.2
 speed: 4
@@ -16,7 +15,7 @@ abilities: [
   {
    type: StatusFieldAbility
    effect: none 
-   reload: 19
+   reload: 30
    effectY: 0
    effectX: 0
    parentizeEffects: true
@@ -27,9 +26,9 @@ abilities: [
     lifeTime: 20
     length: 0
     region: a-small-metal-blade
-    sizeFrom: 6
-    sizeTo: 5.9
-    spin: 25
+    sizeFrom: 8
+    sizeTo: 8
+    spin: 20
     layer: 95.1
    }
   }
