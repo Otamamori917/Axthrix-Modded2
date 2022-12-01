@@ -31,7 +31,7 @@ abilities: [
     region: a-small-shield-gen
     sizeFrom: 6
     sizeTo: 6
-    spin: 5
+    spin: 15
     layer: 95.1
    }
   }
