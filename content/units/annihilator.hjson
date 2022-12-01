@@ -24,7 +24,7 @@ abilities: [
     rotWithParent: true
     particles: 1
     lifeTime: 20
-    length: 0
+    length: 5
     region: a-small-metal-blade
     sizeFrom: 6
     sizeTo: 6
