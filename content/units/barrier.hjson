@@ -20,7 +20,7 @@ abilities: [
    effect: none 
    reload: 50
    effectY: 0
-   effectX: 0
+   effectX: -1
    parentizeEffects: true
    activeEffect: {
     followParent: true
