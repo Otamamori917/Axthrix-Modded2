@@ -24,7 +24,7 @@ abilities: [
     particles: 1
     lifeTime: 20
     length: 0
-    region: a-rotor
+    region: a-small-metal-blade
     sizeFrom: 7.75
     sizeTo: 7.75
     spin: 24
