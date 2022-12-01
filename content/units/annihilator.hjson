@@ -4,6 +4,7 @@ isEnemy: true
 flying: true
 circleTarget: true
 lowAltitude: true
+range: 420
 accel: 0.4
 drag: 0.2
 speed: 4
