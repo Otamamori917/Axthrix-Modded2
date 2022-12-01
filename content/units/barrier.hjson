@@ -1,4 +1,4 @@
-type: tank
+type: mech
 flying: false
 health: 400
 armor: 0
@@ -12,9 +12,29 @@ defaultController: DefenderAI
 abilities: [
   {
    type: ForceFieldAbility
-   health: 4000
-   size: 15
+   health: 40000
+   size: 20
+  }
+    {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 0
+   effectX: 0
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifeTime: 20
+    length: 0
+    region: a-small-shield-gen
+    sizeFrom: 8
+    sizeTo: 8
+    spin: 15
+    layer: 95.1
+   }
   }
 ]
-shieldHealth: 4000
+shieldHealth: 40000
 drawShields: false
