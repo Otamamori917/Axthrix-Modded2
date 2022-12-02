@@ -8,8 +8,8 @@ hitSize: 1
 speed: 2
 rotateSpeed: 5
 playerControllable: false
-controller: DefenderAI
-defaultController: DefenderAI
+controller: GBDefenderAI
+defaultController: GBDefenderAI
 abilities: [
   {
    type: ForceFieldAbility
