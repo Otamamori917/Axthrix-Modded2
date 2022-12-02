@@ -1,0 +1,60 @@
+type: mech
+flying: false
+health: 50
+canBoost: true
+armor: 0
+size: 1.2
+hitSize: 1
+speed: 2
+rotateSpeed: 5
+playerControllable: false
+defaultController: DefenderAI
+abilities: [
+  {
+   type: ForceFieldAbility
+   health: 8000
+   size: 40
+  }
+    {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 0
+   effectX: 0
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifeTime: 20
+    length: 0
+    region: a-small-shield-gen
+    sizeFrom: 6
+    sizeTo: 6
+    spin: 15
+    layer: 95.1
+   }
+  }
+]
+weapons: [
+  {
+    name: none
+    x: 2
+    y: 0
+    mirror: true
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 120
+    inaccuracy: 9
+    shoot: {
+      shots: 3
+      shotDelay: 10
+    }
+    bullet: {
+      type: PointDefenseTurret
+      Length: 60
+      damage: 40
+    }
+  }
+]
+drawShields: false

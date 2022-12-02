@@ -52,7 +52,7 @@ weapons: [
       collidesAir: true
       damage: 50
       lifetime: 6
-      shootSound: Sounds-spark
+      shootSound: spark
     }
   }
 ]

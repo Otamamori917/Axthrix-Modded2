@@ -1,14 +1,12 @@
 type: mech
 flying: false
 health: 50
-canBoost: true
 armor: 0
 size: 1.2
 hitSize: 1
 speed: 2
 rotateSpeed: 5
 playerControllable: false
-controller: GBDefenderAI
 defaultController: DefenderAI
 abilities: [
   {
