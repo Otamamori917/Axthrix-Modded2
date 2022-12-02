@@ -11,12 +11,12 @@ import static mindustry.Vars.*;
 public class GBDefenderAI extends DefenderAI{
   target(
     boolean.ground = ifTrue{
-      Boost = 0
+      boost = 0
     } 
   ) 
   target(
     boolean.air = ifTrue{
-      Boost = 1
+      boost = 1
     } 
   )   
 }
