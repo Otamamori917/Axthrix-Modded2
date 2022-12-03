@@ -1,0 +1,80 @@
+type: flying
+health: 250
+flying: true
+circleTarget: true
+lowAltitude: true
+accel: 0.5
+drag: 0.1
+speed: 4.5
+rotateSpeed: 6
+armor: 5
+size: 2.18
+engineSize: 0
+abilities: [
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 0
+   effectX: 0
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifeTime: 20
+    length: 0
+    region: a-small-metal-blade
+    sizeFrom: 10
+    sizeTo: 10
+    spin: 15
+    layer: 95.1
+   }
+  }
+]
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 120
+    inaccuracy: 9
+    shoot: {
+      shots: 2
+      shotDelay: 10
+    }
+    bullet: {
+      type: lightningBulletType
+      lightningLength: 15
+      collidesAir: true
+      damage: 100
+      lifetime: 6
+      shootSound: spark
+    }
+  }
+    {
+    name: none
+    x: 2
+    y: 0
+    mirror: true
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 200
+    inaccuracy: 0
+    bullet: {
+      type: MissileBulletType
+      width = 1
+      height = 3
+      damage: 230
+      splashDamageRadius: 40
+      splashDamage: 60
+      scaledSplashDamage: true
+      lifetime: 220
+      homingRange: 60
+      shootSound: spark
+    }
+  }
+]

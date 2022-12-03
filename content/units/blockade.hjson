@@ -1,6 +1,6 @@
 type: mech
 flying: false
-health: 50
+health: 150
 canBoost: true
 armor: 0
 size: 4.8
