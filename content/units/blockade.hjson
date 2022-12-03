@@ -44,16 +44,23 @@ weapons: [
     mirror: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
-    reload: 120
+    reload: 240
     inaccuracy: 9
     shoot: {
       shots: 3
-      shotDelay: 10
+      shotDelay: 20
     }
     bullet: {
-      type: PointDefenseTurret
-      Length: 60
-      damage: 40
+      type: ArtilleryBulletType
+      width: 1
+      height: 2
+      damage: 20 
+      speed: 10
+      splashDamageRadius: 20
+      splashDamage: 60
+      scaledSplashDamage: true
+      frontColor: 84F491
+      backColor: 62AE7F
     }
   }
 ]
