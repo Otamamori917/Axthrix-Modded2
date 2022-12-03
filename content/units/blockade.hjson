@@ -49,6 +49,7 @@ weapons: [
     }
     bullet: {
       type: ArtilleryBulletType
+    healPercent: 2
       width: 1
       height: 2
       damage: 20 
