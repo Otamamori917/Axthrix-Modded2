@@ -3,7 +3,7 @@ flying: false
 health: 50
 canBoost: true
 armor: 0
-size: 1.2
+size: 4.8
 hitSize: 2.5
 range: 520
 speed: 2
@@ -42,7 +42,7 @@ weapons: [
     y: 0
     mirror: false
     reload: 240
-    inaccuracy: 5
+    inaccuracy: 10
     shoot: {
       shots: 3
       shotDelay: 20
@@ -53,7 +53,7 @@ weapons: [
       height: 2
       damage: 20 
       speed: 10
-      splashDamageRadius: 20
+      splashDamageRadius: 40
       splashDamage: 60
       scaledSplashDamage: true
       frontColor: 84F491
