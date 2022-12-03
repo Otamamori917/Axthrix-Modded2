@@ -37,18 +37,27 @@ abilities: [
 ]
 weapons: [
   {
-    name: PointDefenseWeapon
-    x: 4
+    name: none
+    x: 0
     y: 0
-    mirror: true
-    targetInterval: 10
-    targetSwitchInterval: 15
+    mirror: false
+    reload: 240
+    inaccuracy: 10
+    shoot: {
+      shots: 3
+      shotDelay: 20
+    }
     bullet: {
-      type: bulletType
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 100
-      damage: 17
+      type: ArtilleryBulletType
+      width: 1
+      height: 2
+      damage: 20 
+      speed: 10
+      splashDamageRadius: 40
+      splashDamage: 60
+      scaledSplashDamage: true
+      frontColor: 84F491
+      backColor: 62AE7F
     }
   }
 ]
