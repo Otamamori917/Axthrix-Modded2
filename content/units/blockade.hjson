@@ -8,7 +8,6 @@ hitSize: 2.5
 range: 520
 speed: 2
 rotateSpeed: 5
-defaultController: DefenderAI
 abilities: [
   {
    type: ForceFieldAbility
