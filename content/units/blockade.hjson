@@ -4,14 +4,15 @@ health: 50
 canBoost: true
 armor: 0
 size: 1.2
-hitSize: 1
+hitSize: 2.5
+range: 520
 speed: 2
 rotateSpeed: 5
 defaultController: DefenderAI
 abilities: [
   {
    type: ForceFieldAbility
-   health: 8000
+   shieldHealth: 8000
    size: 40
   }
     {
@@ -38,13 +39,11 @@ abilities: [
 weapons: [
   {
     name: none
-    x: 2
+    x: 0
     y: 0
-    mirror: true
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
+    mirror: false
     reload: 240
-    inaccuracy: 9
+    inaccuracy: 5
     shoot: {
       shots: 3
       shotDelay: 20
