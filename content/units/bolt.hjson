@@ -66,9 +66,10 @@ weapons: [
     inaccuracy: 0
     bullet: {
       type: MissileBulletType
-      width = 1
-      height = 3
+      width: 1
+      height: 
       damage: 230
+      speed: 10
       splashDamageRadius: 50
       splashDamage: 70
       scaledSplashDamage: true
