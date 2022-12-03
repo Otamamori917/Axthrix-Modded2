@@ -7,7 +7,6 @@ size: 1.2
 hitSize: 1
 speed: 2
 rotateSpeed: 5
-playerControllable: false
 defaultController: DefenderAI
 abilities: [
   {
