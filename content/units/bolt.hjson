@@ -69,8 +69,8 @@ weapons: [
       width = 1
       height = 3
       damage: 230
-      splashDamageRadius: 40
-      splashDamage: 60
+      splashDamageRadius: 50
+      splashDamage: 70
       scaledSplashDamage: true
       lifetime: 220
       homingRange: 60
