@@ -73,7 +73,7 @@ weapons: [
       splashDamageRadius: 50
       splashDamage: 70
       scaledSplashDamage: true
-      lifetime: 220
+      lifetime: 80
       homingRange: 60
       shootSound: spark
     }
