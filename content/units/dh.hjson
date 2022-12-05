@@ -1,0 +1,28 @@
+type: flying
+health: 60
+flying: true
+lowAltitude: true
+accel: 0.4
+drag: 0.2
+speed: 2
+rotateSpeed: 5
+armor: 0
+size: 0.5
+hitSize: 1
+playerControllable: false
+defaultController: DefenderAI
+engineSize: 1
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    beamWidth: 0.5
+    repairSpeed: 0.8
+    bullet: {
+      type: BulletType
+      maxRange: 120
+    }
+  }
+]
