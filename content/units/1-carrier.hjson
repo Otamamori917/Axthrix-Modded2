@@ -24,8 +24,8 @@ weapons: [
     x: -3
     y: -4.5
     mirror: true
-    smokeEffect: shootSmallSmoke
     reload: 80
+    rotateSpeed: 2
     inaccuracy: 40
     shoot: {
       shots: 3
@@ -34,7 +34,9 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 50
-      lifetime: 40
+      lifetime: 180
+      speed: 3
+    
     }
   }
 ]
