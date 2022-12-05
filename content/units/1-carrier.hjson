@@ -25,8 +25,9 @@ weapons: [
     y: -4.5
     mirror: true
     reload: 80
-    turnSpeed: 2
-    inaccuracy: 40
+    rotate: true
+    rotateSpeed: 2
+    inaccuracy: 20
     shoot: {
       shots: 3
       shotDelay: 10
