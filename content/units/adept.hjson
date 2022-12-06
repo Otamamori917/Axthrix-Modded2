@@ -10,7 +10,7 @@ abilities: [
   {
    type: UnitSpawnAbility
    unit: spark
-   spawnTime: 300
+   spawnTime: 400
   }
 ]
 weapons: [

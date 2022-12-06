@@ -56,7 +56,7 @@ weapons: [
     }
   }
     {
-    name: none
+    name: dash-missile
     x: 2
     y: 0
     mirror: true
