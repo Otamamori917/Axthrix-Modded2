@@ -27,7 +27,8 @@ abilities: [
    }
   }
 ]
- {
+weapons: [
+  {
     name: bw
     x: 4
     y: 2
@@ -55,3 +56,4 @@ abilities: [
       }
     }
   }
+]  
