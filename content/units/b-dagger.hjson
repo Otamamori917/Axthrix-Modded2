@@ -47,7 +47,7 @@ weapons: [
       lifetime: 140
       speed: 2
       fragBullets: 20
-      fragBullet{
+      fragBullet: {
         type: BasicBulletType
         speed: 4
         damage: 400
