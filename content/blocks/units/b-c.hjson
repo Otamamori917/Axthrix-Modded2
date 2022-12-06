@@ -1,7 +1,7 @@
 type: unitFactory
 size: 2
 consumes: {
- power: 200
+ power: 10
 }
 
 plans: [ 
@@ -13,7 +13,7 @@ plans: [
       gold/250
       oganesson/50
     ]
-    time: 1500
+    time: 15000
   }
 ]
 requirements: [
