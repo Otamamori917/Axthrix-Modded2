@@ -1,6 +1,6 @@
 type: mech
 flying: false
-health: 15000
+health: 150
 armor: 0
 hitSize: 8
 speed: 0.5
@@ -12,24 +12,23 @@ weapons: [
     y: 2
     top: false
     mirror: true
-    reload: 13
+    reload: 30
     shoot: {
-      shots: 6
+      shots: 4
       shotDelay: 2
     }
     bullet: {
       type: BasicBulletType
-      damage: 80
       collides: true
-      damage: 800
+      damage: 200
       lifetime: 140
-      speed: 2
+      speed: 4
       fragBullets: 20
       fragBullet: {
         type: BasicBulletType
-        speed: 4
-        damage: 400
-        lifeTime: 40
+        speed: 8
+        damage: 80
+        lifeTime: 20
         collides: true
       }
     }
