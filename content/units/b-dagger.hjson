@@ -9,7 +9,7 @@ abilities: [
   {
    type: SpawnDeathAbility
    unit: dagger
-   amount: 50
+   amount: 5
   }
 ]
 weapons: [
