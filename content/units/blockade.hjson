@@ -39,7 +39,7 @@ weapons: [
   {
     name: 1-point-def
     type: PointDefenseWeapon
-    x: -3
+    x: -6
     y: -2
     mirror: true
     reload: 0.5
@@ -56,7 +56,7 @@ weapons: [
   {
     name: 1-point-def
     type: PointDefenseWeapon
-    x: -3
+    x: -4
     y: 2
     mirror: true
     reload: 0.5

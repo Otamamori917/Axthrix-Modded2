@@ -57,8 +57,8 @@ weapons: [
   }
     {
     name: dash-missile
-    x: 2
-    y: 0
+    x: 4
+    y: -1
     mirror: true
     shootEffect: sparkShoot
     smokeEffect: shootSmallSmoke
