@@ -1,5 +1,5 @@
 type: multicraft.MultiCrafter
-size: 4
+size: 6
 menu: Simple
 hasPower: true
 hasItems: true
