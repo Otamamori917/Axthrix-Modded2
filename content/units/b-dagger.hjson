@@ -1,17 +1,10 @@
 type: mech
 flying: false
-health: 150
-armor: 0
+health: 3500
+armor: 300
 hitSize: 8
 speed: 0.5
 rotateSpeed: 5
-abilities: [
-  {
-   type: SpawnDeathAbility {
-    unit: dagger/5
-   }
-  }
-]
 weapons: [
   {
     name: bw
@@ -27,15 +20,15 @@ weapons: [
     bullet: {
       type: BasicBulletType
       collides: true
-      damage: 200
+      damage: 80
       lifetime: 160
       speed: 3
       fragBullets: 10
       fragBullet: {
         type: BasicBulletType
         speed: 6
-        damage: 80
-        lifeTime: 15
+        damage: 8
+        lifeTime: 5
         collides: true
       }
     }
