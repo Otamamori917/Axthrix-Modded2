@@ -5,6 +5,13 @@ armor: 0
 hitSize: 8
 speed: 0.5
 rotateSpeed: 5
+abilities: [
+  {
+   type: SpawnDeathAbility
+   unit: dagger
+   amount: 50
+  }
+]
 weapons: [
   {
     name: bw
@@ -12,7 +19,7 @@ weapons: [
     y: 2
     top: false
     mirror: true
-    reload: 30
+    reload: 13
     shoot: {
       shots: 4
       shotDelay: 2
@@ -21,14 +28,14 @@ weapons: [
       type: BasicBulletType
       collides: true
       damage: 200
-      lifetime: 50
-      speed: 6
+      lifetime: 160
+      speed: 3
       fragBullets: 10
       fragBullet: {
         type: BasicBulletType
-        speed: 12
+        speed: 6
         damage: 80
-        lifeTime: 5
+        lifeTime: 15
         collides: true
       }
     }
