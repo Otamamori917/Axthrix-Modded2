@@ -1,0 +1,43 @@
+type: naval
+flying: false
+health: 400
+armor: 5
+size: 3
+hitSize: 2
+speed: 1
+rotateSpeed: 2
+abilities: [
+  {
+   type: UnitSpawnAbility
+   unit: dh
+   spawnTime: 180
+  }
+  {
+   type: UnitSpawnAbility
+   unit: da
+   spawnTime: 200
+  }
+]
+weapons: [
+  {
+    name: 1-aa-gun
+    x: -3
+    y: -4.5
+    mirror: true
+    reload: 40
+    rotate: true
+    rotateSpeed: 6
+    inaccuracy: 20
+    shoot: {
+      shots: 3
+      shotDelay: 10
+    }
+    bullet: {
+      type: BasicBulletType
+      damage: 50
+      lifetime: 60
+      speed: 3
+    
+    }
+  }
+]

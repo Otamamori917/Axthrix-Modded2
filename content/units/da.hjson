@@ -28,6 +28,7 @@ weapons: [
       type: BasicBulletType
       damage: 10
       lifetime: 120
+      speed: 2
     }
   }
 ]

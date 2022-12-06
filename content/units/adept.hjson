@@ -1,21 +1,16 @@
 type: naval
 flying: false
-health: 400
-armor: 5
-size: 3
-hitSize: 2
-speed: 1
+health: 800
+armor: 7
+size: 4
+hitSize: 3
+speed: 1.5
 rotateSpeed: 2
 abilities: [
   {
    type: UnitSpawnAbility
-   unit: dh
-   spawnTime: 180
-  }
-  {
-   type: UnitSpawnAbility
-   unit: da
-   spawnTime: 200
+   unit: spark
+   spawnTime: 300
   }
 ]
 weapons: [
@@ -27,15 +22,15 @@ weapons: [
     reload: 40
     rotate: true
     rotateSpeed: 6
-    inaccuracy: 20
+    inaccuracy: 10
     shoot: {
-      shots: 3
-      shotDelay: 10
+      shots: 4
+      shotDelay: 5
     }
     bullet: {
       type: BasicBulletType
-      damage: 50
-      lifetime: 180
+      damage: 80
+      lifetime: 150
       speed: 3
     
     }
