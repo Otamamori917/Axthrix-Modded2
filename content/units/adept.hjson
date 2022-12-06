@@ -32,7 +32,45 @@ weapons: [
       damage: 80
       lifetime: 150
       speed: 3
-    
+    }
+  }
+  {
+    name: 1-aa-gun
+    x: -3
+    y: 4.5
+    mirror: true
+    reload: 40
+    rotate: true
+    rotateSpeed: 6
+    inaccuracy: 10
+    shoot: {
+      shots: 4
+      shotDelay: 5
+    }
+    bullet: {
+      type: BasicBulletType
+      damage: 80
+      lifetime: 150
+      speed: 3
+    }
+  }
+  {
+    name: 1-cannon
+    x: 0
+    y: 4.5
+    mirror: false
+    reload: 240
+    splashDamageRadius: 10
+    splashDamage: 120
+    scaledSplashDamage: true
+    rotate: true
+    rotateSpeed: 0.5
+    inaccuracy: 0
+    bullet: {
+      type: BasicBulletType
+      damage: 180
+      lifetime: 250
+      speed: 3
     }
   }
 ]
