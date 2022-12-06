@@ -11,8 +11,8 @@ defaultController: DefenderAI
 abilities: [
   {
    type: ForceFieldAbility
-   health: 4000
-   size: 20
+   shieldHealth: 400
+   shieldSize: 20
   }
     {
    type: StatusFieldAbility

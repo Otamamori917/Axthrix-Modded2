@@ -11,8 +11,8 @@ rotateSpeed: 5
 abilities: [
   {
    type: ForceFieldAbility
-   shieldHealth: 8000
-   size: 40
+   shieldHealth: 800
+   shieldSize: 40
   }
     {
    type: StatusFieldAbility
