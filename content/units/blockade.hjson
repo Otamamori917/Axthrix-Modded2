@@ -2,7 +2,7 @@ type: mech
 flying: false
 health: 150
 canBoost: true
-armor: 0
+armor: 2
 size: 4.8
 hitSize: 2.5
 range: 520
