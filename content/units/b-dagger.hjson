@@ -1,0 +1,57 @@
+type: mech
+flying: false
+health: 15000
+armor: 0
+hitSize: 8
+speed: 0.5
+rotateSpeed: 5
+abilities: [
+   {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 0
+   effectX: 0
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifeTime: 20
+    length: 0
+    region: god
+    sizeFrom: 6
+    sizeTo: 6
+    spin: 15
+    layer: 95.1
+   }
+  }
+]
+ {
+    name: bw
+    x: 4
+    y: 2
+    top: false
+    mirror: true
+    reload: 13
+    shoot: {
+      shots: 6
+      shotDelay: 2
+    }
+    bullet: {
+      type: BasicBulletType
+      damage: 80
+      collides: true
+      damage: 800
+      lifetime: 140
+      speed: 2
+      fragBullets: 20
+      fragBullet{
+        type: BasicBulletType
+        speed: 4
+        damage: 400
+        lifeTime: 40
+        collides: true
+      }
+    }
+  }
