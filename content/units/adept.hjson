@@ -68,6 +68,8 @@ weapons: [
     inaccuracy: 0
     bullet: {
       type: BasicBulletType
+      width: 2
+      height: 3
       damage: 180
       lifetime: 250
       speed: 3
