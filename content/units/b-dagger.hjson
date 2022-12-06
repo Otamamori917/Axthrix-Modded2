@@ -21,14 +21,14 @@ weapons: [
       type: BasicBulletType
       collides: true
       damage: 200
-      lifetime: 140
-      speed: 4
-      fragBullets: 20
+      lifetime: 50
+      speed: 6
+      fragBullets: 10
       fragBullet: {
         type: BasicBulletType
-        speed: 8
+        speed: 12
         damage: 80
-        lifeTime: 20
+        lifeTime: 5
         collides: true
       }
     }
