@@ -7,9 +7,9 @@ speed: 0.5
 rotateSpeed: 5
 abilities: [
   {
-   type: SpawnDeathAbility
-   unit: dagger
-   amount: 5
+   type: SpawnDeathAbility {
+    unit: dagger/5
+   }
   }
 ]
 weapons: [
