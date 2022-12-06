@@ -37,13 +37,14 @@ abilities: [
 ]
 weapons: [
   {
+    name: 1-point-def
     type: PointDefenseWeapon
     x: -3
     y: -2
     mirror: true
-    reload: 1
-    targetInterval: 10
-    targetSwitchInterval: 15
+    reload: 0.5
+    targetInterval: 2
+    targetSwitchInterval: 5
     bullet: {
       type: BulletType
       shootEffect: sparkShoot
@@ -53,13 +54,14 @@ weapons: [
     }
   }
   {
+    name: 1-point-def
     type: PointDefenseWeapon
     x: -3
     y: 2
     mirror: true
-    reload: 1
-    targetInterval: 10
-    targetSwitchInterval: 15
+    reload: 0.5
+    targetInterval: 2
+    targetSwitchInterval: 5
     bullet: {
       type: BulletType
       shootEffect: sparkShoot
