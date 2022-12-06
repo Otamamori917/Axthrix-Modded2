@@ -1,0 +1,33 @@
+type: unitFactory
+size: 2
+consumes: {
+ power: 200
+}
+
+plans: [ 
+  {
+    unit: b-dagger
+    requirements: [
+      unmovo-heap/100
+      lutetium/500
+      gold/250
+      oganesson/50
+    ]
+    time: 1500
+  }
+]
+requirements: [
+  unmovo-heap/10
+  lutetium/100
+  gold/50
+  oganesson/5
+]
+category: units
+research: {
+  parent: ground-factory
+  requirements: [
+    lutetium/ 1000
+    unmovo-heap/ 200
+    oganesson /50
+  ]
+}
