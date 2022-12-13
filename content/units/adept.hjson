@@ -60,9 +60,6 @@ weapons: [
     y: 8
     mirror: false
     reload: 240
-    splashDamageRadius: 10
-    splashDamage: 120
-    scaledSplashDamage: true
     rotate: true
     rotateSpeed: 1
     inaccuracy: 0
@@ -70,8 +67,11 @@ weapons: [
       type: BasicBulletType
       width: 6
       height: 12
-      damage: 180
-      lifetime: 250
+      damage: 160
+      splashDamageRadius: 10
+      splashDamage: 160
+      scaledSplashDamage: true
+      lifetime: 80
       speed: 4
     }
   }
