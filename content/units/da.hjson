@@ -18,7 +18,7 @@ weapons: [
     y: 0
     mirror: false
     smokeEffect: shootSmallSmoke
-    reload: 40
+    reload: 10
     inaccuracy: 0
     shoot: {
       shots: 2
@@ -26,9 +26,9 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 10
-      lifetime: 120
-      speed: 2
+      damage: 1
+      lifetime: 20
+      speed: 3
     }
   }
 ]

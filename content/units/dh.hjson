@@ -19,10 +19,10 @@ weapons: [
     y: 0
     mirror: false
     beamWidth: 0.5
-    repairSpeed: 0.8
+    repairSpeed: 0.1
     bullet: {
       type: BulletType
-      maxRange: 120
+      maxRange: 20
     }
   }
 ]

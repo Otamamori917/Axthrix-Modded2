@@ -19,7 +19,7 @@ weapons: [
     x: -5
     y: -9
     mirror: true
-    reload: 40
+    reload: 20
     rotate: true
     rotateSpeed: 6
     inaccuracy: 10
@@ -29,7 +29,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 80
+      damage: 4
       lifetime: 100
       speed: 3
     }
@@ -39,7 +39,7 @@ weapons: [
     x: -5
     y: -3
     mirror: true
-    reload: 40
+    reload: 60
     rotate: true
     rotateSpeed: 6
     inaccuracy: 10
@@ -49,7 +49,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 80
+      damage: 10
       lifetime: 100
       speed: 3
     }
