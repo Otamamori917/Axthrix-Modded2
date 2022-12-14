@@ -19,13 +19,13 @@ weapons: [
     x: -5
     y: -9
     mirror: true
-    reload: 40
+    reload: 30
     rotate: true
     rotateSpeed: 6
     inaccuracy: 10
     shoot: {
       shots: 4
-      shotDelay: 5
+      shotDelay: 2
     }
     bullet: {
       type: BasicBulletType
@@ -49,7 +49,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 10
+      damage: 4
       lifetime: 60
       speed: 3
     }
@@ -59,17 +59,17 @@ weapons: [
     x: 0
     y: 8
     mirror: false
-    reload: 240
+    reload: 200
     rotate: true
-    rotateSpeed: 1
+    rotateSpeed: 2
     inaccuracy: 0
     bullet: {
-      type: BasicBulletType
+      type: ArtilleryBulletType
       width: 6
       height: 12
-      damage: 160
+      damage: 20
       splashDamageRadius: 10
-      splashDamage: 160
+      splashDamage: 10
       scaledSplashDamage: true
       lifetime: 80
       speed: 4
