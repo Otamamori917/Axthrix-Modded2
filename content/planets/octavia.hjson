@@ -33,7 +33,7 @@ allowSectorInvasion: false
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-defaultCore: core-mini
+defaultCore: core-sharded
 parent: sun
 alwaysUnlocked: true
 hiddenItems: [
