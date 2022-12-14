@@ -1,7 +1,7 @@
 mesh: {
   type: NoiseMesh
   planet: octavia
-  seed: 55
+  seed: 69
   divisions: 4
   color1: 1a200d
   color2: 413a31
@@ -37,5 +37,5 @@ defaultCore: core-shard
 parent: sun
 alwaysUnlocked: true
 hiddenItems: [
-    scrap, copper, lead, graphite, coal, titanium, thorium, silicon, plastanium, sand, metaglass, beryllium, tungsten, carbide
+  beryllium, tungsten, carbide
 ]
