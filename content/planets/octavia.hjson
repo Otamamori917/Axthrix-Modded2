@@ -1,14 +1,14 @@
 mesh: {
   type: NoiseMesh
   planet: octavia
-  seed: 17
-  divisions: 15
+  seed: 69
+  divisions: 4
   color1: 1a200d
   color2: 413a31
-  radius: 4
+  radius: 0.8
   octaves: 2
   persistence: 1
-  scale: 5
+  scale: 1
   mag: 1.5
 }
 sectorSize: 1
