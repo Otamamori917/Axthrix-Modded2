@@ -17,26 +17,6 @@ weapons: [
   {
     name: 1-aa-gun
     x: -5
-    y: -9
-    mirror: true
-    reload: 30
-    rotate: true
-    rotateSpeed: 6
-    inaccuracy: 10
-    shoot: {
-      shots: 4
-      shotDelay: 2
-    }
-    bullet: {
-      type: BasicBulletType
-      damage: 2
-      lifetime: 40
-      speed: 3
-    }
-  }
-  {
-    name: 1-aa-gun
-    x: -5
     y: -3
     mirror: true
     reload: 80
