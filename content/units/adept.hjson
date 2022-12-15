@@ -16,8 +16,8 @@ abilities: [
 weapons: [
   {
     name: 1-aa-gun
-    x: -5
-    y: -3
+    x: -4
+    y: -5
     mirror: true
     reload: 80
     rotate: true
