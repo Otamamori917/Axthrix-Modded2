@@ -51,7 +51,7 @@ weapons: [
       splashDamageRadius: 12
       splashDamage: 15
       scaledSplashDamage: true
-      lifetime: 80
+      lifetime: 40
       speed: 4
     }
   }

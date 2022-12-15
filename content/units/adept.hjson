@@ -30,7 +30,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 4
-      lifetime: 60
+      lifetime: 30
       speed: 3
     }
   }
@@ -51,7 +51,7 @@ weapons: [
       splashDamageRadius: 10
       splashDamage: 10
       scaledSplashDamage: true
-      lifetime: 80
+      lifetime: 40
       speed: 4
     }
   }
