@@ -17,7 +17,7 @@ weapons: [
   {
     name: 1-aa-gun
     x: -4
-    y: -5
+    y: -8
     mirror: true
     reload: 80
     rotate: true
