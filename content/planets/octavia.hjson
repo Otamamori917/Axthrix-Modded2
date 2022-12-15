@@ -2,14 +2,14 @@ mesh: {
   type: NoiseMesh
   planet: octavia
   seed: 69
-  divisions: 4
+  divisions: 69
   color1: 1a200d
   color2: 413a31
-  radius: 0.8
-  octaves: 2
-  persistence: 1
-  scale: 1
-  mag: 1.5
+  radius: 69
+  octaves: 69
+  persistence: 69
+  scale: 69
+  mag: 69
 }
 sectorSize: 1
 generator: erekirPlanetGenerator
