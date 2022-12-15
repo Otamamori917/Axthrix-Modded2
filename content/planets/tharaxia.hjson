@@ -1,6 +1,6 @@
 mesh: {
   type: NoiseMesh
-  planet: octavia
+  planet: Tharaxia  
   seed: 17
   divisions: 5
   color1: 00008B
@@ -11,7 +11,7 @@ mesh: {
   scale: 1
   mag: 1.5
 }
-sectorSize: 3
+sectorSize: 2
 generator: erekirPlanetGenerator
 orbitSpacing: 12
 orbitRadius: 25
