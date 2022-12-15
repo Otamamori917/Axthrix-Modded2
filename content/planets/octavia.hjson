@@ -11,7 +11,7 @@ mesh: {
   scale: 1
   mag: 1.5
 }
-sectorSize: 0.3
+sectorSize: 3
 generator: erekirPlanetGenerator
 orbitSpacing: 12
 orbitRadius: 25
@@ -26,8 +26,8 @@ updateLighting: true
 sectorSeed: 0
 bloom: false
 visible: true
-atmosphereColor: d7ff7c
-iconColor: 323a19
+atmosphereColor: 00068B
+iconColor: 00069b
 hasAtmosphere: true
 allowSectorInvasion: false
 allowWaveSimulation: true
