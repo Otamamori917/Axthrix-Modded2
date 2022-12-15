@@ -4,14 +4,14 @@ mesh: {
   seed: 17
   divisions: 5
   color1: 00008B
-  color2: 000000
+  color2: 00003R
   radius: 0.8
   octaves: 2
   persistence: 1
   scale: 1
   mag: 1.5
 }
-sectorSize: 1
+sectorSize: 0.3
 generator: erekirPlanetGenerator
 orbitSpacing: 12
 orbitRadius: 25
