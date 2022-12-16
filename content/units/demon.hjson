@@ -27,7 +27,7 @@ weapons: [
   {
     name: 2-aa-gun
     x: -9
-    y: 18
+    y: 19
     mirror: true
     reload: 50
     rotate: true
@@ -47,7 +47,7 @@ weapons: [
   {
     name: 2-aa-gun
     x: 5
-    y: 20
+    y: 26
     mirror: true
     reload: 50
     rotate: true
@@ -67,7 +67,7 @@ weapons: [
   {
     name: 2-aa-gun
     x: -14
-    y: -20
+    y: -22
     mirror: true
     reload: 50
     rotate: true
@@ -129,7 +129,7 @@ weapons: [
   {
     name: spades
     x: 0
-    y: -15
+    y: -18
     mirror: false
     reload: 280
     rotate: true
