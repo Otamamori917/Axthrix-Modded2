@@ -42,9 +42,9 @@ weapons: [
       damage: 8
       lifetime: 50
       speed: 2
-    }
+    }  
   }
-    {
+  {
     name: 2-aa-gun
     x: 0
     y: 10
