@@ -159,9 +159,9 @@ weapons: [
       type: ArtilleryBulletType
       width: 6
       height: 12
-      damage: 50
-      splashDamageRadius: 20
-      splashDamage: 30
+      damage: 100
+      splashDamageRadius: 40
+      splashDamage: 80
       scaledSplashDamage: true
       lifetime: 150
       speed: 4
@@ -170,9 +170,9 @@ weapons: [
         type: ArtilleryBulletType
         width: 3
         height: 6
-        damage: 25
-        splashDamageRadius: 10
-        splashDamage: 15
+        damage: 50
+        splashDamageRadius: 20
+        splashDamage: 60
         scaledSplashDamage: true
         lifeTime: 20
         speed: 2
@@ -182,9 +182,9 @@ weapons: [
           type: ArtilleryBulletType
           width: 1
           height: 3
-          damage: 10
-          splashDamageRadius: 5
-          splashDamage: 5
+          damage: 25
+          splashDamageRadius: 10
+          splashDamage: 40
           scaledSplashDamage: true
           lifeTime: 10
           speed: 2
@@ -194,9 +194,9 @@ weapons: [
             type: ArtilleryBulletType
             width: 1
             height: 1
-            damage: 5
-            splashDamageRadius: 2
-            splashDamage: 2
+            damage: 15
+            splashDamageRadius: 5
+            splashDamage: 20
             scaledSplashDamage: true
             lifeTime: 5
             speed: 2
