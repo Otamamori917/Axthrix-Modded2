@@ -165,7 +165,7 @@ weapons: [
       scaledSplashDamage: true
       lifetime: 150
       speed: 4
-      fragBullets: 4
+      fragBullets: 10
       fragBullet: {
         type: ArtilleryBulletType
         width: 3
@@ -177,7 +177,7 @@ weapons: [
         lifeTime: 20
         speed: 2
         collides: true
-        fragBullets: 4
+        fragBullets: 5
         fragBullet: {
           type: ArtilleryBulletType
           width: 1
@@ -187,8 +187,21 @@ weapons: [
           splashDamage: 5
           scaledSplashDamage: true
           lifeTime: 10
-          speed: 1
+          speed: 2
           collides: true
+          fragBullets: 4
+          fragBullet: {
+            type: ArtilleryBulletType
+            width: 1
+            height: 1
+            damage: 5
+            splashDamageRadius: 2
+            splashDamage: 2
+            scaledSplashDamage: true
+            lifeTime: 5
+            speed: 2
+            collides: true
+          }
         } 
       }  
     }
