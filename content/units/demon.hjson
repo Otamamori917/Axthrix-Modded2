@@ -1,6 +1,6 @@
 type: naval
 flying: false
-health: 5000
+health: 20000
 armor: 12
 size: 4
 hitSize: 3
