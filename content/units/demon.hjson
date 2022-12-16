@@ -9,17 +9,17 @@ rotateSpeed: 3
 abilities: [
   {
    type: UnitSpawnAbility
-   unit: flare
+   unit: zenith
    spawnTime: 800
   }
   {
    type: UnitSpawnAbility
-   unit: flare
+   unit: adept
    spawnTime: 800
   }
   {
    type: UnitSpawnAbility
-   unit: flare
+   unit: bolt
    spawnTime: 800
   }
 ]
