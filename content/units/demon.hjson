@@ -26,8 +26,8 @@ abilities: [
 weapons: [
   {
     name: 2-aa-gun
-    x: -10
-    y: -14
+    x: -8
+    y: 14
     mirror: true
     reload: 50
     rotate: true
@@ -46,8 +46,8 @@ weapons: [
   } 
   {
     name: 2-aa-gun
-    x: -10
-    y: -14
+    x: -14
+    y: 6
     mirror: true
     reload: 50
     rotate: true
@@ -66,28 +66,8 @@ weapons: [
   } 
   {
     name: 2-aa-gun
-    x: -10
-    y: -14
-    mirror: true
-    reload: 50
-    rotate: true
-    rotateSpeed: 6
-    inaccuracy: 10
-    shoot: {
-      shots: 4
-      shotDelay: 2
-    }
-    bullet: {
-      type: BasicBulletType
-      damage: 10
-      lifetime: 50
-      speed: 2
-    }
-  } 
-  {
-    name: 2-aa-gun
-    x: -10
-    y: -14
+    x: -14
+    y: -6
     mirror: true
     reload: 50
     rotate: true
@@ -106,8 +86,8 @@ weapons: [
   } 
   {
     name: 2-cannon
-    x: -10
-    y: -4
+    x: -16
+    y: 8
     mirror: true
     reload: 80
     rotate: true
@@ -127,8 +107,8 @@ weapons: [
   }
   {
     name: 2-cannon
-    x: -10
-    y: -4
+    x: -16
+    y: -8
     mirror: true
     reload: 80
     rotate: true
@@ -148,8 +128,8 @@ weapons: [
   }
   {
     name: spades
-    x: -50
-    y: -4
+    x: 0
+    y: -10
     mirror: false
     reload: 280
     rotate: true
