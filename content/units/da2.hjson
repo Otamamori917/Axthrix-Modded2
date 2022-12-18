@@ -46,8 +46,8 @@ weapons: [
     }
     bullet: {
       type: ContinuousFlameBulletType
-      length: 4
-      width: 1
+      length: 6
+      width: 3
       damage: 1
       lifetime: 2
       speed: 0
