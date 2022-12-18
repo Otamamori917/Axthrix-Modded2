@@ -47,7 +47,7 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       length: 60
-      width: 10
+      width: 3
       damage: 1
       lifetime: 20
       speed: 0

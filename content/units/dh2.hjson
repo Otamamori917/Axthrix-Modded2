@@ -40,9 +40,9 @@ weapons: [
       frontColor: 00FF00
       backColor: 72FF13
       damage: 2
-      lifetime: 20
+      lifetime: 60
       speed: 2
-      healPercent: 0.4
+      healPercent: 4
     }
   }
 ]
