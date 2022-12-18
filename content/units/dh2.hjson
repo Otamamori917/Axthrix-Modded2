@@ -43,6 +43,7 @@ weapons: [
       lifetime: 60
       speed: 2
       healPercent: 4
+      collidesTeam: true
     }
   }
 ]
