@@ -1,0 +1,41 @@
+type: reconstructor
+size: 5
+consumes: { 
+  power: 4
+  items: {
+    items: [
+      platinum/100
+      cobalt/50
+      titanium/160
+      metaglass/160
+    ]
+  }
+}
+constructTime: 400
+upgrades: [
+  [
+    adept, maestro
+  ]
+  [
+    bolt, crack
+  ]
+  [
+    blockade, parapet
+  ]
+]
+requirements: [ 
+  platinum/400
+  silicon/300
+  cobalt/150
+  copper/250
+]
+category: units
+research: {
+  parent: 1-reconstructor
+  requirements: [
+    platinum/4000
+    silicon/3000
+    cobalt/1500
+    copper/2500
+  ]
+}

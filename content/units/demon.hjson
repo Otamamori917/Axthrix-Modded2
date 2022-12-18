@@ -14,13 +14,8 @@ abilities: [
   }
   {
    type: UnitSpawnAbility
-   unit: adept
-   spawnTime: 800
-  }
-  {
-   type: UnitSpawnAbility
-   unit: bolt
-   spawnTime: 800
+   unit: crack
+   spawnTime: 900
   }
 ]
 weapons: [

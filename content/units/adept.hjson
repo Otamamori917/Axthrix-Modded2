@@ -9,8 +9,13 @@ rotateSpeed: 2
 abilities: [
   {
    type: UnitSpawnAbility
-   unit: spark
-   spawnTime: 800
+   unit: dh2
+   spawnTime: 200
+  }
+    {
+   type: UnitSpawnAbility
+   unit: da2
+   spawnTime: 200
   }
 ]
 weapons: [

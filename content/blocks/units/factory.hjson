@@ -1,0 +1,31 @@
+type: unitFactory
+size: 3
+consumes: {
+ power: 2
+}
+
+plans: [ 
+  {
+    unit: ace
+    requirements: [
+      titanium/150
+      metaglass/50
+      silicon/50
+    ]
+    time: 180
+  }
+]
+requirements: [
+  titanium/200
+  silicon/50
+  lead/150
+]
+category: units
+research: {
+  parent: ground-factory
+  requirements: [
+    titanium/500
+    silicon/500
+    lead/500
+  ]
+}

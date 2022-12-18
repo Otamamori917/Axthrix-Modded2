@@ -11,15 +11,11 @@ abilities: [
    type: UnitSpawnAbility
    unit: dh
    spawnTime: 180
-   x: 0
-   y: 4
   }
   {
    type: UnitSpawnAbility
    unit: da
    spawnTime: 200
-   x: 0
-   y: -4
   }
 ]
 weapons: [

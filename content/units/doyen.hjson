@@ -10,17 +10,12 @@ abilities: [
   {
    type: UnitSpawnAbility
    unit: horizon
-   spawnTime: 800
+   spawnTime: 600
   }
   {
    type: UnitSpawnAbility
    unit: bolt
-   spawnTime: 800
-  }
-  {
-   type: UnitSpawnAbility
-   unit: ace
-   spawnTime: 800
+   spawnTime: 700
   }
 ]
 weapons: [

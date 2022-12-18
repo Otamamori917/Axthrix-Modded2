@@ -10,7 +10,12 @@ abilities: [
   {
    type: UnitSpawnAbility
    unit: flare
-   spawnTime: 800
+   spawnTime: 300
+  }
+    {
+   type: UnitSpawnAbility
+   unit: spark
+   spawnTime: 400
   }
 ]
 weapons: [

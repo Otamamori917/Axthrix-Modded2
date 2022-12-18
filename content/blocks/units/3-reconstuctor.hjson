@@ -1,0 +1,42 @@
+type: reconstructor
+size: 7
+consumes: { 
+  power: 6
+  items: {
+    items: [
+      platinum/100
+      cobalt/100
+      gold/50
+      titanium/160
+      bismuth/20
+    ]
+  }
+}
+constructTime: 600
+upgrades: [
+  [
+    maestro, doyen
+  ]
+  [
+    crack, thunder
+  ]
+  [
+    parapet, palisade
+  ]
+]
+requirements: [ 
+  platinum/400
+  silicon/300
+  cobalt/150
+  thorium/250
+]
+category: units
+research: {
+  parent: 2-reconstructor
+  requirements: [
+    platinum/4000
+    silicon/3000
+    cobalt/1500
+    thorium/2500
+  ]
+}
