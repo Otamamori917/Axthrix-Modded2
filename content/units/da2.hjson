@@ -18,8 +18,8 @@ weapons: [
     y: 0
     mirror: false
     smokeEffect: shootSmallSmoke
-    reload: 10
-    inaccuracy: 0
+    reload: 30
+    inaccuracy: 2
     shoot: {
       shots: 2
       shotDelay: 10
@@ -38,10 +38,10 @@ weapons: [
     mirror: false
     rotate: true
     rotateSpeed: 1
-    reload: 100
+    reload: 180
     inaccuracy: 0
     shoot: {
-      shots: 30
+      shots: 10
       shotDelay: 1
     }
     bullet: {
@@ -49,7 +49,7 @@ weapons: [
       length: 60
       width: 3
       damage: 1
-      lifetime: 20
+      lifetime: 10
       speed: 0
     }
   }

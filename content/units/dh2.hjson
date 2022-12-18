@@ -39,7 +39,7 @@ weapons: [
       type: MissileBulletType
       frontColor: 00FF00
       backColor: 72FF13
-      damage: 2
+      damage: 1
       lifetime: 60
       speed: 2
       healPercent: 4
