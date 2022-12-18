@@ -1,0 +1,56 @@
+type: flying
+health: 80
+flying: true
+circleTarget: true
+lowAltitude: true
+accel: 0.4
+drag: 0.2
+speed: 2
+rotateSpeed: 5
+armor: 0
+size: 0.5
+hitSize: 1
+engineSize: 1
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    smokeEffect: shootSmallSmoke
+    reload: 10
+    inaccuracy: 0
+    shoot: {
+      shots: 2
+      shotDelay: 10
+    }
+    bullet: {
+      type: BasicBulletType
+      damage: 2
+      lifetime: 30
+      speed: 3
+    }
+  }
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    rotateSpeed: 1
+    reload: 100
+    inaccuracy: 0
+    shoot: {
+      shots: 30
+      shotDelay: 1
+    }
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 4
+      width: 1
+      damage: 1
+      lifetime: 2
+      speed: 0
+    }
+  }
+]

@@ -1,0 +1,47 @@
+type: flying
+health: 60
+flying: true
+lowAltitude: true
+accel: 0.4
+drag: 0.2
+speed: 2
+rotateSpeed: 5
+armor: 0
+size: 0.5
+hitSize: 1
+playerControllable: false
+defaultController: DefenderAI
+engineSize: 1
+weapons: [
+  {
+    type: RepairBeamWeapon
+    x: 0
+    y: 0
+    mirror: false
+    beamWidth: 1
+    repairSpeed: 0.4
+    bullet: {
+      type: BulletType
+      maxRange: 30
+    }
+  }
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    reload: 40
+    inaccuracy: 0
+    shoot: {
+      shots: 2
+      shotDelay: 20
+    }
+    bullet: {
+      type: MissileBulletType
+      damage: 2
+      lifetime: 20
+      speed: 2
+      healPercent: 0.4
+    }
+  }
+]
