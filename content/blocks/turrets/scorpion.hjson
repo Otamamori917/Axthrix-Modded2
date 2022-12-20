@@ -18,7 +18,7 @@ requirements: [
 ] 
 ammoTypes: {  
   electro-heap: { 
-    type: LaserBulletType
+    type: RailBulletType
     damage: 2450 
     speed: 0
     width: 2
