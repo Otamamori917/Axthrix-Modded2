@@ -4,17 +4,17 @@ const GBDefenderAI = prov(() => {
       let result = null;
 
       if(air){
-        for(updateMovement){
-          set(boost = true)
+        for(updateMovement);{
+          set(boost = true);
         }
       }  
       if(ground){
-        for(updateMovement){
-          set(boost = false)
+        for(updateMovement);{
+          set(boost = false);
         }
       }
     }
   }
   )
-)    
+ )    
 }
