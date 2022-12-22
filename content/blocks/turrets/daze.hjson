@@ -16,7 +16,7 @@ requirements: [
 ] 
 ammoTypes: {
   cobalt: {
-    type: RailBulletType
+    type: BulletType
     width: 2
     height: 5
     damage: 2
@@ -26,9 +26,7 @@ ammoTypes: {
     lifetime: 2000
   }
   surge-alloy: {
-    type: RailBulletType
-    width: 2
-    height: 5
+    type: BulletType
     damage: 4
     speed: 60
     status: unmoving
