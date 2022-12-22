@@ -21,6 +21,7 @@ ammoTypes: {
     height: 5
     damage: 2
     speed: 50
+    buildingDamageMultiplier: 50
     status: unmoving
     statusDuration: 40
     lifetime: 2000
@@ -29,6 +30,7 @@ ammoTypes: {
     type: BulletType
     damage: 4
     speed: 60
+    buildingDamageMultiplier: 40
     status: unmoving
     statusDuration: 80
     lifetime: 2000

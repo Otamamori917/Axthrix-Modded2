@@ -27,6 +27,7 @@ ammoTypes: {
     height: 10 
     damage: 2000 
     speed: 20
+    buildingDamageMultiplier: 0.2
     splashDamageRadius: 150
     splashDamage: 1000
     scaledSplashDamage: true
@@ -42,6 +43,7 @@ ammoTypes: {
     height: 10 
     damage: 3000 
     speed: 20
+    buildingDamageMultiplier: 0.2
     splashDamageRadius: 150
     splashDamage: 1000
     scaledSplashDamage: true
@@ -57,6 +59,7 @@ ammoTypes: {
     height: 10 
     damage: 3500 
     speed: 20
+    buildingDamageMultiplier: 0.2
     splashDamageRadius: 150
     splashDamage: 1000
     scaledSplashDamage: true
@@ -72,6 +75,7 @@ ammoTypes: {
     height: 5 
     damage: 4000 
     speed: 20
+    buildingDamageMultiplier: 0.4
     splashDamageRadius: 150
     splashDamage: 1000
     scaledSplashDamage: true
