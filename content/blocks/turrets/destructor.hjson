@@ -25,6 +25,7 @@ ammoTypes: {
     width: 10
     damage: 25 
     speed: 0
+    buildingDamageMultiplier: 0.4
     length: 640
     status: melting
     statusDuration: 3000   
