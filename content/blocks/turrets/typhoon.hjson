@@ -23,7 +23,7 @@ ammoTypes: {
     height: 8 
     damage: 2000 
     speed: 100
-    buildingDamageMultiplier: 0.3
+    buildingDamageMultiplier: 0.5
     splashDamageRadius: 100
     splashDamage: 800
     scaledSplashDamage: true 
@@ -39,7 +39,7 @@ ammoTypes: {
     height: 8 
     damage: 3000 
     speed: 100 
-    buildingDamageMultiplier: 0.3
+    buildingDamageMultiplier: 0.5
     splashDamageRadius: 100
     splashDamage: 800
     scaledSplashDamage: true
@@ -55,7 +55,7 @@ ammoTypes: {
     height: 8 
     damage: 3500 
     speed: 100
-    buildingDamageMultiplier: 0.3
+    buildingDamageMultiplier: 0.5
     splashDamageRadius: 100
     splashDamage: 800
     scaledSplashDamage: true
@@ -69,7 +69,7 @@ ammoTypes: {
     type: BasicBulletType 
     width: 2 
     height: 5 
-    buildingDamageMultiplier: 0.4
+    buildingDamageMultiplier: 0.6
     damage: 4000 
     speed: 100
     splashDamageRadius: 100
