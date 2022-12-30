@@ -13,7 +13,7 @@ hitSize: 1
 engineSize: 1
 weapons: [
   {
-    name: none
+    name: da-mg
     x: 0
     y: 0
     mirror: false
