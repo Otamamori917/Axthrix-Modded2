@@ -39,12 +39,12 @@ weapons: [
         collides: true
         fragBullets: 8
         fragBullet: {
-          type: ShrapnelBulletType
+          type: BasicBulletType
           width: 4
           height: 4
           damage: 1
           lifeTime: 10
-          speed: 0
+          speed: 2
           collides: true
           fragBullets: 8
           fragBullet: {
@@ -55,6 +55,25 @@ weapons: [
             lifeTime: 10
             speed: 0
             collides: true
+            fragBullets: 8
+            fragBullet: {
+              type: BasicBulletType
+              width: 4
+              height: 4
+              damage: 1
+              lifeTime: 10
+              speed: 2
+              collides: true
+              fragBullets: 8
+              fragBullet: {
+                type: ShrapnelBulletType
+                width: 4
+              height: 4
+              damage: 1
+              lifeTime: 10
+              speed: 0
+              collides: true
+            }  
           }
         } 
       }  
