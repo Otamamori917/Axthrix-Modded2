@@ -19,65 +19,15 @@ weapons: [
     top: false
     mirror: false
     smokeEffect: shootSmallSmoke
-    reload: 40
-    inaccuracy: 0
+    reload: 10
+    inaccuracy: 1
     bullet: {
       type: BasicBulletType
       width: 4
       height: 4
-      damage: 2
-      lifetime: 100
-      speed: 2
-      fragBullets: 8
-      fragBullet: {
-        type: ShrapnelBulletType
-        width: 4
-        height: 4
-        damage: 1
-        lifeTime: 10
-        speed: 0
-        collides: true
-        fragBullets: 8
-        fragBullet: {
-          type: BasicBulletType
-          width: 4
-          height: 4
-          damage: 1
-          lifeTime: 10
-          speed: 2
-          collides: true
-          fragBullets: 8
-          fragBullet: {
-            type: ShrapnelBulletType
-            width: 4
-            height: 4
-            damage: 1
-            lifeTime: 10
-            speed: 0
-            collides: true
-            fragBullets: 8
-            fragBullet: {
-              type: BasicBulletType
-              width: 4
-              height: 4
-              damage: 1
-              lifeTime: 10
-              speed: 2
-              collides: true
-              fragBullets: 8
-              fragBullet: {
-                type: ShrapnelBulletType
-                width: 4
-                height: 4
-                damage: 1
-                lifeTime: 10
-                speed: 0
-                collides: true
-              }  
-            }  
-          }
-        } 
-      }  
+      damage: 1
+      lifetime: 20
+      speed: 4
     }
   }
 ]
