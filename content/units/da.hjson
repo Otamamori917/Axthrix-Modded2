@@ -68,11 +68,12 @@ weapons: [
               fragBullet: {
                 type: ShrapnelBulletType
                 width: 4
-              height: 4
-              damage: 1
-              lifeTime: 10
-              speed: 0
-              collides: true
+                height: 4
+                damage: 1
+                lifeTime: 10
+                speed: 0
+                collides: true
+              }  
             }  
           }
         } 
