@@ -19,17 +19,22 @@ weapons: [
     top: false
     mirror: false
     smokeEffect: shootSmallSmoke
-    reload: 10
-    inaccuracy: 0
-    shoot: {
-      shots: 2
-      shotDelay: 10
-    }
+    reload: 1
+    inaccuracy: 5
     bullet: {
       type: BasicBulletType
-      damage: 1
+      damage: 2
       lifetime: 20
-      speed: 3
+      speed: 4
+      fragBullets: 3
+      fragBullet: {
+        type: ShrapnelBulletType
+        width: 3
+        height: 4
+        damage: 1
+        lifeTime: 10
+        speed: 0
+        collides: true
     }
   }
 ]
