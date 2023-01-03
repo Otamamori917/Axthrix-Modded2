@@ -17,7 +17,7 @@ weapons: [
     x: 0
     y: 0
     top: false
-    mirror: false
+    mirror: true
     smokeEffect: shootSmallSmoke
     reload: 10
     inaccuracy: 1

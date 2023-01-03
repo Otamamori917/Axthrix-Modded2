@@ -13,10 +13,10 @@ hitSize: 1
 engineSize: 1
 weapons: [
   {
-    name: none
+    name: da-mg
     x: 0
     y: 0
-    mirror: false
+    mirror: true
     smokeEffect: shootSmallSmoke
     reload: 30
     inaccuracy: 2
@@ -32,7 +32,7 @@ weapons: [
     }
   }
   {
-    name: none
+    name: da-jet
     x: 0
     y: 0
     mirror: false
