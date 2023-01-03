@@ -25,15 +25,16 @@ weapons: [
     }
   }
   {
-    name: none
+    name: dh2-m
     x: 0
     y: 0
-    mirror: false
+    top: false
+    mirror: true
     reload: 40
-    inaccuracy: 0
+    inaccuracy: 10
     shoot: {
       shots: 2
-      shotDelay: 20
+      shotDelay: 10
     }
     bullet: {
       type: MissileBulletType
