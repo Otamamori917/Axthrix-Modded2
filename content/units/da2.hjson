@@ -17,6 +17,7 @@ weapons: [
     x: 0
     y: 0
     mirror: true
+    top: false
     smokeEffect: shootSmallSmoke
     reload: 30
     inaccuracy: 2
@@ -36,6 +37,7 @@ weapons: [
     x: 0
     y: 0
     mirror: false
+    top: false
     rotate: true
     rotateSpeed: 1
     reload: 180 
