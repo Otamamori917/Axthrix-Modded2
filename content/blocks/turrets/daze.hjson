@@ -6,6 +6,7 @@ reload: 140
 range: 2000
 maxAmmo: 2
 recoil: 0
+buildingFilter{none}
 rotateSpeed: 10
 targetAir: true
 targetGround: true
@@ -19,20 +20,20 @@ ammoTypes: {
     type: BulletType
     width: 2
     height: 5
-    damage: 2
-    speed: 50
-    buildingDamageMultiplier: 20
+    damage: 10
+    speed: 10
+    buildingDamageMultiplier: 0
     status: unmoving
-    statusDuration: 40
+    statusDuration: 140
     lifetime: 2000
   }
   surge-alloy: {
     type: BulletType
-    damage: 4
-    speed: 60
-    buildingDamageMultiplier: 30
+    damage: 20
+    speed: 20
+    buildingDamageMultiplier: 0
     status: unmoving
-    statusDuration: 80
+    statusDuration: 180
     lifetime: 2000
   }
 }
