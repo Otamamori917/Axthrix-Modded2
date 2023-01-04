@@ -6,7 +6,7 @@ reload: 150
 range: 2000
 maxAmmo: 2
 recoil: 0
-buildingFilter: none
+buildingFilter: ignore
 rotateSpeed: 10
 targetAir: true
 targetGround: true
