@@ -11,7 +11,7 @@ range: 120
 maxAmmo: 10 
 recoil: 10 
 rotateSpeed: 20
-targetAir: false
+targetAir: true
 targetGround: true 
 requirements: [ 
   heat-plate/4 
