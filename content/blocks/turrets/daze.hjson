@@ -2,7 +2,7 @@ type: ItemTurret
 buildCostMultiplier: 0.1
 size: 2
 health: 220
-reload: 150
+reload: 240
 range: 2000
 maxAmmo: 2
 recoil: 0
@@ -32,7 +32,7 @@ ammoTypes: {
     speed: 20
     buildingDamageMultiplier: 0
     status: unmoving
-    statusDuration: 180
+    statusDuration: 160
     lifetime: 2000
   }
 }
