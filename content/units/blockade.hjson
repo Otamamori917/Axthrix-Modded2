@@ -39,7 +39,7 @@ weapons: [
   {
     name: 1-point-def
     type: PointDefenseWeapon
-    x: -6
+    x: -4
     y: -2
     mirror: true
     reload: 0.5
@@ -58,6 +58,7 @@ weapons: [
     x: 0
     y: 0
     mirror: true
+    top: false
     reload: 40
     rotate: true
     rotateSpeed: 6
@@ -76,8 +77,8 @@ weapons: [
       fragBullets: 1
       fragBullet: {
         type: LaserBulletType
-        width: 2
-        length: 6
+        width: 4
+        length: 12
         damage: 2
         lifeTime: 5
         healPercent: 10f
