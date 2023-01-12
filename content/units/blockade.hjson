@@ -54,20 +54,37 @@ weapons: [
     }
   }
   {
-    name: 1-point-def
-    type: PointDefenseWeapon
-    x: -4
-    y: 2
+    name: blockade-grs
+    x: 0
+    y: 0
     mirror: true
-    reload: 0.5
-    targetInterval: 2
-    targetSwitchInterval: 5
+    reload: 40
+    rotate: true
+    rotateSpeed: 6
+    inaccuracy: 20
+    shoot: {
+      shots: 3
+      shotDelay: 5
+    }
     bullet: {
-      type: BulletType
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 80
-      damage: 20
+      type: MissileBulletType
+      damage: 2
+      lifetime: 100
+      speed: 3
+      healPercent: 10f
+      collidesTeam: true
+      fragBullets: 1
+      fragBullet: {
+        type: LaserBulletType
+        width: 2
+        length: 6
+        damage: 2
+        lifeTime: 5
+        healPercent: 10f
+        collidesTeam: true
+        speed: 0
+        collides: true
+      }  
     }
   }
 ]

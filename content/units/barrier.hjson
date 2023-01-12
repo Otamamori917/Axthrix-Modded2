@@ -35,4 +35,23 @@ abilities: [
    }
   }
 ]
+weapons: [
+  {
+    name: 1-point-def
+    type: PointDefenseWeapon
+    x: 0
+    y: 0
+    mirror: false
+    reload: 2
+    targetInterval: 2
+    targetSwitchInterval: 5
+    bullet: {
+      type: BulletType
+      shootEffect: sparkShoot
+      hitEffect: pointHit
+      maxRange: 80
+      damage: 20
+    }
+  }
+]
 drawShields: false
