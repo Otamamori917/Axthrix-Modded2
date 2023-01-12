@@ -69,7 +69,7 @@ weapons: [
     }
     bullet: {
       type: MissileBulletType
-      damage: 2
+      damage: 4
       lifetime: 100
       speed: 3
       healPercent: 10f
@@ -79,7 +79,7 @@ weapons: [
         type: LaserBulletType
         width: 4
         length: 12
-        damage: 2
+        damage: 3
         lifeTime: 5
         healPercent: 10f
         collidesTeam: true
