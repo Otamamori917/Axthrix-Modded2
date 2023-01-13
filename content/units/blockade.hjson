@@ -56,7 +56,7 @@ weapons: [
   {
     name: blockade-grs
     x: 6
-    y: 
+    y: 1
     mirror: true
     top: false
     reload: 40
