@@ -77,11 +77,14 @@ weapons: [
       fragBullets: 1
       fragBullet: {
         type: LaserBulletType
-        width: 4
-        length: 12
+        width: 8
+        length: 24
         damage: 3
         lifeTime: 5
         healPercent: 10f
+        fragSpread:{ 
+         fragRandomSpread: 0
+        }
         collidesTeam: true
         speed: 0
         collides: true
