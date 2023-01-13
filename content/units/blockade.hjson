@@ -40,7 +40,7 @@ weapons: [
     name: 1-point-def
     type: PointDefenseWeapon
     x: -4
-    y: -2
+    y: -1
     mirror: true
     reload: 0.5
     targetInterval: 2
@@ -55,8 +55,8 @@ weapons: [
   }
   {
     name: blockade-grs
-    x: 0
-    y: 0
+    x: 4
+    y: 1
     mirror: true
     top: false
     reload: 40
@@ -69,22 +69,19 @@ weapons: [
     }
     bullet: {
       type: MissileBulletType
-      damage: 4
+      damage: 2
       lifetime: 100
       speed: 3
-      healPercent: 10f
+      healPercent: 1
       collidesTeam: true
-      fragBullets: 1
+      fragBullets: 10
       fragBullet: {
         type: LaserBulletType
         width: 8
         length: 24
-        damage: 3
+        damage: 1
         lifeTime: 5
-        healPercent: 10f
-        fragSpread:{ 
-         fragRandomSpread: 0
-        }
+        healPercent: 1
         collidesTeam: true
         speed: 0
         collides: true
