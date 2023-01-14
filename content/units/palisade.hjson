@@ -37,7 +37,24 @@ abilities: [
 ]
 weapons: [
   {
-    name: point-defense-mount
+    name: 2-point-def
+    type: PointDefenseWeapon
+    x: -4
+    y: 1
+    mirror: true
+    reload: 20
+    targetInterval: 2
+    targetSwitchInterval: 5
+    bullet: {
+      type: BulletType
+      shootEffect: sparkShoot
+      hitEffect: pointHit
+      maxRange: 80
+      damage: 20
+    }
+  }
+    {
+    name: 2-point-def
     type: PointDefenseWeapon
     x: -4
     y: -1
@@ -54,27 +71,10 @@ weapons: [
     }
   }
     {
-    name: point-defense-mount
-    type: PointDefenseWeapon
-    x: -4
-    y: -1
-    mirror: true
-    reload: 20
-    targetInterval: 2
-    targetSwitchInterval: 5
-    bullet: {
-      type: BulletType
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 80
-      damage: 20
-    }
-  }
-    {
-    name: repair-beam-weapon-center
+    name: 1-heal-ray
     type: RepairBeamWeapon
-    x: -4
-    y: -1
+    x: -2
+    y: -2
     mirror: true
     reload: 20
     targetInterval: 2
@@ -88,7 +88,7 @@ weapons: [
     }
   }
   {
-    name: blockade-grs
+    name: repeater
     x: 6
     y: 1
     mirror: true
