@@ -40,7 +40,6 @@ weapons: [
     x: 6
     y: 2
     mirror: true
-    top: false
     rotate: true
     rotateSpeed: 1
     reload: 20
@@ -82,7 +81,6 @@ weapons: [
     x: -6
     y: 2
     mirror: true
-    top: false
     rotate: true
     rotateSpeed: 1
     reload: 20
@@ -124,7 +122,6 @@ weapons: [
     x: 14
     y: 0
     mirror: true
-    top: false
     reload: 40
     rotate: true
     rotateSpeed: 1
@@ -166,7 +163,6 @@ weapons: [
     x: -14
     y: 0
     mirror: true
-    top: false
     reload: 40
     rotate: true
     rotateSpeed: 1
