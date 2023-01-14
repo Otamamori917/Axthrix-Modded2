@@ -89,6 +89,7 @@ weapons: [
         collides: true
         colors: [
           #98FF98
+          #7CFC00
           #FFFFFF
         ]
       }  
