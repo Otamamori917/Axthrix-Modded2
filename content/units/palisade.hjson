@@ -97,7 +97,7 @@ weapons: [
     inaccuracy: 0
     shoot: {
       shots: 4
-      shotDelay: 5
+      shotDelay: 10
     }
     bullet: {
       type: LaserBoltBulletType
