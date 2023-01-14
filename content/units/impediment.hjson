@@ -126,13 +126,13 @@ weapons: [
     y: 0
     mirror: true
     top: false
-    reload: 20
+    reload: 40
     rotate: true
     rotateSpeed: 1
     inaccuracy: 5
     shoot: {
       shots: 5
-      shotDelay: 80
+      shotDelay: 60
     }
     bullet: {
       type: LaserBoltBulletType
@@ -168,13 +168,13 @@ weapons: [
     y: 0
     mirror: true
     top: false
-    reload: 20
+    reload: 40
     rotate: true
     rotateSpeed: 1
     inaccuracy: 5
     shoot: {
       shots: 5
-      shotDelay: 80
+      shotDelay: 60
     }
     bullet: {
       type: LaserBoltBulletType
