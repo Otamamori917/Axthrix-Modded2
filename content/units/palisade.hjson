@@ -46,7 +46,7 @@ weapons: [
     inaccuracy: 5
     shoot: {
       shots: 6
-      shotDelay: 80
+      shotDelay: Mathf.random(60,80)
       shootStatusDuration: 80
       shootStatus: Unmoving
     }
@@ -59,10 +59,11 @@ weapons: [
       collidesTeam: true
       backColor: 98FF98
       frontColor: FFFFFF
-      fragBullets: 4
+      fragBullets: 2
       fragBullet: {
-        type: LightningBulletType
-        length: 20
+        type: LaserBulletType
+        width: 12
+        length: 40
         damage: 2
         lifeTime: 5
         healPercent: 1
