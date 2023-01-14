@@ -40,13 +40,13 @@ abilities: [
    reload: 50
    effectY: 0
    effectX: 0
+   effectXTo: 2
    parentizeEffects: true
    activeEffect: {
     followParent: true
     rotWithParent: true
     particles: 1
     lifeTime: 20
-    width: 1 
     region: a-parapet-barrel
     sizeFrom: 10
     sizeTo: 10
