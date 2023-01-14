@@ -43,11 +43,9 @@ weapons: [
     mirror: true
     top: false
     reload: 10
-    rotate: true
-    rotateSpeed: 6
     inaccuracy: 20
     shoot: {
-      FirstShotDelay: 120
+      FirstShotDelay: 420
     }
     bullet: {
       type: LaserBoltBulletType

@@ -60,8 +60,6 @@ weapons: [
     mirror: true
     top: false
     reload: 40
-    rotate: true
-    rotateSpeed: 6
     inaccuracy: 20
     shoot: {
       shots: 3
