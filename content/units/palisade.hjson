@@ -46,7 +46,10 @@ weapons: [
     inaccuracy: 5
     shoot: {
       shots: 6
-      shotDelay: Mathf.random(60,80)
+      shotDelay: Mathf.random(
+        60
+        80
+      )
       shootStatusDuration: 80
       shootStatus: Unmoving
     }
