@@ -2,10 +2,10 @@ type: mech
 flying: false
 health: 20000
 armor: 14
-size: 4.8
-hitSize: 2.5
-range: 520
+size: 26
+hitSize: 26
 speed: 2
+buildSpeed: 4
 rotateSpeed: 5
 abilities: [
   {

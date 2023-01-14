@@ -3,9 +3,9 @@ flying: false
 health: 7800
 canBoost: true
 armor: 14
-size: 4.8
-hitSize: 2.5
-range: 520
+size: 24
+hitSize: 24
+buildSpeed: 3
 speed: 2
 rotateSpeed: 5
 abilities: [
