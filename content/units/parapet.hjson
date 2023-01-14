@@ -1,8 +1,8 @@
 type: mech
 flying: false
-health: 150
+health: 7800
 canBoost: true
-armor: 2
+armor: 14
 size: 4.8
 hitSize: 2.5
 range: 520
@@ -14,7 +14,7 @@ abilities: [
    shieldHealth: 800
    shieldSize: 40
   }
-    {
+  {
    type: StatusFieldAbility
    effect: none 
    reload: 50
@@ -31,6 +31,26 @@ abilities: [
     sizeFrom: 10
     sizeTo: 10
     spin: 15
+    layer: 95.1
+   }
+  }
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 0
+   effectX: 0
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifeTime: 20
+    length: 1
+    region: parapet-barrel
+    sizeFrom: 10
+    sizeTo: 10
+    spin: 0
     layer: 95.1
    }
   }
