@@ -50,7 +50,7 @@ weapons: [
     }
     bullet: {
       type: LaserBoltBulletType
-      damage: 4
+      damage: 20
       lifetime: 100
       speed: 6
       healPercent: 1
@@ -62,7 +62,7 @@ weapons: [
         type: LaserBulletType
         width: 12
         length: 40
-        damage: 2
+        damage: 5
         lifeTime: 5
         healPercent: 1
         collidesTeam: true
