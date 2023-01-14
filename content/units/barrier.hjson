@@ -6,15 +6,13 @@ size: 1.2
 hitSize: 1
 speed: 2
 rotateSpeed: 5
-playerControllable: false
-defaultController: DefenderAI
 abilities: [
   {
    type: ForceFieldAbility
    shieldHealth: 400
    shieldSize: 20
   }
-    {
+  {
    type: StatusFieldAbility
    effect: none 
    reload: 50
