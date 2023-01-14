@@ -58,7 +58,7 @@ abilities: [
 weapons: [
     {
     name: LM-barrel
-    x: 0
+    x: -2
     y: 4
     mirror: true
     top: false
