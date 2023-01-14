@@ -47,6 +47,8 @@ weapons: [
     shoot: {
       shots: 6
       shotDelay: 240
+      shootStatusDuration: 80
+      shootStatus: unmoving
     }
     bullet: {
       type: LaserBoltBulletType
