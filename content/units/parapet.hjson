@@ -38,7 +38,7 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: 8
+   effectY: 7
    effectX: 0
    parentizeEffects: true
    activeEffect: {
@@ -50,7 +50,7 @@ abilities: [
     region: a-LM-barrel-mount
     sizeFrom: 20
     sizeTo: 20
-    spin: 5
+    spin: 10
     layer: 95.1
    }
   }
