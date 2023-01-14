@@ -38,8 +38,8 @@ weapons: [
     }
     bullet: {
       type: MissileBulletType
-      frontColor: 00FF00
-      backColor: 72FF13
+      frontColor: FFFFFF
+      backColor: 98FF98
       damage: 1
       lifetime: 60
       speed: 2
