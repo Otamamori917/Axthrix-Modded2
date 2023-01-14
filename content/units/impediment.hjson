@@ -1,6 +1,6 @@
 type: mech
 flying: false
-health: 7800
+health: 20000
 armor: 14
 size: 4.8
 hitSize: 2.5
