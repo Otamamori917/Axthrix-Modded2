@@ -42,11 +42,11 @@ weapons: [
     y: 1
     mirror: true
     top: false
-    reload: 10
-    inaccuracy: 20
+    reload: 20
+    inaccuracy: 5
     shoot: {
-      shots: 4
-      shotDelay: 30
+      shots: 6
+      shotDelay: 80
     }
     bullet: {
       type: LaserBoltBulletType
