@@ -47,13 +47,13 @@ weapons: [
     rotateSpeed: 6
     inaccuracy: 20
     shoot: {
-      FirstShotDelay: 60
+      FirstShotDelay: 120
     }
     bullet: {
       type: LaserBoltBulletType
       damage: 4
       lifetime: 100
-      speed: 3
+      speed: 6
       healPercent: 1
       collidesTeam: true
       backColor: 98FF98
@@ -61,7 +61,7 @@ weapons: [
       fragBullets: 4
       fragBullet: {
         type: LightningBulletType
-        length: 40
+        length: 20
         damage: 2
         lifeTime: 5
         healPercent: 1
