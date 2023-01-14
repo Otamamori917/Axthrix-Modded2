@@ -37,59 +37,8 @@ abilities: [
 ]
 weapons: [
   {
-    name: 2-point-def
-    type: PointDefenseWeapon
-    x: -4
-    y: 1
-    mirror: true
-    reload: 20
-    targetInterval: 2
-    targetSwitchInterval: 5
-    bullet: {
-      type: BulletType
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 80
-      damage: 20
-    }
-  }
-    {
-    name: 2-point-def
-    type: PointDefenseWeapon
-    x: -4
-    y: -1
-    mirror: true
-    reload: 20
-    targetInterval: 2
-    targetSwitchInterval: 5
-    bullet: {
-      type: BulletType
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 80
-      damage: 20
-    }
-  }
-    {
-    name: 1-heal-ray
-    type: RepairBeamWeapon
-    x: -2
-    y: -2
-    mirror: true
-    reload: 20
-    targetInterval: 2
-    targetSwitchInterval: 5
-    bullet: {
-      type: BulletType
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 80
-      damage: 20
-    }
-  }
-  {
     name: repeater
-    x: 6
+    x: 8
     y: 1
     mirror: true
     top: false
