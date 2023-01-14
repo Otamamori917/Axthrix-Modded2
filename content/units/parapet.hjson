@@ -47,7 +47,7 @@ abilities: [
     particles: 1
     lifeTime: 20
     length: 1
-    region: parapet-barrel
+    region: a-parapet-barrel
     sizeFrom: 10
     sizeTo: 10
     spin: 0
