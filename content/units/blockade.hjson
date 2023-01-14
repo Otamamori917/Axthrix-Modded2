@@ -84,13 +84,13 @@ weapons: [
         damage: 2
         lifeTime: 5
         healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
         colors: [
           #98FF98
           #FFFFFF
         ]
-        collidesTeam: true
-        speed: 0
-        collides: true
       }  
     }
   }
