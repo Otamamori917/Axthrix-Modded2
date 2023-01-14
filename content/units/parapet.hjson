@@ -34,13 +34,33 @@ abilities: [
     layer: 95.1
    }
   }
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 0
+   effectX: 0
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifeTime: 20
+    length: 0
+    region: a-LM-barrel-mount
+    sizeFrom: 10
+    sizeTo: 10
+    spin: 0
+    layer: 95.1
+   }
+  }
 ]
 weapons: [
     {
-    name: blockade-grs
+    name: LM-barrel
     x: 0
-    y: 0
-    mirror: false
+    y: 4
+    mirror: true
     top: false
     reload: 20
     inaccuracy: 5
