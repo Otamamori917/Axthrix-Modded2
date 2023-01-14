@@ -47,7 +47,7 @@ weapons: [
     maxSpeed: 20
     shoot: {
       shots: 4
-      ShotDelay: 30
+      shotDelay: 30
     }
     bullet: {
       type: LaserBoltBulletType
