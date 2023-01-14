@@ -1,0 +1,200 @@
+type: mech
+flying: false
+health: 7800
+canBoost: true
+armor: 14
+size: 4.8
+hitSize: 2.5
+range: 520
+speed: 2
+rotateSpeed: 5
+abilities: [
+  {
+   type: ForceFieldAbility
+   shieldHealth: 800
+   shieldSize: 40
+  }
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 0
+   effectX: 0
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifeTime: 20
+    length: 0
+    region: a-small-shield-gen
+    sizeFrom: 10
+    sizeTo: 10
+    spin: 15
+    layer: 95.1
+   }
+  }
+]
+weapons: [
+   {
+    name: LM-barrel
+    x: 4
+    y: 2
+    mirror: true
+    top: false
+    reload: 20
+    inaccuracy: 5
+    shoot: {
+      shots: 5
+      shotDelay: 80
+    }
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 20
+      lifetime: 100
+      speed: 6
+      healPercent: 1
+      collidesTeam: true
+      backColor: 98FF98
+      frontColor: FFFFFF
+      fragBullets: 2
+      fragBullet: {
+        type: LaserBulletType
+        width: 12
+        length: 40
+        damage: 5
+        lifeTime: 5
+        healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
+    }
+  }
+  {
+    name: LM-barrel
+    x: -4
+    y: 2
+    mirror: true
+    top: false
+    reload: 20
+    inaccuracy: 5
+    shoot: {
+      shots: 5
+      shotDelay: 80
+    }
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 20
+      lifetime: 100
+      speed: 6
+      healPercent: 1
+      collidesTeam: true
+      backColor: 98FF98
+      frontColor: FFFFFF
+      fragBullets: 2
+      fragBullet: {
+        type: LaserBulletType
+        width: 12
+        length: 40
+        damage: 5
+        lifeTime: 5
+        healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
+    }
+  }
+     {
+    name: LM-barrel
+    x: 6
+    y: 0
+    mirror: true
+    top: false
+    reload: 20
+    inaccuracy: 5
+    shoot: {
+      shots: 5
+      shotDelay: 80
+    }
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 20
+      lifetime: 100
+      speed: 6
+      healPercent: 1
+      collidesTeam: true
+      backColor: 98FF98
+      frontColor: FFFFFF
+      fragBullets: 2
+      fragBullet: {
+        type: LaserBulletType
+        width: 12
+        length: 40
+        damage: 5
+        lifeTime: 5
+        healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
+    }
+  }
+  {
+    name: LM-barrel
+    x: -6
+    y: 0
+    mirror: true
+    top: false
+    reload: 20
+    inaccuracy: 5
+    shoot: {
+      shots: 5
+      shotDelay: 80
+    }
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 20
+      lifetime: 100
+      speed: 6
+      healPercent: 1
+      collidesTeam: true
+      backColor: 98FF98
+      frontColor: FFFFFF
+      fragBullets: 2
+      fragBullet: {
+        type: LaserBulletType
+        width: 12
+        length: 40
+        damage: 5
+        lifeTime: 5
+        healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
+    }
+  }
+]
+drawShields: false
