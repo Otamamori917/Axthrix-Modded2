@@ -94,7 +94,7 @@ weapons: [
     mirror: true
     top: false
     reload: 40
-    inaccuracy: 20
+    inaccuracy: 0
     shoot: {
       shots: 4
       shotDelay: 5
