@@ -44,7 +44,6 @@ weapons: [
     top: false
     reload: 10
     inaccuracy: 20
-    maxSpeed: 20
     shoot: {
       shots: 4
       shotDelay: 30
