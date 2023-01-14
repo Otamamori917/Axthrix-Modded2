@@ -42,7 +42,7 @@ weapons: [
     x: -4
     y: -1
     mirror: true
-    reload: 0.5
+    reload: 20
     targetInterval: 2
     targetSwitchInterval: 5
     bullet: {
