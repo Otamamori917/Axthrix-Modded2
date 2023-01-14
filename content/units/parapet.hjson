@@ -34,26 +34,6 @@ abilities: [
     layer: 95.1
    }
   }
-  {
-   type: StatusFieldAbility
-   effect: none 
-   reload: 50
-   effectY: 0
-   effectX: 0
-   effectXTo: 2
-   parentizeEffects: true
-   activeEffect: {
-    followParent: true
-    rotWithParent: true
-    particles: 1
-    lifeTime: 20
-    region: a-parapet-barrel
-    sizeFrom: 10
-    sizeTo: 10
-    spin: 0
-    layer: 95.1
-   }
-  }
 ]
 weapons: [
     {
