@@ -36,7 +36,7 @@ abilities: [
   }
 ]
 weapons: [
-  {
+    {
     name: blockade-grs
     x: 0
     y: 0
@@ -46,10 +46,49 @@ weapons: [
     inaccuracy: 5
     shoot: {
       shots: 6
-      shotDelay: Mathf.random(
-        60
-        80
-      )
+      shotDelay: 80
+      shootStatusDuration: 80
+      shootStatus: Unmoving
+    }
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 4
+      lifetime: 100
+      speed: 6
+      healPercent: 1
+      collidesTeam: true
+      backColor: 98FF98
+      frontColor: FFFFFF
+      fragBullets: 2
+      fragBullet: {
+        type: LaserBulletType
+        width: 12
+        length: 40
+        damage: 2
+        lifeTime: 5
+        healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
+    }
+  }
+  {
+    name: blockade-grs
+    x: 0
+    y: 0
+    mirror: false
+    top: false
+    reload: 40
+    inaccuracy: 5
+    shoot: {
+      shots: 6
+      shotDelay: 100
       shootStatusDuration: 80
       shootStatus: Unmoving
     }
