@@ -79,8 +79,8 @@ weapons: [
       fragBullets: 4
       fragBullet: {
         type: LaserBulletType
-        width: 8
-        length: 24
+        width: 12
+        length: 40
         damage: 2
         lifeTime: 5
         healPercent: 1
