@@ -45,7 +45,86 @@ weapons: [
     reload: 10
     inaccuracy: 20
     shoot: {
-      FirstShotDelay: 4020
+      shots: 4
+      ShotDelay: 30
+    }
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 4
+      lifetime: 100
+      speed: 6
+      healPercent: 1
+      collidesTeam: true
+      backColor: 98FF98
+      frontColor: FFFFFF
+      fragBullets: 4
+      fragBullet: {
+        type: LightningBulletType
+        length: 20
+        damage: 2
+        lifeTime: 5
+        healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
+    }
+  }
+  {
+    name: blockade-grs
+    x: 6
+    y: 1
+    mirror: true
+    top: false
+    reload: 10
+    inaccuracy: 20
+    shoot: {
+      shots: 3
+      ShotDelay: 20
+    }
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 4
+      lifetime: 100
+      speed: 6
+      healPercent: 1
+      collidesTeam: true
+      backColor: 98FF98
+      frontColor: FFFFFF
+      fragBullets: 4
+      fragBullet: {
+        type: LightningBulletType
+        length: 20
+        damage: 2
+        lifeTime: 5
+        healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
+    }
+  }    
+  {
+    name: blockade-grs
+    x: 6
+    y: 1
+    mirror: true
+    top: false
+    reload: 10
+    inaccuracy: 20
+    shoot: {
+      shots: 2
+      ShotDelay: 10
     }
     bullet: {
       type: LaserBoltBulletType
