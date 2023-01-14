@@ -74,7 +74,7 @@ weapons: [
       speed: 3
       healPercent: 1
       collidesTeam: true
-      backColor: Pal.heal
+      backColor: 228C22
       fragBullets: 4
       fragBullet: {
         type: LaserBulletType
