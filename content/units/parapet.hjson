@@ -45,7 +45,7 @@ weapons: [
     reload: 20
     inaccuracy: 5
     shoot: {
-      shots: 6
+      shots: 5
       shotDelay: 80
     }
     bullet: {
