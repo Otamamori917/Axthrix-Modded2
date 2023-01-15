@@ -1,0 +1,31 @@
+type: tank
+flying: false
+health: 150
+canBoost: true
+armor: 2
+size: 8
+hitSize: 8
+speed: 2
+rotateSpeed: 10
+weapons: [
+  {
+    name: auto-l
+    x: 0
+    y: -1
+    reload: 50
+    inaccuracy: 0
+    controllable: false
+    autoTarget: true
+    bullet: {
+      type: LaserBulletType
+      damage: 2
+      lifetime: 100
+      speed: 0
+      colors: [
+        8A00C2
+        BE2ED6
+        FFFFFF
+       ]
+    }
+  }
+]
