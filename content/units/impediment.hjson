@@ -37,7 +37,7 @@ abilities: [
 weapons: [
    {
     name: obilvion
-    x: 6
+    x: 10
     y: 2
     mirror: true
     rotate: true
@@ -78,7 +78,7 @@ weapons: [
   }
   {
     name: obilvion
-    x: -6
+    x: -10
     y: 2
     mirror: true
     rotate: true
@@ -119,7 +119,7 @@ weapons: [
   }
   {
     name: obilvion
-    x: 14
+    x: 18
     y: 0
     mirror: true
     reload: 40
@@ -160,7 +160,7 @@ weapons: [
   }
   {
     name: obilvion
-    x: -14
+    x: -18
     y: 0
     mirror: true
     reload: 40
@@ -202,8 +202,7 @@ weapons: [
     {
     name: hearts
     x: 0
-    y: -2
-    autoTarget: true
+    y: -4
     mirror: false
     reload: 140
     rotate: true
@@ -213,13 +212,30 @@ weapons: [
       type: LaserBoltBulletType
       width: 6
       height: 10
-      damage: 20
+      damage: 30
       lifetime: 200
       speed: 6
       backColor: 98FF98
       frontColor: FFFFFF
       healPercent: 100
       collidesTeam: true
+      fragBullets: 5
+      fragBullet: {
+        type: ContinuousLaserBulletType
+        width: 12
+        length: 40
+        damage: 10
+        lifeTime: 50
+        healPercent: 25
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
     }
   }
 ]
