@@ -219,11 +219,11 @@ weapons: [
       frontColor: FFFFFF
       healPercent: 100
       collidesTeam: true
-      fragBullets: 5
+      fragBullets: 4
       fragBullet: {
         type: ContinuousLaserBulletType
-        width: 12
-        length: 100
+        width: 22
+        length: 300
         damage: 10
         lifeTime: 100
         healPercent: 25
