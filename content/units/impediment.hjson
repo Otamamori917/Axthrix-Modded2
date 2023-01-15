@@ -222,10 +222,10 @@ weapons: [
       fragBullets: 4
       fragBullet: {
         type: ContinuousLaserBulletType
-        width: 22
+        width: 5
         length: 300
-        damage: 10
-        lifeTime: 100
+        damage: 15
+        lifeTime: 400
         healPercent: 25
         collidesTeam: true
         speed: 0
