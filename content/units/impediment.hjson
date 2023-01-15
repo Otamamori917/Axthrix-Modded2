@@ -225,7 +225,7 @@ weapons: [
         width: 5
         length: 300
         damage: 15
-        lifeTime: 400
+        lifeTime: 40
         healPercent: 25
         collidesTeam: true
         speed: 0
