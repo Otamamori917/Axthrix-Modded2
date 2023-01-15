@@ -215,12 +215,10 @@ weapons: [
       width: 6
       height: 10
       damage: 20
-      lifetime: 100
+      lifetime: 200
       speed: 6
       healPercent: 100
       collidesTeam: true
-      backColor: 98FF98
-      frontColor: FFFFF
     }
   }
 ]
