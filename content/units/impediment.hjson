@@ -203,9 +203,7 @@ weapons: [
     name: hearts
     x: 0
     y: -2
-    controllable: false
     autoTarget: true
-    targetTeam: true
     mirror: false
     reload: 140
     rotate: true
@@ -218,6 +216,8 @@ weapons: [
       damage: 20
       lifetime: 200
       speed: 6
+      backColor: 98FF98
+      frontColor: FFFFFF
       healPercent: 100
       collidesTeam: true
     }
