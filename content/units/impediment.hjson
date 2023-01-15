@@ -223,9 +223,9 @@ weapons: [
       fragBullet: {
         type: ContinuousLaserBulletType
         width: 12
-        length: 40
+        length: 100
         damage: 10
-        lifeTime: 50
+        lifeTime: 100
         healPercent: 25
         collidesTeam: true
         speed: 0
