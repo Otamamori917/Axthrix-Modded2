@@ -1,0 +1,12 @@
+type: Wall
+buildCostMultiplier: 0.1
+health: 10
+size: 2
+requirements: [
+  bismuth/20
+  platinum/40
+  curium/24
+  heat-plate/4
+]
+category: defense
+research: axthrix-wall
