@@ -2,7 +2,7 @@ type: tank
 flying: false
 health: 150
 armor: 2
-outlines: false
+outlineRadius: 1
 size: 8
 hitSize: 8
 speed: 3
