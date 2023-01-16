@@ -4,7 +4,7 @@ health: 150
 armor: 2
 size: 8
 hitSize: 8
-speed: 2
+speed: 3
 rotateSpeed: 10
 weapons: [
   {
@@ -18,17 +18,13 @@ weapons: [
     controllable: false
     autoTarget: true
     bullet: {
-      type: LaserBulletType
-      width: 8
+      type: SapBulletType
+      width: 0.8
       length: 50
-      damage: 2
-      lifetime: 80
-      speed: 0
-      colors: [
-        8A00C2
-        BE2ED6
-        D7BFDC
-       ]
+      sapStrength: 0.4
+      damage: 4
+      lifetime: 30
+      knockback = -0.40
     }
   }
 ]
