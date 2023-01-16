@@ -26,7 +26,7 @@ weapons: [
     bullet: {
       type: SapBulletType
       width: 0.4
-      length: 40
+      length: 80
       sapStrength: 0.2
       damage: 4
       lifetime: 15
