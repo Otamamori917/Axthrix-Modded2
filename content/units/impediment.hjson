@@ -11,8 +11,8 @@ abilities: [
   {
    type: ForceFieldAbility
    max: 4000
-   radius: 40
-   width: 10
+   radius: 30
+   width: 100
    regen: 4
    cooldown: 300
    drawArc: false
