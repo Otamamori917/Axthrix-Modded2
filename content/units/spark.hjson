@@ -1,5 +1,5 @@
 type: flying
-health: 80
+health: 150
 flying: true
 circleTarget: true
 lowAltitude: true
