@@ -11,7 +11,7 @@ rotateSpeed: 5
 abilities: [
   {
    type: ForceFieldAbility
-   max: 600
+   health: 600
    radius: 40
    regen: 0.8
    cooldown: 125
