@@ -16,6 +16,7 @@ abilities: [
    cooldown: 300
    whenShooting: true
    width: 10
+   region: impediment-shield
   }
   {
    type: StatusFieldAbility
