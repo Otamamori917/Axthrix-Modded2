@@ -11,12 +11,10 @@ abilities: [
   {
    type: ForceFieldAbility
    max: 4000
-   radius: 80
    regen: 4
    cooldown: 300
    whenShooting: true
-   width: 10
-   region: "tecta-shield"
+   region: impediment-shield
   }
   {
    type: StatusFieldAbility
