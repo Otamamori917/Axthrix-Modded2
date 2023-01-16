@@ -19,7 +19,7 @@ abilities: [
   {
    type: ArmorPlateAbility
    healthMultiplier: 1.2
-   colors: [
+   color: [
      98FF98
      7CFC00
      FFFFFF
