@@ -19,8 +19,8 @@ abilities: [
   {
    type: ArmorPlateAbility
    healthMultiplier: 1.2
-   color: 98FF98
-   z: 200
+   color: C0C0C0
+   z: 80
   }
   {
    type: StatusFieldAbility
