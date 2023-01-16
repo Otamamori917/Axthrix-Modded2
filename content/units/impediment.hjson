@@ -14,6 +14,7 @@ abilities: [
    regen: 4
    cooldown: 300
    whenShooting: true
+   drawArc: false
    region: impediment-shield
   }
   {
