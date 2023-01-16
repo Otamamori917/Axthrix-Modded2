@@ -27,10 +27,8 @@ weapons: [
       lifetime: 15
       knockback: -0.2
       hitColor: bf92f9
-      colors: [
-       9966cb 
-       bf92f9
-      ]
+      backColor: 9966cb 
+      frontColor: bf92f9
     }
   }
 ]
