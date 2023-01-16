@@ -50,7 +50,7 @@ weapons: [
       type: lightningBulletType
       lightningLength: 8
       collidesAir: true
-      damage: 50
+      damage: 5
       lifetime: 6
       shootSound: spark
     }

@@ -50,7 +50,7 @@ weapons: [
       type: lightningBulletType
       lightningLength: 15
       collidesAir: true
-      damage: 100
+      damage: 10
       lifetime: 6
       shootSound: spark
     }
@@ -68,7 +68,7 @@ weapons: [
       type: MissileBulletType
       width: 1
       height: 3 
-      damage: 230
+      damage: 30
       speed: 10
       splashDamageRadius: 50
       splashDamage: 70
