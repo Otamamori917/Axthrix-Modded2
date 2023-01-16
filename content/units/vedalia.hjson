@@ -1,0 +1,38 @@
+type: tank
+flying: false
+health: 150
+armor: 2
+outlineRadius: 2
+size: 8
+hitSize: 8
+speed: 3
+rotateSpeed: 10
+weapons: [
+  {
+    name: vamg
+    x: 0
+    y: -1
+    reload: 20
+    mirror: false
+    rotate: true
+    rotateSpeed: 6
+    inaccuracy: 0
+    controllable: false
+    autoTarget: true
+    shoot: {
+      shots: 4
+      shotDelay: 40
+    }
+    bullet: {
+      type: SapBulletType
+      width: 0.4
+      length: 40
+      sapStrength: 0.4
+      damage: 2
+      lifetime: 15
+      knockback: -0.4
+      hitColor: bf92f9
+      color: 9966cb
+    }
+  }
+]
