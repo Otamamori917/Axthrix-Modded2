@@ -20,7 +20,7 @@ weapons: [
     bullet: {
       type: LaserBulletType
       width: 8
-      length: 30
+      length: 50
       damage: 2
       lifetime: 80
       speed: 0
