@@ -12,25 +12,25 @@ weapons: [
     name: vamg
     x: 0
     y: -1
-    reload: 5
+    reload: 10
     mirror: false
     rotate: true
     rotateSpeed: 6
-    inaccuracy: 5
+    inaccuracy: 0
     controllable: false
     autoTarget: true
     shoot: {
       shots: 4
-      shotDelay: 20
+      shotDelay: 30
     }
     bullet: {
       type: SapBulletType
       width: 0.4
       length: 40
-      sapStrength: 0.4
-      damage: 2
+      sapStrength: 1
+      damage: 6
       lifetime: 15
-      knockback: -0.4
+      knockback: -1.2
       hitColor: bf92f9
       color: 9966cb
     }
