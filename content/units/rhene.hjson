@@ -11,7 +11,8 @@ weapons: [
     name: auto-l
     x: 0
     y: -1
-    reload: 50
+    reload: 30
+    mirror: false
     rotate: true
     rotateSpeed: 6
     inaccuracy: 0
@@ -21,10 +22,15 @@ weapons: [
       type: SapBulletType
       width: 0.8
       length: 50
-      sapStrength: 0.4
-      damage: 4
-      lifetime: 30
-      knockback: -0.40
+      sapStrength: 0.2
+      damage: 1
+      lifetime: 15
+      knockback: -0.2
+      colors: [
+        8A00C2
+        BE2ED6
+        D7BFDC
+      ]
     }
   }
 ]
