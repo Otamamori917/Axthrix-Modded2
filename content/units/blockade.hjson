@@ -76,7 +76,6 @@ weapons: [
       collidesTeam: true
       backColor: 98FF98
       frontColor: FFFFFF
-      }  
     }
   }
 ]
