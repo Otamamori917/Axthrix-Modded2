@@ -13,9 +13,10 @@ abilities: [
    max: 4000
    regen: 4
    cooldown: 300
-   whenShooting: true
    drawArc: false
-   region: impediment-shield
+   region: [
+    impediment-shield
+   ] 
   }
   {
    type: StatusFieldAbility
