@@ -12,16 +12,16 @@ weapons: [
     name: vamg
     x: 0
     y: -1
-    reload: 20
+    reload: 5
     mirror: false
     rotate: true
     rotateSpeed: 6
-    inaccuracy: 0
+    inaccuracy: 5
     controllable: false
     autoTarget: true
     shoot: {
       shots: 4
-      shotDelay: 40
+      shotDelay: 20
     }
     bullet: {
       type: SapBulletType
