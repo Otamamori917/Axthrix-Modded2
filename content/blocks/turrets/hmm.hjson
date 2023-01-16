@@ -17,7 +17,7 @@ requirements: [
   cobalt/100 
 ] 
 ammoTypes: { 
-  enery-bomb: { 
+  energy-bomb: { 
     type: BasicBulletType 
     width: 4 
     height: 8 
