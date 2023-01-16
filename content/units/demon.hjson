@@ -34,7 +34,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 10
+      damage: 14
       lifetime: 50
       speed: 2
     }
@@ -54,7 +54,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 10
+      damage: 14
       lifetime: 50
       speed: 2
     }
@@ -74,7 +74,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 10
+      damage: 14
       lifetime: 50
       speed: 2
     }
@@ -92,7 +92,7 @@ weapons: [
       type: ArtilleryBulletType
       width: 6
       height: 12
-      damage: 34
+      damage: 50
       splashDamageRadius: 18
       splashDamage: 20
       scaledSplashDamage: true
@@ -113,7 +113,7 @@ weapons: [
       type: ArtilleryBulletType
       width: 6
       height: 12
-      damage: 34
+      damage: 50
       splashDamageRadius: 18
       splashDamage: 20
       scaledSplashDamage: true
@@ -134,7 +134,7 @@ weapons: [
       type: ArtilleryBulletType
       width: 6
       height: 12
-      damage: 60
+      damage: 800
       splashDamageRadius: 40
       splashDamage: 80
       scaledSplashDamage: true
@@ -145,7 +145,7 @@ weapons: [
         type: ArtilleryBulletType
         width: 3
         height: 6
-        damage: 40
+        damage: 60
         splashDamageRadius: 20
         splashDamage: 60
         scaledSplashDamage: true
@@ -157,7 +157,7 @@ weapons: [
           type: ArtilleryBulletType
           width: 1
           height: 3
-          damage: 20
+          damage: 40
           splashDamageRadius: 10
           splashDamage: 40
           scaledSplashDamage: true
@@ -169,7 +169,7 @@ weapons: [
             type: ArtilleryBulletType
             width: 1
             height: 1
-            damage: 10
+            damage: 20
             splashDamageRadius: 5
             splashDamage: 20
             scaledSplashDamage: true

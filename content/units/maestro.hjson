@@ -34,7 +34,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 5
+      damage: 10
       lifetime: 50
       speed: 2
     }
@@ -52,7 +52,7 @@ weapons: [
       type: ArtilleryBulletType
       width: 6
       height: 12
-      damage: 24
+      damage: 30
       splashDamageRadius: 12
       splashDamage: 15
       scaledSplashDamage: true
