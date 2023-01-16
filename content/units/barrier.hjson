@@ -9,8 +9,10 @@ rotateSpeed: 5
 abilities: [
   {
    type: ForceFieldAbility
-   shieldHealth: 400
-   shieldSize: 20
+   max: 400
+   radius: 20
+   regen: 0.4
+   cooldown: 150
   }
   {
    type: StatusFieldAbility
