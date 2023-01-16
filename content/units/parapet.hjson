@@ -17,6 +17,11 @@ abilities: [
    cooldown: 100
   }
   {
+   type: ArmorPlateAbility
+   healthMultiplier: 0.8
+   color: 7b9691 
+  }  
+  {
    type: StatusFieldAbility
    effect: none 
    reload: 50
