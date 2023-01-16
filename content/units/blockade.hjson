@@ -69,29 +69,13 @@ weapons: [
     }
     bullet: {
       type: MissileBulletType
-      damage: 6
+      damage: 8
       lifetime: 100
       speed: 3
       healPercent: 1
       collidesTeam: true
       backColor: 98FF98
       frontColor: FFFFFF
-      fragBullets: 4
-      fragBullet: {
-        type: LaserBulletType
-        width: 12
-        length: 40
-        damage: 2
-        lifeTime: 5
-        healPercent: 1
-        collidesTeam: true
-        speed: 0
-        collides: true
-        colors: [
-          98FF98
-          7CFC00
-          FFFFFF
-        ]
       }  
     }
   }
