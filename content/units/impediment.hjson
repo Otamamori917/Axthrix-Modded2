@@ -16,7 +16,7 @@ abilities: [
    cooldown: 300
    whenShooting: true
    width: 10
-   region: a-impediment-shield
+   region: "tecta-shield"
   }
   {
    type: StatusFieldAbility
