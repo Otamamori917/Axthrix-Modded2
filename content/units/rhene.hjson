@@ -24,7 +24,7 @@ weapons: [
       sapStrength: 0.4
       damage: 4
       lifetime: 30
-      knockback = -0.40
+      knockback: -0.40
     }
   }
 ]
