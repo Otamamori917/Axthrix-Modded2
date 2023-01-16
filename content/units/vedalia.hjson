@@ -1,10 +1,10 @@
 type: tank
 flying: false
-health: 150
-armor: 2
+health: 550
+armor: 8
 outlineRadius: 2
-size: 8
-hitSize: 8
+size: 11
+hitSize: 11
 speed: 3
 rotateSpeed: 10
 weapons: [
