@@ -18,6 +18,9 @@ abilities: [
   }
   {
    type: ArmorPlateAbility
+   plateRegion: impediment-armor
+   healthMultiplier: 1.2
+   color: 7CFC00
   }
   {
    type: StatusFieldAbility
