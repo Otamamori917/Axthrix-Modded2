@@ -14,7 +14,7 @@ abilities: [
    radius: 80
    regen: 4
    cooldown: 300
-   whenShooting: True
+   whenShooting: false
    width: 10
   }
   {
