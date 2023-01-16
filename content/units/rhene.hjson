@@ -29,6 +29,7 @@ weapons: [
       hitColor: bf92f9
       colors: [
        9966cb 
+       bf92f9
       ]
     }
   }
