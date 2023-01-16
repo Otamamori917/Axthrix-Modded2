@@ -13,7 +13,7 @@ abilities: [
    type: ForceFieldAbility
    health: 800
    radius: 60
-   regen: 1.2
+   regen: 0.8
    cooldown: 125
   }
     {
