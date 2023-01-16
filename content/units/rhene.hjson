@@ -13,19 +13,21 @@ weapons: [
     y: -1
     reload: 50
     rotate: true
-    rotateSpeed: 3
+    rotateSpeed: 6
     inaccuracy: 0
     controllable: false
     autoTarget: true
     bullet: {
       type: LaserBulletType
+      width: 8
+      length: 20
       damage: 2
-      lifetime: 100
+      lifetime: 80
       speed: 0
       colors: [
         8A00C2
         BE2ED6
-        FFFFFF
+        D7BFDC
        ]
     }
   }
