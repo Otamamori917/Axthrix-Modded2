@@ -17,6 +17,9 @@ abilities: [
    drawArc: false
   }
   {
+   type: ArmorPlateAbility
+  }
+  {
    type: StatusFieldAbility
    effect: none 
    reload: 50
