@@ -12,8 +12,8 @@ weapons: [
     name: luminaryburst
     x: 0
     y: -4
-    reload: 40
-    cooldownTime: 180
+    reload: 20
+    cooldownTime: 60
     heatColor: 301934
     mirror: false
     rotate: true
@@ -22,10 +22,12 @@ weapons: [
     controllable: false
     autoTarget: true
     bullet: {
-      type: LaserBoltBulletType
-      width: 20
-      height: 15
-      sapStrength: 4
+      type: BasicBulletType
+      sprite: orb-bullet
+      backSprite: orb-bullet-back
+      spin: 1
+      width: 5
+      height: 5
       damage: 20
       lifetime: 100
       speed: 2
@@ -36,7 +38,7 @@ weapons: [
        type: LaserBulletType
        length: 10
        damage: 0.5
-       knockback: 4
+       knockback: -4
        lifeTime: 30
        speed: 0
        colors: [
