@@ -19,7 +19,6 @@ weapons: [
     heatColor: 301934
     mirror: true
     rotate: true
-    parts: sol-base
     rotateSpeed: 6
     inaccuracy: 0
     controllable: false
