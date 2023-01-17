@@ -72,7 +72,6 @@ weapons: [
     recoilTime: 0
     shootSound: blaster
     heatColor: 301934
-    shootEffect: none
     mirror: false
     rotate: true
     rotateSpeed: 6
@@ -83,6 +82,8 @@ weapons: [
       type: BasicBulletType
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
+      shootEffect: none
+      smokeEffect: none
       hittable: false
       reflectable: false
       absorbable: false
