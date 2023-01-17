@@ -78,8 +78,10 @@ weapons: [
       type: BasicBulletType
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
-      impact: true
-      recoil: 0
+      recoil: 0.5
+      recoilPow: 0
+      display: false
+      recoilTime: 0
       hittable: false
       reflectable: false
       absorbable: false
