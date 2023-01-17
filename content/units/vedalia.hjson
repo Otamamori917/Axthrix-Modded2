@@ -1,6 +1,6 @@
 type: tank
 flying: false
-health: 650
+health: 2150
 armor: 8
 outlineRadius: 2
 size: 11
