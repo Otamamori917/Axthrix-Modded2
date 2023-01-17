@@ -23,8 +23,8 @@ weapons: [
     autoTarget: true
     bullet: {
       type: BasicBulletType
-      sprite: orb-bullet
-      backSprite: orb-bullet-back
+      sprite: a-orb-bullet
+      backSprite: a-orb-bullet-back
       spin: 1
       width: 5
       height: 5
