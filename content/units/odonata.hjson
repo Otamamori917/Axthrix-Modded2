@@ -63,8 +63,8 @@ weapons: [
           frontColor: 301934
           width: 1
           height: 1
-          shrinkX: -2
-          shrinkY: -2
+          shrinkX: -4
+          shrinkY: -4
           damage: 10
           knockback: -0.2
           lifeTime: 30
