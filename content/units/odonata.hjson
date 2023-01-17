@@ -39,19 +39,50 @@ weapons: [
       speed: 2
       backColor: 9966cb
       frontColor: bf92f9
-      fragBullets: 40
+      fragBullets: 1
       fragBullet: {
-       type: LaserBulletType
-       length: 10
-       damage: 1
-       knockback: -0.2
-       lifeTime: 30
-       speed: 0
-       colors: [
-         9966cb
-         bf92f9
-         FFFFFF
-        ]
+        type: BasicBulletType
+        sprite: a-orb-bullet
+        backSprite: a-orb-bullet-back
+        backColor: 9966cb
+        frontColor: FFFFFF
+        shrinkX: 2
+        shrinkY: 2
+        width: 7.5
+        height: 7.5
+        damage: 10
+        knockback: -0.2
+        lifeTime: 30
+        speed: 0
+        fragBullets: 1
+        fragBullet: {
+          type: BasicBulletType
+          sprite: a-orb-bullet
+          backSprite: a-orb-bullet-back
+          backColor: 9966cb
+          frontColor: 301934
+          width: 1
+          height: 1
+          shrinkX: -2
+          shrinkY: -2
+          damage: 10
+          knockback: -0.2
+          lifeTime: 30
+          speed: 0
+          fragBullets: 2
+          fragBullet: {
+            type: ShrapnelBulletType
+            fragRandomSpread: 180
+            length: 120
+            width: 8
+            damage: 10
+            knockback: -0.2
+            lifeTime: 30
+            speed: 0
+            fromColor: 9966cb
+            toColor: 301934
+          }  
+        } 
       }  
     }
   }
