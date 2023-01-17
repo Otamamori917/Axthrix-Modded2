@@ -20,6 +20,7 @@ ammoTypes: {
   electro-heap: { 
     type: RailBulletType
     damage: 2450 
+    shootSound: a-railgub
     speed: 0
     buildingDamageMultiplier: 0.3
     status: electrified
