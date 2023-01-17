@@ -14,6 +14,7 @@ weapons: [
     y: -6
     reload: 20
     cooldownTime: 60
+    layerOffset: 10
     heatColor: 301934
     mirror: false
     rotate: true
@@ -56,7 +57,7 @@ weapons: [
   {
     name: auto-l
     x: 4
-    y: -8
+    y: -10
     reload: 20
     mirror: true
     rotate: true
