@@ -63,7 +63,7 @@ weapons: [
     y: -6
     shootX: 6
     shootY: 10
-    reload: 20
+    reload: 10
     cooldownTime: 60
     layerOffset: 10
     recoil: 0
@@ -80,6 +80,7 @@ weapons: [
     autoTarget: true
     bullet: {
       type: BasicBulletType
+      shootEffect: none
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
       hittable: false
