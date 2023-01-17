@@ -38,16 +38,21 @@ weapons: [
         sapStrength: 1
         knockback: 2
         lifeTime: 30
-        speed: 10
+        speed: 0
         fragBullets: 20
         fragBullet: {
-          type: SapBulletType
+          type: LaserBulletType
           length: 40
           damage: 1
           sapStrength: 1
           knockback: 2
           lifeTime: 30
-          speed: 10
+          speed: 0
+          colors: [
+          9966cb
+          bf92f9
+          FFFFFF
+        ]
         }  
       }  
     }
