@@ -12,23 +12,19 @@ weapons: [
     name: luminaryburst
     x: 0
     y: -1
-    reload: 32.5
+    reload: 250
     mirror: false
     rotate: true
     rotateSpeed: 6
     inaccuracy: 0
     controllable: false
     autoTarget: true
-    shoot: {
-      shots: 4
-      shotDelay: 12.5
-    }
     bullet: {
       type: LaserboltBulletType
-      width: 2
-      height: 2
+      width: 10
+      height: 10
       sapStrength: 4
-      damage: 40
+      damage: 20
       lifetime: 400
       speed: 0.4
       bullet: orb-bullet
@@ -38,11 +34,21 @@ weapons: [
       fragBullet: {
         type: BulletType
         length: 40
-        damage: 4
+        damage: 1
         sapStrength: 1
         knockback: 2
         lifeTime: 30
-        speed: 0
+        speed: 10
+        fragBullets: 20
+        fragBullet: {
+          type: BulletType
+          length: 40
+          damage: 1
+          sapStrength: 1
+          knockback: 2
+          lifeTime: 30
+          speed: 10
+        }  
       }  
     }
   }
