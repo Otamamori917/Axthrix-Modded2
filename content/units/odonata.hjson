@@ -67,8 +67,8 @@ weapons: [
     autoTarget: true
     bullet: {
       type: SapBulletType
-      width: 0.8
-      length: 50
+      width: 2
+      length: 100
       sapStrength: 1
       damage: 4
       lifetime: 15
