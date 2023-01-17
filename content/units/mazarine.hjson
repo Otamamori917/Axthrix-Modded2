@@ -12,6 +12,8 @@ weapons: [
     name: sol-gun
     x: 0
     y: -6
+    shootX: 4
+    shootY: 10
     reload: 20
     cooldownTime: 60
     layerOffset: 10
@@ -29,8 +31,6 @@ weapons: [
       backSprite: a-orb-bullet-back
       impact: true
       hittable: false
-      shootX: 4
-      shootY: 1000
       reflectable: false
       absorbable: false
       spin: 1
