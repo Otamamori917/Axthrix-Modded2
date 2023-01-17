@@ -21,7 +21,7 @@ weapons: [
     autoTarget: true
     bullet: {
       type: LaserboltBulletType
-      width: 15
+      width: 20
       height: 15
       sapStrength: 4
       damage: 20
