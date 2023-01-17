@@ -223,10 +223,8 @@ weapons: [
     inaccuracy: 0
     bullet: {
       type: LaserBoltBulletType
-      sprite: a-orb-bullet
-      backSprite: a-orb-bullet-back
-      width: 15
-      height: 15
+      width: 5
+      height: 2.5
       damage: 30
       lifetime: 200
       speed: 6
