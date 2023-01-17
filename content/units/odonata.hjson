@@ -15,6 +15,7 @@ weapons: [
     reload: 20
     cooldownTime: 60
     layerOffset: 10
+    shootSound: blaster
     heatColor: 301934
     mirror: false
     rotate: true
@@ -61,13 +62,14 @@ weapons: [
     reload: 20
     mirror: true
     rotate: true
+    shootSound: sap
     rotateSpeed: 6
     inaccuracy: 0
     controllable: false
     autoTarget: true
     bullet: {
       type: SapBulletType
-      width: 2
+      width: 1
       length: 100
       sapStrength: 1
       damage: 4

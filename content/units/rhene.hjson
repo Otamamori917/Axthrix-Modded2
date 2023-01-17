@@ -15,6 +15,7 @@ weapons: [
     reload: 20
     mirror: false
     rotate: true
+    shootSound: sap
     rotateSpeed: 6
     inaccuracy: 0
     controllable: false

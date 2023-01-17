@@ -16,6 +16,7 @@ weapons: [
     mirror: false
     rotate: true
     rotateSpeed: 6
+    shootSound: sap
     inaccuracy: 0
     controllable: false
     autoTarget: true
