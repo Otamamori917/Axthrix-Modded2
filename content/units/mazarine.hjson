@@ -1,0 +1,82 @@
+type: tank
+flying: false
+health: 10
+armor: 10
+outlineRadius: 2
+size: 18
+hitSize: 18
+speed: 3.2
+rotateSpeed: 12
+weapons: [
+  {
+    name: sol-gun
+    x: 0
+    y: -6
+    reload: 20
+    cooldownTime: 60
+    layerOffset: 10
+    shootSound: blaster
+    heatColor: 301934
+    mirror: true
+    rotate: true
+    rotateSpeed: 6
+    inaccuracy: 0
+    controllable: false
+    autoTarget: true
+    bullet: {
+      type: BasicBulletType
+      sprite: a-orb-bullet
+      backSprite: a-orb-bullet-back
+      impact: true
+      hittable: false
+      reflectable: false
+      absorbable: false
+      spin: 1
+      width: 7.5
+      height: 7.5
+      damage: 20
+      lifetime: 100
+      speed: 2
+      backColor: 9966cb
+      frontColor: bf92f9
+      fragBullets: 10
+      fragBullet: {
+       type: LaserBulletType
+       length: 20
+       damage: 5
+       knockback: -0.2
+       lifeTime: 30
+       speed: 0
+       colors: [
+         9966cb
+         bf92f9
+         FFFFFF
+        ]
+      }  
+    }
+  }
+  {
+    name: auto-l
+    x: 4
+    y: -10
+    reload: 20
+    mirror: true
+    rotate: true
+    shootSound: sap
+    rotateSpeed: 6
+    inaccuracy: 0
+    controllable: false
+    autoTarget: true
+    bullet: {
+      type: SapBulletType
+      width: 1
+      length: 100
+      sapStrength: 1
+      damage: 4
+      lifetime: 15
+      knockback: -1
+      hitColor: bf92f9
+      color: 7C1AA1
+    }
+  }
+]
