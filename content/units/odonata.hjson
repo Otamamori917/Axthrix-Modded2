@@ -12,8 +12,8 @@ weapons: [
     name: luminaryburst
     x: 0
     y: -4
-    reload: 300
-    cooldownTime: 280
+    reload: 40
+    cooldownTime: 180
     heatColor: 301934
     mirror: false
     rotate: true
