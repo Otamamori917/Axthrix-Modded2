@@ -55,8 +55,8 @@ weapons: [
   }
   {
     name: auto-l
-    x: 6
-    y: 3
+    x: 4
+    y: -8
     reload: 20
     mirror: true
     rotate: true
