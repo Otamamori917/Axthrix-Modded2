@@ -27,7 +27,7 @@ weapons: [
       damage: 20
       lifetime: 400
       speed: 0.4
-      bullet: orb-bullet
+      bullet: a-orb-bullet
       backColor: 9966cb
       frontColor: bf92f9
       fragBullets: 20
