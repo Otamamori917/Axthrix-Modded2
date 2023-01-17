@@ -16,7 +16,7 @@ weapons: [
     shootY: 10
     reload: 20
     cooldownTime: 60
-    layerOffset: 10
+    layerOffset: 8
     shootSound: blaster
     heatColor: 301934
     mirror: true
