@@ -13,7 +13,7 @@ weapons: [
     x: 0
     y: -4
     reload: 300
-    cooldownTime: 150
+    cooldownTime: 280
     heatColor: 301934
     mirror: false
     rotate: true
