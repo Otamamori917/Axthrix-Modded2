@@ -1,6 +1,6 @@
 type: mech
 flying: false
-health: 100
+health: 140
 armor: 0
 size: 6
 hitSize: 6
