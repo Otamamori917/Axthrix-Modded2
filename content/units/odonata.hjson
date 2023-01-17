@@ -11,7 +11,7 @@ weapons: [
   {
     name: luminaryburst
     x: 0
-    y: -4
+    y: -6
     reload: 20
     cooldownTime: 60
     heatColor: 301934
@@ -26,8 +26,8 @@ weapons: [
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
       spin: 1
-      width: 5
-      height: 5
+      width: 7.5
+      height: 7.5
       damage: 20
       lifetime: 100
       speed: 2
@@ -37,8 +37,8 @@ weapons: [
       fragBullet: {
        type: LaserBulletType
        length: 10
-       damage: 0.5
-       knockback: -4
+       damage: 1
+       knockback: -0.2
        lifeTime: 30
        speed: 0
        colors: [
@@ -47,6 +47,29 @@ weapons: [
          FFFFFF
         ]
       }  
+    }
+  }
+  {
+    name: auto-l
+    x: 6
+    y: 3
+    reload: 20
+    mirror: true
+    rotate: true
+    rotateSpeed: 6
+    inaccuracy: 0
+    controllable: false
+    autoTarget: true
+    bullet: {
+      type: SapBulletType
+      width: 0.8
+      length: 50
+      sapStrength: 1
+      damage: 4
+      lifetime: 15
+      knockback: -1
+      hitColor: bf92f9
+      color: 9966cb
     }
   }
 ]
