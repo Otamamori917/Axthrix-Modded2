@@ -58,7 +58,7 @@ weapons: [
     }
   }
   {
-    name: sol-gun
+    name: sol-base
     x: 0
     y: -6
     shootX: 6
@@ -68,7 +68,7 @@ weapons: [
     layerOffset: 10
     shootSound: blaster
     heatColor: 301934
-    mirror: true
+    mirror: false
     rotate: true
     rotateSpeed: 6
     inaccuracy: 0
