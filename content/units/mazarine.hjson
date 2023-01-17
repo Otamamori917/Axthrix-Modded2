@@ -12,7 +12,7 @@ weapons: [
     name: sol-gun
     x: 0
     y: -6
-    shootX: 6
+    shootX: 8
     shootY: 10
     reload: 20
     cooldownTime: 60
