@@ -1,0 +1,49 @@
+type: tank
+flying: false
+health: 1550
+armor: 10
+outlineRadius: 2
+size: 18
+hitSize: 18
+speed: 3.2
+rotateSpeed: 12
+weapons: [
+  {
+    name: luminaryburst
+    x: 0
+    y: -1
+    reload: 32.5
+    mirror: false
+    rotate: true
+    rotateSpeed: 6
+    inaccuracy: 0
+    controllable: false
+    autoTarget: true
+    shoot: {
+      shots: 4
+      shotDelay: 12.5
+    }
+    bullet: {
+      type: LaserboltBulletType
+      width: 2
+      height: 2
+      sapStrength: 4
+      damage: 40
+      lifetime: 400
+      speed: 0.4
+      bullet: orb-bullet
+      backColor: 9966cb
+      frontColor: bf92f9
+      fragBullets: 20
+      fragBullet: {
+        type: BulletType
+        length: 40
+        damage: 4
+        sapStrength: 1
+        knockback: 2
+        lifeTime: 30
+        speed: 0
+      }  
+    }
+  }
+]
