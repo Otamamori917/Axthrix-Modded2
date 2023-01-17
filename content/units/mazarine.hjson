@@ -19,6 +19,7 @@ weapons: [
     heatColor: 301934
     mirror: true
     rotate: true
+    parts: sol-base
     rotateSpeed: 6
     inaccuracy: 0
     controllable: false
@@ -29,6 +30,8 @@ weapons: [
       backSprite: a-orb-bullet-back
       impact: true
       hittable: false
+      shootX: 4
+      shootY: 10
       reflectable: false
       absorbable: false
       spin: 1
