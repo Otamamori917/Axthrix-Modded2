@@ -35,7 +35,7 @@ weapons: [
       fragBullets: 20
       fragBullet: {
        type: LaserBulletType
-       length: 40
+       length: 60
        damage: 4
        sapStrength: 1
        knockback: 2
