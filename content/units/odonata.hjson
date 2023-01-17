@@ -22,14 +22,13 @@ weapons: [
     controllable: false
     autoTarget: true
     bullet: {
-      type: LaserboltBulletType
+      type: LaserBoltBulletType
       width: 20
       height: 15
       sapStrength: 4
       damage: 20
       lifetime: 100
       speed: 2
-      bullet: a-orb-bullet
       backColor: 9966cb
       frontColor: bf92f9
       fragBullets: 40
