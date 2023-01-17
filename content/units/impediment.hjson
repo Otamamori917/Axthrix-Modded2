@@ -45,6 +45,7 @@ abilities: [
 weapons: [
    {
     name: obilvion
+    shootSound: blaster
     x: 10
     y: 2
     mirror: true
@@ -86,6 +87,7 @@ weapons: [
   }
   {
     name: obilvion
+    shootSound: blaster
     x: -10
     y: 2
     mirror: true
@@ -127,6 +129,7 @@ weapons: [
   }
   {
     name: obilvion
+    shootSound: blaster
     x: 18
     y: 0
     mirror: true
@@ -168,6 +171,7 @@ weapons: [
   }
   {
     name: obilvion
+    shootSound: blaster
     x: -18
     y: 0
     mirror: true

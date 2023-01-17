@@ -57,6 +57,7 @@ weapons: [
   }
   {
     name: blockade-grs
+    shootSound: missile
     x: 6
     y: 1
     mirror: true

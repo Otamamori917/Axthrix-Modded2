@@ -40,6 +40,7 @@ abilities: [
 weapons: [
   {
     name: repeater
+    shootSound: blaster
     x: 8
     y: 1
     mirror: true
