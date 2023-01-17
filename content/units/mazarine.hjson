@@ -30,7 +30,7 @@ weapons: [
       impact: true
       hittable: false
       shootX: 4
-      shootY: 10
+      shootY: 1000
       reflectable: false
       absorbable: false
       spin: 1
