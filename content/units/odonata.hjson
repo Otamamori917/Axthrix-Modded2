@@ -12,7 +12,9 @@ weapons: [
     name: luminaryburst
     x: 0
     y: -4
-    reload: 250
+    reload: 300
+    cooldownTime: 150
+    heatColor: 301934
     mirror: false
     rotate: true
     rotateSpeed: 6
@@ -32,28 +34,18 @@ weapons: [
       frontColor: bf92f9
       fragBullets: 20
       fragBullet: {
-        type: SapBulletType
-        length: 40
-        damage: 1
-        sapStrength: 1
-        knockback: 2
-        lifeTime: 30
-        speed: 0
-        fragBullets: 20
-        fragBullet: {
-          type: LaserBulletType
-          length: 40
-          damage: 1
-          sapStrength: 1
-          knockback: 2
-          lifeTime: 30
-          speed: 0
-          colors: [
-          9966cb
-          bf92f9
-          FFFFFF
+       type: LaserBulletType
+       length: 40
+       damage: 1
+       sapStrength: 1
+       knockback: 2
+       lifeTime: 30
+       speed: 0
+       colors: [
+         9966cb
+         bf92f9
+         FFFFFF
         ]
-        }  
       }  
     }
   }
