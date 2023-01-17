@@ -25,6 +25,10 @@ weapons: [
       type: BasicBulletType
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
+      impact: true
+      hittable: false
+      reflectable: false
+      absorbable: false
       spin: 1
       width: 7.5
       height: 7.5
