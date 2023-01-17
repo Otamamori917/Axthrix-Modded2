@@ -213,6 +213,7 @@ weapons: [
   }
     {
     name: hearts
+    shootSound: blaster
     x: 0
     y: -4
     mirror: false
@@ -222,8 +223,10 @@ weapons: [
     inaccuracy: 0
     bullet: {
       type: LaserBoltBulletType
-      width: 6
-      height: 10
+      sprite: a-orb-bullet
+      backSprite: a-orb-bullet-back
+      width: 15
+      height: 15
       damage: 30
       lifetime: 200
       speed: 6
