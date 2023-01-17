@@ -39,11 +39,10 @@ weapons: [
       speed: 2
       backColor: 9966cb
       frontColor: bf92f9
-      fragBullets: 8
+      fragBullets: 10
       fragBullet: {
        type: LaserBulletType
-       length: 10
-       width: 5
+       length: 20
        damage: 5
        knockback: -0.2
        lifeTime: 30
