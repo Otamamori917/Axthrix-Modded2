@@ -6,8 +6,8 @@ outlineRadius: 2
 size: 18
 crushDamage: 3
 hitSize: 18
-speed: 3.2
-rotateSpeed: 12
+speed: 0.64
+rotateSpeed: 1.5
 weapons: [
   {
     name: luminaryburst
@@ -20,7 +20,7 @@ weapons: [
     heatColor: 301934
     mirror: false
     rotate: true
-    rotateSpeed: 6
+    rotateSpeed: 1.2
     inaccuracy: 0
     bullet: {
       type: BasicBulletType
@@ -62,7 +62,7 @@ weapons: [
     mirror: true
     rotate: true
     shootSound: sap
-    rotateSpeed: 6
+    rotateSpeed: 3.2
     inaccuracy: 0
     bullet: {
       type: SapBulletType

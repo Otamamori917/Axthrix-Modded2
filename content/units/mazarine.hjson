@@ -6,8 +6,7 @@ outlineRadius: 2
 crushDamage: 4
 size: 18
 hitSize: 18
-speed: 3.2
-rotateSpeed: 12
+speed: 0.50
 weapons: [
   {
     name: sol-gun
@@ -15,15 +14,15 @@ weapons: [
     y: -10
     shootX: 6
     shootY: 10
-    reload: 20
+    reload: 10
     cooldownTime: 60
     layerOffset: 8
     shootSound: blaster
     heatColor: 301934
     mirror: true
     rotate: true
-    rotateSpeed: 6
-    inaccuracy: 0
+    rotateSpeed: 1.6
+    inaccuracy: 1
     bullet: {
       type: BasicBulletType
       sprite: a-orb-bullet
@@ -35,7 +34,7 @@ weapons: [
       spin: 1
       width: 7.5
       height: 7.5
-      damage: 30
+      damage: 40
       lifetime: 100
       speed: 2
       backColor: 9966cb
@@ -44,7 +43,7 @@ weapons: [
       fragBullet: {
        type: LaserBulletType
        length: 20
-       damage: 8
+       damage: 10
        knockback: -0.2
        lifeTime: 30
        speed: 0
@@ -73,7 +72,7 @@ weapons: [
     heatColor: 301934
     mirror: false
     rotate: true
-    rotateSpeed: 6
+    rotateSpeed: 1.6
     inaccuracy: 0
     bullet: {
       type: BasicBulletType

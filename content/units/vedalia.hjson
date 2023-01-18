@@ -6,8 +6,8 @@ crushDamage: 2
 outlineRadius: 2
 size: 11
 hitSize: 11
-speed: 3
-rotateSpeed: 10
+speed: 0.7
+rotateSpeed: 2.6
 weapons: [
   {
     name: vamg
@@ -16,7 +16,7 @@ weapons: [
     reload: 32.5
     mirror: false
     rotate: true
-    rotateSpeed: 6
+    rotateSpeed: 1
     shootSound: sap
     inaccuracy: 0
     shoot: {
