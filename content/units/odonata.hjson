@@ -35,7 +35,7 @@ weapons: [
       homingPower: 2
       lightningDamage: 6
       lightningColor: bf92f9
-      lightningType: LightningBulletType
+      lightningType: SapBulletType
       impact: true
       hittable: false
       reflectable: false
