@@ -3,6 +3,8 @@ flying: false
 health: 850
 armor: 4
 outlineRadius: 2
+treadPullOffset: 4
+crushDamage: 1
 size: 8
 hitSize: 8
 speed: 3

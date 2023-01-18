@@ -4,6 +4,8 @@ health: 5050
 armor: 12
 outlineRadius: 2
 size: 18
+treadPullOffset: 4
+crushDamage: 3
 hitSize: 18
 speed: 3.2
 rotateSpeed: 12
