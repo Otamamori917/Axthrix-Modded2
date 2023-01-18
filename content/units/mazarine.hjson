@@ -28,15 +28,16 @@ weapons: [
       type: BasicBulletType
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
-      hitEffect: none
-      despawnEffect: none
-      shootEffect: WaveEffect
+      hitEffect: ExplosionEffect
+      despawnEffect: ExplosionEffect
+      shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
       impact: true
       hittable: false
       reflectable: false
       absorbable: false
       spin: 1
+      knockback: -1
       width: 7.5
       height: 7.5
       damage: 40
@@ -49,7 +50,7 @@ weapons: [
        type: LaserBulletType
        length: 20
        damage: 10
-       knockback: -0.2
+       knockback: -1
        lifeTime: 30
        speed: 0
        colors: [
