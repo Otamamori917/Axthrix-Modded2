@@ -31,6 +31,11 @@ weapons: [
       despawnEffect: none
       shootEffect: shootTitan
       smokeEffect: none
+      homingRange: 20
+      homingPower: 2
+      lightningDamage: 6
+      lightningColor: bf92f9
+      lightningType: LightningBulletType
       impact: true
       hittable: false
       reflectable: false
