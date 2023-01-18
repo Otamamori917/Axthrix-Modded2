@@ -3,9 +3,7 @@ flying: false
 health: 12000
 armor: 14
 outlineRadius: 2
-treadPullOffset: 4
 crushDamage: 4
-treadRects: Rect{Rect(29 - 32f, 59 - 32f, 1, 9)}
 size: 18
 hitSize: 18
 speed: 3.2
