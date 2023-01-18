@@ -28,8 +28,8 @@ weapons: [
       type: BasicBulletType
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
-      hitEffect: ExplosionEffect
-      despawnEffect: ExplosionEffect
+      hitEffect: none
+      despawnEffect: none
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
       impact: true
