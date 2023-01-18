@@ -23,8 +23,6 @@ weapons: [
     rotate: true
     rotateSpeed: 6
     inaccuracy: 0
-    controllable: false
-    autoTarget: true
     bullet: {
       type: BasicBulletType
       sprite: a-orb-bullet
@@ -67,8 +65,6 @@ weapons: [
     shootSound: sap
     rotateSpeed: 6
     inaccuracy: 0
-    controllable: false
-    autoTarget: true
     bullet: {
       type: SapBulletType
       width: 1

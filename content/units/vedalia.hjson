@@ -20,8 +20,6 @@ weapons: [
     rotateSpeed: 6
     shootSound: sap
     inaccuracy: 0
-    controllable: false
-    autoTarget: true
     shoot: {
       shots: 4
       shotDelay: 12.5
