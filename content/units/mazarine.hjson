@@ -18,7 +18,7 @@ weapons: [
     reload: 10
     cooldownTime: 60
     layerOffset: 8
-    shootSound: blaster
+    shootSound: shockBlast
     heatColor: 301934
     mirror: true
     rotate: true
@@ -28,6 +28,10 @@ weapons: [
       type: BasicBulletType
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: WaveEffect
+      smokeEffect: shootSmokeTitan
       impact: true
       hittable: false
       reflectable: false
