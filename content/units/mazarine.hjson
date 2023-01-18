@@ -11,7 +11,7 @@ weapons: [
   {
     name: sol-gun
     x: 0
-    y: -6
+    y: -10
     shootX: 6
     shootY: 10
     reload: 20
@@ -60,7 +60,7 @@ weapons: [
   {
     name: sol-base
     x: 0
-    y: -6
+    y: -10
     shootX: 0
     shootY: 0
     reload: 10
