@@ -30,7 +30,7 @@ weapons: [
       hitEffect: none
       despawnEffect: none
       shootEffect: shootTitan
-      smokeEffect: shootSmokeTitan
+      smokeEffect: none
       impact: true
       hittable: false
       reflectable: false
