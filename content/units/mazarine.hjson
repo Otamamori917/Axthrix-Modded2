@@ -5,7 +5,14 @@ armor: 14
 outlineRadius: 2
 treadPullOffset: 4
 crushDamage: 4
-treadRects: 12
+treadRects: {
+  Rect: (
+    12 - 32
+    7 - 32
+    14
+    51
+  )
+}    
 size: 18
 hitSize: 18
 speed: 3.2
