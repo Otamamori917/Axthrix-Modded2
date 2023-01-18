@@ -3,6 +3,7 @@ flying: false
 health: 12000
 armor: 14
 outlineRadius: 2
+faceTarget: false
 crushDamage: 4
 size: 18
 hitSize: 18

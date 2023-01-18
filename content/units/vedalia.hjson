@@ -4,6 +4,7 @@ health: 2150
 armor: 8
 crushDamage: 2
 outlineRadius: 2
+faceTarget: false
 size: 11
 hitSize: 11
 speed: 0.7
