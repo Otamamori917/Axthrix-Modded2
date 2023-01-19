@@ -13,7 +13,7 @@ weapons: [
     name: solarclubs-barrel
     x: 0
     y: -10
-    shootX: 
+    shootX: 0
     shootY: 10
     reload: 50
     cooldownTime: 60
