@@ -1,0 +1,148 @@
+type: tank
+flying: false
+health: 12000
+armor: 14
+outlineRadius: 2
+faceTarget: false
+crushDamage: 4
+size: 18
+hitSize: 18
+speed: 0.50
+weapons: [
+  {
+    name: solarclubs-barrel
+    x: 0
+    y: -10
+    shootX: 6
+    shootY: 10
+    reload: 10
+    cooldownTime: 60
+    layerOffset: 8
+    shootSound: shockBlast
+    heatColor: 301934
+    mirror: true
+    rotate: true
+    rotateSpeed: 1.6
+    inaccuracy: 1
+    bullet: {
+      type: BasicBulletType
+      sprite: a-orb-bullet
+      backSprite: a-orb-bullet-back
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: shootTitan
+      smokeEffect: none
+      homingRange: 20
+      homingPower: 2
+      lightningDamage: 6
+      lightningColor: bf92f9
+      impact: true
+      hittable: false
+      reflectable: false
+      absorbable: false
+      spin: 1
+      knockback: -1
+      width: 7.5
+      height: 7.5
+      damage: 40
+      lifetime: 100
+      speed: 2
+      backColor: 9966cb
+      frontColor: bf92f9
+      fragBullets: 10
+      fragBullet: {
+       type: LaserBulletType
+       length: 20
+       damage: 10
+       knockback: -1
+       lifeTime: 30
+       speed: 0
+       colors: [
+         9966cb
+         bf92f9
+         FFFFFF
+        ]
+      }  
+    }
+  }
+  {
+    name: solarclubs-base
+    x: 0
+    y: -10
+    shootX: 0
+    shootY: 0
+    reload: 10
+    cooldownTime: 60
+    layerOffset: 10
+    recoil: 0
+    recoilPow: 0
+    display: false
+    recoilTime: 0
+    shootSound: blaster
+    heatColor: 301934
+    mirror: false
+    rotate: true
+    rotateSpeed: 1.6
+    inaccuracy: 0
+    bullet: {
+      type: BasicBulletType
+      sprite: none
+      backSprite: none
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: none
+      smokeEffect: none
+      hittable: false
+      reflectable: false
+      absorbable: false
+      spin: 1
+      width: 0.1
+      height: 0.1
+      damage: 0
+      lifetime: 100
+      speed: 2
+      backColor: 9966cb
+      frontColor: bf92f9 
+    }
+  }
+    {
+    name: solarclubs-heatsinks
+    x: 0
+    y: -10
+    shootX: 0
+    shootY: 0
+    reload: 10
+    cooldownTime: 60
+    layerOffset: 10
+    recoil: 0
+    recoilPow: 0
+    display: false
+    recoilTime: 0
+    shootSound: blaster
+    heatColor: 301934
+    mirror: false
+    rotate: true
+    rotateSpeed: 1.6
+    inaccuracy: 0
+    bullet: {
+      type: BasicBulletType
+      sprite: none
+      backSprite: none
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: none
+      smokeEffect: none
+      hittable: false
+      reflectable: false
+      absorbable: false
+      spin: 1
+      width: 0.1
+      height: 0.1
+      damage: 0
+      lifetime: 100
+      speed: 2
+      backColor: 9966cb
+      frontColor: bf92f9 
+    }
+  }
+]
