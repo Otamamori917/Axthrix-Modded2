@@ -19,7 +19,7 @@ weapons: [
     cooldownTime: 60
     layerOffset: 8
     shootSound: shockBlast
-    heatColor: 301934
+    heatColor: A020F0
     mirror: false
     rotate: true
     rotateSpeed: 1.6
@@ -41,20 +41,20 @@ weapons: [
       reflectable: false
       absorbable: false
       spin: 1
-      knockback: -1
+      knockback: -2
       width: 14
       height: 14
-      damage: 40
-      lifetime: 100
+      damage: 80
+      lifetime: 200
       speed: 2
-      backColor: 9966cb
+      backColor: A020F0
       frontColor: bf92f9
       fragBullets: 10
       fragBullet: {
        type: LaserBulletType
        length: 20
-       damage: 10
-       knockback: -1
+       damage: 40
+       knockback: -2
        lifeTime: 30
        speed: 0
        colors: [
@@ -79,7 +79,7 @@ weapons: [
     display: false
     recoilTime: 0
     shootSound: blaster
-    heatColor: 301934
+    heatColor: A020F0
     mirror: false
     rotate: true
     rotateSpeed: 1.6
@@ -118,7 +118,7 @@ weapons: [
     display: false
     recoilTime: 40
     shootSound: blaster
-    heatColor: FFFFFF
+    heatColor: CBC3E3
     mirror: false
     rotate: true
     rotateSpeed: 1.6
