@@ -12,7 +12,7 @@ weapons: [
   {
     name: solarclubs-barrel
     x: 0
-    y: -10
+    y: 0
     shootX: 0
     shootY: 10
     reload: 50
@@ -68,7 +68,7 @@ weapons: [
   {
     name: solarclubs-base
     x: 0
-    y: -10
+    y: 0
     shootX: 0
     shootY: 0
     reload: 10
@@ -108,18 +108,18 @@ weapons: [
     {
     name: solarclubs-heatsink
     x: 0
-    y: -10
+    y: 0
     shootX: 0
     shootY: 0
     reload: 10
     cooldownTime: 60
-    layerOffset: 10
+    layerOffset: 6
     recoil: 10
     recoilPow: 0
     display: false
-    recoilTime: 0
+    recoilTime: 40
     shootSound: blaster
-    heatColor: 301934
+    heatColor: FFFFFF
     mirror: false
     rotate: true
     rotateSpeed: 1.6
