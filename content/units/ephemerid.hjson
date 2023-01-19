@@ -118,7 +118,7 @@ weapons: [
     display: false
     recoilTime: 40
     shootSound: blaster
-    heatColor: CBC3E3
+    heatColor: ca5cdd
     mirror: false
     rotate: true
     rotateSpeed: 1.6
