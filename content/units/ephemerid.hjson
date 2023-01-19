@@ -78,8 +78,8 @@ weapons: [
     recoilPow: 0
     display: false
     recoilTime: 0
-    shootSound: blaster
-    heatColor: A020F0
+    shootSound: none
+    heatColor: ca5cdd
     mirror: false
     rotate: true
     rotateSpeed: 1.6
@@ -117,7 +117,7 @@ weapons: [
     recoil: 6
     display: false
     recoilTime: 40
-    shootSound: blaster
+    shootSound: none
     heatColor: ca5cdd
     mirror: false
     rotate: true
