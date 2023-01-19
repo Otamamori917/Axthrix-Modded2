@@ -111,10 +111,10 @@ weapons: [
     y: 0
     shootX: 0
     shootY: -5
-    reload: 10
-    cooldownTime: 60
+    reload: 50
+    cooldownTime: 10
     layerOffset: 6
-    recoil: 10
+    recoil: 6
     display: false
     recoilTime: 40
     shootSound: blaster
