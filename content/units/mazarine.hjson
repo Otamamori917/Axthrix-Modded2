@@ -28,10 +28,10 @@ weapons: [
       type: BasicBulletType
       sprite: a-orb-bullet
       backSprite: a-orb-bullet-back
-      hitEffect: none
-      despawnEffect: none
-      shootEffect: shootTitan
-      smokeEffect: none
+      hitEffect: sapExplosion
+      despawnEffect: sapExplosion
+      shootEffect: none
+      smokeEffect: shootBigSmoke2
       homingRange: 20
       homingPower: 2
       lightningDamage: 6
