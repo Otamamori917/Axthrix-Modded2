@@ -32,15 +32,15 @@ weapons: [
       despawnEffect: sapExplosion
       shootEffect: none
       smokeEffect: shootBigSmoke2
-      homingRange: 40
-      homingPower: 4
       impact: true
       hittable: false
       reflectable: false
       absorbable: false
+      homingRange: 80
+      homingPower: 4
       spin: 20
-      shrinkY: -0.2
-      shrinkX: -0.2
+      shrinkY: -0.6
+      shrinkX: -0.6
       knockback: -4
       width: 14
       height: 14
