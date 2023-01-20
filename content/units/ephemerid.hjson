@@ -116,7 +116,7 @@ weapons: [
     display: false
     recoilTime: 40
     shootSound: none
-    heatColor: A020F0
+    heatColor: 953553
     mirror: false
     rotate: true
     rotateSpeed: 1.6
