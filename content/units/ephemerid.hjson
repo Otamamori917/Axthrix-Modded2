@@ -69,7 +69,7 @@ weapons: [
     y: -8
     shootX: 0
     shootY: 0
-    reload: 10
+    reload: 50
     cooldownTime: 60
     layerOffset: 10
     recoil: 0
@@ -110,7 +110,7 @@ weapons: [
     shootX: 0
     shootY: -5
     reload: 50
-    cooldownTime: 10
+    cooldownTime: 20
     layerOffset: 6
     recoil: 6
     display: false
