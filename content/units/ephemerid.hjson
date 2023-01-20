@@ -2,7 +2,7 @@ type: tank
 flying: false
 health: 12000
 armor: 14
-outlineRadius: 2
+outlineRadius: 3
 faceTarget: false
 crushDamage: 4
 size: 18
@@ -12,7 +12,7 @@ weapons: [
   {
     name: solarclubs-barrel
     x: 0
-    y: 0
+    y: -8
     shootX: 0
     shootY: 5
     reload: 50
@@ -66,7 +66,7 @@ weapons: [
   {
     name: solarclubs-base
     x: 0
-    y: 0
+    y: -8
     shootX: 0
     shootY: 0
     reload: 10
@@ -106,7 +106,7 @@ weapons: [
     {
     name: solarclubs-heatsink
     x: 0
-    y: 0
+    y: -8
     shootX: 0
     shootY: -5
     reload: 50
