@@ -69,7 +69,6 @@ weapons: [
     y: -8
     shootX: 0
     shootY: 0
-    top: false
     reload: 50
     cooldownTime: 60
     layerOffset: 10
