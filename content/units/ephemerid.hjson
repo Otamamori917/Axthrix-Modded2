@@ -14,7 +14,7 @@ weapons: [
     x: 0
     y: 0
     shootX: 0
-    shootY: 10
+    shootY: 5
     reload: 50
     cooldownTime: 60
     layerOffset: 8
@@ -39,10 +39,10 @@ weapons: [
       reflectable: false
       absorbable: false
       spin: 1
-      knockback: -2
+      knockback: -4
       width: 14
       height: 14
-      damage: 80
+      damage: 100
       lifetime: 200
       speed: 2
       backColor: A020F0
@@ -50,8 +50,8 @@ weapons: [
       fragBullets: 10
       fragBullet: {
        type: LaserBulletType
-       length: 20
-       damage: 40
+       length: 50
+       damage: 60
        knockback: -2
        lifeTime: 30
        speed: 0
