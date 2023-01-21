@@ -38,6 +38,7 @@ weapons: [
       absorbable: false
       homingRange: 80
       homingPower: 4
+      homingDelay: 20
       spin: 20
       shrinkY: -0.6
       shrinkX: -0.6
