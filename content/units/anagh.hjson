@@ -12,13 +12,19 @@ useUnitCap: false
 legBaseOffset: 3
 legContinuousMove: true
 flipBackLegs: true
+canDrown: false
 size: 4
 maxRange: 260
 range: 240
 hitSize: 4
 speed: 2
 rotateSpeed: 6
-weapons: [
+immunities: (
+    wet
+    sapped
+    spore-slowed
+)
+weapons:
   {
     name: anagh-fang
     x: 0
