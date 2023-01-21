@@ -150,20 +150,18 @@ weapons: [
     y: -20
     shootX: 0
     shootY: -10
-    reload: 100
+    reload: 400
     recoil: 0
     recoilPow: 0
     recoilTime: 0
     controllable: false
     autoTarget: true
+    alwaysShooting: true
     mirror: false
     inaccuracy: 0
     bullet: {
       type: BasicBulletType
       spawnUnit: anagh
-      rangeOverride: 150
-      maxRange: 200
-      rangeChange: 150
       sprite: none
       backSprite: none
       hitEffect: none

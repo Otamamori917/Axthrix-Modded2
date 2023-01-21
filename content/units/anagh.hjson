@@ -14,8 +14,8 @@ legBaseOffset: 3
 legContinuousMove: true
 flipBackLegs: true
 size: 4
-maxRange: 160
-range: 160
+maxRange: 260
+range: 240
 hitSize: 4
 speed: 2
 rotateSpeed: 6
