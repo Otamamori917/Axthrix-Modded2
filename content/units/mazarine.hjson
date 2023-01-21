@@ -45,7 +45,7 @@ weapons: [
       knockback: -1
       width: 7.5
       height: 7.5
-      damage: 100
+      damage: 80
       lifetime: 150
       speed: 2
       backColor: 9966cb
@@ -54,7 +54,7 @@ weapons: [
       fragBullet: {
        type: LaserBulletType
        length: 20
-       damage: 40
+       damage: 20
        knockback: -1
        lifeTime: 30
        speed: 0
@@ -128,7 +128,7 @@ weapons: [
       width: 0.4
       length: 200
       sapStrength: 0.5
-      damage: 20
+      damage: 12
       lifetime: 5
       knockback: -1
       hitColor: bf92f9
