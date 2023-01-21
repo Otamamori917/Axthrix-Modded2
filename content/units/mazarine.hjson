@@ -109,11 +109,12 @@ weapons: [
   {
     name: vamg
     x: 0
-    y: 2
+    y: -10
     reload: 32.5
+    layerOffset: 12
     mirror: false
     rotate: true
-    rotateSpeed: 1
+    rotateSpeed: 3
     shootSound: sap
     inaccuracy: 0
     shoot: {
