@@ -5,10 +5,10 @@ armor: 4
 allowLegStep: true
 mineTier: 3
 legCount: 8
-legTrns: 1.5
-legLength: 20
+legTrns: 1
+legLength: 1
 legMoveSpace: 1
-legBaseOffset: 0
+legBaseOffset: 1
 flipBackLegs: true
 size: 8
 hitSize: 8
