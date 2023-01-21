@@ -60,6 +60,10 @@ weapons: [
     bullet: {
       type: BulletType
       damage: 0
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: none
+      smokeEffect: none
     }
   }    
 ]
