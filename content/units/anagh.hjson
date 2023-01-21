@@ -8,7 +8,7 @@ legCount: 8
 legTrns: 1.5
 legLength: 20
 legMoveSpace: 1
-legBaseOffset: -1
+legBaseOffset: 0
 flipBackLegs: true
 size: 8
 hitSize: 8
@@ -38,7 +38,7 @@ weapons: [
     }
   }
   {
-    name: luminaryburst
+    name: anagh-butt
     x: 0
     y: -6
     reload: 20
@@ -47,8 +47,6 @@ weapons: [
     shootSound: shockBlast
     heatColor: 301934
     mirror: false
-    rotate: true
-    rotateSpeed: 1.2
     inaccuracy: 0
     bullet: {
       type: BasicBulletType
@@ -57,7 +55,6 @@ weapons: [
       hitEffect: sapExplosion
       despawnEffect: sapExplosion
       shootEffect: none
-      smokeEffect: shootBigSmoke2
       impact: true
       hittable: false
       reflectable: false
@@ -68,8 +65,8 @@ weapons: [
       shrinkY: -0.1
       shrinkX: -0.1
       knockback: -1
-      width: 0.5
-      height: 0.5
+      width: 2
+      height: 2
       damage: 2
       lifetime: 50
       speed: 2
