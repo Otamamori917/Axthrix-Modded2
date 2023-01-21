@@ -19,7 +19,7 @@ range: 240
 hitSize: 4
 speed: 2
 rotateSpeed: 6
-immunities:(
+immunities: (
   wet
   sapped
   spore-slowed
