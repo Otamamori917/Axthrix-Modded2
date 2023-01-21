@@ -2,10 +2,9 @@ type: legs
 flying: false
 AiController: SuicideAI
 playerControllable: false
-health: 60
+health: 120
 armor: 4
 allowLegStep: true
-mineTier: 3
 legCount: 8
 legLength: 3
 legMoveSpace: 3
@@ -31,13 +30,12 @@ weapons: [
     inaccuracy: 0
     bullet: {
       type: SapBulletType
-      rangeOverride: 150
       shootEffect: none
       smokeEffect: none
       width: 0.8
       length: 14
-      sapStrength: 3
-      damage: 3
+      sapStrength: 4
+      damage: 12
       lifetime: 15
       knockback: -2
       hitColor: bf92f9
