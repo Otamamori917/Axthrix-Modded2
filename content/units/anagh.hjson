@@ -44,52 +44,21 @@ weapons: [
     name: anagh-butt
     x: 0
     y: 0
-    reload: 20
+    reload: 1
+    recoil: 0
+    recoilPow: 0
+    display: false
+    recoilTime: 0
+    top: false
     cooldownTime: 60
     top: false
     layerOffset: 10
-    shootSound: shockBlast
+    shootSound: sap
     heatColor: 301934
     mirror: false
     inaccuracy: 0
     bullet: {
-      type: BasicBulletType
-      sprite: a-orb-bullet
-      backSprite: a-orb-bullet-back
-      hitEffect: sapExplosion
-      despawnEffect: sapExplosion
-      shootEffect: none
-      impact: true
-      hittable: false
-      reflectable: false
-      absorbable: false
-      homingRange: 10
-      homingPower: 1
-      spin: 5
-      shrinkY: -0.1
-      shrinkX: -0.1
-      knockback: -1
-      width: 2
-      height: 2
-      damage: 2
-      lifetime: 50
-      speed: 2
-      backColor: 9966cb
-      frontColor: bf92f9
-      fragBullets: 2
-      fragBullet: {
-       type: LaserBulletType
-       length: 2
-        damage: 1
-        knockback: -0.1
-        lifeTime: 30
-        speed: 0
-        colors: [
-         9966cb
-         bf92f9
-         FFFFFF
-       ]
-      }  
-    }
-  }
+      type: BulletType
+      damage: 0
+      
 ]
