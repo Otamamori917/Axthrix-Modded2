@@ -109,7 +109,7 @@ weapons: [
   {
     name: vamg
     x: 0
-    y: -5
+    y: 2
     reload: 32.5
     mirror: false
     rotate: true
