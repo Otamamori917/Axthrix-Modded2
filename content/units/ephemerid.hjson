@@ -147,7 +147,7 @@ weapons: [
   {
     name: clubs
     x: 0
-    y: -10
+    y: -30
     shootX: 0
     shootY: -10
     reload: 100
@@ -162,6 +162,8 @@ weapons: [
       type: BasicBulletType
       spawnUnit: anagh
       rangeOverride: 150
+      maxRange: 200
+      rangeChange: 150
       sprite: none
       backSprite: none
       hitEffect: none
