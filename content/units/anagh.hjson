@@ -19,11 +19,7 @@ range: 240
 hitSize: 4
 speed: 2
 rotateSpeed: 6
-immunities: (
-  wet
-  sapped
-  spore-slowed
-)
+immunities: wet
 weapons: [
   {
     name: anagh-fang
