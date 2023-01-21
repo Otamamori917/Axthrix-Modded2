@@ -23,6 +23,7 @@ weapons: [
     name: anagh-fang
     x: 0
     y: 0
+    shootY: -4
     reload: 10
     mirror: true
     top: false
@@ -33,7 +34,7 @@ weapons: [
       shootEffect: none
       smokeEffect: none
       width: 0.8
-      length: 14
+      length: 20
       sapStrength: 4
       damage: 12
       lifetime: 15
