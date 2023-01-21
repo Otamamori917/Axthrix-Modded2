@@ -158,6 +158,8 @@ weapons: [
     controllable: false
     autoTarget: true
     alwaysShooting: true
+    rotate: true
+    rotateSpeed: 3
     mirror: false
     inaccuracy: 0
     bullet: {
