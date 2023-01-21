@@ -4,7 +4,7 @@ health: 40
 armor: 4
 allowLegStep: true
 mineTier: 3
-legCount: 6
+legCount: 8
 legLength: 3
 legMoveSpace: 3
 useUnitCap: false
