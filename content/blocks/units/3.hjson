@@ -21,7 +21,10 @@ upgrades: [
     crack, thunder
   ]
   [
-    parapet, palisade
+    palisade, parapet
+  ]
+  [
+    amitojas,agnitejas
   ]
 ]
 requirements: [ 

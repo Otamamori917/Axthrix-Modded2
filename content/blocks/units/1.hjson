@@ -21,6 +21,9 @@ upgrades: [
   [
     barrier, blockade
   ]
+  [
+    angovo,animado
+  ]
 ]
 requirements: [ 
   titanium/100

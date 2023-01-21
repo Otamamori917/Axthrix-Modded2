@@ -21,7 +21,10 @@ upgrades: [
     thunder, lightning
   ]
   [
-    palisade, impediment
+    parapet, impediment
+  ]
+  [
+    agnitejas,aayustejas
   ]
 ]
 requirements: [ 

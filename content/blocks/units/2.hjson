@@ -20,7 +20,10 @@ upgrades: [
     bolt, crack
   ]
   [
-    blockade, parapet
+    blockade, palisade
+  ]
+  [
+    animado,amitojas
   ]
 ]
 requirements: [ 

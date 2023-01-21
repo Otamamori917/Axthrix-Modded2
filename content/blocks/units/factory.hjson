@@ -22,6 +22,14 @@ plans: [
     ]
     time: 180
   }
+  {
+    unit: angovo
+    requirements: [
+      titanium/150
+      silicon/50
+    ]
+    time: 180
+  }
 ]
 requirements: [
   titanium/200
