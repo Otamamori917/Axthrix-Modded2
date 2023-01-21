@@ -10,9 +10,9 @@ hitSize: 18
 speed: 0.50
 weapons: [
   {
-    name: solarclubs-barrel
+    name: solar-barrel
     x: 0
-    y: -8
+    y: 0
     shootX: 0
     shootY: 5
     reload: 50
@@ -45,7 +45,7 @@ weapons: [
       width: 14
       height: 14
       damage: 100
-      lifetime: 200
+      lifetime: 300
       speed: 2
       backColor: A020F0
       frontColor: bf92f9
@@ -66,9 +66,9 @@ weapons: [
     }
   }
   {
-    name: solarclubs-base
+    name: solar-base
     x: 0
-    y: -8
+    y: 0
     shootX: 0
     shootY: 0
     reload: 50
@@ -106,9 +106,9 @@ weapons: [
     }
   }
     {
-    name: solarclubs-heatsink
+    name: solar-heatsink
     x: 0
-    y: -8
+    y: 0
     shootX: 0
     shootY: -5
     reload: 50
@@ -142,6 +142,40 @@ weapons: [
       speed: 2
       backColor: 9966cb
       frontColor: bf92f9 
+    }
+  }
+  {
+    name: clubs
+    x: 0
+    y: -10
+    shootX: 0
+    shootY: -10
+    reload: 100
+    recoil: 0
+    recoilPow: 0
+    recoilTime: 0
+    controllable: false
+    autoTarget: true
+    mirror: false
+    inaccuracy: 0
+    bullet: {
+      type: BasicBulletType
+      spawnUnit: anagh
+      rangeOverride: 150
+      sprite: none
+      backSprite: none
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: none
+      smokeEffect: none
+      hittable: false
+      reflectable: false
+      absorbable: false
+      width: 0.1
+      height: 0.1
+      damage: 0
+      lifetime: 0
+      speed: 0
     }
   }
 ]

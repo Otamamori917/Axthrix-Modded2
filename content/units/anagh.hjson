@@ -1,6 +1,8 @@
 type: legs
 flying: false
-health: 40
+aiController: SuicideAI
+playerControllable: false
+health: 60
 armor: 4
 allowLegStep: true
 mineTier: 3
@@ -9,11 +11,13 @@ legLength: 3
 legMoveSpace: 3
 useUnitCap: false
 legBaseOffset: 3
+legContinuousMove: true
 flipBackLegs: true
 size: 8
+maxRange: 160
 hitSize: 8
-speed: 0.75
-rotateSpeed: 3.5
+speed: 2
+rotateSpeed: 6
 weapons: [
   {
     name: anagh-fang
@@ -22,16 +26,15 @@ weapons: [
     reload: 10
     mirror: true
     top: false
-    rotate: true
     shootSound: sap
-    rotateSpeed: 3.2
     inaccuracy: 0
     bullet: {
       type: SapBulletType
+      rangeOverride: 150
       shootEffect: none
       smokeEffect: none
       width: 0.8
-      length: 8
+      length: 14
       sapStrength: 3
       damage: 3
       lifetime: 15
