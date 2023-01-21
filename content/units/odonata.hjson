@@ -47,7 +47,7 @@ weapons: [
       knockback: -1
       width: 7.5
       height: 7.5
-      damage: 70
+      damage: 40
       lifetime: 100
       speed: 2
       backColor: 9966cb
