@@ -32,7 +32,7 @@ requirements: [
 ]
 category: units
 research: {
-  parent: naval-factory
+  parent: factory
   requirements: [
     titanium/1000
     silicon/1000

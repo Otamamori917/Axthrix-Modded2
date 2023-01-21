@@ -28,6 +28,8 @@ weapons: [
     reload: 10
     mirror: true
     top: false
+    alwaysShooting: true
+    ignoreRotation: true
     shootSound: sap
     inaccuracy: 0
     bullet: {
@@ -56,7 +58,6 @@ weapons: [
     top: false
     cooldownTime: 60
     top: false
-    layerOffset: 10
     shootSound: sap
     heatColor: 301934
     mirror: false

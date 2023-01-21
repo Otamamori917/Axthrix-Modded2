@@ -35,7 +35,7 @@ requirements: [
 ]
 category: units
 research: {
-  parent: 2-reconstructor
+  parent: 2
   requirements: [
     platinum/4000
     silicon/3000
