@@ -37,7 +37,7 @@ weapons: [
       width: 0.8
       length: 20
       sapStrength: 4
-      damage: 12
+      damage: 8
       lifetime: 15
       knockback: -2
       hitColor: bf92f9
