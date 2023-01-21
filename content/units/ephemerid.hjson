@@ -157,7 +157,6 @@ weapons: [
     recoilTime: 0
     controllable: false
     autoTarget: true
-    alwaysShooting: true
     rotate: true
     rotateSpeed: 3
     mirror: false

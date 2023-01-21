@@ -75,13 +75,15 @@ weapons: [
     reload: 20
     mirror: true
     rotate: true
+    controllable: false
+    autoTarget: true
     shootSound: sap
     rotateSpeed: 3.2
     inaccuracy: 0
     bullet: {
       type: SapBulletType
       width: 1
-      length: 100
+      length: 150
       sapStrength: 1
       damage: 4
       lifetime: 15

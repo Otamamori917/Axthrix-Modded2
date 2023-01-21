@@ -114,7 +114,9 @@ weapons: [
     layerOffset: 12
     mirror: false
     rotate: true
-    rotateSpeed: 3
+    rotateSpeed: 4
+    controllable: false
+    autoTarget: true
     shootSound: sap
     inaccuracy: 0
     shoot: {
