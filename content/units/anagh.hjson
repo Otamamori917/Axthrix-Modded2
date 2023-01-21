@@ -1,6 +1,6 @@
 type: legs
 flying: false
-aiController: SuicideAI
+aiController: suicideAI
 playerControllable: false
 health: 60
 armor: 4
