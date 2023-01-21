@@ -5,10 +5,10 @@ armor: 4
 allowLegStep: true
 mineTier: 3
 legCount: 8
-legTrns: 1
-legLength: 1
+legTrns: 3
+legLength: 3
 legMoveSpace: 1
-legBaseOffset: 1
+legBaseOffset: 3
 flipBackLegs: true
 size: 8
 hitSize: 8
@@ -27,6 +27,8 @@ weapons: [
     inaccuracy: 0
     bullet: {
       type: SapBulletType
+      shootEffect: none
+      smokeEffect: none
       width: 0.8
       length: 1
       sapStrength: 2
