@@ -151,7 +151,7 @@ weapons: [
     y: -20
     shootX: 0
     shootY: -10
-    reload: 50
+    reload: 400
     recoil: 0
     recoilPow: 0
     recoilTime: 0
