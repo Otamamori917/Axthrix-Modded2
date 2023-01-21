@@ -4,10 +4,10 @@ health: 40
 armor: 4
 allowLegStep: true
 mineTier: 3
-legCount: 8
-legTrns: 3
+legCount: 6
 legLength: 3
-legMoveSpace: 1
+legMoveSpace: 3
+useUnitCap: false
 legBaseOffset: 3
 flipBackLegs: true
 size: 8
@@ -21,6 +21,7 @@ weapons: [
     y: -1
     reload: 20
     mirror: true
+    top: false
     rotate: true
     shootSound: sap
     rotateSpeed: 3.2
@@ -45,6 +46,7 @@ weapons: [
     y: 0
     reload: 20
     cooldownTime: 60
+    top: false
     layerOffset: 10
     shootSound: shockBlast
     heatColor: 301934
