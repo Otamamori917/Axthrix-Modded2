@@ -60,5 +60,6 @@ weapons: [
     bullet: {
       type: BulletType
       damage: 0
-      
+    }
+  }    
 ]
