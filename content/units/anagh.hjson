@@ -19,7 +19,7 @@ weapons: [
     name: anagh-fang
     x: 0
     y: 0
-    reload: 20
+    reload: 10
     mirror: true
     top: false
     rotate: true
@@ -32,10 +32,10 @@ weapons: [
       smokeEffect: none
       width: 0.8
       length: 8
-      sapStrength: 2
-      damage: 1
+      sapStrength: 3
+      damage: 3
       lifetime: 15
-      knockback: -1
+      knockback: -2
       hitColor: bf92f9
       color: 9966cb
     }
