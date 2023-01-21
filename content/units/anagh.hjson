@@ -31,7 +31,7 @@ weapons: [
       shootEffect: none
       smokeEffect: none
       width: 0.8
-      length: 1
+      length: 8
       sapStrength: 2
       damage: 1
       lifetime: 15
