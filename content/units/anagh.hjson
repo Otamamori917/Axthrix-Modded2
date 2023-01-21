@@ -40,7 +40,7 @@ weapons: [
   {
     name: anagh-butt
     x: 0
-    y: -6
+    y: 0
     reload: 20
     cooldownTime: 60
     layerOffset: 10
