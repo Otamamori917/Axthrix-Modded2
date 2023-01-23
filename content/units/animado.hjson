@@ -40,6 +40,6 @@ weapons: [
 research: {
   parent: 1
   requirements: [
-    angovo/1
+    silicon/1
   ]
 }
