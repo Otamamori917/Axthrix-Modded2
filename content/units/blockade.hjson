@@ -81,4 +81,9 @@ weapons: [
   }
 ]
 drawShields: false
-research: barrier
+research: {
+  parent: barrier
+  requirements: [
+    silicon/1
+  ]
+}

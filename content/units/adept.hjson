@@ -61,4 +61,9 @@ weapons: [
     }
   }
 ]
-research: ace
+research: {
+  parent: ace
+  requirements: [
+    silicon/1
+  ]
+}

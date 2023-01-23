@@ -37,4 +37,9 @@ weapons: [
     }
   }
 ]
-research: angovo
+research: {
+  parent: 1
+  requirements: [
+    angovo/1
+  ]
+}

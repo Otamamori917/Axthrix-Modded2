@@ -64,4 +64,9 @@ weapons: [
   }
 ]
 drawShields: false
-research: blockade
+research: {
+  parent: blockade
+  requirements: [
+    silicon/1
+  ]
+}

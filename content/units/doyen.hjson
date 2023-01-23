@@ -81,4 +81,9 @@ weapons: [
     }
   }
 ]
-research: maestro
+research: {
+  parent: maestro
+  requirements: [
+    silicon/1
+  ]
+} 

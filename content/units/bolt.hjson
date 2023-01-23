@@ -79,4 +79,9 @@ weapons: [
     }
   }
 ]
-research: spark
+research: {
+  parent: spark
+  requirements: [
+    silicon/1
+  ]
+}

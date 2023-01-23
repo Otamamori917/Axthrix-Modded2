@@ -181,4 +181,9 @@ weapons: [
     }
   }
 ]
-research: agnitejas
+research: {
+  parent: agnitejas
+  requirements: [
+    silicon/1
+  ]
+}

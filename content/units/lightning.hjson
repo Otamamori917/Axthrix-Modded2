@@ -1,1 +1,6 @@
-research: thunder
+research: {
+  parent: thunder
+  requirements: [
+    silicon/1
+  ]
+}

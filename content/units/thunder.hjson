@@ -1,1 +1,6 @@
-research: crack
+research: {
+  parent: crack
+  requirements: [
+    silicon/1
+  ]
+}

@@ -86,4 +86,9 @@ weapons: [
   }
 ]
 drawShields: false
-research: palisade
+research: {
+  parent: palisade
+  requirements: [
+    silicon/1
+  ]
+}

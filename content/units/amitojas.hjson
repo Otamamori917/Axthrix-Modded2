@@ -93,4 +93,9 @@ weapons: [
     }
   }
 ]
-research: animado
+research: {
+  parent: animado
+  requirements: [
+    silicon/1
+  ]
+}

@@ -35,7 +35,7 @@ requirements: [
 ]
 category: units
 research: {
-  parent: 2
+  parent: 3
   requirements: [
     platinum/4000
     silicon/3000

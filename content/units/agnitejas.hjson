@@ -136,4 +136,9 @@ weapons: [
     }
   }
 ]
-research: amitojas
+research: {
+  parent: amitojas
+  requirements: [
+    silicon/1
+  ]
+}

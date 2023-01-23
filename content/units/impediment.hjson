@@ -253,4 +253,9 @@ weapons: [
   }
 ]
 drawShields: false
-research: parapet
+research: {
+  parent: parapet
+  requirements: [
+    silicon/1
+  ]
+}

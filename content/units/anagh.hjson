@@ -72,4 +72,9 @@ weapons: [
     }
   }    
 ]
-research: aayustejas
+research: {
+  parent: aayustejas
+  requirements: [
+    silicon/1
+  ]
+}

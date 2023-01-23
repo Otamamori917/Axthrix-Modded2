@@ -1,1 +1,6 @@
-research: bolt
+research: {
+  parent: bolt
+  requirements: [
+    silicon/1
+  ]
+}

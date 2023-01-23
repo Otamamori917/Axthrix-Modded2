@@ -34,4 +34,9 @@ weapons: [
     }
   }
 ] 
-research: b-c 
+research: {
+  parent: b-c
+  requirements: [
+    silicon/1
+  ]
+}

@@ -57,4 +57,9 @@ weapons: [
     }
   }
 ]
-research: adept
+research: {
+  parent: adept
+  requirements: [
+    silicon/1
+  ]
+}
