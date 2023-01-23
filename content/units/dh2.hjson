@@ -47,4 +47,5 @@ weapons: [
       collidesTeam: true
     }
   }
-]
+] 
+research: adept

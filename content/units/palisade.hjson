@@ -64,3 +64,4 @@ weapons: [
   }
 ]
 drawShields: false
+research: blockade

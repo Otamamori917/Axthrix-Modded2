@@ -81,3 +81,4 @@ weapons: [
   }
 ]
 drawShields: false
+research: barrier

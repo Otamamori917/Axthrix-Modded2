@@ -55,3 +55,4 @@ weapons: [
   }
 ]
 drawShields: false
+research: 1
