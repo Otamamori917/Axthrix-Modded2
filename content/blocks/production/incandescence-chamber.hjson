@@ -12,7 +12,6 @@ consumes: {
   items: {
     items: [
       platinum/100
-      pryo-heap/10
       bismuth/10
       blast-compound/40
     ]
