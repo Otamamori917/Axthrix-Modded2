@@ -17,7 +17,7 @@ requirements: [
   cobalt/100 
 ] 
 ammoTypes: { 
-  unmovo-heap: { 
+  copper: { 
     type: BasicBulletType 
     width: 4 
     height: 8 
@@ -32,54 +32,6 @@ ammoTypes: {
     status: unmoving 
     statusDuration: 30 
     lifetime: 2000 
-  } 
-  pryo-heap: { 
-    type: BasicBulletType 
-    width: 4 
-    height: 8 
-    damage: 3000 
-    speed: 100 
-    buildingDamageMultiplier: 0.5
-    splashDamageRadius: 100
-    splashDamage: 800
-    scaledSplashDamage: true
-    frontColor: DD571C
-    backColor: ED7014
-    status: burning
-    statusDuration: 480 
-    lifetime: 2000  
-  } 
-  cryo-heap: { 
-    type: BasicBulletType 
-    width: 4 
-    height: 8 
-    damage: 3500 
-    speed: 100
-    buildingDamageMultiplier: 0.5
-    splashDamageRadius: 100
-    splashDamage: 800
-    scaledSplashDamage: true
-    frontColor: 1FBDD2
-    backColor: 33C7D8
-    status: freezing 
-    statusDuration: 380 
-    lifetime: 2000  
-  } 
-  electro-heap: { 
-    type: BasicBulletType 
-    width: 2 
-    height: 5 
-    buildingDamageMultiplier: 0.6
-    damage: 4000 
-    speed: 100
-    splashDamageRadius: 100
-    splashDamage: 800
-    scaledSplashDamage: true 
-    frontColor: 00FF00
-    backColor: 72FF13
-    status: electrified
-    statusDuration: 300 
-    lifetime: 2000  
   } 
 }  
 inaccuracy: 1
