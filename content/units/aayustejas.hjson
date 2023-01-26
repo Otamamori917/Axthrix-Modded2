@@ -163,8 +163,8 @@ weapons: [
     inaccuracy: 0
     bullet: {
       type: BasicBulletType
-      sprite: anagh-bullet
-      backSprite: anagh-bullet-back
+      sprite: a-anagh-bullet
+      backSprite: a-anagh-bullet-back
       hitEffect: none
       despawnEffect: none
       shootEffect: none
