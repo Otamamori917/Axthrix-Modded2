@@ -164,20 +164,29 @@ weapons: [
     bullet: {
       type: BasicBulletType
       spawnUnit: anagh
-      sprite: none
-      backSprite: none
+      sprite: anagh-bullet
+      backSprite: anagh-bullet-back
       hitEffect: none
       despawnEffect: none
       shootEffect: none
       smokeEffect: none
       hittable: false
-      reflectable: false
       absorbable: false
-      width: 0.1
-      height: 0.1
+      width: 1
+      height: 1
       damage: 0
-      lifetime: 300
-      speed: 2
+      lifetime: 50
+      speed: 3
+      fragBullets: 1
+      fragBullet: {
+        type: LaserBulletType
+        spawnUnit: anagh
+        length: 50
+        damage: 100
+        knockback: -2
+        lifeTime: 30
+        speed: 0
+      }  
     }
   }
 ]
