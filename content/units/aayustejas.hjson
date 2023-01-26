@@ -171,8 +171,10 @@ weapons: [
       smokeEffect: none
       hittable: false
       absorbable: false
-      width: 5
-      height: 5
+      backColor: A020F0
+      frontColor: bf92f9
+      width: 10
+      height: 10
       damage: 0
       lifetime: 50
       speed: 3
