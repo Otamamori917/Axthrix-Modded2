@@ -15,7 +15,7 @@ weapons: [
     y: 0
     shootX: 0
     shootY: 5
-    reload: 50
+    reload: 60
     cooldownTime: 60
     layerOffset: 8
     shootSound: shockBlast
@@ -47,7 +47,7 @@ weapons: [
       height: 14
       damage: 140
       lifetime: 300
-      speed: 2
+      speed: 1.5
       backColor: A020F0
       frontColor: bf92f9
       fragBullets: 10
@@ -72,7 +72,7 @@ weapons: [
     y: 0
     shootX: 0
     shootY: 0
-    reload: 50
+    reload: 60
     cooldownTime: 60
     layerOffset: 10
     recoil: 0
@@ -112,7 +112,7 @@ weapons: [
     y: 0
     shootX: 0
     shootY: -5
-    reload: 50
+    reload: 60
     cooldownTime: 20
     layerOffset: 6
     recoil: 6
@@ -151,7 +151,7 @@ weapons: [
     y: -20
     shootX: 0
     shootY: 0
-    reload: 10
+    reload: 300
     recoil: 0
     recoilPow: 0
     recoilTime: 0
