@@ -32,4 +32,3 @@ research: lutetium
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: heat-plate/10
-drawer: drawMixer
