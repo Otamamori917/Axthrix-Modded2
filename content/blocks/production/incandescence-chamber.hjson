@@ -32,3 +32,10 @@ research: lutetium
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: heat-plate/10
+drawer: [
+  DrawMulti(
+    DrawRegion: incandescence-chamber-bottom
+    DrawLiquidRegion: incandescence-chamber-liquid
+    DrawRegion: incandescence-chamber-top
+  )  
+]
