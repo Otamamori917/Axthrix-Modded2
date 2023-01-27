@@ -16,7 +16,7 @@ upgrades: [
     IA-ace, IB-adept
   ]
   [
-    DA-spark, DB_bolt
+    DA-spark, DB-bolt
   ]
   [
     BA-barrier, BB-blockade
