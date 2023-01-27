@@ -1,0 +1,39 @@
+type: ItemTurret
+buildCostMultiplier: 0.1
+size: 3
+health: 1200
+reload: 120
+range: 40
+maxAmmo: 10 
+recoil: 10 
+rotateSpeed: 2 
+targetAir: true 
+targetGround: true 
+requirements: [ 
+  copper/ 150
+  lead/50
+  graphite/40
+] 
+ammoTypes: { 
+  graphite: { 
+    type: BasicBulletType 
+    width: 4 
+    height: 8 
+    damage: 20 
+    speed: 2
+    frontColor: 36454F
+    backColor: 000000 
+    lifetime: 50 
+  } 
+}  
+inaccuracy: 4
+pierceCap: 1 
+category: turret 
+research: { 
+  parent: salvo
+  requirements: [
+     titanium/1000 
+     plastanium/1000 
+     heat-plate/10 
+  ] 
+}
