@@ -32,6 +32,4 @@ research: lutetium
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: heat-plate/10
-drawer: a-incandescence-chamber-liquid
-drawer: a-incandescence-chamber-top
-drawer: a-incandescence-chamber-bottom
+drawer: drawMixer
