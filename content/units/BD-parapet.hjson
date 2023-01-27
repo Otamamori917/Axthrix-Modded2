@@ -1,22 +1,27 @@
 type: mech
 flying: false
-health: 750
+health: 8600
 canBoost: true
-armor: 10
-size: 13
-hitSize: 13
-speed: 1
-buildSpeed: 2
+armor: 14
+size: 24
+hitSize: 24
+buildSpeed: 3
+speed: 2
 rotateSpeed: 5
 abilities: [
   {
    type: ForceFieldAbility
-   health: 800
-   radius: 60
-   regen: 0.6
-   cooldown: 125
+   health: 1000
+   radius: 80
+   regen: 1.8
+   cooldown: 100
   }
-    {
+  {
+   type: ArmorPlateAbility
+   healthMultiplier: 0.8
+   color: 7b9691 
+  }  
+  {
    type: StatusFieldAbility
    effect: none 
    reload: 50
@@ -38,34 +43,51 @@ abilities: [
   }
 ]
 weapons: [
-  {
-    name: repeater
+    {
+    name: LM-barrel
     shootSound: blaster
-    x: 8
-    y: 1
+    x: 1.5
+    y: 4
     mirror: true
     top: false
-    reload: 40
-    inaccuracy: 0
+    reload: 20
+    inaccuracy: 5
     shoot: {
-      shots: 4
-      shotDelay: 10
+      shots: 5
+      shotDelay: 80
     }
     bullet: {
       type: LaserBoltBulletType
       damage: 20
-      lifetime: 60
-      speed: 3
+      lifetime: 100
+      speed: 6
       healPercent: 1
       collidesTeam: true
       backColor: 98FF98
-      frontColor: FFFFFF  
+      frontColor: FFFFFF
+      fragBullets: 2
+      fragBullet: {
+        type: LaserBulletType
+        width: 12
+        length: 40
+        damage: 5
+        lifeTime: 5
+        healPercent: 1
+        collidesTeam: true
+        speed: 0
+        collides: true
+        colors: [
+          98FF98
+          7CFC00
+          FFFFFF
+        ]
+      }  
     }
   }
 ]
 drawShields: false
 research: {
-  parent: blockade
+  parent: BC-palisade
   requirements: [
     silicon/1
   ]

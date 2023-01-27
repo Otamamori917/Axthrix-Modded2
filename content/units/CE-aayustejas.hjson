@@ -163,8 +163,8 @@ weapons: [
     inaccuracy: 0
     bullet: {
       type: BasicBulletType
-      sprite: a-anagh-bullet
-      backSprite: a-anagh-bullet-back
+      sprite: a-anwir-bullet
+      backSprite: a-anwir-bullet-back
       hitEffect: none
       despawnEffect: none
       shootEffect: none
@@ -181,7 +181,7 @@ weapons: [
       fragBullets: 1
       fragBullet: {
         type: BulletType
-        spawnUnit: anagh
+        spawnUnit: QA-anwir
         length: 50
         damage: 0
         knockback: -2
@@ -192,7 +192,7 @@ weapons: [
   }
 ]
 research: {
-  parent: agnitejas
+  parent: CB-agnitejas
   requirements: [
     silicon/1
   ]

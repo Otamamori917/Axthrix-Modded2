@@ -9,12 +9,12 @@ rotateSpeed: 2
 abilities: [
   {
    type: UnitSpawnAbility
-   unit: dh
+   unit: PA-dh
    spawnTime: 180
   }
   {
    type: UnitSpawnAbility
-   unit: da
+   unit: OA-da
    spawnTime: 200
   }
 ]

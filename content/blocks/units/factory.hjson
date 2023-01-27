@@ -6,7 +6,7 @@ consumes: {
 
 plans: [ 
   {
-    unit: ace
+    unit: IA-ace
     requirements: [
       titanium/150
       metaglass/50
@@ -15,7 +15,7 @@ plans: [
     time: 180
   }
   {
-    unit: barrier
+    unit: BA-barrier
     requirements: [
       titanium/150
       silicon/50
@@ -23,7 +23,7 @@ plans: [
     time: 180
   }
   {
-    unit: angovo
+    unit: CA-anagh
     requirements: [
       titanium/150
       silicon/50

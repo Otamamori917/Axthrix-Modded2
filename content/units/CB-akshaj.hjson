@@ -38,7 +38,7 @@ weapons: [
   }
 ]
 research: {
-  parent: angovo
+  parent: CA-anagh
   requirements: [
     silicon/1
   ]

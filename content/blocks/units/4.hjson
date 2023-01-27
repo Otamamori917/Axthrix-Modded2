@@ -15,16 +15,16 @@ consumes: {
 constructTime: 800
 upgrades: [
   [
-    doyen, demon
+    ID-doyen, IE-demon
   ]
   [
-    thunder, lightning
+    DD-thunder, DE-lightning
   ]
   [
-    parapet, impediment
+    BD-parapet, BE-impediment
   ]
   [
-    agnitejas,aayustejas
+    CD-agnitejas,CE-aayustejas
   ]
 ]
 requirements: [ 

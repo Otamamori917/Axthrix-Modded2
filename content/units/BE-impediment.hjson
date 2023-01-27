@@ -254,7 +254,7 @@ weapons: [
 ]
 drawShields: false
 research: {
-  parent: parapet
+  parent: BD-parapet
   requirements: [
     silicon/1
   ]

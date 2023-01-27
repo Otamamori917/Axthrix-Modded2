@@ -13,16 +13,16 @@ consumes: {
 constructTime: 200
 upgrades: [
   [
-    ace, adept
+    IA-ace, IB-adept
   ]
   [
-    spark, bolt
+    DA-spark, DB_bolt
   ]
   [
-    barrier, blockade
+    BA-barrier, BB-blockade
   ]
   [
-    angovo,animado
+    CA-anagh,CB-akshaj
   ]
 ]
 requirements: [ 

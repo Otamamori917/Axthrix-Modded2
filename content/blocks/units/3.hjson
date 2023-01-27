@@ -15,16 +15,16 @@ consumes: {
 constructTime: 600
 upgrades: [
   [
-    maestro, doyen
+    IC-maestro, ID-doyen
   ]
   [
-    crack, thunder
+    DC-crack, DD-thunder
   ]
   [
-    palisade, parapet
+    BC-palisade, BD-parapet
   ]
   [
-    amitojas,agnitejas
+    CC-amitojas,CD-agnitejas
   ]
 ]
 requirements: [ 

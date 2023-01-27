@@ -82,7 +82,7 @@ weapons: [
 ]
 drawShields: false
 research: {
-  parent: barrier
+  parent: BA-barrier
   requirements: [
     silicon/1
   ]

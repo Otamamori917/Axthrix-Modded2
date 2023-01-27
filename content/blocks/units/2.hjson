@@ -14,16 +14,16 @@ consumes: {
 constructTime: 400
 upgrades: [
   [
-    adept, maestro
+    IB-adept, IC-maestro
   ]
   [
-    bolt, crack
+    DB-bolt, DC-crack
   ]
   [
-    blockade, palisade
+    BB-blockade, BC-palisade
   ]
   [
-    animado,amitojas
+    CB-akshaj,CC-amitojas
   ]
 ]
 requirements: [ 
