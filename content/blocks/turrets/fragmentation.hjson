@@ -112,8 +112,8 @@ ammoTypes: {
     fragBullets: 1
     fragBullet: {
       type: LightningBulletType 
-      lightningColor: 000fff
-      lightningLength: 40
+      lightningColor: FFF000
+      lightningLength: 10
       damage: 20 
       speed: 0 
       lifetime: 5
@@ -137,8 +137,8 @@ ammoTypes: {
         fragBullets: 1
         fragBullet: { 
           type: LightningBulletType 
-          lightningColor: 000fff
-          lightningLength: 40
+          lightningColor: FFF000
+          lightningLength: 10
           damage: 20 
           speed: 0
           lifetime: 5
@@ -162,8 +162,8 @@ ammoTypes: {
             fragBullets: 2
             fragBullet: { 
               type: LightningBulletType 
-              lightningColor: 000fff
-              lightningLength: 40
+              lightningColor: FFF000
+              lightningLength: 10
               damage: 20 
               speed: 0
               lifetime: 5
