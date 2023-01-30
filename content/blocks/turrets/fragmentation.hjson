@@ -23,18 +23,18 @@ ammoTypes: {
     speed: 3
     frontColor: FFF000
     backColor: 000FFF 
-    lifetime: 25
+    lifetime: 10
     fragRandomSpread: 25
     fragBullets: 1
     fragBullet: {
       type: ShrapnelBulletType 
       width: 30
-      length: 60
+      length: 40
       damage: 20 
       speed: 0
       frontColor: FFF000
       backColor: 000FFF 
-      lifetime: 100
+      lifetime: 5
       fragRandomSpread: 0
       fragBullets: 1
       fragBullet: { 
@@ -46,17 +46,40 @@ ammoTypes: {
         frontColor: FFF000
         backColor: 000FFF 
         lifetime: 10
-        fragRandomSpread: 40 
-        fragBullets: 4
+        fragRandomSpread: 25
+        fragBullets: 1
         fragBullet: { 
           type: ShrapnelBulletType 
           width: 30
-          length: 60
+          length: 40
           damage: 20 
           speed: 0
           frontColor: FFF000
           backColor: 000FFF 
-          lifetime: 100
+          lifetime: 5
+          fragBullets: 1
+          fragBullet: { 
+            type: BasicBulletType 
+            width: 8
+            height: 16 
+            damage: 20 
+            speed: 3
+            frontColor: FFF000
+            backColor: 000FFF 
+            lifetime: 10
+            fragRandomSpread: 25
+            fragBullets: 1
+            fragBullet: { 
+              type: ShrapnelBulletType 
+              width: 30
+              length: 40
+              damage: 20 
+              speed: 0
+              frontColor: FFF000
+              backColor: 000FFF 
+              lifetime: 5
+            }  
+          }
         }  
       }    
     }
