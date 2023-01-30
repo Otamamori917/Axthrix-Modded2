@@ -38,7 +38,7 @@ ammoTypes: {
       toColor: 475fb1
       width: 30
       length: 40
-      damage: 20 
+      damage: 60 
       speed: 0 
       lifetime: 5
       fragRandomSpread: 5
@@ -65,7 +65,7 @@ ammoTypes: {
           toColor: 475fb1
           width: 30
           length: 40
-          damage: 20 
+          damage: 60 
           speed: 0
           lifetime: 5
           fragRandomSpread: 5
@@ -92,7 +92,7 @@ ammoTypes: {
               toColor: 475fb1
               width: 30
               length: 40
-              damage: 20 
+              damage: 60 
               speed: 0
               lifetime: 5
             }  
@@ -127,7 +127,7 @@ ammoTypes: {
       ]
       width: 20
       frontLength: 60
-      damage: 40 
+      damage: 60 
       speed: 0 
       lifetime: 5
       fragRandomSpread: 5
@@ -158,7 +158,7 @@ ammoTypes: {
           ]
           width: 20
           frontLength: 60
-          damage: 40 
+          damage: 60 
           speed: 0
           lifetime: 5
           fragRandomSpread: 5
@@ -189,7 +189,7 @@ ammoTypes: {
               ]
               width: 20
               frontLength: 60
-              damage: 40 
+              damage: 60 
               speed: 0
               lifetime: 5
             }  
