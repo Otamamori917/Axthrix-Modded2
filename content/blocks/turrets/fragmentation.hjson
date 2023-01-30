@@ -27,14 +27,14 @@ ammoTypes: {
     fragBullets: 4
     fragBullet: {
       type: ShrapnelBulletType 
-      width: 8
-      height: 16 
+      width: 30
+      length: 60
       damage: 20 
-      speed: 3
+      speed: 0
       frontColor: FFF000
       backColor: 000FFF 
       lifetime: 100
-      fragBullets: 2
+      fragBullets: 1
       fragBullet: { 
         type: BasicBulletType 
         width: 8
@@ -47,10 +47,10 @@ ammoTypes: {
         fragBullets: 4
         fragBullet: { 
           type: ShrapnelBulletType 
-          width: 8
-          height: 16 
+          width: 30
+          length: 60
           damage: 20 
-          speed: 3
+          speed: 0
           frontColor: FFF000
           backColor: 000FFF 
           lifetime: 100
@@ -59,8 +59,8 @@ ammoTypes: {
     }
   } 
 }  
-inaccuracy: 4
-pierceCap: 1 
+inaccuracy: 8
+pierceCap: 2
 shoot: {
   shots: 6
   shotDelay: 0
