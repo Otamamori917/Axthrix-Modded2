@@ -3,7 +3,7 @@ buildCostMultiplier: 0.1
 size: 4
 health: 140
 reload: 60
-range: 175
+range: 200
 maxAmmo: 10 
 ammoPerShot: 5
 recoil: 3
