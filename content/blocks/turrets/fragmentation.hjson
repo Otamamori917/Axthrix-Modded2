@@ -29,7 +29,7 @@ ammoTypes: {
     width: 0.2
     height: 0.2 
     damage: 0
-    speed: 0
+    speed: 2
     lifetime: 5
     fragRandomSpread: 40
     fragBullets: 1
@@ -114,7 +114,7 @@ ammoTypes: {
     width: 0.2
     height: 0.2 
     damage: 0
-    speed: 0
+    speed: 2
     lifetime: 5
     fragRandomSpread: 40
     fragBullets: 1
@@ -214,7 +214,7 @@ ammoTypes: {
     width: 0.2
     height: 0.2 
     damage: 0
-    speed: 0 
+    speed: 2
     lifetime: 5
     fragRandomSpread: 40
     fragBullets: 1
