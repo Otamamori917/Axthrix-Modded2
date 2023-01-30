@@ -125,8 +125,8 @@ ammoTypes: {
         c24579
         91335a
       ]
-      width: 30
-      length: 40
+      width: 10
+      frontLength: 40
       damage: 20 
       speed: 0 
       lifetime: 5
@@ -156,8 +156,8 @@ ammoTypes: {
             c24579
             91335a
           ]
-          width: 30
-          length: 40
+          width: 10
+          frontLength: 40
           damage: 20 
           speed: 0
           lifetime: 5
@@ -187,8 +187,8 @@ ammoTypes: {
                 c24579
                 91335a
               ]
-              width: 30
-              length: 40
+              width: 10
+              frontLength: 40
               damage: 20 
               speed: 0
               lifetime: 5
