@@ -28,7 +28,7 @@ ammoTypes: {
     width: 0.2
     height: 0.2 
     damage: 0
-    speed: 14 
+    speed: 0
     lifetime: 5
     fragRandomSpread: 40
     fragBullets: 1
@@ -113,19 +113,20 @@ ammoTypes: {
     width: 0.2
     height: 0.2 
     damage: 0
-    speed: 14 
+    speed: 0
     lifetime: 5
     fragRandomSpread: 40
     fragBullets: 1
     fragBullet: {
       type: ContinuousLaserBulletType
+      fadeTime: 20
       colors: [
         f9a3c7
         fc70aa
         c24579
         91335a
       ]
-      width: 20
+      width: 30
       frontLength: 60
       damage: 60 
       speed: 0 
@@ -150,6 +151,7 @@ ammoTypes: {
         fragBullets: 2
         fragBullet: { 
           type: ContinuousLaserBulletType
+          fadeTime: 20
           colors: [
             f9a3c7
             fc70aa
@@ -180,7 +182,8 @@ ammoTypes: {
             fragRandomSpread: 40
             fragBullets: 4
             fragBullet: { 
-              type: ContinuousLaserBulletType 
+              type: ContinuousLaserBulletType
+              fadeTime: 20 
               colors: [
                 f9a3c7
                 fc70aa
@@ -210,7 +213,7 @@ ammoTypes: {
     width: 0.2
     height: 0.2 
     damage: 0
-    speed: 14 
+    speed: 0 
     lifetime: 5
     fragRandomSpread: 40
     fragBullets: 1
@@ -278,7 +281,7 @@ ammoTypes: {
     }
   } 
 }  
-inaccuracy: 0
+inaccuracy: 25
 shoot: {
   shots: 6
   shotDelay: 0
