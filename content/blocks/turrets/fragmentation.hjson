@@ -3,7 +3,7 @@ buildCostMultiplier: 0.1
 size: 2
 health: 140
 reload: 60
-range: 400
+range: 200
 maxAmmo: 10 
 recoil: 1
 rotateSpeed: 2 
@@ -23,7 +23,8 @@ ammoTypes: {
     speed: 3
     frontColor: FFF000
     backColor: 000FFF 
-    lifetime: 100
+    lifetime: 50
+    fragRandomSpread: 0
     fragBullets: 4
     fragBullet: {
       type: ShrapnelBulletType 
@@ -34,16 +35,17 @@ ammoTypes: {
       frontColor: FFF000
       backColor: 000FFF 
       lifetime: 100
+      fragRandomSpread: 0
       fragBullets: 1
       fragBullet: { 
         type: BasicBulletType 
         width: 8
         height: 16 
         damage: 20 
-        speed: 3
+        speed: 1
         frontColor: FFF000
         backColor: 000FFF 
-        lifetime: 100    
+        lifetime: 25   
         fragBullets: 4
         fragBullet: { 
           type: ShrapnelBulletType 
