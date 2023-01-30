@@ -23,8 +23,8 @@ ammoTypes: {
     speed: 3
     frontColor: FFF000
     backColor: 000FFF 
-    lifetime: 50
-    fragRandomSpread: 0
+    lifetime: 25
+    fragRandomSpread: 25
     fragBullets: 4
     fragBullet: {
       type: ShrapnelBulletType 
@@ -45,8 +45,9 @@ ammoTypes: {
         speed: 1
         frontColor: FFF000
         backColor: 000FFF 
-        lifetime: 25   
-        fragBullets: 4
+        lifetime: 40
+        fragRandomSpread: 25 
+        fragBullets: 1
         fragBullet: { 
           type: ShrapnelBulletType 
           width: 30
