@@ -282,7 +282,7 @@ ammoTypes: {
     }
   } 
 }  
-inaccuracy: 25
+inaccuracy: 0
 shoot: {
   shots: 6
   shotDelay: 0
