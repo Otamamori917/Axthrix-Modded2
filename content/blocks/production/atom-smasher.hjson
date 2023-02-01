@@ -7,6 +7,21 @@ hasItems: true
 craftTime: 20
 itemCapacity: 20
 updateEffect: smeltsmoke
+[
+      {
+       type: DrawRegion
+       Suffix: "-bottom"
+       }
+       {
+       type: DrawRegion
+       suffix: "-atom"
+       rotateSpeed: 2
+       }
+       {
+       type: DrawRegion
+       suffix: "-top"
+       },
+     ]
 recipes: 
 [
 {
