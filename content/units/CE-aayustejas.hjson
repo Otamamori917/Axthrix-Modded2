@@ -17,13 +17,44 @@ weapons: [
     shootY: 5
     reload: 60
     cooldownTime: 60
-    layerOffset: 8
+    layerOffset: 2
     shootSound: shockBlast
     heatColor: A020F0
     mirror: false
     rotate: true
     rotateSpeed: 1.6
     inaccuracy: 1
+    parts: [
+      {
+        suffix: "-heatsink"
+        type: RegionPart
+        progress: warmup
+        x: 0
+        Y: 0
+        rot: 0
+        layerOffset: 1
+        heatColor: A020F0
+        heatProgress: reload
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            moveY: -3
+          }
+        ]
+      }
+      {
+        suffix: "-base"
+        type: RegionPart
+        progress: warmup
+        x: 0
+        Y: 0
+        rot: 0
+        layerOffset: 3
+        heatColor: A020F0 
+        heatProgress: reload
+      }
+    ]  
     bullet: {
       type: BasicBulletType
       sprite: a-orb-bullet
