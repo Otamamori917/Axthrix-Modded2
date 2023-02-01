@@ -32,7 +32,7 @@ weapons: [
         x: 0
         Y: 0
         rot: 0
-        layerOffset: 1
+        layerOffset: -1
         heatColor: A020F0
         heatProgress: reload
         moves: [
@@ -95,85 +95,6 @@ weapons: [
          FFFFFF
         ]
       }  
-    }
-  }
-  {
-    name: solar-base
-    x: 0
-    y: 0
-    shootX: 0
-    shootY: 0
-    reload: 60
-    cooldownTime: 60
-    layerOffset: 10
-    recoil: 0
-    recoilPow: 0
-    display: false
-    recoilTime: 0
-    shootSound: none
-    heatColor: A020F0
-    mirror: false
-    rotate: true
-    rotateSpeed: 1.6
-    inaccuracy: 0
-    bullet: {
-      type: BasicBulletType
-      sprite: none
-      backSprite: none
-      hitEffect: none
-      despawnEffect: none
-      shootEffect: none
-      smokeEffect: none
-      hittable: false
-      reflectable: false
-      absorbable: false
-      spin: 1
-      width: 0.1
-      height: 0.1
-      damage: 0
-      lifetime: 300
-      speed: 2
-      backColor: 9966cb
-      frontColor: bf92f9 
-    }
-  }
-    {
-    name: solar-heatsink
-    x: 0
-    y: 0
-    shootX: 0
-    shootY: -5
-    reload: 60
-    cooldownTime: 20
-    layerOffset: 6
-    recoil: 6
-    display: false
-    recoilTime: 40
-    shootSound: none
-    heatColor: 953553
-    mirror: false
-    rotate: true
-    rotateSpeed: 1.6
-    inaccuracy: 0
-    bullet: {
-      type: BasicBulletType
-      sprite: none
-      backSprite: none
-      hitEffect: none
-      despawnEffect: none
-      shootEffect: none
-      smokeEffect: none
-      hittable: false
-      reflectable: false
-      absorbable: false
-      spin: 1
-      width: 0.1
-      height: 0.1
-      damage: 0
-      lifetime: 300
-      speed: 2
-      backColor: 9966cb
-      frontColor: bf92f9 
     }
   }
   {
