@@ -10,7 +10,8 @@ recoil: 3
 rotateSpeed: 2 
 targetAir: true 
 targetGround: true 
-shootY: -4
+shootY: -2
+shootSound: shotgun
 requirements: [ 
   copper/ 150
   lead/50
@@ -19,6 +20,7 @@ requirements: [
 ammoTypes: { 
   titanium: { 
     type: BulletType 
+    despawnSound: shotgun
     hittable: false
     reflectable: false
     absorbable: false
@@ -46,6 +48,7 @@ ammoTypes: {
       fragBullets: 1
       fragBullet: { 
         type: BulletType 
+        despawnSound: shotgun
         hittable: false
         reflectable: false
         absorbable: false
@@ -73,6 +76,7 @@ ammoTypes: {
           fragBullets: 1
           fragBullet: { 
             type: BulletType 
+            despawnSound: shotgun
             hittable: false
             reflectable: false
             absorbable: false
@@ -104,6 +108,7 @@ ammoTypes: {
   } 
   thorium: { 
     type: BulletType 
+    despawnSound: shotgun
     hittable: false
     reflectable: false
     absorbable: false
@@ -136,6 +141,7 @@ ammoTypes: {
       fragBullets: 1
       fragBullet: { 
         type: BulletType 
+        despawnSound: shotgun
         hittable: false
         reflectable: false
         absorbable: false
@@ -168,6 +174,7 @@ ammoTypes: {
           fragBullets: 1
           fragBullet: { 
             type: BulletType 
+            despawnSound: shotgun
             hittable: false
             reflectable: false
             absorbable: false
@@ -204,6 +211,7 @@ ammoTypes: {
   } 
   surge-alloy: { 
     type: BulletType 
+    despawnSound: shotgun
     hittable: false
     reflectable: false
     absorbable: false
@@ -219,7 +227,8 @@ ammoTypes: {
     fragRandomSpread: 40
     fragBullets: 1
     fragBullet: {
-      type: LightningBulletType 
+      type: LightningBulletType
+      despawnSound: spark 
       lightningColor: FFF000
       lightningLength: 10
       damage: 60 
@@ -229,6 +238,7 @@ ammoTypes: {
       fragBullets: 1
       fragBullet: { 
         type: BulletType 
+        despawnSound: shotgun
         hittable: false
         reflectable: false
         absorbable: false
@@ -244,7 +254,8 @@ ammoTypes: {
         fragRandomSpread: 40
         fragBullets: 1
         fragBullet: { 
-          type: LightningBulletType 
+          type: LightningBulletType
+          despawnSound: spark 
           lightningColor: FFF000
           lightningLength: 10
           damage: 60 
@@ -254,6 +265,7 @@ ammoTypes: {
           fragBullets: 2
           fragBullet: { 
             type: BulletType 
+            despawnSound: shotgun
             hittable: false
             reflectable: false
             absorbable: false
@@ -269,7 +281,8 @@ ammoTypes: {
             fragRandomSpread: 40
             fragBullets: 4
             fragBullet: { 
-              type: LightningBulletType 
+              type: LightningBulletType
+              despawnSound: spark 
               lightningColor: FFF000
               lightningLength: 10
               damage: 60 
