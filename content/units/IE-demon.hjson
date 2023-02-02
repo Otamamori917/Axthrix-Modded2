@@ -130,9 +130,9 @@ weapons: [
     rotate: true
     rotateSpeed: 1.5
     inaccuracy: 0
-    shoot(
+    shoot: {
       type: ShootHelix
-    )
+    }
     bullet: {
       type: ArtilleryBulletType
       width: 6
