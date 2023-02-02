@@ -23,6 +23,9 @@ weapons: [
     rotate: true
     rotateSpeed: 1.2
     inaccuracy: 0
+    shoot: {
+      type: ShootHelix
+    }
     bullet: {
       type: BasicBulletType
       sprite: a-orb-bullet
