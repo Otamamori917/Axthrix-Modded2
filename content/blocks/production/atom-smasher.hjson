@@ -7,7 +7,7 @@ hasItems: true
 craftTime: 20
 itemCapacity: 20
 updateEffect: smeltsmoke
-[
+drawer: [
   {
   type: DrawRegion
   Suffix: "-bottom"
