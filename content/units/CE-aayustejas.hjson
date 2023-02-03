@@ -67,7 +67,7 @@ weapons: [
     }
   }
   {
-    name: solar-base
+    name: solar-barrel-base
     x: 0
     y: 0
     shootX: 0
@@ -107,7 +107,7 @@ weapons: [
     }
   }
     {
-    name: solar-heatsink
+    name: solar-barrel-heatsink
     x: 0
     y: 0
     shootX: 0
