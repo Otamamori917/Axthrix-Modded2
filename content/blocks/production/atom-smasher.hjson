@@ -15,12 +15,12 @@ drawer: [
   {
   type: DrawRegion
   suffix: "-atom-1"
-  rotateSpeed: 8
+  rotateSpeed: 40
   }
   {
   type: DrawRegion
   suffix: "-atom-2"
-  rotateSpeed: -8
+  rotateSpeed: -40
   }
   {
   type: DrawRegion
