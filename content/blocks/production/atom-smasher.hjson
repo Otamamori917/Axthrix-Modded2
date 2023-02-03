@@ -16,35 +16,31 @@ drawer: [
   type: DrawRegion
   suffix: "-plasma-1"
   rotateSpeed: 40
-  color: AD03DE
   }
   {
   type: DrawRegion
   suffix: "-plasma-2"
   rotateSpeed: -40
-  color: 00008B
   }
     {
   type: DrawRegion
   suffix: "-plasma-3"
   rotateSpeed: 40
-  color: AD03DE
   }
   {
   type: DrawRegion
   suffix: "-plasma-4"
   rotateSpeed: -40
-  color: 00008B
   }
   {
   type: DrawRegion
   suffix: "-fan"
-  rotateSpeed: -8
+  rotateSpeed: -4
   }
   {
   type: DrawRegion
   suffix: "-fan"
-  rotateSpeed: 8
+  rotateSpeed: 4
   }
   {
   type: DrawRegion
