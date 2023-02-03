@@ -35,12 +35,7 @@ drawer: [
   {
   type: DrawRegion
   suffix: "-fan"
-  rotateSpeed: -4
-  }
-  {
-  type: DrawRegion
-  suffix: "-fan"
-  rotateSpeed: 4
+  rotateSpeed: 2
   }
   {
   type: DrawRegion
