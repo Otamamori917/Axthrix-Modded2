@@ -1,7 +1,7 @@
 type: ItemTurret
 buildCostMultiplier: 0.1
 size: 4
-health: 140
+scaledHealth: 20
 reload: 60
 range: 200
 maxAmmo: 10 
@@ -124,7 +124,7 @@ ammoTypes: {
     fragRandomSpread: 40
     fragBullets: 1
     fragBullet: {
-      type: ContinuousLaserBulletType
+      type: LaserBulletType
       fadeTime: 20
       colors: [
         f9a3c7
@@ -157,7 +157,7 @@ ammoTypes: {
         fragRandomSpread: 40
         fragBullets: 2
         fragBullet: { 
-          type: ContinuousLaserBulletType
+  
           fadeTime: 20
           colors: [
             f9a3c7
@@ -190,7 +190,7 @@ ammoTypes: {
             fragRandomSpread: 40
             fragBullets: 4
             fragBullet: { 
-              type: ContinuousLaserBulletType
+      
               fadeTime: 20 
               colors: [
                 f9a3c7
