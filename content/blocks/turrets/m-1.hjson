@@ -25,7 +25,7 @@ ammoTypes: {
     hitSize: 5
     damage: 10
     speed: 4
-    lifetime: 50
+    lifetime: 150
   }  
 }  
 inaccuracy: 0
