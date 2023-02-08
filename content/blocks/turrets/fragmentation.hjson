@@ -12,6 +12,9 @@ targetAir: true
 targetGround: true 
 shootY: -2
 shootSound: shotgun
+coolant: {
+  consumeCoolant: 0.3
+}  
 requirements: [ 
   copper/ 150
   lead/50
