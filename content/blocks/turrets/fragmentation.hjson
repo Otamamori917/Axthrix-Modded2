@@ -230,7 +230,7 @@ ammoTypes: {
       type: LightningBulletType
       despawnSound: spark 
       lightningColor: FFF000
-      lightningLength: 30
+      lightningLength: 20
       damage: 60 
       speed: 0 
       lifetime: 5
@@ -257,7 +257,7 @@ ammoTypes: {
           type: LightningBulletType
           despawnSound: spark 
           lightningColor: FFF000
-          lightningLength: 30
+          lightningLength: 20
           damage: 60 
           speed: 0
           lifetime: 5
@@ -284,7 +284,7 @@ ammoTypes: {
               type: LightningBulletType
               despawnSound: spark 
               lightningColor: FFF000
-              lightningLength: 30
+              lightningLength: 20
               damage: 60 
               speed: 0
               lifetime: 5
