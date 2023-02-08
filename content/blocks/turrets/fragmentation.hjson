@@ -133,7 +133,7 @@ ammoTypes: {
         91335a
       ]
       width: 30
-      length: 40
+      length: 100
       damage: 60 
       speed: 0 
       lifetime: 5
@@ -166,7 +166,7 @@ ammoTypes: {
             91335a
           ]
           width: 20
-          length: 60
+          length: 100
           damage: 60 
           speed: 0
           lifetime: 5
@@ -199,7 +199,7 @@ ammoTypes: {
                 91335a
               ]
               width: 20
-              length: 60
+              length: 100
               damage: 60 
               speed: 0
               lifetime: 5
