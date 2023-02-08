@@ -157,7 +157,7 @@ ammoTypes: {
         fragRandomSpread: 40
         fragBullets: 2
         fragBullet: { 
-  
+          type: LaserBulletType
           fadeTime: 20
           colors: [
             f9a3c7
@@ -190,7 +190,7 @@ ammoTypes: {
             fragRandomSpread: 40
             fragBullets: 4
             fragBullet: { 
-      
+              type: LaserBulletType
               fadeTime: 20 
               colors: [
                 f9a3c7
