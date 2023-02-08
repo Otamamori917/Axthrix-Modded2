@@ -2,7 +2,7 @@ type: ItemTurret
 buildCostMultiplier: 0.1
 size: 6
 scaledHealth: 420
-reload: 30
+reload: 20
 range: 180
 maxAmmo: 400 
 ammoPerShot: 1
@@ -30,8 +30,8 @@ ammoTypes: {
 }  
 inaccuracy: 0
 shoot: {
-  shots: 5
-  shotDelay: 50
+  shots: 8
+  shotDelay: 40
 }
 category: turret 
 research: { 
