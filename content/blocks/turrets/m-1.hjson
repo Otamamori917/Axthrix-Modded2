@@ -12,10 +12,6 @@ targetAir: true
 targetGround: true 
 shootY: -2
 shootSound: shootBig
-shoot: {
-  shots: 5
-  shotDelay: 50
-}
 requirements: [ 
   titanium/300
   thorium/200
@@ -34,8 +30,8 @@ ammoTypes: {
 }  
 inaccuracy: 0
 shoot: {
-  shots: 6
-  shotDelay: 0
+  shots: 5
+  shotDelay: 50
 }
 category: turret 
 research: { 
