@@ -1,0 +1,48 @@
+type: ItemTurret
+buildCostMultiplier: 0.1
+size: 6
+scaledHealth: 420
+reload: 60
+range: 180
+maxAmmo: 400 
+ammoPerShot: 1
+recoil: 3
+rotateSpeed: 2 
+targetAir: true 
+targetGround: true 
+shootY: -2
+shootSound: shootBig
+shoot: {
+  shots: 5
+  shotDelay: 80
+}
+requirements: [ 
+  titanium/300
+  thorium/200
+  plastanium/125
+]  
+ammoTypes: { 
+  titanium: { 
+    type: BasicBulletType 
+    width: 16
+    height: 21 
+    hitSize: 5
+    damage: 10
+    speed: 4
+    lifetime: 50
+  }  
+}  
+inaccuracy: 0
+shoot: {
+  shots: 6
+  shotDelay: 0
+}
+category: turret 
+research: { 
+  parent: fuse
+  requirements: [
+     titanium/1000 
+     plastanium/1000 
+     heat-plate/10 
+  ] 
+}
