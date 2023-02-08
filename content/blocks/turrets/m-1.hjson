@@ -28,7 +28,7 @@ ammoTypes: {
     lifetime: 150
   }  
 }  
-inaccuracy: 0
+inaccuracy: 4
 shoot: {
   shots: 8
   shotDelay: 40
