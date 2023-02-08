@@ -23,9 +23,9 @@ ammoTypes: {
     width: 16
     height: 21 
     hitSize: 5
-    damage: 10
+    damage: 100
     speed: 4
-    lifetime: 150
+    lifetime: 100
   }  
 }  
 inaccuracy: 4
@@ -35,7 +35,7 @@ shoot: {
 }
 category: turret 
 research: { 
-  parent: fuse
+  parent: spectre
   requirements: [
      titanium/1000 
      plastanium/1000 
