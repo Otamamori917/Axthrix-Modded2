@@ -31,7 +31,12 @@ ammoTypes: {
 inaccuracy: 4
 shoot: {
   shots: 8
-  shotDelay: 40
+  shotDelay: {
+    Random:(
+        50
+        30
+    )
+  }
 }
 category: turret 
 research: { 
