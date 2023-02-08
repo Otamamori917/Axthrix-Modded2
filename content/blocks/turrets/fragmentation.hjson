@@ -40,7 +40,7 @@ ammoTypes: {
       fromColor: 8da1e3
       toColor: 475fb1
       width: 30
-      length: 50
+      length: 60
       damage: 60 
       speed: 0 
       lifetime: 5
@@ -68,7 +68,7 @@ ammoTypes: {
           fromColor: 8da1e3
           toColor: 475fb1
           width: 30
-          length: 50
+          length: 60
           damage: 60 
           speed: 0
           lifetime: 5
@@ -96,7 +96,7 @@ ammoTypes: {
               fromColor: 8da1e3
               toColor: 475fb1
               width: 30
-              length: 50
+              length: 60
               damage: 60 
               speed: 0
               lifetime: 5
@@ -133,7 +133,7 @@ ammoTypes: {
         91335a
       ]
       width: 30
-      Length: 40
+      length: 40
       damage: 60 
       speed: 0 
       lifetime: 5
@@ -166,7 +166,7 @@ ammoTypes: {
             91335a
           ]
           width: 20
-          Length: 60
+          length: 60
           damage: 60 
           speed: 0
           lifetime: 5
@@ -199,7 +199,7 @@ ammoTypes: {
                 91335a
               ]
               width: 20
-              Length: 60
+              length: 60
               damage: 60 
               speed: 0
               lifetime: 5
@@ -230,7 +230,7 @@ ammoTypes: {
       type: LightningBulletType
       despawnSound: spark 
       lightningColor: FFF000
-      lightningLength: 20
+      lightninglength: 20
       damage: 60 
       speed: 0 
       lifetime: 5
@@ -257,7 +257,7 @@ ammoTypes: {
           type: LightningBulletType
           despawnSound: spark 
           lightningColor: FFF000
-          lightningLength: 20
+          lightninglength: 20
           damage: 60 
           speed: 0
           lifetime: 5
@@ -284,7 +284,7 @@ ammoTypes: {
               type: LightningBulletType
               despawnSound: spark 
               lightningColor: FFF000
-              lightningLength: 20
+              lightninglength: 20
               damage: 60 
               speed: 0
               lifetime: 5
