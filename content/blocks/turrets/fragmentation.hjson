@@ -40,7 +40,7 @@ ammoTypes: {
       fromColor: 8da1e3
       toColor: 475fb1
       width: 30
-      length: 40
+      length: 50
       damage: 60 
       speed: 0 
       lifetime: 5
@@ -68,7 +68,7 @@ ammoTypes: {
           fromColor: 8da1e3
           toColor: 475fb1
           width: 30
-          length: 40
+          length: 50
           damage: 60 
           speed: 0
           lifetime: 5
@@ -96,7 +96,7 @@ ammoTypes: {
               fromColor: 8da1e3
               toColor: 475fb1
               width: 30
-              length: 40
+              length: 50
               damage: 60 
               speed: 0
               lifetime: 5
