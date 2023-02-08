@@ -12,10 +12,7 @@ targetAir: true
 targetGround: true 
 shootY: -2
 shootSound: shotgun
-coolant: {
-  cryofluid: 0.3
-  water: 0.3  
-}  
+coolant: cryofluid
 requirements: [ 
   copper/ 150
   lead/50
