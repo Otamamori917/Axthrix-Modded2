@@ -2,7 +2,7 @@ type: ItemTurret
 buildCostMultiplier: 0.1
 size: 6
 scaledHealth: 420
-reload: 60
+reload: 30
 range: 180
 maxAmmo: 400 
 ammoPerShot: 1
@@ -12,6 +12,10 @@ targetAir: true
 targetGround: true 
 shootY: -2
 shootSound: shootBig
+shoot: {
+  shots: 5
+  shotDelay: 50
+}
 requirements: [ 
   titanium/300
   thorium/200
@@ -26,10 +30,6 @@ ammoTypes: {
     damage: 10
     speed: 4
     lifetime: 50
-    shoot: {
-      shots: 5
-      shotDelay: 80
-    }
   }  
 }  
 inaccuracy: 0
