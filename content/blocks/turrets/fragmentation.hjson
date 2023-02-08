@@ -13,7 +13,8 @@ targetGround: true
 shootY: -2
 shootSound: shotgun
 coolant: {
-  consumeCoolant: 0.3
+  cryofluid: 0.3
+  water: 0.3  
 }  
 requirements: [ 
   copper/ 150
