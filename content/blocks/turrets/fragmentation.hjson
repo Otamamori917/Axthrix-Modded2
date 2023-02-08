@@ -12,12 +12,11 @@ targetAir: true
 targetGround: true 
 shootY: -2
 shootSound: shotgun
-coolant: cryofluid
 requirements: [ 
-  copper/ 150
-  lead/50
-  graphite/40
-] 
+  titanium/300
+  thorium/200
+  plastanium/125
+]  
 ammoTypes: { 
   titanium: { 
     type: BulletType 
