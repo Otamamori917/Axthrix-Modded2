@@ -7,6 +7,5 @@ requirements: [
 health: 120
 category: distribution
 speed: 2
-displayedSpeed: 5
 itemCapacity: 20
 research: plastanium-conveyor

@@ -10,7 +10,7 @@ updateEffect: smeltsmoke
 drawer: [
   {
   type: DrawRegion
-  Suffix: "-bottom"
+  suffix: "-bottom"
   }
   {
   type: DrawRegion
@@ -243,5 +243,3 @@ requirements: [
 ]
 category: crafting
 research: copper
-idleSound: respawning
-idleSoundVolume: 0.5
