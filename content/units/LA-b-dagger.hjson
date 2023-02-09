@@ -28,7 +28,7 @@ weapons: [
         type: BasicBulletType
         speed: 6
         damage: 8
-        lifeTime: 5
+        lifetime: 5
         collides: true
       }
     }

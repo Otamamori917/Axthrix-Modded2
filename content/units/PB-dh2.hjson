@@ -7,7 +7,6 @@ drag: 0.2
 speed: 2
 rotateSpeed: 5
 armor: 0
-size: 4
 hitSize: 4
 defaultController: DefenderAI
 engineSize: 1

@@ -149,7 +149,7 @@ weapons: [
         splashDamageRadius: 20
         splashDamage: 60
         scaledSplashDamage: true
-        lifeTime: 20
+        lifetime: 20
         speed: 2
         collides: true
         fragBullets: 6
@@ -161,7 +161,7 @@ weapons: [
           splashDamageRadius: 10
           splashDamage: 40
           scaledSplashDamage: true
-          lifeTime: 10
+          lifetime: 10
           speed: 2
           collides: true
           fragBullets: 4
@@ -173,7 +173,7 @@ weapons: [
             splashDamageRadius: 5
             splashDamage: 20
             scaledSplashDamage: true
-            lifeTime: 5
+            lifetime: 5
             speed: 2
             collides: true
           }

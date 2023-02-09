@@ -13,7 +13,6 @@ legBaseOffset: 3
 legContinuousMove: true
 flipBackLegs: true
 canDrown: false
-size: 4
 maxRange: 260
 range: 240
 hitSize: 4
