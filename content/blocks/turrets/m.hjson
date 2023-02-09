@@ -36,7 +36,7 @@ shoot: {
 }
 parts: [
   {
-    suffix: "-sidel"
+    suffix: a-m-sidel
     type: RegionPart
     progress: warmup
     x: 4
@@ -45,7 +45,7 @@ parts: [
     layerOffset: 0
  }  
  {
-    suffix: "-sider"
+    suffix: a-m-sider
     type: RegionPart
     progress: warmup
     x: -4
