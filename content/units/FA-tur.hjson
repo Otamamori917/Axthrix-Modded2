@@ -15,14 +15,14 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: -2
-   effectX: 2
+   effectY: -4
+   effectX: 4
    parentizeEffects: true
    activeEffect: {
     followParent: true
     rotWithParent: true
     particles: 1
-    lifetime: 20
+    lifetime: 60
     length: 0
     region: a-turbine-small
     sizeFrom: 8
@@ -35,14 +35,14 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: -2
-   effectX: 2
+   effectY: -4
+   effectX: -4
    parentizeEffects: true
    activeEffect: {
     followParent: true
     rotWithParent: true
     particles: 1
-    lifetime: 20
+    lifetime: 60
     length: 0
     region: a-turbine-small
     sizeFrom: 8
@@ -55,14 +55,14 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: 2
-   effectX: -2
+   effectY: 4
+   effectX: -4
    parentizeEffects: true
    activeEffect: {
     followParent: true
     rotWithParent: true
     particles: 1
-    lifetime: 20
+    lifetime: 60
     length: 0
     region: a-turbine-small
     sizeFrom: 8
@@ -75,14 +75,14 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: 2
-   effectX: 2
+   effectY: 4
+   effectX: 4
    parentizeEffects: true
    activeEffect: {
     followParent: true
     rotWithParent: true
     particles: 1
-    lifetime: 20
+    lifetime: 60
     length: 0
     region: a-turbine-small
     sizeFrom: 8
