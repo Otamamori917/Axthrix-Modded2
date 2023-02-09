@@ -11,13 +11,11 @@ mesh: {
   scale: 1
   mag: 1.5
 }
-sectorSize: 2
 generator: erekirPlanetGenerator
 orbitSpacing: 12
 orbitRadius: 25
-raradius: 0.8
+radius: 0.8
 minZoom: 1
-maxZoom: 4
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
