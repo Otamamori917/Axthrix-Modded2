@@ -35,25 +35,29 @@ shoot: {
   shotDelay: 40
 }
 parts: [
-  {
-    suffix: a-m-sidel
-    type: RegionPart
-    progress: warmup
-    x: 4
-    y: 0
-    rot: 0
-    layerOffset: 0
- }  
- {
-    suffix: a-m-sider
-    type: RegionPart
-    progress: warmup
-    x: -4
-    y: 0
-    rot: 0
-    layerOffset: 0
- }
-]
+      {
+        suffix: "-sidel"
+        type: RegionPart
+        progress: warmup
+        x: 4
+        Y: 0
+        rot: 0
+        layerOffset: -1
+        heatColor: A020F0
+        heatProgress: reload
+      }
+      {
+        suffix: "-sider"
+        type: RegionPart
+        progress: warmup
+        x: -4
+        Y: 0
+        rot: 0
+        layerOffset: 3
+        heatColor: A020F0 
+        heatProgress: reload
+      }
+    ]  
 category: turret 
 research: { 
   parent: spectre
