@@ -35,7 +35,7 @@ shoot: {
   shotDelay: 40
 }
 drawer: {
-  parts: {
+  parts: [
     {
     suffix: "-side"
     type: RegionPart
@@ -47,7 +47,7 @@ drawer: {
     mirror: true
     turretShading: true
     }
-  }
+  ]
 }  
 category: turret 
 research: { 
