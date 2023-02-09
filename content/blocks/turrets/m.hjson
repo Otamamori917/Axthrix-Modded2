@@ -41,8 +41,8 @@ parts: [
     progress: warmup
     x: 4
     y: 0
-    rot: -20
-    layerOffset: 2
+    rot: 0
+    layerOffset: 0
  }  
  {
     suffix: "-side-r"
@@ -50,8 +50,8 @@ parts: [
     progress: warmup
     x: -4
     y: 0
-    rot: 20
-    layerOffset: 2
+    rot: 0
+    layerOffset: 0
  }
 ]
 category: turret 
