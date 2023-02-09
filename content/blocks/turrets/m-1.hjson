@@ -6,6 +6,7 @@ reload: 20
 range: 180
 maxAmmo: 400 
 ammoPerShot: 1
+consumeAmmoOnce: false
 recoil: 3
 rotateSpeed: 2 
 targetAir: true 
@@ -33,6 +34,32 @@ shoot: {
   shots: 8
   shotDelay: 40
 }
+parts: [
+  {
+    suffix: "-side-l"
+    type: RegionPart
+    progress: warmup
+    x: 4
+    y: 0
+    rot: -20
+    moveX: 0
+    moveY: -2
+    moveRot: 40
+    layerOffset: 2
+ }  
+ {
+    suffix: "-side-r"
+    type: RegionPart
+    progress: warmup
+    x: -4
+    y: 0
+    rot: 20
+    moveX: 0
+    moveY: -2
+    moveRot: -40
+    layerOffset: 2
+ }
+]
 category: turret 
 research: { 
   parent: spectre
