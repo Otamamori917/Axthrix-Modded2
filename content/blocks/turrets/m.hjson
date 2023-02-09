@@ -34,7 +34,7 @@ shoot: {
   shots: 8
   shotDelay: 40
 }
-drawer: [
+parts: [
   {
     suffix: "-side-l"
     type: RegionPart
