@@ -85,9 +85,7 @@ weapons: [
     rotateSpeed: 1.6
     inaccuracy: 0
     bullet: {
-      type: BasicBulletType
-      sprite: none
-      backSprite: none
+      type: BulletType
       hitEffect: none
       despawnEffect: none
       shootEffect: none
@@ -96,13 +94,9 @@ weapons: [
       reflectable: false
       absorbable: false
       spin: 1
-      width: 0.1
-      height: 0.1
       damage: 0
       lifetime: 300
       speed: 2
-      backColor: 9966cb
-      frontColor: bf92f9 
     }
   }
     {
@@ -124,9 +118,7 @@ weapons: [
     rotateSpeed: 1.6
     inaccuracy: 0
     bullet: {
-      type: BasicBulletType
-      sprite: none
-      backSprite: none
+      type: BulletType
       hitEffect: none
       despawnEffect: none
       shootEffect: none
@@ -135,13 +127,9 @@ weapons: [
       reflectable: false
       absorbable: false
       spin: 1
-      width: 0.1
-      height: 0.1
       damage: 0
       lifetime: 300
       speed: 2
-      backColor: 9966cb
-      frontColor: bf92f9 
     }
   }
   {

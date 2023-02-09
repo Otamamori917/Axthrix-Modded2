@@ -60,8 +60,6 @@ weapons: [
     x: 7
     y: -1
     mirror: true
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
     shootSound: spark
     reload: 400
     inaccuracy: 0

@@ -38,8 +38,6 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
     shootSound: spark
     reload: 120
     inaccuracy: 9
