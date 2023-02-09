@@ -22,7 +22,7 @@ abilities: [
     followParent: true
     rotWithParent: true
     particles: 1
-    lifeTime: 20
+    lifetime: 20
     length: 0
     region: a-small-metal-blade
     sizeFrom: 10
@@ -38,6 +38,7 @@ weapons: [
     x: 0
     y: 0
     mirror: false
+    shootSound: spark
     reload: 120
     inaccuracy: 9
     shoot: {
@@ -50,7 +51,8 @@ weapons: [
       collidesAir: true
       damage: 14
       lifetime: 6
-      shootSound: spark
+      shootEffect: sparkShoot
+      smokeEffect: shootSmallSmoke
     }
   }
     {
@@ -58,6 +60,9 @@ weapons: [
     x: 7
     y: -1
     mirror: true
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    shootSound: spark
     reload: 400
     inaccuracy: 0
     bullet: {
@@ -71,6 +76,8 @@ weapons: [
       scaledSplashDamage: true
       lifetime: 20
       homingRange: 60
+      shootEffect: sparkShoot
+      smokeEffect: shootSmallSmoke
     }
   }
 ]
