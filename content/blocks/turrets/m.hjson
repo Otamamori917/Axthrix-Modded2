@@ -5,7 +5,7 @@ scaledHealth: 420
 reload: 20
 range: 180
 maxAmmo: 400 
-ammoPerShot: 1
+ammoPerShot: 2
 consumeAmmoOnce: false
 recoil: 3
 rotateSpeed: 2 
@@ -34,7 +34,7 @@ shoot: {
   shots: 8
   shotDelay: 40
 }
-parts: [
+drawer: [
   {
     suffix: "-side-l"
     type: RegionPart
@@ -42,9 +42,6 @@ parts: [
     x: 4
     y: 0
     rot: -20
-    moveX: 0
-    moveY: -2
-    moveRot: 40
     layerOffset: 2
  }  
  {
@@ -54,9 +51,6 @@ parts: [
     x: -4
     y: 0
     rot: 20
-    moveX: 0
-    moveY: -2
-    moveRot: -40
     layerOffset: 2
  }
 ]
