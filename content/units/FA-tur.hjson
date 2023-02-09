@@ -1,0 +1,124 @@
+type: flying
+health: 150
+flying: true
+circleTarget: true
+lowAltitude: true
+accel: 0.4
+drag: 0.2
+speed: 4
+rotateSpeed: 5
+armor: 0
+hitSize: 2
+engineSize: 0
+abilities: [
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: -2
+   effectX: 2
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifetime: 20
+    length: 0
+    region: a-turbine-small
+    sizeFrom: 8
+    sizeTo: 8
+    spin: 15
+    layer: 95.1
+   }
+  }
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: -2
+   effectX: 2
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifetime: 20
+    length: 0
+    region: a-turbine-small
+    sizeFrom: 8
+    sizeTo: 8
+    spin: 15
+    layer: 95.1
+   }
+  }
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 2
+   effectX: -2
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifetime: 20
+    length: 0
+    region: a-turbine-small
+    sizeFrom: 8
+    sizeTo: 8
+    spin: 15
+    layer: 95.1
+   }
+  }
+  {
+   type: StatusFieldAbility
+   effect: none 
+   reload: 50
+   effectY: 2
+   effectX: 2
+   parentizeEffects: true
+   activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifetime: 20
+    length: 0
+    region: a-turbine-small
+    sizeFrom: 8
+    sizeTo: 8
+    spin: 15
+    layer: 95.1
+   }
+  }
+]
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: spark
+    reload: 120
+    inaccuracy: 9
+    shoot: {
+      shots: 3
+      shotDelay: 10
+    }
+    bullet: {
+      type: lightningBulletType
+      lightningLength: 8
+      collidesAir: true
+      damage: 5
+      lifetime: 6
+      shootEffect: sparkShoot
+      smokeEffect: shootSmallSmoke
+    }
+  }
+]
+research: {
+  parent: factory
+  requirements: [
+    silicon/1
+  ]
+}

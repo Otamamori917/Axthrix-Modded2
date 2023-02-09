@@ -22,7 +22,7 @@ abilities: [
     followParent: true
     rotWithParent: true
     particles: 1
-    lifetime: 20
+    lifetime: 60
     length: 0
     region: a-small-metal-blade
     sizeFrom: 10
