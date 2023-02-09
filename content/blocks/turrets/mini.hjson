@@ -35,6 +35,7 @@ shoot: {
   shotDelay: 40
 }
 drawer: {
+  basePrefix: "-base"
   parts: [
     {
     suffix: "-side"
