@@ -15,8 +15,8 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: -4
-   effectX: 4
+   effectY: -6
+   effectX: 6
    parentizeEffects: true
    activeEffect: {
     followParent: true
@@ -35,8 +35,8 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: -4
-   effectX: -4
+   effectY: -6
+   effectX: -6
    parentizeEffects: true
    activeEffect: {
     followParent: true
@@ -55,8 +55,8 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: 4
-   effectX: -4
+   effectY: 6
+   effectX: -6
    parentizeEffects: true
    activeEffect: {
     followParent: true
@@ -75,8 +75,8 @@ abilities: [
    type: StatusFieldAbility
    effect: none 
    reload: 50
-   effectY: 4
-   effectX: 4
+   effectY: 6
+   effectX: 6
    parentizeEffects: true
    activeEffect: {
     followParent: true
