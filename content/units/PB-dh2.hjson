@@ -49,7 +49,7 @@ weapons: [
   }
 ] 
 research: {
-  parent: adept
+  parent: IB-adept
   requirements: [
     silicon/1
   ]

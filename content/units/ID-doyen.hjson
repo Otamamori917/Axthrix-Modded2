@@ -82,7 +82,7 @@ weapons: [
   }
 ]
 research: {
-  parent: maestro
+  parent: IC-maestro
   requirements: [
     silicon/1
   ]

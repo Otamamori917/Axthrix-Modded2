@@ -32,7 +32,7 @@ weapons: [
   }
 ]
 research: {
-  parent: ace
+  parent: IAace
   requirements: [
     silicon/1
   ]

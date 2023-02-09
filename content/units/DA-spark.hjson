@@ -57,7 +57,7 @@ weapons: [
   }
 ]
 research: {
-  parent: 1
+  parent: factory
   requirements: [
     silicon/1
   ]

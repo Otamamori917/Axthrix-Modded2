@@ -183,7 +183,7 @@ weapons: [
   }
 ]
 research: {
-  parent: doyen
+  parent: ID-doyen
   requirements: [
     silicon/1
   ]
