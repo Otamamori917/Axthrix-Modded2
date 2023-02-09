@@ -34,19 +34,21 @@ shoot: {
   shots: 8
   shotDelay: 40
 }
-parts: [
-      {
-        suffix: "-side"
-        type: RegionPart
-        progress: warmup
-        x: 4
-        Y: 0
-        rot: 0
-        layerOffset: 0
-        mirror: true
-        turretShading: true
-      }
-    ]  
+drawer: {
+  parts: {
+    {
+    suffix: "-side"
+    type: RegionPart
+    progress: warmup
+    x: 4
+    Y: 0
+    rot: 0
+    layerOffset: 0
+    mirror: true
+    turretShading: true
+    }
+  }
+}  
 category: turret 
 research: { 
   parent: spectre
