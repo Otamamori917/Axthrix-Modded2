@@ -8,7 +8,7 @@ drag: 0.1
 speed: 4.5
 rotateSpeed: 6
 armor: 0
-size: 2.18
+hitSize: 2
 engineSize: 0
 abilities: [
   {
@@ -38,8 +38,6 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
     reload: 120
     inaccuracy: 9
     shoot: {
@@ -60,8 +58,6 @@ weapons: [
     x: 7
     y: -1
     mirror: true
-    shootEffect: sparkShoot
-    smokeEffect: shootSmallSmoke
     reload: 400
     inaccuracy: 0
     bullet: {
@@ -75,7 +71,6 @@ weapons: [
       scaledSplashDamage: true
       lifetime: 20
       homingRange: 60
-      shootSound: spark
     }
   }
 ]

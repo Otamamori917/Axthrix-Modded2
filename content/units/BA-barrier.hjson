@@ -2,7 +2,6 @@ type: mech
 flying: false
 health: 140
 armor: 0
-size: 6
 hitSize: 6
 speed: 2
 rotateSpeed: 5

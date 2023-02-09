@@ -3,7 +3,6 @@ flying: false
 health: 8600
 canBoost: true
 armor: 14
-size: 24
 hitSize: 24
 buildSpeed: 3
 speed: 2
