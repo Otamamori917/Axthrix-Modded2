@@ -36,7 +36,7 @@ shoot: {
 }
 parts: [
       {
-        suffix: "-sidel"
+        suffix: "a-sidel"
         type: RegionPart
         progress: warmup
         x: 4
@@ -47,7 +47,7 @@ parts: [
         heatProgress: reload
       }
       {
-        suffix: "-sider"
+        suffix: "a-sider"
         type: RegionPart
         progress: warmup
         x: -4
