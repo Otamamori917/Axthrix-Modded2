@@ -102,11 +102,11 @@ weapons: [
     inaccuracy: 0
     baseRotation: 180
     alwaysShooting: true
-    aiControllable: false
     controllable: false
     minShootVelocity: 10
     ignoreRotation: true
     alwaysContinuous: true
+    autoTarget: true
     shoot: {
       shots: 10
       shotDelay: 1
