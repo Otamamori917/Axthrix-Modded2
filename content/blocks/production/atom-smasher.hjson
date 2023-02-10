@@ -4,7 +4,6 @@ menu: Transform
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 20
 itemCapacity: 20
 updateEffect: smeltsmoke
 drawer: [
