@@ -103,7 +103,7 @@ weapons: [
     baseRotation: 180
     alwaysShooting: true
     controllable: false
-    minShootVelocity: 10
+    minShootVelocity: 2
     ignoreRotation: true
     alwaysContinuous: true
     autoTarget: true
