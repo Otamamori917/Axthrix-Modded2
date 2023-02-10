@@ -93,26 +93,32 @@ abilities: [
   }
 ]
 weapons: [
-  {
-    name: none
+    {
+    name: 
     x: 0
     y: 0
     mirror: false
-    shootSound: spark
-    reload: 120
-    inaccuracy: 9
+    reload: 10
+    inaccuracy: 0
+    baseRotation: 180
+    alwaysShooting: true
+    aiControllable: false
+    controllable: false
+    minShootVelocity: 10
+    ignoreRotation: true
+    alwaysContinuous: true
     shoot: {
-      shots: 3
-      shotDelay: 10
+      shots: 10
+      shotDelay: 1
     }
     bullet: {
-      type: lightningBulletType
-      lightningLength: 8
-      collidesAir: true
-      damage: 5
-      lifetime: 6
-      shootEffect: sparkShoot
-      smokeEffect: shootSmallSmoke
+      type: ContinuousFlameBulletType
+      length: 40
+      width: 3
+      recoil: 1
+      damage: 1
+      lifetime: 10
+      speed: 0
     }
   }
 ]
