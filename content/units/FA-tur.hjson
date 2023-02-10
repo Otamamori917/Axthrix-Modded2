@@ -102,20 +102,14 @@ weapons: [
     inaccuracy: 0
     baseRotation: 180
     alwaysShooting: true
-    controllable: false
-    minShootVelocity: 2
+    minShootVelocity: 4
     ignoreRotation: true
     alwaysContinuous: true
-    autoTarget: true
-    shoot: {
-      shots: 10
-      shotDelay: 1
-    }
     bullet: {
       type: ContinuousFlameBulletType
       length: 40
       width: 3
-      recoil: 1
+      recoil: -1
       damage: 1
       lifetime: 10
       speed: 0
