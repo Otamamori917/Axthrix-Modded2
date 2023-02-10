@@ -10,7 +10,6 @@ rotateSpeed: 5
 abilities: [
   {
    type: ForceFieldAbility
-   health: 1000
    radius: 80
    regen: 1.8
    cooldown: 100
@@ -31,7 +30,7 @@ abilities: [
     followParent: true
     rotWithParent: true
     particles: 1
-    lifeTime: 20
+    lifetime: 20
     length: 0
     region: a-small-shield-gen
     sizeFrom: 10
@@ -70,7 +69,7 @@ weapons: [
         width: 12
         length: 40
         damage: 5
-        lifeTime: 5
+        lifetime: 5
         healPercent: 1
         collidesTeam: true
         speed: 0

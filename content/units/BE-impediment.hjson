@@ -9,11 +9,10 @@ rotateSpeed: 5
 abilities: [
   {
    type: ForceFieldAbility
-   health: 4000
+   max: 4000
    radius: 30
    regen: 4
    cooldown: 300
-   drawArc: false
   }
   {
    type: ArmorPlateAbility
@@ -31,7 +30,7 @@ abilities: [
     followParent: true
     rotWithParent: true
     particles: 1
-    lifeTime: 20
+    lifetime: 20
     length: 0
     region: a-small-shield-gen
     sizeFrom: 10
@@ -71,7 +70,7 @@ weapons: [
         width: 12
         length: 40
         damage: 5
-        lifeTime: 5
+        lifetime: 5
         healPercent: 1
         collidesTeam: true
         speed: 0
@@ -113,7 +112,7 @@ weapons: [
         width: 12
         length: 40
         damage: 5
-        lifeTime: 5
+        lifetime: 5
         healPercent: 1
         collidesTeam: true
         speed: 0
@@ -155,7 +154,7 @@ weapons: [
         width: 12
         length: 40
         damage: 5
-        lifeTime: 5
+        lifetime: 5
         healPercent: 1
         collidesTeam: true
         speed: 0
@@ -197,7 +196,7 @@ weapons: [
         width: 12
         length: 40
         damage: 5
-        lifeTime: 5
+        lifetime: 5
         healPercent: 1
         collidesTeam: true
         speed: 0
@@ -237,7 +236,7 @@ weapons: [
         width: 5
         length: 300
         damage: 15
-        lifeTime: 40
+        lifetime: 40
         healPercent: 25
         collidesTeam: true
         speed: 0

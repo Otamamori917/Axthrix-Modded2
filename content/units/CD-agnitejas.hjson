@@ -55,7 +55,7 @@ weapons: [
        length: 20
        damage: 10
        knockback: -1
-       lifeTime: 30
+       lifetime: 30
        speed: 0
        colors: [
          9966cb
