@@ -34,8 +34,8 @@ weapons: [
       damage: 40
       lifetime: 10
       speed: 0
-      flareWidth: 1.5
-      flareLength: 15
+      flareWidth: 2
+      flareLength: 17
       flareColor: bc61f5 
       colors: [
         51087e
