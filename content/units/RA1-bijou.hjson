@@ -16,7 +16,7 @@ weapons: [
     name: bijou-thruster
     x: -1.5
     y: -4
-    shootX: 0.75
+    shootX: 1.5
     mirror: false
     reload: 10
     top: false
