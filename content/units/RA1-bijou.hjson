@@ -19,6 +19,7 @@ weapons: [
     mirror: false
     reload: 120
     inaccuracy: 0
+    alwaysContinuous: true
     bullet: {
       type: ContinuousFlameBulletType
       length: 18
