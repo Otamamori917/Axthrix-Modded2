@@ -15,12 +15,39 @@ engineSize: 0
 weapons: [
     {
     name: 
-    shootX: 6
-    shootY: -1
-    mirror: true
+    mirror: false
     reload: 10
     inaccuracy: 0
-    baseRotation: 180
+    baseRotation: 135
+    alwaysShooting: true
+    ignoreRotation: true
+    alwaysContinuous: true
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 15
+      width: 2
+      recoil: -2
+      damage: 40
+      lifetime: 10
+      speed: 0
+      flareWidth: 1.5
+      flareLength: 15
+      flareColor: bf92f9
+      colors: [
+        9966cb
+        301934
+        bf92f9
+        301934
+        FFFFFF
+      ]
+    }
+  }
+  {
+    name: 
+    mirror: false
+    reload: 10
+    inaccuracy: 0
+    baseRotation: -135
     alwaysShooting: true
     ignoreRotation: true
     alwaysContinuous: true
