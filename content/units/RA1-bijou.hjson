@@ -11,6 +11,8 @@ rotateSpeed: 5
 armor: 0
 hitSize: 2
 engineSize: 0
+segments: 3
+
 weapons: [
   {
     name: none
@@ -29,7 +31,7 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       length: 25
-      width: 2
+      width: 3
       recoil: -1
       damage: 40
       lifetime: 10
