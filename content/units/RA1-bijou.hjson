@@ -14,7 +14,7 @@ hitSize: 2
 engineSize: 0
 weapons: [
     {
-    name: 
+    name: bijou-thruster
     x: 0
     y: -6
     mirror: false
