@@ -22,7 +22,6 @@ weapons: [
     top: false
     inaccuracy: 0
     alwaysShooting: true
-    ignoreRotation: true
     alwaysContinuous: true
     baseRotation: 178
     bullet: {
