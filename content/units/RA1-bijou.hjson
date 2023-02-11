@@ -36,13 +36,13 @@ weapons: [
       speed: 0
       flareWidth: 1.5
       flareLength: 15
-      flareColor: bf92f9
+      flareColor: 
       colors: [
+        51087e
         6c0ba9
-        9966cb
-        301934
-        bf92f9
-        461257
+        880ed4
+        a020f0
+        bc61f5
       ]
     }
   }
