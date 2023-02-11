@@ -9,48 +9,7 @@ speed: 4
 rotateSpeed: 5
 armor: 0
 hitSize: 2
-engineSize: 0
-abilities: [
-  {
-   type: StatusFieldAbility
-   effect: none 
-   reload: 10
-   effectY: 0
-   effectX: 6
-   parentizeEffects: true
-   activeEffect: {
-    followParent: true
-    rotWithParent: true
-    particles: 1
-    lifetime: 10
-    length: 0
-    region: a-bio-wing-small-l
-    sizeFrom: 8
-    sizeTo: 8.5
-    spin: 2
-    layer: 95.1
-   }
-  }
-  {
-   type: StatusFieldAbility
-   effect: none 
-   reload: 10
-   effectY: 0
-   effectX: -6
-   parentizeEffects: true
-   activeEffect: {
-    followParent: true
-    rotWithParent: true
-    particles: 1
-    lifetime: 10
-    length: 0
-    region: a-bio-wing-small-r
-    sizeFrom: 8
-    sizeTo: 8.5
-    spin: 2
-    layer: 95.1
-   }
-  }
+engineSize: 2
 ]
 weapons: [
     {
@@ -66,12 +25,22 @@ weapons: [
     alwaysContinuous: true
     bullet: {
       type: ContinuousFlameBulletType
-      length: 30
-      width: 1
+      length: 20
+      width: 4
       recoil: 0
       damage: 40
       lifetime: 10
       speed: 0
+      flareWidth: 1
+      flareLength: 15
+      flareColor: bf92f9
+      colors: [
+        9966cb
+        301934
+        bf92f9
+        301934
+        FFFFFF
+      ]
     }
   }
 ]
