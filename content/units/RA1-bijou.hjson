@@ -1,7 +1,6 @@
 type: flying
 health: 150
 flying: true
-defaultController: SuicideAI
 playerControllable: false
 circleTarget: true
 lowAltitude: true
@@ -30,7 +29,7 @@ weapons: [
       type: ContinuousFlameBulletType
       length: 18
       width: 2.5
-      recoil: -0.1
+      recoil: -1
       damage: 40
       lifetime: 10
       speed: 0
