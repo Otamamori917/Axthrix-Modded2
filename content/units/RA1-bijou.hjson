@@ -10,7 +10,6 @@ rotateSpeed: 5
 armor: 0
 hitSize: 2
 engineSize: 2
-]
 weapons: [
     {
     name: 
