@@ -22,6 +22,9 @@ weapons: [
     alwaysContinuous: true
     baseRotation: 180
     ignoreRotation: true
+    alwaysShooting: true
+    shootSound: none
+    loopSound: torch
     bullet: {
       type: ContinuousFlameBulletType
       length: 18
