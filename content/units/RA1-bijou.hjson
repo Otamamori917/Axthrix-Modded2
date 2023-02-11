@@ -16,7 +16,7 @@ weapons: [
     name: none
     x: 0
     y: 0
-    shootY: -2
+    shootY: 2
     mirror: false
     reload: 120
     inaccuracy: 0
