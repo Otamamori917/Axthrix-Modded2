@@ -15,10 +15,11 @@ engineSize: 0
 weapons: [
     {
     name: 
+    x: 6
+    y: 0
     mirror: false
     reload: 10
     inaccuracy: 0
-    baseRotation: 135
     alwaysShooting: true
     ignoreRotation: true
     alwaysContinuous: true
@@ -44,10 +45,11 @@ weapons: [
   }
   {
     name: 
+    x: -6
+    y: 0
     mirror: false
     reload: 10
     inaccuracy: 0
-    baseRotation: -135
     alwaysShooting: true
     ignoreRotation: true
     alwaysContinuous: true
