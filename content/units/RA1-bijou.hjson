@@ -14,8 +14,8 @@ engineSize: 0
 weapons: [
     {
     name: bijou-thruster
-    x: -0.5
-    y: -3
+    x: -1.5
+    y: -4
     shootX: 0.75
     mirror: false
     reload: 10
