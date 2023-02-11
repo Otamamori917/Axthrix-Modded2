@@ -21,6 +21,7 @@ weapons: [
     inaccuracy: 0
     alwaysContinuous: true
     baseRotation: 180
+    ignoreRotation: true
     bullet: {
       type: ContinuousFlameBulletType
       length: 18
