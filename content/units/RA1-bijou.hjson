@@ -30,7 +30,7 @@ weapons: [
       type: ContinuousFlameBulletType
       length: 18
       width: 2.5
-      recoil: -2
+      recoil: -0.1
       damage: 40
       lifetime: 10
       speed: 0
