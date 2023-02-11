@@ -11,3 +11,32 @@ rotateSpeed: 5
 armor: 0
 hitSize: 2
 engineSize: 0
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    reload: 120
+    inaccuracy: 0
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 18
+      width: 2.5
+      recoil: -1
+      damage: 40
+      lifetime: 10
+      speed: 0
+      flareWidth: 1.5
+      flareLength: 15
+      flareColor: bf92f9
+      colors: [
+        9966cb
+        6c0ba9
+        bf92f9
+        301934
+        461257
+      ]
+    }
+  }
+]
