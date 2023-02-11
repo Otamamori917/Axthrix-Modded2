@@ -17,8 +17,8 @@ weapons: [
     name: bijou-thruster
     x: 0
     y: -4
-    shootX: 2
-    shootY: 2
+    shootX: 1
+    shootY: 3
     mirror: false
     reload: 10
     top: false
@@ -26,7 +26,7 @@ weapons: [
     alwaysShooting: true
     ignoreRotation: true
     alwaysContinuous: true
-    baseRotation: 180
+    baseRotation: 182
     bullet: {
       type: ContinuousFlameBulletType
       length: 15
