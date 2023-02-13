@@ -3,9 +3,13 @@ flying: false
 health: 20000
 armor: 14
 hitSize: 26
-speed: 2
 buildSpeed: 4
-rotateSpeed: 5
+speed: 0.40
+boostMultiplier: 3
+rotateSpeed: 1.5
+mechLandShake: 8
+mechStepParticles: true
+stepShake: 0.5
 abilities: [
   {
    type: ForceFieldAbility

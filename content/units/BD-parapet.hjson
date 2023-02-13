@@ -5,8 +5,13 @@ canBoost: true
 armor: 14
 hitSize: 24
 buildSpeed: 3
-speed: 2
-rotateSpeed: 5
+speed: 0.44
+boostMultiplier: 2.4
+rotateSpeed: 1.8
+mechFrontSway: 1
+mechLandShake: 1
+mechStepParticles: true
+stepShake: 0.15
 abilities: [
   {
    type: ForceFieldAbility

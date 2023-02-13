@@ -3,8 +3,9 @@ flying: false
 health: 140
 armor: 0
 hitSize: 6
-speed: 2
-rotateSpeed: 5
+speed: 0.55
+canBoost: true
+boostMultiplier: 1.5
 abilities: [
   {
    type: ForceFieldAbility

@@ -4,9 +4,8 @@ health: 750
 canBoost: true
 armor: 10
 hitSize: 13
-speed: 1
 buildSpeed: 2
-rotateSpeed: 5
+boostMultiplier: 2
 abilities: [
   {
    type: ForceFieldAbility

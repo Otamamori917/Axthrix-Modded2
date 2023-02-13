@@ -1,6 +1,6 @@
 type: ItemTurret
 buildCostMultiplier: 0.1
-size: 6
+size: 4
 scaledHealth: 420
 reload: 20
 range: 180
@@ -36,7 +36,7 @@ shoot: {
 } 
 category: turret 
 research: { 
-  parent: spectre
+  parent: cyclone
   requirements: [
      titanium/1000 
      plastanium/1000 

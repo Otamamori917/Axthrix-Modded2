@@ -2,11 +2,11 @@ type: mech
 flying: false
 health: 350
 canBoost: true
+boostMultiplier: 1.6
 armor: 2
 hitSize: 11
 buildSpeed: 1
-speed: 2
-rotateSpeed: 5
+speed: 0.7
 abilities: [
   {
    type: ForceFieldAbility
