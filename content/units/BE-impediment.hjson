@@ -11,6 +11,7 @@ mechLandShake: 8
 mechStepParticles: true
 stepShake: 0.5
 canBoost: true
+engineSize: 4
 abilities: [
   {
    type: ForceFieldAbility

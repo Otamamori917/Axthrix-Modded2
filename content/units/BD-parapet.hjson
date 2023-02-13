@@ -12,6 +12,7 @@ mechFrontSway: 1
 mechLandShake: 1
 mechStepParticles: true
 stepShake: 0.15
+engineSize: 3.5
 abilities: [
   {
    type: ForceFieldAbility

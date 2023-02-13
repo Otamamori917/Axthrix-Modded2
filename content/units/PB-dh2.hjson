@@ -8,7 +8,6 @@ speed: 2
 rotateSpeed: 5
 armor: 0
 hitSize: 4
-defaultController: DefenderAI
 engineSize: 1
 weapons: [
   {
