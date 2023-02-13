@@ -27,47 +27,14 @@ weapons: [
     shootSound: torch
     bullet: {
       type: ContinuousFlameBulletType
-      length: 25
-      width: 3
+      length: 35
+      width: 3.5
       recoil: -1
       damage: 40
       lifetime: 10
       speed: 0
-      flareWidth: 2
-      flareLength: 17
-      flareColor: bc61f5 
-      colors: [
-        51087e
-        6c0ba9
-        880ed4
-        a020f0
-        bc61f5
-      ]
-    }
-  }
-  {
-    name: none
-    x: -5
-    y: 0
-    shootY: 6
-    mirror: false
-    reload: 120
-    inaccuracy: 0
-    alwaysContinuous: true
-    baseRotation: -195
-    ignoreRotation: true
-    alwaysShooting: true
-    shootSound: torch
-    bullet: {
-      type: ContinuousFlameBulletType
-      length: 25
-      width: 3
-      recoil: -1
-      damage: 40
-      lifetime: 10
-      speed: 0
-      flareWidth: 2
-      flareLength: 17
+      flareWidth: 3
+      flareLength: 27
       flareColor: bc61f5 
       colors: [
         51087e
@@ -87,7 +54,7 @@ weapons: [
     reload: 120
     inaccuracy: 0
     alwaysContinuous: true
-    baseRotation: 195
+    baseRotation: -165
     ignoreRotation: true
     alwaysShooting: true
     shootSound: torch
@@ -99,8 +66,41 @@ weapons: [
       damage: 40
       lifetime: 10
       speed: 0
-      flareWidth: 2
-      flareLength: 17
+      flareWidth: 0
+      flareLength: 0
+      flareColor: bc61f5 
+      colors: [
+        51087e
+        6c0ba9
+        880ed4
+        a020f0
+        bc61f5
+      ]
+    }
+  }
+  {
+    name: none
+    x: -5
+    y: 0
+    shootY: 6
+    mirror: false
+    reload: 120
+    inaccuracy: 0
+    alwaysContinuous: true
+    baseRotation: 165
+    ignoreRotation: true
+    alwaysShooting: true
+    shootSound: torch
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 25
+      width: 3
+      recoil: -1
+      damage: 40
+      lifetime: 10
+      speed: 0
+      flareWidth: 0
+      flareLength: 0
       flareColor: bc61f5 
       colors: [
         51087e
