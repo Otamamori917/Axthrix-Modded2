@@ -1,0 +1,114 @@
+type: flying
+health: 150
+flying: true
+playerControllable: false
+circleTarget: true
+lowAltitude: true
+accel: 0.4
+drag: 0.2
+speed: 4
+rotateSpeed: 5
+armor: 0
+hitSize: 2
+engineSize: 0
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    shootY: 6
+    mirror: false
+    reload: 120
+    inaccuracy: 0
+    alwaysContinuous: true
+    baseRotation: 180
+    ignoreRotation: true
+    alwaysShooting: true
+    shootSound: torch
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 25
+      width: 3
+      recoil: -1
+      damage: 40
+      lifetime: 10
+      speed: 0
+      flareWidth: 2
+      flareLength: 17
+      flareColor: bc61f5 
+      colors: [
+        51087e
+        6c0ba9
+        880ed4
+        a020f0
+        bc61f5
+      ]
+    }
+  }
+  {
+    name: none
+    x: -5
+    y: 0
+    shootY: 6
+    mirror: false
+    reload: 120
+    inaccuracy: 0
+    alwaysContinuous: true
+    baseRotation: -165
+    ignoreRotation: true
+    alwaysShooting: true
+    shootSound: torch
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 25
+      width: 3
+      recoil: -1
+      damage: 40
+      lifetime: 10
+      speed: 0
+      flareWidth: 2
+      flareLength: 17
+      flareColor: bc61f5 
+      colors: [
+        51087e
+        6c0ba9
+        880ed4
+        a020f0
+        bc61f5
+      ]
+    }
+  }
+  {
+    name: none
+    x: 5
+    y: 0
+    shootY: 6
+    mirror: false
+    reload: 120
+    inaccuracy: 0
+    alwaysContinuous: true
+    baseRotation: 165
+    ignoreRotation: true
+    alwaysShooting: true
+    shootSound: torch
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 25
+      width: 3
+      recoil: -1
+      damage: 40
+      lifetime: 10
+      speed: 0
+      flareWidth: 2
+      flareLength: 17
+      flareColor: bc61f5 
+      colors: [
+        51087e
+        6c0ba9
+        880ed4
+        a020f0
+        bc61f5
+      ]
+    }
+  }
+]
