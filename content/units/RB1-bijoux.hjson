@@ -54,7 +54,7 @@ weapons: [
     reload: 120
     inaccuracy: 0
     alwaysContinuous: true
-    baseRotation: -165
+    baseRotation: -195
     ignoreRotation: true
     alwaysShooting: true
     shootSound: torch
@@ -87,7 +87,7 @@ weapons: [
     reload: 120
     inaccuracy: 0
     alwaysContinuous: true
-    baseRotation: 165
+    baseRotation: 195
     ignoreRotation: true
     alwaysShooting: true
     shootSound: torch
