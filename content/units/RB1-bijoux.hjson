@@ -29,7 +29,7 @@ weapons: [
       type: ContinuousFlameBulletType
       length: 35
       width: 3.5
-      recoil: -1
+      recoil: -0.8
       damage: 40
       lifetime: 10
       speed: 0
@@ -62,7 +62,7 @@ weapons: [
       type: ContinuousFlameBulletType
       length: 25
       width: 3
-      recoil: -1
+      recoil: -0.2
       damage: 40
       lifetime: 10
       speed: 0
@@ -95,7 +95,7 @@ weapons: [
       type: ContinuousFlameBulletType
       length: 25
       width: 3
-      recoil: -1
+      recoil: -0.2
       damage: 40
       lifetime: 10
       speed: 0
