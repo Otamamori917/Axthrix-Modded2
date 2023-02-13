@@ -2,6 +2,7 @@ type: flying
 health: 60
 flying: true
 lowAltitude: true
+circleTarget: true
 accel: 0.4
 drag: 0.2
 speed: 2
