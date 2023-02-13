@@ -47,7 +47,7 @@ weapons: [
   }
   {
     name: none
-    x: 5
+    x: 8
     y: 0
     shootY: 6
     mirror: false
@@ -80,7 +80,7 @@ weapons: [
   }
   {
     name: none
-    x: -5
+    x: -8
     y: 0
     shootY: 6
     mirror: false
