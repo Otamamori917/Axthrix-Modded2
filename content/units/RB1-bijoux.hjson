@@ -115,8 +115,6 @@ weapons: [
     name: b-mouth
     x: 0
     y: 6
-    controllable: false
-    autoTarget: true
     mirror: false
     shootSound: shockBlast
     reload: 120
@@ -152,8 +150,6 @@ weapons: [
     name: b-head
     x: 0
     y: 6
-    controllable: false
-    autoTarget: true
     shootX: 0
     shootY: 0
     reload: 60
