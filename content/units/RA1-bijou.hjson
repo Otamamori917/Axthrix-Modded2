@@ -84,7 +84,7 @@ weapons: [
     shootY: 0
     reload: 60
     cooldownTime: 60
-    layerOffset: 10
+    layerOffset: 1
     recoil: 0
     recoilPow: 0
     display: false
