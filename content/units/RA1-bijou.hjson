@@ -52,7 +52,7 @@ weapons: [
     controllable: false
     autoTarget: true
     mirror: false
-    top: false
+    shootSound: shockBlast
     reload: 120
     inaccuracy: 0
     rotate: true
