@@ -55,7 +55,7 @@ weapons: [
     rotate: true
     rotateSpeed: 1.6
     bullet: {
-      type: BulletType
+      type: BasicBulletType
       sprite: a-wave-bullet
       backSprite: a-wave-bullet-bottom
       backColor: A020F0
