@@ -128,9 +128,8 @@ weapons: [
       backColor: A020F0
       frontColor: bf92f9
       pierce: true
-      pierceBuildings: true
       removeAfterPierce: false
-      length: 6
+      height: 6
       width: 8
       shrinkY: -6
       shrinkX: -8
