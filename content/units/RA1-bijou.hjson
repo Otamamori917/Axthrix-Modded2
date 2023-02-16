@@ -60,8 +60,8 @@ weapons: [
       backSprite: a-wave-bullet-bottom
       backColor: A020F0
       frontColor: bf92f9
-      length: 4
-      width: 2
+      length: 8
+      width: 4
       shrinkY: -8
       shrinkX: -4
       hitEffect: none
