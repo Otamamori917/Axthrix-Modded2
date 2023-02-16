@@ -45,4 +45,68 @@ weapons: [
       ]
     }
   }
+  {
+    name: b-mouth
+    x: 0
+    y: 0
+    mirror: false
+    reload: 120
+    inaccuracy: 0
+    rotate: true
+    rotateSpeed: 1.6
+    bullet: {
+      type: BulletType
+      sprite: a-wave-bullet
+      backSprite: a-wave-bullet-bottom
+      backColor: A020F0
+      frontColor: bf92f9
+      length: 4
+      width: 2
+      shrinkY: -8
+      shrinkX: -4
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: none
+      smokeEffect: none
+      hittable: false
+      reflectable: false
+      absorbable: false
+      damage: 20
+      lifetime: 100
+      speed: 1
+    }
+  }
+  {
+    name: b-head
+    x: 0
+    y: 0
+    shootX: 0
+    shootY: 0
+    reload: 60
+    cooldownTime: 60
+    layerOffset: 10
+    recoil: 0
+    recoilPow: 0
+    display: false
+    recoilTime: 0
+    shootSound: none
+    heatColor: A020F0
+    mirror: false
+    rotate: true
+    rotateSpeed: 1.6
+    inaccuracy: 0
+    bullet: {
+      type: BulletType
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: none
+      smokeEffect: none
+      hittable: false
+      reflectable: false
+      absorbable: false
+      damage: 0
+      lifetime: 100
+      speed: 1
+    }
+  }
 ]
