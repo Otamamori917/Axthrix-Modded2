@@ -48,21 +48,24 @@ weapons: [
   {
     name: b-mouth
     x: 0
-    y: 0
+    y: 6
+    controllable: false
+    autoTarget: true
     mirror: false
+    top: false
     reload: 120
     inaccuracy: 0
     rotate: true
-    rotateSpeed: 1.6
+    rotateSpeed: 3
     bullet: {
       type: BasicBulletType
       sprite: a-wave-bullet-top
       backSprite: a-wave-bullet-bottom
       backColor: A020F0
       frontColor: bf92f9
-      length: 4
+      length: 6
       width: 8
-      shrinkY: -4
+      shrinkY: -6
       shrinkX: -8
       hitEffect: none
       despawnEffect: none
@@ -79,13 +82,16 @@ weapons: [
   {
     name: b-head
     x: 0
-    y: 0
+    y: 6
+    controllable: false
+    autoTarget: true
     shootX: 0
     shootY: 0
     reload: 60
     cooldownTime: 60
     layerOffset: 1
     recoil: 0
+    top: false
     recoilPow: 0
     display: false
     recoilTime: 0
@@ -93,7 +99,7 @@ weapons: [
     heatColor: A020F0
     mirror: false
     rotate: true
-    rotateSpeed: 1.6
+    rotateSpeed: 3
     inaccuracy: 0
     bullet: {
       type: BulletType
