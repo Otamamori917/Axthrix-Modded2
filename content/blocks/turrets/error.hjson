@@ -6,7 +6,6 @@ reload: 4000
 range: 400
 maxAmmo: 4
 ammoPerShot: 1
-consumeAmmoOnce: false
 recoil: 0
 rotateSpeed: 0
 targetAir: true 
@@ -14,7 +13,7 @@ targetGround: true
 requirements: [
   plastanium/1
 ]  
-shootY: -2
+shootY: -1
 ammoTypes: { 
   singularity: { 
     type: BasicBulletType
