@@ -14,9 +14,10 @@ targetGround: true
 requirements: [
   plastanium/1
 ]  
+shootY: -2
 ammoTypes: { 
   singularity: { 
-  type: BasicBulletType
+    type: BasicBulletType
     sprite: a-error-bullet-top
     backSprite: a-error-bullet-bottom
     hitEffect: sapExplosion
@@ -202,8 +203,8 @@ ammoTypes: {
   } 
 } 
 shoot: {
-  shots: 5
-  shotDelay: 5
+  shots: 4
+  shotDelay: 10
 } 
 inaccuracy: 0
 category: turret 
