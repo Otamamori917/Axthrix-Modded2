@@ -3,7 +3,7 @@ buildCosaultiplier: 0.1
 size: 6
 scaledHealth: 1500
 reload: 200
-range: 200
+range: 2000
 maxAmmo: 2
 ammoPerShot: 1
 recoil: 0
