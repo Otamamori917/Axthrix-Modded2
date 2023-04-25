@@ -13,7 +13,7 @@ targetGround: true
 requirements: [
   plastanium/1
 ]  
-shootY: -1
+shootY: 0
 ammoTypes: { 
   singularity: { 
     type: RailBulletType
