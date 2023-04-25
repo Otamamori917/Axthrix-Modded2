@@ -76,7 +76,7 @@ ammoTypes: {
         knockback: -12
         width: 30
         height: 30
-        damage: 2000
+        damage: 2500
         pierce: true
         pierceBuilding: true
         pierceCap: 10
@@ -105,7 +105,7 @@ ammoTypes: {
           knockback: -12
           width: 30
           height: 30
-          damage: 2000
+          damage: 2500
           pierce: true
           pierceBuilding: true
           pierceCap: 10
@@ -134,7 +134,7 @@ ammoTypes: {
             knockback: -12
             width: 30
             height: 30
-            damage: 2000
+            damage: 2500
             pierce: true
             pierceBuilding: true
             pierceCap: 10
@@ -163,7 +163,7 @@ ammoTypes: {
               knockback: -12
               width: 30
               height: 30
-              damage: 2000
+              damage: 2500
               pierce: true
               pierceBuilding: true
               pierceCap: 10
@@ -192,44 +192,14 @@ ammoTypes: {
                 knockback: -12
                 width: 30
                 height: 30
-                damage: 2000
+                damage: 2500
                 pierce: true
                 pierceBuilding: true
                 pierceCap: 10
                 lifetime: 100
                 speed: 30
                 backColor: A020F0
-                frontColor: CBC3E3
-                fragBullets: 5
-                fragBullet: {
-                  type: BasicBulletType
-                  sprite: a-error-bullet-top
-                  backSprite: a-error-bullet-bottom
-                  hitEffect: sapExplosion
-                  despawnEffect: sapExplosion
-                  shootEffect: none
-                  smokeEffect: shootBigSmoke2
-                  impact: true
-                  hittable: false
-                  reflectable: false
-                  absorbable: false
-                  homingRange: 800
-                  homingPower: 15
-                  spin: 10
-                  shrinkY: 10
-                  shrinkX: 10
-                  knockback: -12
-                  width: 30
-                  height: 30
-                  damage: 2000
-                  pierce: true
-                  pierceBuilding: true
-                  pierceCap: 10
-                  lifetime: 100
-                  speed: 30
-                  backColor: A020F0
-                  frontColor: CBC3E3
-                } 
+                frontColor: CBC3E3 
               }  
             }
           }
