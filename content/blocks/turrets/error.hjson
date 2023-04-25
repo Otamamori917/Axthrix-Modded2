@@ -2,9 +2,9 @@ type: ItemTurret
 buildCosaultiplier: 0.1
 size: 6
 scaledHealth: 1500
-reload: 4000
-range: 400
-maxAmmo: 4
+reload: 200
+range: 8
+maxAmmo: 2
 ammoPerShot: 1
 recoil: 0
 rotateSpeed: 0
