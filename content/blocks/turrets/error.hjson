@@ -31,6 +31,10 @@ ammoTypes: {
       collidesGround: false
       collides: false
       lightning: 40
+      lightningLength: 60
+      lightningLengthRand: 30
+      lightningDamage: 400
+      lightningColor: A020F0
       sprite: a-error-bullet-top
       backSprite: a-error-bullet-bottom
       hitEffect: sapExplosion
