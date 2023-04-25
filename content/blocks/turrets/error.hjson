@@ -3,7 +3,7 @@ buildCosaultiplier: 0.1
 size: 6
 scaledHealth: 1500
 reload: 200
-range: 8
+range: 200
 maxAmmo: 2
 ammoPerShot: 1
 recoil: 0
@@ -16,30 +16,21 @@ requirements: [
 shootY: -1
 ammoTypes: { 
   singularity: { 
-    type: BasicBulletType
-    sprite: a-error-bullet-top
-    backSprite: a-error-bullet-bottom
-    hitEffect: sapExplosion
-    despawnEffect: sapExplosion
-    shootEffect: none
-    smokeEffect: shootBigSmoke2
-    impact: true
-    hittable: false
-    reflectable: false
-    absorbable: false
-    spin: 4
-    shrinkY: -4
-    shrinkX: -4
-    width: 20
-    height: 20
+    type: RailBulletType
+    length: 2000
     damage: 0
-    lifetime: 2000
-    speed: 0
-    backColor: A020F0
-    frontColor: CBC3E3
-    fragBullets: 5
+    collidesTiles: false
+    collidesAir: false
+    collidesGround: false
+    collides: false
+    fragBullets: 1
     fragBullet: {
       type: BasicBulletType
+      collidesTiles: false
+      collidesAir: false
+      collidesGround: false
+      collides: false
+      lightning: 40
       sprite: a-error-bullet-top
       backSprite: a-error-bullet-bottom
       hitEffect: sapExplosion
@@ -50,17 +41,14 @@ ammoTypes: {
       hittable: false
       reflectable: false
       absorbable: false
-      homingRange: 800
-      homingPower: 15
-      spin: 10
-      shrinkY: 10
-      shrinkX: 10
-      knockback: -12
-      width: 30
-      height: 30
-      damage: 2000
-      lifetime: 100
-      speed: 30
+      spin: 4
+      shrinkY: -4
+      shrinkX: -4
+      width: 20
+      height: 20
+      damage: 0
+      lifetime: 2000
+      speed: 0
       backColor: A020F0
       frontColor: CBC3E3
       fragBullets: 5
@@ -71,7 +59,7 @@ ammoTypes: {
         hitEffect: sapExplosion
         despawnEffect: sapExplosion
         shootEffect: none
-        smokeEffect: shootBigSmoke2
+        smokeEffect: none
         impact: true
         hittable: false
         reflectable: false
@@ -85,6 +73,10 @@ ammoTypes: {
         width: 30
         height: 30
         damage: 2000
+        lightning: 20
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 10
         lifetime: 100
         speed: 30
         backColor: A020F0
@@ -111,6 +103,10 @@ ammoTypes: {
           width: 30
           height: 30
           damage: 2000
+          lightning: 20
+          pierce: true
+          pierceBuilding: true
+          pierceCap: 10
           lifetime: 100
           speed: 30
           backColor: A020F0
@@ -137,6 +133,10 @@ ammoTypes: {
             width: 30
             height: 30
             damage: 2000
+            lightning: 20
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 10
             lifetime: 100
             speed: 30
             backColor: A020F0
@@ -163,6 +163,10 @@ ammoTypes: {
               width: 30
               height: 30
               damage: 2000
+              lightning: 20
+              pierce: true
+              pierceBuilding: true
+              pierceCap: 10
               lifetime: 100
               speed: 30
               backColor: A020F0
@@ -189,10 +193,45 @@ ammoTypes: {
                 width: 30
                 height: 30
                 damage: 2000
+                lightning: 20
+                pierce: true
+                pierceBuilding: true
+                pierceCap: 10
                 lifetime: 100
                 speed: 30
                 backColor: A020F0
                 frontColor: CBC3E3
+                fragBullets: 5
+                fragBullet: {
+                  type: BasicBulletType
+                  sprite: a-error-bullet-top
+                  backSprite: a-error-bullet-bottom
+                  hitEffect: sapExplosion
+                  despawnEffect: sapExplosion
+                  shootEffect: none
+                  smokeEffect: shootBigSmoke2
+                  impact: true
+                  hittable: false
+                  reflectable: false
+                  absorbable: false
+                  homingRange: 800
+                  homingPower: 15
+                  spin: 10
+                  shrinkY: 10
+                  shrinkX: 10
+                  knockback: -12
+                  width: 30
+                  height: 30
+                  damage: 2000
+                  lightning: 20
+                  pierce: true
+                  pierceBuilding: true
+                  pierceCap: 10
+                  lifetime: 100
+                  speed: 30
+                  backColor: A020F0
+                  frontColor: CBC3E3
+                } 
               }  
             }
           }
