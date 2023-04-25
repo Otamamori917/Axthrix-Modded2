@@ -3,14 +3,14 @@ buildCosaultiplier: 0.1
 size: 16
 scaledHealth: 500
 reload: 4000
-range: 1
+range: 400
 maxAmmo: 1
 ammoPerShot: 1
 consumeAmmoOnce: false
 recoil: 0
 rotateSpeed: 0
-targetAir: false 
-targetGround: false
+targetAir: true 
+targetGround: true
 requirements: [
   plastanium/1
 ]  
