@@ -1,0 +1,209 @@
+type: ItemTurret
+buildCosaultiplier: 0.1
+size: 20
+scaledHealth: 500
+reload: 4000
+range: 1
+maxAmmo: 1
+ammoPerShot: 1
+consumeAmmoOnce: false
+recoil: 0
+rotateSpeed: 0
+targetAir: false 
+targetGround: false
+requirements: [
+  plastanium/1
+]  
+ammoTypes: { 
+  singularity: { 
+  type: BasicBulletType
+    sprite: a-error-bullet-top
+    backSprite: a-error-bullet-bottom
+    hitEffect: sapExplosion
+    despawnEffect: sapExplosion
+    shootEffect: none
+    smokeEffect: shootBigSmoke2
+    impact: true
+    hittable: false
+    reflectable: false
+    absorbable: false
+    spin: 4
+    shrinkY: -4
+    shrinkX: -4
+    width: 20
+    height: 20
+    damage: 0
+    lifetime: 2000
+    speed: 0
+    backColor: A020F0
+    frontColor: CBC3E3
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      sprite: a-error-bullet-top
+      backSprite: a-error-bullet-bottom
+      hitEffect: sapExplosion
+      despawnEffect: sapExplosion
+      shootEffect: none
+      smokeEffect: shootBigSmoke2
+      impact: true
+      hittable: false
+      reflectable: false
+      absorbable: false
+      homingRange: 800
+      homingPower: 15
+      spin: 10
+      shrinkY: 10
+      shrinkX: 10
+      knockback: -12
+      width: 30
+      height: 30
+      damage: 2000
+      lifetime: 100
+      speed: 30
+      backColor: A020F0
+      frontColor: CBC3E3
+      fragBullets: 5
+      fragBullet: {
+        type: BasicBulletType
+        sprite: a-error-bullet-top
+        backSprite: a-error-bullet-bottom
+        hitEffect: sapExplosion
+        despawnEffect: sapExplosion
+        shootEffect: none
+        smokeEffect: shootBigSmoke2
+        impact: true
+        hittable: false
+        reflectable: false
+        absorbable: false
+        homingRange: 800
+        homingPower: 15
+        spin: 10
+        shrinkY: 10
+        shrinkX: 10
+        knockback: -12
+        width: 30
+        height: 30
+        damage: 2000
+        lifetime: 100
+        speed: 30
+        backColor: A020F0
+        frontColor: CBC3E3
+        fragBullets: 5
+        fragBullet: {
+          type: BasicBulletType
+          sprite: a-error-bullet-top
+          backSprite: a-error-bullet-bottom
+          hitEffect: sapExplosion
+          despawnEffect: sapExplosion
+          shootEffect: none
+          smokeEffect: shootBigSmoke2
+          impact: true
+          hittable: false
+          reflectable: false
+          absorbable: false
+          homingRange: 800
+          homingPower: 15
+          spin: 10
+          shrinkY: 10
+          shrinkX: 10
+          knockback: -12
+          width: 30
+          height: 30
+          damage: 2000
+          lifetime: 100
+          speed: 30
+          backColor: A020F0
+          frontColor: CBC3E3
+          fragBullets: 5
+          fragBullet: {
+            type: BasicBulletType
+            sprite: a-error-bullet-top
+            backSprite: a-error-bullet-bottom
+            hitEffect: sapExplosion
+            despawnEffect: sapExplosion
+            shootEffect: none
+            smokeEffect: shootBigSmoke2
+            impact: true
+            hittable: false
+             reflectable: false
+            absorbable: false
+            homingRange: 800
+            homingPower: 15
+            spin: 10
+            shrinkY: 10
+            shrinkX: 10
+            knockback: -12
+            width: 30
+            height: 30
+            damage: 2000
+            lifetime: 100
+            speed: 30
+            backColor: A020F0
+            frontColor: CBC3E3
+            fragBullets: 5
+            fragBullet: {
+              type: BasicBulletType
+              sprite: a-error-bullet-top
+              backSprite: a-error-bullet-bottom
+              hitEffect: sapExplosion
+              despawnEffect: sapExplosion
+              shootEffect: none
+              smokeEffect: shootBigSmoke2
+              impact: true
+              hittable: false
+              reflectable: false
+              absorbable: false
+              homingRange: 800
+              homingPower: 15
+              spin: 10
+              shrinkY: 10
+              shrinkX: 10
+              knockback: -12
+              width: 30
+              height: 30
+              damage: 2000
+              lifetime: 100
+              speed: 30
+              backColor: A020F0
+              frontColor: CBC3E3
+              fragBullets: 5
+              fragBullet: {
+                type: BasicBulletType
+                sprite: a-error-bullet-top
+                backSprite: a-error-bullet-bottom
+                hitEffect: sapExplosion
+                despawnEffect: sapExplosion
+                shootEffect: none
+                smokeEffect: shootBigSmoke2
+                impact: true
+                hittable: false
+                reflectable: false
+                absorbable: false
+                homingRange: 800
+                homingPower: 15
+                spin: 10
+                shrinkY: 10
+                shrinkX: 10
+                knockback: -12
+                width: 30
+                height: 30
+                damage: 2000
+                lifetime: 100
+                speed: 30
+                backColor: A020F0
+                frontColor: CBC3E3
+              }  
+            }
+          }
+        }  
+      }
+    }  
+  } 
+} 
+shoot: {
+  shots: 5
+  shotDelay: 5
+} 
+inaccuracy: 0
+category: turret 
