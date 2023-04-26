@@ -35,10 +35,10 @@ ammoTypes: {
       homingPower: 10
       homingDelay: 180
       spin: 12
-      shrinkY: -4
-      shrinkX: -4
-      width: 20
-      height: 20
+      shrinkY: 4
+      shrinkX: 4
+      width: 40
+      height: 40
       damage: 15
       lifetime: 2000
       speed: 0.1
