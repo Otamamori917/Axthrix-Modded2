@@ -1,0 +1,53 @@
+type: ItemTurret
+buildCosaultiplier: 0.1
+size: 4
+scaledHealth: 1500
+reload: 200
+range: 2000
+maxAmmo: 2
+ammoPerShot: 1
+recoil: 0
+rotateSpeed: 5
+targetAir: true 
+targetGround: true
+requirements: [
+  plastanium/1
+]  
+shootY: 0
+ammoTypes: { 
+  titanium: { 
+    type: BasicBulletType
+      lightning: 5
+      lightningLength: 20
+      lightningLengthRand: 10
+      lightningDamage: 100
+      lightningColor: FFFFFF
+      sprite: a-nado-bullet-top
+      backSprite: a-nado-bullet-bottom
+      shootEffect: none
+      smokeEffect: shootBigSmoke2
+      impact: true
+      hittable: false
+      reflectable: false
+      absorbable: false
+      homingRange: 400
+      homingPower: 2
+      homingDelay: 180
+      spin: 12
+      shrinkY: -4
+      shrinkX: -4
+      width: 20
+      height: 20
+      damage: 15
+      lifetime: 2000
+      speed: 0
+      backColor: FFFFFF
+      frontColor: FFFFFF  
+  } 
+} 
+shoot: {
+  shots: 20
+  shotDelay: 2
+} 
+inaccuracy: 0
+category: turret 
