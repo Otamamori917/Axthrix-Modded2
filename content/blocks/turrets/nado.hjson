@@ -35,8 +35,8 @@ ammoTypes: {
       homingPower: 10
       homingDelay: 180
       spin: 12
-      shrinkY: 2
-      shrinkX: 2
+      shrinkY: -2
+      shrinkX: -2
       width: 50
       height: 50
       damage: 15
