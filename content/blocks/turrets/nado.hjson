@@ -10,6 +10,7 @@ recoil: 0
 rotateSpeed: 5
 targetAir: true 
 targetGround: true
+moveWhileCharging: false
 requirements: [
   plastanium/1
 ]  
@@ -40,14 +41,14 @@ ammoTypes: {
       height: 20
       damage: 15
       lifetime: 2000
-      speed: 0.5
+      speed: 0.1
       backColor: 808080
       frontColor: 808080  
   } 
 } 
 shoot: {
   shots: 20
-  shotDelay: 2
+  shotDelay: 8
 } 
 inaccuracy: 0
 category: turret 
