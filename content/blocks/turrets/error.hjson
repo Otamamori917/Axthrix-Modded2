@@ -18,14 +18,11 @@ ammoTypes: {
   singularity: { 
     type: RailBulletType
     length: 2000
-    damage: 0
-    collidesTiles: false
-    collidesAir: false
-    collidesGround: false
-    collides: false
+    damage: 1
     fragBullets: 1
     fragBullet: {
       type: BasicBulletType
+      layer: 40
       collidesTiles: false
       collidesAir: false
       collidesGround: false
