@@ -40,7 +40,7 @@ ammoTypes: {
       height: 20
       damage: 15
       lifetime: 2000
-      speed: 0
+      speed: 0.5
       backColor: 808080
       frontColor: 808080  
   } 
