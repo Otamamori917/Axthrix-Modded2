@@ -7,7 +7,7 @@ range: 2000
 maxAmmo: 2
 ammoPerShot: 1
 recoil: 0
-rotateSpeed: 0
+rotateSpeed: 5
 targetAir: true 
 targetGround: true
 requirements: [
@@ -19,10 +19,14 @@ ammoTypes: {
     type: RailBulletType
     length: 2000
     damage: 1
+    collidesTiles: false
+    collidesAir: false
+    collidesGround: false
+    collides: false
     fragBullets: 1
     fragBullet: {
       type: BasicBulletType
-     collidesTiles: false
+      collidesTiles: false
       collidesAir: false
       collidesGround: false
       collides: false
