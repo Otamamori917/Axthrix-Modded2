@@ -21,7 +21,7 @@ ammoTypes: {
       lightningLength: 20
       lightningLengthRand: 10
       lightningDamage: 100
-      lightningColor: FFFFFF
+      lightningColor: 808080
       sprite: a-nado-bullet-top
       backSprite: a-nado-bullet-bottom
       shootEffect: none
@@ -31,7 +31,7 @@ ammoTypes: {
       reflectable: false
       absorbable: false
       homingRange: 400
-      homingPower: 2
+      homingPower: 10
       homingDelay: 180
       spin: 12
       shrinkY: -4
@@ -41,8 +41,8 @@ ammoTypes: {
       damage: 15
       lifetime: 2000
       speed: 0
-      backColor: FFFFFF
-      frontColor: FFFFFF  
+      backColor: 808080
+      frontColor: 808080  
   } 
 } 
 shoot: {
