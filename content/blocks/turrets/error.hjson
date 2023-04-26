@@ -22,8 +22,7 @@ ammoTypes: {
     fragBullets: 1
     fragBullet: {
       type: BasicBulletType
-      layer: 40
-      collidesTiles: false
+     collidesTiles: false
       collidesAir: false
       collidesGround: false
       collides: false
