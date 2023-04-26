@@ -35,20 +35,20 @@ ammoTypes: {
       homingPower: 10
       homingDelay: 180
       spin: 12
-      shrinkY: -2
-      shrinkX: -2
+      shrinkY: -2.5
+      shrinkX: -2.5
       width: 50
       height: 50
-      damage: 15
+      damage: 400
       lifetime: 2000
-      speed: 0.1
+      speed: 0.05
       backColor: 808080
       frontColor: 808080  
   } 
 } 
 shoot: {
   shots: 20
-  shotDelay: 8
+  shotDelay: 10
 } 
 inaccuracy: 0
 category: turret 
