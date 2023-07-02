@@ -67,7 +67,7 @@ weapons: [
           splashDamage: 100
           hittable: false
           killShooter: true
-         collidesAir: true   
+          collidesAir: true   
         }
       }
     }
