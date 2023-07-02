@@ -48,7 +48,7 @@ weapons: [
         damage: 0
         width: 4
         length: 4
-        lifetime: 10
+        lifetime: 15
         collides: false
         collidesGround: false
         collidesAir: false
