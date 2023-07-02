@@ -11,9 +11,7 @@ rotateSpeed: 5
 armor: 0
 hitSize: 2
 engineSize: 0
-mineWalls: true
-mineSpeed: 2
-defaultController: MinerAI
+defaultController: SuicideAI
 weapons: [
   {
     name: none
