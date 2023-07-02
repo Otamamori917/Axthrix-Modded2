@@ -11,10 +11,10 @@ abilities: [
    unit: flare
    spawnTime: 300
   }
-    {
+  {
    type: UnitSpawnAbility
-   unit: DA-spark
-   spawnTime: 400
+   unit: flare
+   spawnTime: 300
   }
 ]
 weapons: [

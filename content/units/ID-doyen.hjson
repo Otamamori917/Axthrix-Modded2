@@ -8,12 +8,12 @@ rotateSpeed: 3
 abilities: [
   {
    type: UnitSpawnAbility
-   unit: horizon
+   unit: RA1-bijou
    spawnTime: 600
   }
   {
    type: UnitSpawnAbility
-   unit: DB-bolt
+   unit: Da-spark
    spawnTime: 700
   }
 ]

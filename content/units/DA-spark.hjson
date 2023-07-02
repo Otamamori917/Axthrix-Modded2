@@ -49,7 +49,7 @@ weapons: [
       type: lightningBulletType
       lightningLength: 8
       collidesAir: true
-      damage: 5
+      damage: 25
       lifetime: 6
       shootEffect: sparkShoot
       smokeEffect: shootSmallSmoke
