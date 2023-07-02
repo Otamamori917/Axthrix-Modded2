@@ -4,7 +4,6 @@ consumes: {
   power: 4
   items: {
     items: [
-      platinum/100
       cobalt/50
       titanium/160
       metaglass/160
@@ -17,13 +16,13 @@ upgrades: [
     IB-adept, IC-maestro
   ]
   [
-    DB-bolt, DC-crack
-  ]
-  [
     BB-blockade, BC-palisade
   ]
   [
     CB-akshaj,CC-amitojas
+  ]
+  [
+    RA1-bijou,RB1-bijoux
   ]
 ]
 requirements: [ 

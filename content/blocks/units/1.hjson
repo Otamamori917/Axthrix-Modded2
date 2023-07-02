@@ -4,7 +4,7 @@ consumes: {
   power: 2
   items: {
     items: [
-      platinum/30
+      titanium/40
       silicon/60
       graphite/60
     ]

@@ -4,11 +4,10 @@ consumes: {
   power: 8
   items: {
     items: [
-      platinum/2000
-      cobalt/1000
-      gold/500
+      platinum/200
+      cobalt/100
       titanium/1600
-      livermorium/20
+      bismuth/20
     ]
   }
 }
@@ -16,9 +15,6 @@ constructTime: 800
 upgrades: [
   [
     ID-doyen, IE-demon
-  ]
-  [
-    DD-thunder, DE-lightning
   ]
   [
     BD-parapet, BE-impediment

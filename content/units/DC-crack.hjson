@@ -1,6 +1,0 @@
-research: {
-  parent: DB-bolt
-  requirements: [
-    silicon/1
-  ]
-}

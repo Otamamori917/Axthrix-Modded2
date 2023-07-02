@@ -1,7 +1,7 @@
 type: StackConveyor
 requirements: [
 	platinum/1
-	gold/1
+	silicon/1
 	graphite/1
 ]
 health: 120

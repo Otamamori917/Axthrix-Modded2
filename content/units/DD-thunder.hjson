@@ -1,6 +1,0 @@
-research: {
-  parent: DC-crack
-  requirements: [
-    silicon/1
-  ]
-}

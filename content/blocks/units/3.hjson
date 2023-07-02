@@ -4,11 +4,10 @@ consumes: {
   power: 6
   items: {
     items: [
-      platinum/100
+      lead/200
       cobalt/100
-      gold/50
       titanium/160
-      bismuth/20
+      thorium/20
     ]
   }
 }
@@ -16,9 +15,6 @@ constructTime: 600
 upgrades: [
   [
     IC-maestro, ID-doyen
-  ]
-  [
-    DC-crack, DD-thunder
   ]
   [
     BC-palisade, BD-parapet

@@ -11,8 +11,8 @@ consumes: {
   power: 150
   items: {
     items: [
-      platinum/100
-      bismuth/10
+      titanium/100
+      thorium/10
       blast-compound/40
     ]
   }
@@ -24,7 +24,7 @@ consumes: {
 requirements: [
   copper/2000
   graphite/1350
-  platinum/200
+  titanium/200
   silicon/1750
 ]
 category: crafting

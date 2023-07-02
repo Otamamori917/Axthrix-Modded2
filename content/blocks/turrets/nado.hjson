@@ -4,19 +4,21 @@ size: 4
 scaledHealth: 1500
 reload: 1500
 range: 600
-maxAmmo: 2
-ammoPerShot: 1
+maxAmmo: 40
+ammoPerShot: 20
 recoil: 0
 rotateSpeed: 5
 targetAir: true 
 targetGround: true
 moveWhileCharging: false
 requirements: [
-  plastanium/1
+  titanium/300
+  thorium/200
+  metaglass/125
 ]  
 shootY: 0
 ammoTypes: { 
-  titanium: { 
+  metaglass: { 
     type: BasicBulletType
       lightning: 5
       lightningLength: 20

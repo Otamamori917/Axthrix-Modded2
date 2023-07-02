@@ -30,6 +30,23 @@ plans: [
     ]
     time: 180
   }
+  {
+    unit: DA-spark
+    requirements: [
+      titanium/150
+      silicon/50
+    ]
+    time: 180
+  }
+  {
+    unit: RA1-bijou
+    requirements: [
+      titanium/150
+      thorium/20
+      silicon/50
+    ]
+    time: 180
+  }
 ]
 requirements: [
   titanium/200
