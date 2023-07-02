@@ -1,0 +1,81 @@
+type: mech
+flying: false
+health: 4500
+armor: 300
+aiController: SuicideAI
+hitSize: 8
+speed: 3
+rotateSpeed: 5
+mechSideSway: 0.25
+range: 200
+weapons: [
+  {
+    shootOnDeath: true
+    reload: 24
+    shootCone: 180
+    ejectEffect: none
+    shootSound: explosion
+    x: 0
+    shootY: 0
+    shoot: {
+      shots: 60
+      shotDelay: 1
+    }
+    bullet: {
+      type: BulletType
+      collides: false
+      collidesTiles: false
+      hitSound: explosion
+      overrideRange: 120
+      speed: 0
+      hitEffect: none
+      despawnEffect: sapExplosion
+      splashDamageRadius: 200
+      instantDisappear: true
+      splashDamage: 100
+      hittable: false
+      killShooter: true
+      collidesAir: true
+      fragBullets: 10
+      fragBullet: {
+        type: BasicBulletType
+        sprite: a-error-bullet-top
+        spriteBack: a-error-bullet-bottom
+        frontColor: A020F0
+        backColor: CBC3E3
+        despawnEffect: sapExplosion
+        speed: 6
+        damage: 0
+        width: 4
+        length: 4
+        lifetime: 10
+        collides: false
+        collidesGround: false
+        collidesAir: false
+        fragBullets: 1
+        fragBullet: {
+          type: BulletType
+          collides: false
+          collidesTiles: false
+          hitSound: explosion
+          overrideRange: 120
+          speed: 0
+          hitEffect: none
+          despawnEffect: sapExplosion
+          splashDamageRadius: 200
+          instantDisappear: true
+          splashDamage: 100
+          hittable: false
+          killShooter: true
+         collidesAir: true   
+        }
+      }
+    }
+  }
+] 
+research: {
+  parent: b-c
+  requirements: [
+    silicon/1
+  ]
+}

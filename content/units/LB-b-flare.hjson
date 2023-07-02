@@ -1,34 +1,34 @@
-type: mech
-flying: false
-health: 5500
+type: flying 
+flying: true
+health: 3500
 armor: 300
 hitSize: 8
 speed: 0.5
 rotateSpeed: 5
 weapons: [
   {
-    name: bw
     x: 4
     y: 2
     top: false
     mirror: true
-    reload: 13
+    reload: 10
+    inaccuracy: 40
     shoot: {
       shots: 4
-      shotDelay: 2
+      shotDelay: 15
     }
     bullet: {
-      type: BasicBulletType
+      type: MissileBulletType
       collides: true
       damage: 80
-      lifetime: 60
+      lifetime: 120
       speed: 3
-      fragBullets: 10
+      fragBullets: 1
       fragBullet: {
-        type: BasicBulletType
-        speed: 6
-        damage: 8
-        lifetime: 5
+        type: ShrapnelBulletType
+        speed: 0
+        damage: 50
+        lifetime: 10
         collides: true
       }
     }

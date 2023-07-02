@@ -25,26 +25,6 @@ abilities: [
    healthMultiplier: 0.8
   color: 7b9691 
   }
-  {
-   type: StatusFieldAbility
-   effect: none 
-   reload: 50
-   effectY: 0
-   effectX: 0
-   parentizeEffects: true
-   activeEffect: {
-    followParent: true
-    rotWithParent: true
-    particles: 1
-    lifetime: 20
-    length: 0
-    region: a-small-shield-gen
-    sizeFrom: 10
-    sizeTo: 10
-    spin: 15
-    layer: 95.1
-   }
-  }
 ]
 weapons: [
    {
