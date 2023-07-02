@@ -13,7 +13,28 @@ plans: [
       gold/250
       oganesson/50
     ]
-    time: 15000
+    time: 10000
+  }
+  {
+    unit: LB-b-flare
+    requirements: [
+      titanium/120
+      lutetium/400
+      gold/200
+      oganesson/40
+    ]
+    time: 8000
+  }
+  {
+    unit: LC-b-crawler
+    requirements: [
+      titanium/140
+      lutetium/300
+      gold/150
+      oganesson/30
+      magnesium/100
+    ]
+    time: 6000
   }
 ]
 requirements: [

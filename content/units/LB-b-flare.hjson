@@ -3,7 +3,7 @@ flying: true
 health: 3500
 armor: 300
 hitSize: 8
-speed: 0.5
+speed: 1
 rotateSpeed: 5
 weapons: [
   {
