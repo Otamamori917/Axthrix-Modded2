@@ -1,0 +1,54 @@
+type: flying
+health: 450
+flying: true
+circleTarget: true
+accel: 2
+drag: 0.4
+speed: 4
+rotateSpeed: 5
+armor: 4
+hitSize: 2
+engineSize: 3
+buildSpeed: 2
+mineWalls: true
+mineSpeed: 2
+weapons: [
+  {
+    shootY: 1
+    top: false
+    mirror: false
+    reload: 1000
+    inaccuracy: 0
+    shootStatusDuration: 55
+    shootStatus: unmoving
+    shoot: {
+      shots: 5
+      shotDelay: 10
+    }
+    bullet: { 
+    type: BasicBulletType
+      sprite: a-nado-bullet-top
+      backSprite: a-nado-bullet-bottom
+      shootEffect: none
+      smokeEffect: shootBigSmoke2
+      impact: true
+      hittable: false
+      reflectable: false
+      absorbable: false
+      homingRange: 400
+      homingPower: 10
+      homingDelay: 180
+      spin: 12
+      shrinkY: -1
+      shrinkX: -1
+      width: 30
+      height: 30
+      hitSize: 30
+      damage: 100
+      lifetime: 8000
+      speed: 0.05
+      backColor: 808080
+      frontColor: 808080  
+    } 
+  }
+] 

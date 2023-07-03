@@ -32,7 +32,7 @@ weapons: [
       despawnEffect: sapExplosion
       splashDamageRadius: 200
       instantDisappear: true
-      splashDamage: 1000
+      splashDamage: 2000
       hittable: false
       killShooter: true
       collidesAir: true
@@ -62,7 +62,7 @@ weapons: [
           speed: 0
           hitEffect: none
           despawnEffect: sapExplosion
-          splashDamageRadius: 500
+          splashDamageRadius: 1000
           instantDisappear: true
           splashDamage: 100
           hittable: false

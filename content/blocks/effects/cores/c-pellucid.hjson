@@ -1,0 +1,14 @@
+type: CoreBlock
+size: 5
+health: 20000
+itemCapacity: 38000
+unitCapModifier: 48
+unitType: JC-alabaster
+category: effect
+requirements[
+ lutetium/1600
+ bismuth/1200
+ platinum/2200
+ colbalt/1200
+ gold/200
+]

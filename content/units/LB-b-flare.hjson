@@ -20,17 +20,9 @@ weapons: [
     bullet: {
       type: MissileBulletType
       collides: true
-      damage: 80
+      damage: 100
       lifetime: 120
       speed: 3
-      fragBullets: 1
-      fragBullet: {
-        type: ShrapnelBulletType
-        speed: 0
-        damage: 50
-        lifetime: 10
-        collides: true
-      }
     }
   }
 ] 

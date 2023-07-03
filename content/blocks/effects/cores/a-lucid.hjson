@@ -1,0 +1,12 @@
+type: CoreBlock
+size: 3
+health: 5000
+itemCapacity: 8000
+unitCapModifier: 12
+unitType: JA-argyros
+category: effect
+requirements[
+ copper/500
+ lead/600
+ silicon/200   
+]
