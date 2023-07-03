@@ -21,14 +21,14 @@ weapons: [
     top: false
     mirror: false
     reload: 1000
-    inaccuracy: 360
+    inaccuracy: 0
     shootStatusDuration: 10
     shootStatus: unmoving
     shoot: {
-      ShootSpread: (
+      ShootSpread: {
         shots: 180
         spread: 2
-      )
+      }
     }
     bullet: { 
     type: BasicBulletType
