@@ -41,9 +41,10 @@ weapons: [
       height: 14
       shrinkX: 0
       shrinkY: 0
+      spin: 4
       damage: 20
-      lifetime: 60
-      speed: 3
+      lifetime: 80
+      speed: 2
       backColor: 6b77a1
       frontColor: 95abd9  
       trailEffect: hitFuse 
@@ -55,7 +56,7 @@ weapons: [
       laserAbsorb: false
       pierceArmor: true
       fragBullets: 8
-      fragRandomSpread: 160
+      fragRandomSpread: 60
       fragBullet: {
         sprite: a-crystal-shard-bullet
         backSprite: none
@@ -68,7 +69,7 @@ weapons: [
         width: 6
         height: 8
         damage: 40
-        lifetime: 50
+        lifetime: 40
         speed: 4
         frontColor: 95abd9  
         trailEffect: hitFuse 
@@ -78,7 +79,7 @@ weapons: [
         trailLength: 4
         trailWidth: 1
         homingRange: 200
-        homingPower: 0.3
+        homingPower: 0.03
         homingDelay: 0
       }
     } 
