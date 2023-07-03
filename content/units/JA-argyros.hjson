@@ -39,6 +39,8 @@ weapons: [
       absorbable: false
       width: 20
       height: 20
+      shrinkX: 0
+      shrinkY: 0
       damage: 20
       lifetime: 60
       speed: 3
@@ -55,6 +57,7 @@ weapons: [
       fragBullets: 4
       fragRandomSpread: 160
       fragBullet: {
+        sprite: a-crystal-shard-bullet
         pierceArmor: true
         removeAfterPierce: false
         pierceBuilding: true
