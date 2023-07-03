@@ -11,26 +11,7 @@ armor: 0
 hitSize: 2
 engineSize: 0
 abilities: [
-  {
-   type: StatusFieldAbility
-   effect: none 
-   reload: 50
-   effectY: 0
-   effectX: 0
-   parentizeEffects: true
-   activeEffect: {
-    followParent: true
-    rotWithParent: true
-    particles: 1
-    lifetime: 60
-    length: 0
-    region: a-small-metal-blade
-    sizeFrom: 8
-    sizeTo: 8
-    spin: 15
-    layer: 95.1
-   }
-  }
+  
 ]
 weapons: [
   {

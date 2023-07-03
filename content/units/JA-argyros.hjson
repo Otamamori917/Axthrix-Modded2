@@ -22,46 +22,61 @@ weapons: [
     mirror: false
     reload: 1000
     inaccuracy: 0
-    shootStatusDuration: 10
+    chargeEffect: landShock
+    chargeSound: spellLoop
+    shootStatusDuration: 20
     shootStatus: unmoving
     shoot: {
-      ShootSpread: [
-        shots: 180
-        spread: 2
-      ]
+      firstShotDelay: 10
     }
     bullet: { 
     type: BasicBulletType
-      sprite: a-wave-bullet-top
-      backSprite: a-wave-bullet-bottom
+      sprite: a-crystal-ball-bullet-top
+      backSprite: a-crystal-ball-bullet-bottom
       shootEffect: none
-      smokeEffect: shootBigSmoke2
-      impact: true
-      hittable: false
+      smokeEffect: none
       reflectable: false
       absorbable: false
-      shrinkY: -1
-      shrinkX: -3
-      width: 5
-      height: 5
-      hitSize: 15
-      damage: 10
-      knockback: 6
+      width: 6
+      height: 6
+      damage: 20
       lifetime: 80
-      speed: 1.5
-      backColor: 808080
-      frontColor: 808080  
+      speed: 3
+      backColor: 95abd9
+      frontColor: c1c3d4  
       trailEffect: none
       trailInterval: 3f
       trailParam: 4f
-      trailColor: 808080
+      trailColor: c1c3d4
       trailLength: 4
       trailWidth: 1f
-      pierceBuilding: true
-      pierce: true
       laserAbsorb: false
       pierceArmor: true
-      removeAfterPierce: false
+      fragBullets: 4
+      fragRandomSpread: 160
+      fragBullet: {
+        pierceArmor: true
+        removeAfterPierce: false
+        pierceBuilding: true
+        pierce: true
+        reflectable: false
+        absorbable: false
+        width: 1.5
+        height: 1.5
+        damage: 80
+        lifetime: 40
+        speed: 2
+        frontColor: 95abd9  
+        trailEffect: none
+        trailInterval: 3f
+        trailParam: 4f
+        trailColor: 95abd9
+        trailLength: 4
+        trailWidth: 1f
+        homingRange: 100
+        homingPower: 2
+        homingDelay: 0
+      }
     } 
   }
 ] 
