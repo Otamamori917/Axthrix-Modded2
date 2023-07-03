@@ -1,14 +1,13 @@
 type: flying
-health: 150
+health: 380
 flying: true
-playerControllable: false
 circleTarget: true
 lowAltitude: true
 accel: 0.4
 drag: 0.2
 speed: 4
 rotateSpeed: 5
-armor: 0
+armor: 3
 hitSize: 2
 engineSize: 0
 defaultController: SuicideAI
