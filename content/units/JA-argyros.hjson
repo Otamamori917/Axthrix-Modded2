@@ -15,7 +15,6 @@ mineSpeed: 2
 weapons: [
   {
     shootY: 1
-    shootCone: 360
     x: 0
     y: 0
     top: false
