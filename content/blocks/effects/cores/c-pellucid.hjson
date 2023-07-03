@@ -5,7 +5,7 @@ itemCapacity: 38000
 unitCapModifier: 48
 unitType: JC-alabaster
 category: effect
-requirements[
+requirements: [
  lutetium/1600
  bismuth/1200
  platinum/2200

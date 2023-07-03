@@ -5,7 +5,7 @@ itemCapacity: 8000
 unitCapModifier: 12
 unitType: JA-argyros
 category: effect
-requirements[
+requirements: [
  copper/500
  lead/600
  silicon/200   
