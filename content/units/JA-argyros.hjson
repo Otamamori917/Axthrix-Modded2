@@ -15,42 +15,51 @@ mineSpeed: 2
 weapons: [
   {
     shootY: 1
+    shootCone: 360
     x: 0
     y: 0
     top: false
     mirror: false
     reload: 1000
     inaccuracy: 0
-    shootStatusDuration: 55
+    shootStatusDuration: 10
     shootStatus: unmoving
     shoot: {
-      shots: 5
-      shotDelay: 10
+      shots: 20
+      shotDelay: 0
     }
     bullet: { 
     type: BasicBulletType
-      sprite: a-nado-bullet-top
-      backSprite: a-nado-bullet-bottom
+      sprite: none
+      backSprite: none
       shootEffect: none
       smokeEffect: shootBigSmoke2
       impact: true
       hittable: false
       reflectable: false
       absorbable: false
-      homingRange: 400
-      homingPower: 10
-      homingDelay: 180
-      spin: 12
       shrinkY: -1
       shrinkX: -1
       width: 5
       height: 5
       hitSize: 5
       damage: 100
-      lifetime: 8000
-      speed: 0.05
+      knockback: 6
+      lifetime: 100
+      speed: 3
       backColor: 808080
       frontColor: 808080  
+      trailEffect: unitDust
+      trailInterval: 3f
+      trailParam: 4f
+      trailColor: 808080
+      trailLength: 4
+      trailWidth: 1f
+      pierceBuilding: true
+      pierce: true
+      laserAbsorb: false
+      pierceArmor: true
+      removeAfterPierce: false
     } 
   }
 ] 
