@@ -25,7 +25,7 @@ weapons: [
     shootStatusDuration: 10
     shootStatus: unmoving
     shoot: {
-      shots: 20
+      shots: 100
       shotDelay: 0
     }
     bullet: { 
