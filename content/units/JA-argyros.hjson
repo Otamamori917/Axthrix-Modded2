@@ -14,11 +14,11 @@ mineWalls: true
 mineSpeed: 2
 weapons: [
   {
-    x: 2
-    y: 1
+    x: 4
+    y: 2
     top: false
     mirror: true
-    reload: 5
+    reload: 10
     inaccuracy: 0
     shootSound: blaster
     bullet: { 
