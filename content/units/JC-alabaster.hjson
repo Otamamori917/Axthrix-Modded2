@@ -5,7 +5,7 @@ circleTarget: true
 accel: 4
 drag: 0.8
 speed: 6
-rotateSpeed: 5
+rotateSpeed: 8
 armor: 8
 hitSize: 6
 engineSize: 5
@@ -14,16 +14,18 @@ mineWalls: true
 mineSpeed: 6
 weapons: [
   {
+    name: crystalize
     shootY: 1
     x: 0
     y: 0
     top: false
-    mirror: true
-    reload: 200
-    inaccuracy: 20
-    shootCone: 40
-    shake: 0.1
+    mirror: false
+    reload: 100
+    inaccuracy: 10
+    shake: 0.4
     chargeSound: plasmadrop
+    shootStatusDuration: 60
+    shootStatus: unmoving
     shootSound: plasmaboom
     shoot: {
       firstShotDelay: 20
