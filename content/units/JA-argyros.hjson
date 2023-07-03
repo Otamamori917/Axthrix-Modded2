@@ -25,10 +25,10 @@ weapons: [
     shootStatusDuration: 10
     shootStatus: unmoving
     shoot: {
-      ShootSpread: {
+      ShootSpread: [
         shots: 180
         spread: 2
-      }
+      ]
     }
     bullet: { 
     type: BasicBulletType
