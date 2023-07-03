@@ -14,73 +14,164 @@ mineWalls: true
 mineSpeed: 2
 weapons: [
   {
-    shootY: 1
-    x: 0
-    y: 0
+    x: 2
+    y: 1
     top: false
     mirror: false
-    reload: 200
+    baseRotation: 35
+    reload: 5
     inaccuracy: 0
-    chargeEffect: absorb 
-    chargeSound: spellLoop
-    shootStatusDuration: 30
-    shootStatus: unmoving
-    shoot: {
-      firstShotDelay: 20
-    }
+    shootSound: blaster
     bullet: { 
-    type: BasicBulletType
-      sprite: a-crystal-ball-bullet-top
-      backSprite: a-crystal-ball-bullet-bottom
-      shootEffect: none
-      smokeEffect: none
+      type: BasicBulletType
+      sprite: a-crystal-shard-bullet
+      backSprite: none
+      pierceArmor: true
+      removeAfterPierce: false
+      pierceBuilding: true
+      pierce: true
       reflectable: false
       absorbable: false
-      width: 14
-      height: 14
-      shrinkX: 0
-      shrinkY: 0
-      spin: 4
+      width: 6
+      height: 8
       damage: 20
       lifetime: 80
-      speed: 2
-      backColor: 6b77a1
+      speed: 4
       frontColor: 95abd9  
       trailEffect: hitFuse 
       trailInterval: 0
       trailParam: 0
-      trailColor: 6b77a1
-      trailLength: 0.1
-      trailWidth: 0.1
-      laserAbsorb: false
+      trailColor: 95abd9
+      trailLength: 4
+      trailWidth: 0.2
+      homingRange: 600
+      homingPower: 0.03
+      homingDelay: 0
+      despawnSound: swish
+      hitSound: swish
+    } 
+  }
+  {
+    x: -2
+    y: 1
+    top: false
+    mirror: false
+    baseRotation: -35
+    reload: 5
+    inaccuracy: 0
+    shootSound: blaster
+    shoot: {
+      firstShotDelay: 5
+    }
+    bullet: { 
+      type: BasicBulletType
+      sprite: a-crystal-shard-bullet
+      backSprite: none
       pierceArmor: true
-      fragBullets: 8
-      fragRandomSpread: 60
-      fragBullet: {
-        sprite: a-crystal-shard-bullet
-        backSprite: none
-        pierceArmor: true
-        removeAfterPierce: false
-        pierceBuilding: true
-        pierce: true
-        reflectable: false
-        absorbable: false
-        width: 6
-        height: 8
-        damage: 40
-        lifetime: 40
-        speed: 4
-        frontColor: 95abd9  
-        trailEffect: hitFuse 
-        trailInterval: 0
-        trailParam: 0
-        trailColor: 95abd9
-        trailLength: 4
-        trailWidth: 0.2
-        homingRange: 200
-        homingPower: 0.03
-        homingDelay: 0
-      }
+      removeAfterPierce: false
+      pierceBuilding: true
+      pierce: true
+      reflectable: false
+      absorbable: false
+      width: 6
+      height: 8
+      damage: 20
+      lifetime: 80
+      speed: 4
+      frontColor: 95abd9  
+      trailEffect: hitFuse 
+      trailInterval: 0
+      trailParam: 0
+      trailColor: 95abd9
+      trailLength: 4
+      trailWidth: 0.2
+      homingRange: 600
+      homingPower: 0.03
+      homingDelay: 0
+      despawnSound: swish
+      hitSound: swish
+    } 
+  }
+  {
+    x: 2
+    y: -1
+    top: false
+    mirror: false
+    baseRotation: 35
+    reload: 5
+    inaccuracy: 0
+    shootSound: blaster
+    shoot: {
+      firstShotDelay: 10
+    }
+    bullet: { 
+      type: BasicBulletType
+      sprite: a-crystal-shard-bullet
+      backSprite: none
+      pierceArmor: true
+      removeAfterPierce: false
+      pierceBuilding: true
+      pierce: true
+      reflectable: false
+      absorbable: false
+      width: 6
+      height: 8
+      damage: 20
+      lifetime: 80
+      speed: 4
+      frontColor: 95abd9  
+      trailEffect: hitFuse 
+      trailInterval: 0
+      trailParam: 0
+      trailColor: 95abd9
+      trailLength: 4
+      trailWidth: 0.2
+      homingRange: 600
+      homingPower: 0.03
+      homingDelay: 0
+      despawnSound: swish
+      hitSound: swish
+    } 
+  }
+  {
+    x: -2
+    y: -1
+    top: false
+    mirror: false
+    baseRotation: -35
+    reload: 5
+    inaccuracy: 0
+    shootSound: blaster
+    shoot: {
+      firstShotDelay: 15
+    }
+    bullet: { 
+      type: BasicBulletType
+      sprite: a-crystal-shard-bullet
+      backSprite: none
+      pierceArmor: true
+      removeAfterPierce: false
+      pierceBuilding: true
+      pierce: true
+      reflectable: false
+      absorbable: false
+      width: 6
+      height: 8
+      damage: 20
+      lifetime: 80
+      speed: 4
+      frontColor: 95abd9  
+      trailEffect: hitFuse 
+      trailInterval: 0
+      trailParam: 0
+      trailColor: 95abd9
+      trailLength: 4
+      trailWidth: 0.2
+      homingRange: 600
+      homingPower: 0.03
+      homingDelay: 0
+      despawnSound: swish
+      hitSound: swish
     } 
   }
 ] 
