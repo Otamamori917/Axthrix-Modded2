@@ -20,14 +20,14 @@ weapons: [
     y: 0
     top: false
     mirror: false
-    reload: 1000
+    reload: 200
     inaccuracy: 0
     chargeEffect: landShock
     chargeSound: spellLoop
-    shootStatusDuration: 20
+    shootStatusDuration: 30
     shootStatus: unmoving
     shoot: {
-      firstShotDelay: 10
+      firstShotDelay: 20
     }
     bullet: { 
     type: BasicBulletType
@@ -37,10 +37,10 @@ weapons: [
       smokeEffect: none
       reflectable: false
       absorbable: false
-      width: 6
-      height: 6
+      width: 10
+      height: 10
       damage: 20
-      lifetime: 80
+      lifetime: 60
       speed: 3
       backColor: 95abd9
       frontColor: c1c3d4  
@@ -48,8 +48,8 @@ weapons: [
       trailInterval: 3f
       trailParam: 4f
       trailColor: c1c3d4
-      trailLength: 4
-      trailWidth: 1f
+      trailLength: 8
+      trailWidth: 4f
       laserAbsorb: false
       pierceArmor: true
       fragBullets: 4
@@ -61,18 +61,18 @@ weapons: [
         pierce: true
         reflectable: false
         absorbable: false
-        width: 1.5
-        height: 1.5
+        width: 2.5
+        height: 2.5
         damage: 80
-        lifetime: 40
+        lifetime: 60
         speed: 2
         frontColor: 95abd9  
         trailEffect: none
         trailInterval: 3f
         trailParam: 4f
         trailColor: 95abd9
-        trailLength: 4
-        trailWidth: 1f
+        trailLength: 6
+        trailWidth: 2f
         homingRange: 100
         homingPower: 2
         homingDelay: 0
