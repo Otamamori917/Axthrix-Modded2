@@ -76,7 +76,7 @@ weapons: [
         trailParam: 0
         trailColor: 95abd9
         trailLength: 4
-        trailWidth: 1
+        trailWidth: 0.2
         homingRange: 200
         homingPower: 0.03
         homingDelay: 0
