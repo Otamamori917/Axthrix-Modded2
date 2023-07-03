@@ -44,20 +44,21 @@ weapons: [
       damage: 20
       lifetime: 60
       speed: 3
-      backColor: 95abd9
-      frontColor: c1c3d4  
+      backColor: 6b77a1
+      frontColor: 95abd9  
       trailEffect: hitFuse 
       trailInterval: 0
       trailParam: 0
-      trailColor: ffffff
-      trailLength: 0
-      trailWidth: 0
+      trailColor: 6b77a1
+      trailLength: 0.1
+      trailWidth: 0.1
       laserAbsorb: false
       pierceArmor: true
       fragBullets: 4
       fragRandomSpread: 160
       fragBullet: {
         sprite: a-crystal-shard-bullet
+        backSprite: none
         pierceArmor: true
         removeAfterPierce: false
         pierceBuilding: true
@@ -73,9 +74,9 @@ weapons: [
         trailEffect: hitFuse 
         trailInterval: 0
         trailParam: 0
-        trailColor: ffffff
-        trailLength: 0
-        trailWidth: 0
+        trailColor: 95abd9
+        trailLength: 4
+        trailWidth: 0.5
         homingRange: 100
         homingPower: 2
         homingDelay: 0
