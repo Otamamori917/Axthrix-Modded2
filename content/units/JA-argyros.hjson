@@ -45,7 +45,7 @@ weapons: [
       hitSize: 5
       damage: 10
       knockback: 6
-      lifetime: 120
+      lifetime: 80
       speed: 1.5
       backColor: 808080
       frontColor: 808080  
