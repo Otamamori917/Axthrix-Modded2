@@ -55,14 +55,14 @@ weapons: [
     reload: 120
     inaccuracy: 0
     alwaysContinuous: true
-    baseRotation: 185
+    baseRotation: 100
     ignoreRotation: true
     alwaysShooting: true
     shootSound: torch
     bullet: {
       type: ContinuousFlameBulletType
-      length: 15
-      width: 2
+      length: 10
+      width: 1
       recoil: -0.2
       damage: 20
       lifetime: 10
@@ -88,14 +88,14 @@ weapons: [
     reload: 120
     inaccuracy: 0
     alwaysContinuous: true
-    baseRotation: -185
+    baseRotation: -100
     ignoreRotation: true
     alwaysShooting: true
     shootSound: torch
     bullet: {
       type: ContinuousFlameBulletType
-      length: 15
-      width: 2
+      length: 10
+      width: 1
       recoil: -0.2
       damage: 20
       lifetime: 10
