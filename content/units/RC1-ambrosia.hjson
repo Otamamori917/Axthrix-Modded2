@@ -15,7 +15,7 @@ weapons: [
   {
     name: none
     x: 0
-    y: 0
+    y: -2
     shootY: 6
     mirror: false
     reload: 120
@@ -111,76 +111,10 @@ weapons: [
       ]
     }
   }
-  {
-    name: none
-    x: -6
-    y: 6
-    shootY: 6
-    mirror: false
-    reload: 120
-    inaccuracy: 0
-    alwaysContinuous: true
-    baseRotation: 100
-    ignoreRotation: true
-    alwaysShooting: true
-    shootSound: torch
-    bullet: {
-      type: ContinuousFlameBulletType
-      length: 30
-      width: 5
-      recoil: -0.2
-      damage: 60
-      lifetime: 10
-      speed: 0
-      flareWidth: 0
-      flareLength: 0
-      flareColor: bc61f5 
-      colors: [
-        51087e
-        6c0ba9
-        880ed4
-        a020f0
-        bc61f5
-      ]
-    }
-  }
-  {
-    name: none
-    x: 6
-    y: 6
-    shootY: 6
-    mirror: false
-    reload: 120
-    inaccuracy: 0
-    alwaysContinuous: true
-    baseRotation: -100
-    ignoreRotation: true
-    alwaysShooting: true
-    shootSound: torch
-    bullet: {
-      type: ContinuousFlameBulletType
-      length: 30
-      width: 5
-      recoil: -0.2
-      damage: 60
-      lifetime: 10
-      speed: 0
-      flareWidth: 0
-      flareLength: 0
-      flareColor: bc61f5 
-      colors: [
-        51087e
-        6c0ba9
-        880ed4
-        a020f0
-        bc61f5
-      ]
-    }
-  }
     {
     name: b-mouth
     x: 0
-    y: 6
+    y: 8
     mirror: false
     shootSound: shockBlast
     reload: 420
@@ -214,7 +148,7 @@ weapons: [
   {
     name: b-head
     x: 0
-    y: 6
+    y: 8
     shootX: 0
     shootY: 0
     reload: 60
