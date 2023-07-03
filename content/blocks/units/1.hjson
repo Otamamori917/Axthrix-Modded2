@@ -24,6 +24,9 @@ upgrades: [
   [
     CA-anagh,CB-akshaj
   ]
+    [
+    RA1-bijou,RB1-bijoux
+  ]
 ]
 requirements: [ 
   titanium/100

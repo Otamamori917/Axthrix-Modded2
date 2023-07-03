@@ -47,21 +47,21 @@ weapons: [
   }
   {
     name: none
-    x: 8
-    y: 0
+    x: -8
+    y: 5
     shootY: 6
-    mirror: false
+    mirror: true
     reload: 120
     inaccuracy: 0
     alwaysContinuous: true
-    baseRotation: 165
+    baseRotation: 155
     ignoreRotation: true
     alwaysShooting: true
     shootSound: torch
     bullet: {
       type: ContinuousFlameBulletType
-      length: 25
-      width: 3
+      length: 15
+      width: 6
       recoil: -0.2
       damage: 40
       lifetime: 10
@@ -80,14 +80,14 @@ weapons: [
   }
   {
     name: none
-    x: -8
+    x: 8
     y: 0
     shootY: 6
-    mirror: false
+    mirror: true
     reload: 120
     inaccuracy: 0
     alwaysContinuous: true
-    baseRotation: -165
+    baseRotation: 165
     ignoreRotation: true
     alwaysShooting: true
     shootSound: torch

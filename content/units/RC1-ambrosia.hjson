@@ -11,7 +11,6 @@ rotateSpeed: 5
 armor: 0
 hitSize: 2
 engineSize: 0
-defaultController: SuicideAI
 weapons: [
   {
     name: none
@@ -28,14 +27,14 @@ weapons: [
     shootSound: torch
     bullet: {
       type: ContinuousFlameBulletType
-      length: 25
-      width: 3
+      length: 55
+      width: 6.5
       recoil: -0.4
-      damage: 40
+      damage: 60
       lifetime: 10
       speed: 0
-      flareWidth: 2
-      flareLength: 17
+      flareWidth: 3
+      flareLength: 27
       flareColor: bc61f5 
       colors: [
         51087e
@@ -48,8 +47,8 @@ weapons: [
   }
   {
     name: none
-    x: -8
-    y: 4
+    x: 8
+    y: 0
     shootY: 6
     mirror: true
     reload: 120
@@ -61,10 +60,10 @@ weapons: [
     shootSound: torch
     bullet: {
       type: ContinuousFlameBulletType
-      length: 5
-      width: 4
+      length: 35
+      width: 5
       recoil: -0.2
-      damage: 20
+      damage: 60
       lifetime: 10
       speed: 0
       flareWidth: 0
@@ -80,29 +79,60 @@ weapons: [
     }
   }
   {
+    name: none
+    x: -8
+    y: 6
+    shootY: 6
+    mirror: true
+    reload: 120
+    inaccuracy: 0
+    alwaysContinuous: true
+    baseRotation: 155
+    ignoreRotation: true
+    alwaysShooting: true
+    shootSound: torch
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 25
+      width: 8
+      recoil: -0.2
+      damage: 60
+      lifetime: 10
+      speed: 0
+      flareWidth: 0
+      flareLength: 0
+      flareColor: bc61f5 
+      colors: [
+        51087e
+        6c0ba9
+        880ed4
+        a020f0
+        bc61f5
+      ]
+    }
+  }
+    {
     name: b-mouth
     x: 0
     y: 6
-    controllable: false
-    autoTarget: true
-    shootX: 0
-    shootY: 0
-    reload: 60
-    cooldownTime: 60
-    layerOffset: 1
-    recoil: 0
-    top: false
-    recoilPow: 0
-    display: false
-    recoilTime: 0
-    shootSound: none
-    heatColor: A020F0
     mirror: false
+    shootSound: shockBlast
+    reload: 420
+    inaccuracy: 0
     rotate: true
     rotateSpeed: 3
-    inaccuracy: 0
     bullet: {
-      type: BulletType
+      type: BasicBulletType
+      sprite: a-wave-bullet-top
+      backSprite: a-wave-bullet-bottom
+      backColor: A020F0
+      frontColor: bf92f9
+      pierce: true
+      removeAfterPierce: false
+      height: 6
+      width: 8
+      shrinkY: -6
+      shrinkX: -8
       hitEffect: none
       despawnEffect: none
       shootEffect: none
@@ -110,17 +140,15 @@ weapons: [
       hittable: false
       reflectable: false
       absorbable: false
-      damage: 0
-      lifetime: 100
-      speed: 1
+      damage: 400
+      lifetime: 120
+      speed: 1.2
     }
   }
   {
     name: b-head
     x: 0
     y: 6
-    controllable: false
-    autoTarget: true
     shootX: 0
     shootY: 0
     reload: 60
@@ -147,8 +175,8 @@ weapons: [
       reflectable: false
       absorbable: false
       damage: 0
-      lifetime: 100
-      speed: 1
+      lifetime: 120
+      speed: 1.2
     }
   }
 ]
