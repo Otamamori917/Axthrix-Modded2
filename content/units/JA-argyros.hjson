@@ -21,7 +21,7 @@ weapons: [
     top: false
     mirror: false
     reload: 1000
-    inaccuracy: 0
+    inaccuracy: 360
     shootStatusDuration: 10
     shootStatus: unmoving
     shoot: {
@@ -30,8 +30,8 @@ weapons: [
     }
     bullet: { 
     type: BasicBulletType
-      sprite: none
-      backSprite: none
+      sprite: a-wave-bullet-top
+      backSprite: a-wave-bullet-bottom
       shootEffect: none
       smokeEffect: shootBigSmoke2
       impact: true
