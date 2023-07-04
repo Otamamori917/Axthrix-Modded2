@@ -14,10 +14,10 @@ mineWalls: true
 mineSpeed: 2
 weapons: [
   {
-    name: gem
+    name: argyros-weapon
     x: 0
     y: 0
-    shootX: 4
+    shootX: 6
     top: false
     mirror: true
     reload: 5
