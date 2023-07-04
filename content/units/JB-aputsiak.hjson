@@ -14,7 +14,6 @@ mineWalls: true
 mineSpeed: 4
 weapons: [
   {
-    name: crystal
     shootY: 1
     x: 0
     y: 0
