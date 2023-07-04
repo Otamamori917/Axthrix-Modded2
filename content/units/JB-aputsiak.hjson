@@ -21,6 +21,7 @@ weapons: [
     mirror: false
     reload: 200
     inaccuracy: 0
+    chargeSound: plasmadrop
     shootStatusDuration: 30
     shootStatus: unmoving
     shootSound: plasmaboom
@@ -55,8 +56,6 @@ weapons: [
       pierceArmor: true
       fragBullets: 8
       fragRandomSpread: 60
-      despawnSound: blaster
-      hitSound: blaster
       fragBullet: {
         sprite: a-crystal-shard-bullet
         backSprite: none
@@ -81,8 +80,6 @@ weapons: [
         homingRange: 200
         homingPower: 0.03
         homingDelay: 0
-        despawnSound: swish
-        hitSound: swish
       }
     } 
   }

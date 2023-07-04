@@ -23,6 +23,7 @@ weapons: [
     reload: 100
     inaccuracy: 10
     shake: 0.4
+    chargeSound: plasmadrop
     shootStatusDuration: 60
     shootStatus: unmoving
     shootSound: plasmaboom
@@ -62,8 +63,6 @@ weapons: [
       homingDelay: 30
       fragBullets: 8
       fragRandomSpread: 60
-      despawnSound: blaster
-      hitSound: blaster
       fragBullet: {
         sprite: a-crystal-shard-bullet
         backSprite: none
@@ -88,8 +87,6 @@ weapons: [
         homingRange: 200
         homingPower: 0.06
         homingDelay: 0
-        despawnSound: swish
-        hitSound: swish
       }
     } 
   }
