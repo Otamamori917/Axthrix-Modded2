@@ -23,7 +23,6 @@ weapons: [
     reload: 100
     inaccuracy: 10
     shake: 0.4
-    chargeSound: plasmadrop
     shootStatusDuration: 60
     shootStatus: unmoving
     shootSound: plasmaboom

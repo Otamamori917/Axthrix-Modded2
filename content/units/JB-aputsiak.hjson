@@ -21,7 +21,6 @@ weapons: [
     mirror: false
     reload: 200
     inaccuracy: 0
-    chargeSound: plasmadrop
     shootStatusDuration: 30
     shootStatus: unmoving
     shootSound: plasmaboom
