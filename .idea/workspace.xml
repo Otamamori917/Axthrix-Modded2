@@ -6,42 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="296e7ba8-3b28-4d92-b15b-8e318d5b38a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/units/1.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/units/1.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/units/2.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/units/2.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/units/3.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/units/3.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/units/4.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/units/4.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/units/factory.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/units/factory.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/BA-barrier.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/BA-barrier.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/BB-blockade.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/BB-blockade.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/BC-palisade.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/BC-palisade.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/BD-parapet.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/BD-parapet.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/BE-impediment.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/BE-impediment.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/CA-anagh.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/CA-anagh.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/CB-akshaj.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/CB-akshaj.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/CC-amitojas.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/CC-amitojas.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/CD-agnitejas.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/CD-agnitejas.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/CE-aayustejas.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/CE-aayustejas.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/DA-spark.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/DA-spark.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/DB-bolt.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/DB-bolt.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/IA-ace.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/IA-ace.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/IB-adept.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/IB-adept.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/IC-maestro.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/IC-maestro.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/ID-doyen.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/ID-doyen.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/IE-demon.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/IE-demon.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/JA-argyros.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JA-argyros.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/JB-aputsiak.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JB-aputsiak.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/JC-alabaster.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JC-alabaster.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/LA-b-dagger.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/LA-b-dagger.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/LB-b-flare.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/LB-b-flare.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/LC-b-crawler.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/LC-b-crawler.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/OA-da.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/OA-da.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/OB-da2.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/OB-da2.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/PA-dh.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/PA-dh.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/PB-dh2.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/PB-dh2.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/QA-anwir.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/QA-anwir.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/RA1-bijou.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/RA1-bijou.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/RB1-bijoux.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/RB1-bijoux.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/units/RC1-ambrosia.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/RC1-ambrosia.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
