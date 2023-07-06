@@ -49,7 +49,6 @@ weapons: [
       homingPower: 0.03
       homingDelay: 0
       despawnSound: swish
-      hitSound: swish
     } 
   }
 ] 
