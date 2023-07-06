@@ -7,6 +7,14 @@ faceTarget: false
 crushDamage: 4
 hitSize: 18
 speed: 0.50
+treadRects: [
+  {
+  x: 27
+  y: -68
+  width: 28
+  height: 130
+  }
+]
 weapons: [
   {
     name: sol-gun
