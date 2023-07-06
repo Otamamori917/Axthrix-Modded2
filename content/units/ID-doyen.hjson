@@ -8,13 +8,13 @@ rotateSpeed: 3
 abilities: [
   {
    type: UnitSpawnAbility
-   unit: RA1-bijou
-   spawnTime: 600
+   unit: DB-bolt
+   spawnTime: 800
   }
   {
    type: UnitSpawnAbility
-   unit: DA-spark
-   spawnTime: 700
+   unit: RB1-bijoux
+   spawnTime: 900
   }
 ]
 weapons: [

@@ -17,7 +17,7 @@ weapons: [
     y: 0
     mirror: false
     beamWidth: 1
-    repairSpeed: 0.4
+    repairSpeed: 0.05
     bullet: {
       type: BulletType
       maxRange: 30
@@ -42,7 +42,7 @@ weapons: [
       damage: 1
       lifetime: 60
       speed: 2
-      healPercent: 4
+      healPercent: 1
       collidesTeam: true
     }
   }

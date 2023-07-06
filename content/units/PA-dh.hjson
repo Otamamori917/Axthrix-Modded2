@@ -18,7 +18,7 @@ weapons: [
     y: 0
     mirror: false
     beamWidth: 0.5
-    repairSpeed: 0.1
+    repairSpeed: 0.025
     bullet: {
       type: BulletType
       maxRange: 20

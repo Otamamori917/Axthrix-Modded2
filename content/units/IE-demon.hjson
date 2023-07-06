@@ -6,15 +6,11 @@ hitSize: 3
 speed: 1.5
 rotateSpeed: 3
 abilities: [
+
   {
    type: UnitSpawnAbility
-   unit: DB-bolt
-   spawnTime: 800
-  }
-  {
-   type: UnitSpawnAbility
-   unit: RB1-bijoux
-   spawnTime: 900
+   unit: RC1-ambrosia
+   spawnTime: 1200
   }
 ]
 weapons: [
