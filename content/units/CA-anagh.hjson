@@ -8,6 +8,14 @@ crushDamage: 1
 hitSize: 8
 speed: 0.75
 rotateSpeed: 3.5
+treadRects: [
+  {
+  x: 6
+  y: -26
+  width: 14
+  height: 51
+  }
+]
 weapons: [
   {
     name: auto-l
