@@ -10,7 +10,7 @@ speed: 0.50
 treadRects: [
   {
   x: 27
-  y: -70
+  y: -68
   width: 28
   height: 130
   }

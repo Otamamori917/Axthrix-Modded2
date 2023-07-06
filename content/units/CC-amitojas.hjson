@@ -11,7 +11,7 @@ rotateSpeed: 1.5
 treadRects: [
   {
   x: 14
-  y: -57
+  y: -54
   width: 30
   height: 110
   }
