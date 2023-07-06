@@ -25,25 +25,28 @@ plans: [
   {
     unit: CA-anagh
     requirements: [
-      titanium/150
-      silicon/50
+      titanium/30
+      silicon/25
+      thorium/20
     ]
     time: 180
   }
   {
     unit: DA-spark
     requirements: [
-      titanium/150
-      silicon/50
+      titanium/30
+      silicon/25
+      surge-alloy/5
     ]
     time: 180
   }
   {
     unit: RA1-bijou
     requirements: [
-      titanium/150
-      thorium/20
-      silicon/50
+      titanium/40
+      silicon/35
+      bismuth/2
+      spore-pod/10
     ]
     time: 180
   }

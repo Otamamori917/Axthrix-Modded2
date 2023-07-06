@@ -4,8 +4,8 @@ consumes: {
   power: 4
   items: {
     items: [
-      cobalt/50
-      titanium/160
+      cobalt/120
+      titanium/640
       metaglass/160
     ]
   }

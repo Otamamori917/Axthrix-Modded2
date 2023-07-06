@@ -1,3 +1,4 @@
+//has been balanced
 type: naval
 flying: false
 health: 12000
@@ -9,12 +10,7 @@ abilities: [
   {
    type: UnitSpawnAbility
    unit: DB-bolt
-   spawnTime: 800
-  }
-  {
-   type: UnitSpawnAbility
-   unit: RB1-bijoux
-   spawnTime: 900
+   spawnTime: 750
   }
 ]
 weapons: [

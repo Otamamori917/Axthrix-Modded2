@@ -1,3 +1,4 @@
+//has been balanced
 type: mech
 flying: false
 health: 4500
@@ -62,7 +63,7 @@ weapons: [
           speed: 0
           hitEffect: none
           despawnEffect: sapExplosion
-          splashDamageRadius: 1000
+          splashDamageRadius: 500
           instantDisappear: true
           splashDamage: 100
           hittable: false

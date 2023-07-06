@@ -1,3 +1,4 @@
+//has been balanced
 type: mech
 flying: false
 health: 350
@@ -6,14 +7,15 @@ boostMultiplier: 1.6
 armor: 2
 hitSize: 11
 buildSpeed: 1
-speed: 0.7
+speed: 0.5
 engineSize: 1
 abilities: [
   {
    type: ForceFieldAbility
-   radius: 40
+   radius: 30
    regen: 0.8
-   cooldown: 125
+   cooldown: 225
+   max: 1050
   }
 ]
 weapons: [
@@ -49,7 +51,7 @@ weapons: [
     }
     bullet: {
       type: MissileBulletType
-      damage: 8
+      damage: 10
       lifetime: 100
       speed: 3
       healPercent: 1

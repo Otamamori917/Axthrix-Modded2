@@ -1,4 +1,5 @@
-type: flying 
+//has been balanced
+type: flying
 flying: true
 health: 3500
 armor: 300

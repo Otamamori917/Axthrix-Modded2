@@ -1,3 +1,4 @@
+//has been balanced
 type: flying
 health: 780
 flying: true
@@ -7,7 +8,7 @@ accel: 0.4
 drag: 0.2
 speed: 4
 rotateSpeed: 5
-armor: 6
+armor: 7
 hitSize: 2
 engineSize: 0
 weapons: [
@@ -29,7 +30,7 @@ weapons: [
       length: 35
       width: 3.5
       recoil: -0.4
-      damage: 40
+      damage: 30
       lifetime: 10
       speed: 0
       flareWidth: 3
@@ -62,7 +63,7 @@ weapons: [
       length: 25
       width: 3
       recoil: -0.2
-      damage: 40
+      damage: 30
       lifetime: 10
       speed: 0
       flareWidth: 0
@@ -95,7 +96,7 @@ weapons: [
       length: 25
       width: 3
       recoil: -0.2
-      damage: 40
+      damage: 30
       lifetime: 10
       speed: 0
       flareWidth: 0

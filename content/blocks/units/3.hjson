@@ -4,10 +4,10 @@ consumes: {
   power: 6
   items: {
     items: [
-      lead/200
-      cobalt/100
-      titanium/160
-      thorium/20
+      lead/1200
+      cobalt/160
+      titanium/1260
+      bismuth/140
     ]
   }
 }

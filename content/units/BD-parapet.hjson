@@ -1,3 +1,4 @@
+//has been balanced
 type: mech
 flying: false
 health: 8600
@@ -16,13 +17,14 @@ engineSize: 3.5
 abilities: [
   {
    type: ForceFieldAbility
-   radius: 80
+   radius: 50
    regen: 1.8
-   cooldown: 100
+   cooldown: 400
+   max: 3000
   }
   {
    type: ArmorPlateAbility
-   healthMultiplier: 0.8
+   healthMultiplier: 1.8
    color: 7b9691 
   }  
 ]

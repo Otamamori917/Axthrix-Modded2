@@ -4,10 +4,11 @@ consumes: {
   power: 8
   items: {
     items: [
-      platinum/200
-      cobalt/100
+      platinum/1500
+      cobalt/1200
+      gold/140
       titanium/1600
-      bismuth/20
+      curium/120
     ]
   }
 }

@@ -1,3 +1,4 @@
+//has been balanced
 type: mech
 flying: false
 health: 750
@@ -10,9 +11,10 @@ engineSize: 3
 abilities: [
   {
    type: ForceFieldAbility
-   radius: 60
-   regen: 0.6
-   cooldown: 125
+   radius: 40
+   regen: 1
+   cooldown: 300
+   max: 2000
   }
 ]
 weapons: [
@@ -27,11 +29,11 @@ weapons: [
     inaccuracy: 0
     shoot: {
       shots: 4
-      shotDelay: 10
+      shotDelay: 2
     }
     bullet: {
       type: LaserBoltBulletType
-      damage: 20
+      damage: 30
       lifetime: 60
       speed: 3
       healPercent: 1

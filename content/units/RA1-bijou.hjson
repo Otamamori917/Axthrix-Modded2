@@ -1,5 +1,5 @@
 type: flying
-health: 380
+health: 180
 flying: true
 circleTarget: true
 lowAltitude: true
@@ -7,7 +7,7 @@ accel: 0.4
 drag: 0.2
 speed: 4
 rotateSpeed: 5
-armor: 3
+armor: 5
 hitSize: 2
 engineSize: 0
 defaultController: SuicideAI
@@ -30,7 +30,7 @@ weapons: [
       length: 25
       width: 3
       recoil: -0.4
-      damage: 40
+      damage: 50
       lifetime: 10
       speed: 0
       flareWidth: 2

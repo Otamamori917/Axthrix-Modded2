@@ -1,3 +1,4 @@
+//has been balanced
 type: flying
 health: 80
 flying: true

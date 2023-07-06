@@ -1,13 +1,13 @@
 type: flying
-health: 200
+health: 600
 flying: true
 circleTarget: true
 lowAltitude: true
 accel: 0.5
 drag: 0.1
-speed: 4.5
+speed: 2.3
 rotateSpeed: 6
-armor: 0
+armor: 7
 hitSize: 2
 engineSize: 0
 abilities: [
@@ -49,7 +49,7 @@ weapons: [
       type: lightningBulletType
       lightningLength: 15
       collidesAir: true
-      damage: 20
+      damage: 35
       lifetime: 6
       shootEffect: sparkShoot
       smokeEffect: shootSmallSmoke
@@ -67,7 +67,7 @@ weapons: [
       type: MissileBulletType
       width: 1
       height: 3 
-      damage: 50
+      damage: 60
       speed: 10
       splashDamageRadius: 80
       splashDamage: 90

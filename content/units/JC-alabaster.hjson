@@ -1,3 +1,4 @@
+//has been balanced
 type: flying
 health: 2450
 flying: true
@@ -45,7 +46,7 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       spin: 4
-      damage: 30
+      damage: 50
       lifetime: 80
       speed: 2.5
       backColor: 6b77a1
@@ -57,13 +58,13 @@ weapons: [
       trailLength: 0.1
       trailWidth: 0.1
       laserAbsorb: false
-      pierceArmor: true
       homingRange: 600
       homingPower: 0.09
       homingDelay: 30
       fragBullets: 8
       fragRandomSpread: 60
       fragBullet: {
+        buildingDamageMultiplier: 0.4
         sprite: a-crystal-shard-bullet
         backSprite: none
         pierceArmor: true
@@ -74,7 +75,7 @@ weapons: [
         absorbable: false
         width: 8
         height: 10
-        damage: 80
+        damage: 20
         lifetime: 40
         speed: 6
         frontColor: 95abd9  

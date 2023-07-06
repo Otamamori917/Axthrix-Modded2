@@ -1,3 +1,4 @@
+//has been balanced
 type: naval
 flying: false
 health: 6000
@@ -9,12 +10,7 @@ abilities: [
 {
    type: UnitSpawnAbility
    unit: RA1-bijou
-   spawnTime: 600
-  }
-  {
-   type: UnitSpawnAbility
-   unit: DA-spark
-   spawnTime: 700
+   spawnTime: 550
   }
 ]
 weapons: [

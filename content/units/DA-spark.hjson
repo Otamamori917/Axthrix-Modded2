@@ -1,17 +1,36 @@
 type: flying
-health: 150
+health: 250
 flying: true
 circleTarget: true
 lowAltitude: true
 accel: 0.4
 drag: 0.2
-speed: 4
+speed: 2.5
 rotateSpeed: 5
-armor: 0
+armor: 4
 hitSize: 2
 engineSize: 0
 abilities: [
-  
+    {
+     type: StatusFieldAbility
+     effect: none
+     reload: 50
+     effectY: 0
+     effectX: 0
+     parentizeEffects: true
+     activeEffect: {
+      followParent: true
+      rotWithParent: true
+      particles: 1
+      lifetime: 60
+      length: 0
+      region: a-small-metal-blade
+      sizeFrom: 8
+      sizeTo: 8
+      spin: 15
+      layer: 95.1
+     }
+    }
 ]
 weapons: [
   {
@@ -30,7 +49,7 @@ weapons: [
       type: lightningBulletType
       lightningLength: 8
       collidesAir: true
-      damage: 25
+      damage: 35
       lifetime: 6
       shootEffect: sparkShoot
       smokeEffect: shootSmallSmoke
