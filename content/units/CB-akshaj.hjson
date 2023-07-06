@@ -8,6 +8,14 @@ faceTarget: false
 hitSize: 11
 speed: 0.7
 rotateSpeed: 2.6
+treadRects: [
+  {
+  x: 11
+  y: -39
+  width: 21
+  height: 76
+  }
+]
 weapons: [
   {
     name: vamg

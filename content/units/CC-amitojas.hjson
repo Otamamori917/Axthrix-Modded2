@@ -8,6 +8,14 @@ crushDamage: 3
 hitSize: 18
 speed: 0.64
 rotateSpeed: 1.5
+treadRects: [
+  {
+  x: 14
+  y: -57
+  width: 30
+  height: 110
+  }
+]
 weapons: [
   {
     name: luminaryburst
