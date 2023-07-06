@@ -16,8 +16,6 @@ treadRects: [
   height: 51
   }
 ]
-treadPullOffset: 1
-treadFrames: 12
 weapons: [
   {
     name: auto-l
