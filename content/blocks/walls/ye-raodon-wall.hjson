@@ -4,7 +4,7 @@ health: 2000
 size: 1
 range: 12
 reload: 180
-bulletDamage: 20
+bulletDamage: 100
 shake: 0
 shootSound: none
 shapeRadius: 2

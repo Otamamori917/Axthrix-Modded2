@@ -4,11 +4,11 @@ health: 8000
 size: 2
 range: 24
 reload: 180
-bulletDamage: 40
+bulletDamage: 400
 shake: 0
 shootSound: none
-shapeRadius: 2
-shapeSides: 4
+shapeRadius: 4
+shapeSides: 6
 shapeColor: ffffff
 requirements: [
   titanium/6
