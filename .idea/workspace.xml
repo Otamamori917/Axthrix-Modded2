@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296e7ba8-3b28-4d92-b15b-8e318d5b38a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/content/units/JD-epitome.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JD-epitome.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/walls/yc-radioactive-wall-large.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/walls/yc-radioactive-wall-large.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/walls/ye-raodon-wall-large.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/walls/ye-raodon-wall-large.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/walls/ye-raodon-wall.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/walls/ye-raodon-wall.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/walls/yb-reinforced-walll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/walls/yc-radioactive-walll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/walls/yd-biomass-walll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/walls/yg-ultimatum-walll.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

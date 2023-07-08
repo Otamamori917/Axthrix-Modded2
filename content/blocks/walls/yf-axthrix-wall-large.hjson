@@ -2,8 +2,9 @@ type: DirectionalForceProjector
 buildCostMultiplier: 0.1
 health: 10000
 size: 2
-width: 4
-shieldHealth: 700
+width: 7
+length: 5
+shieldHealth: 7000
 cooldownBrokenBase: 0.20
 cooldownLiquid: 1.8
 cooldownNormal: 1.2

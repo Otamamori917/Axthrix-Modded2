@@ -1,7 +1,7 @@
 type: Wall
 buildCostMultiplier: 0.1
 health: 8000
-size: 1
+size: 2
 absorbLasers: true
 requirements: [
   bismuth/6

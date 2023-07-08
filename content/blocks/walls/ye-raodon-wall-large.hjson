@@ -2,11 +2,14 @@ type: ShockwaveTower
 buildCostMultiplier: 0.1
 health: 8000
 size: 2
-range: 8
+range: 24
 reload: 180
-bulletDamage: 20
+bulletDamage: 40
 shake: 0
 shootSound: none
+shapeRadius: 2
+shapeSides: 4
+shapeColor: ffffff
 requirements: [
   titanium/6
   lutetium/6
