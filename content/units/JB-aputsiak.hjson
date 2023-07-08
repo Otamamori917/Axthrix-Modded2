@@ -13,6 +13,7 @@ engineSize: 4
 buildSpeed: 4
 mineWalls: true
 mineSpeed: 4
+omniMovement: false
 weapons: [
   {
     shootY: 1

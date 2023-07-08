@@ -1,0 +1,96 @@
+type: ItemTurret
+buildCostMultiplier: 0.1
+size: 4
+scaledHealth: 320
+reload: 60
+range: 180
+maxAmmo: 10 
+ammoPerShot: 5
+recoil: 3
+rotateSpeed: 2 
+targetAir: true 
+targetGround: true 
+shootY: -2
+shootSound: shootBig
+requirements: [
+  titanium/300
+  thorium/200
+  plastanium/125
+]  
+ammoTypes: { 
+  coal: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.6
+    sprite: a-error-bullet-top
+    backSprite: a-error-bullet-bottom
+    shootEffect: none
+    smokeEffect: none
+    reflectable: false
+    absorbable: false
+    width: 18
+    height: 18
+    shrinkX: 0
+    shrinkY: 0
+    spin: 4
+    damage: 10
+    lifetime: 180
+    speed: 2.5
+    backColor: 000000
+    frontColor: 353535
+    trailEffect: hitFuse
+    trailInterval: 0
+    trailParam: 0
+    trailColor: 000000
+    trailLength: 7
+    trailWidth: 4
+    laserAbsorb: false
+    homingRange: 600
+    homingPower: 0.09
+    homingDelay: 30
+  }
+  lutetium: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.6
+      sprite: a-error-bullet-top
+      backSprite: a-error-bullet-bottom
+      shootEffect: none
+      smokeEffect: none
+      reflectable: false
+      absorbable: false
+      width: 18
+      height: 18
+      shrinkX: 0
+      shrinkY: 0
+      spin: 4
+      damage: 40
+      lifetime: 180
+      speed: 2.5
+      backColor: 000000
+      frontColor: 353535
+      trailEffect: hitFuse
+      trailInterval: 0
+      trailParam: 0
+      trailColor: 000000
+      trailLength: 7
+      trailWidth: 4
+      laserAbsorb: false
+      homingRange: 600
+      homingPower: 0.09
+      homingDelay: 30
+    }
+}
+inaccuracy: 0
+shoot: {
+  firstShotDelay: 80
+  shots: 100
+  shotDelay: 1
+}
+category: turret 
+research: { 
+  parent: fuse
+  requirements: [
+     titanium/1000 
+     plastanium/1000 
+     heat-plate/10 
+  ] 
+}

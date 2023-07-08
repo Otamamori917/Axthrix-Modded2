@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296e7ba8-3b28-4d92-b15b-8e318d5b38a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/content/blocks/turrets/averter.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/turrets/raoes.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/effect/cores/ZD-paragon-team.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/effect/cores/ZD-paragon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/JA-argyros.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JA-argyros.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/JB-aputsiak.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JB-aputsiak.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/JC-alabaster.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JC-alabaster.hjson" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/units/JD-epitome.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JD-epitome.hjson" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +40,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Admin/Documents/GitHub/Axthrix-Modded2/content/blocks/effects/cores",
+    "last_opened_file_path": "C:/Users/Admin/Documents/GitHub/Axthrix-Modded2/content/blocks/turrets",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub\Axthrix-Modded2\content\blocks\turrets" />
       <recent name="C:\Users\Admin\Documents\GitHub\Axthrix-Modded2\content\blocks\effects\cores" />
       <recent name="C:\Users\Admin\Documents\GitHub\Axthrix-Modded2\content\units" />
     </key>

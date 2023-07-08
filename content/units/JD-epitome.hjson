@@ -12,6 +12,7 @@ engineSize: 0
 buildSpeed: 10
 mineWalls: true
 mineSpeed: 10
+omniMovement: false
 weapons: [
   {
     name: epitome-w
@@ -20,7 +21,7 @@ weapons: [
     y: 0
     top: false
     mirror: false
-    reload: 10
+    reload: 100
     inaccuracy: 10
     chargeSound: plasmadrop
     shootStatusDuration: 90
@@ -48,8 +49,8 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       spin: 4
-      damage: 100
-      lifetime: 80
+      damage: 200
+      lifetime: 50
       speed: 2.5
       backColor: 000000
       frontColor: 353535

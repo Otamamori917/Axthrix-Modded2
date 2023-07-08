@@ -1,0 +1,154 @@
+type: ItemTurret
+buildCostMultiplier: 0.1
+size: 4
+scaledHealth: 320
+reload: 40
+range: 180
+maxAmmo: 10 
+ammoPerShot: 5
+recoil: 3
+rotateSpeed: 2 
+targetAir: true 
+targetGround: true 
+shootY: -2
+chargeSound: plasmadrop
+shootSound: plasmaboom
+requirements: [ 
+  titanium/300
+  thorium/200
+  plastanium/125
+]
+shoot: {
+  firstShotDelay: 20
+  shots: 30
+  shotDelay: 2
+}
+ammoTypes: { 
+   metaglass: {
+        type: BasicBulletType
+        sprite: a-crystal-ball-bullet-top
+        backSprite: a-crystal-ball-bullet-bottom
+        shootEffect: none
+        smokeEffect: none
+        reflectable: false
+        absorbable: false
+        width: 18
+        height: 18
+        shrinkX: 0
+        shrinkY: 0
+        spin: 4
+        damage: 20
+        lifetime: 120
+        speed: 2.5
+        backColor: 6b77a1
+        frontColor: 95abd9
+        trailEffect: hitFuse
+        trailInterval: 0
+        trailParam: 0
+        trailColor: 6b77a1
+        trailLength: 0.1
+        trailWidth: 0.1
+        laserAbsorb: false
+        homingRange: 600
+        homingPower: 0.09
+        homingDelay: 30
+        fragBullets: 8
+        fragRandomSpread: 60
+        fragBullet: {
+          buildingDamageMultiplier: 0.4
+          sprite: a-crystal-shard-bullet
+          backSprite: none
+          pierceArmor: true
+          removeAfterPierce: false
+          pierceBuilding: true
+          pierce: true
+          reflectable: false
+          absorbable: false
+          width: 8
+          height: 10
+          damage: 10
+          lifetime: 40
+          speed: 6
+          frontColor: 95abd9
+          trailEffect: hitFuse
+          trailInterval: 0
+          trailParam: 0
+          trailColor: 95abd9
+          trailLength: 4
+          trailWidth: 0.2
+          homingRange: 200
+          homingPower: 0.06
+          homingDelay: 0
+        }
+     }
+   }
+}
+curium: {
+      type: BasicBulletType
+        sprite: a-crystal-ball-bullet-top
+        backSprite: a-crystal-ball-bullet-bottom
+        shootEffect: none
+        smokeEffect: none
+        reflectable: false
+        absorbable: false
+        width: 18
+        height: 18
+        shrinkX: 0
+        shrinkY: 0
+        spin: 4
+        damage: 60
+        lifetime: 120
+        speed: 2.5
+        backColor: 6b77a1
+        frontColor: 95abd9
+        trailEffect: hitFuse
+        trailInterval: 0
+        trailParam: 0
+        trailColor: 6b77a1
+        trailLength: 0.1
+        trailWidth: 0.1
+        laserAbsorb: false
+        homingRange: 600
+        homingPower: 0.09
+        homingDelay: 30
+        fragBullets: 8
+        fragRandomSpread: 60
+        fragBullet: {
+          buildingDamageMultiplier: 0.4
+          sprite: a-crystal-shard-bullet
+          backSprite: none
+          pierceArmor: true
+          removeAfterPierce: false
+          pierceBuilding: true
+          pierce: true
+          reflectable: false
+          absorbable: false
+          width: 8
+          height: 10
+          damage: 30
+          lifetime: 60
+          speed: 6
+          frontColor: 95abd9
+          trailEffect: hitFuse
+          trailInterval: 0
+          trailParam: 0
+          trailColor: 95abd9
+          trailLength: 4
+          trailWidth: 0.2
+          homingRange: 200
+          homingPower: 0.06
+          homingDelay: 0
+        }
+     }
+   }
+}
+inaccuracy: 0
+category: turret 
+research: { 
+  parent: hail
+  requirements: [
+     titanium/1000 
+     plastanium/1000 
+     heat-plate/10 
+  ] 
+}
