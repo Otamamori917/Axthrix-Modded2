@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296e7ba8-3b28-4d92-b15b-8e318d5b38a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/walls/ye-raodon-wall-large.hjson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/walls/ye-raodon-wall.hjson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/walls/yf-axthrix-wall.hjson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/walls/yk-axthrix-wall.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/walls/yk-axthrix-wall.hjson" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
