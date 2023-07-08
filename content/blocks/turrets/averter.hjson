@@ -139,8 +139,7 @@ ammoTypes: {
           homingDelay: 0
         }
       }
-   }
-}
+
 inaccuracy: 0
 category: turret 
 research: { 
