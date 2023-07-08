@@ -8,7 +8,7 @@ bulletDamage: 400
 shake: 0
 shootSound: none
 waveColor: 000000
-heatColor FFFFFF
+heatColor: FFFFFF
 shapeRadius: 4
 shapeSides: 6
 shapeColor: ffffff
