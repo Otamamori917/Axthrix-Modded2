@@ -82,8 +82,7 @@ ammoTypes: {
         }
      }
    }
-}
-curium: {
+   curium: {
       type: BasicBulletType
         sprite: a-crystal-ball-bullet-top
         backSprite: a-crystal-ball-bullet-bottom
