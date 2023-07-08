@@ -13,7 +13,6 @@ engineSize: 3
 buildSpeed: 2
 mineWalls: true
 mineSpeed: 2
-omniMovement: false
 faceTarget: true
 weapons: [
   {

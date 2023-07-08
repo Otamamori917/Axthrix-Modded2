@@ -12,7 +12,6 @@ engineSize: 0
 buildSpeed: 10
 mineWalls: true
 mineSpeed: 10
-omniMovement: false
 faceTarget: true
 weapons: [
   {
