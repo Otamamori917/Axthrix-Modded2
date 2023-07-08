@@ -138,7 +138,7 @@ ammoTypes: {
           homingPower: 0.06
           homingDelay: 0
         }
-     }
+      }
    }
 }
 inaccuracy: 0
