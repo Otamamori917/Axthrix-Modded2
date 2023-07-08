@@ -1,0 +1,16 @@
+type: CoreBlock
+size: 6
+health: 500000
+itemCapacity: 88000
+unitCapModifier: 408
+unitType: JD-epitome
+category: effect
+requirements: [
+ lutetium/18600
+ bismuth/16200
+ platinum/22200
+ cobalt/12200
+ gold/17000
+ livermorium/8000
+ oganesson/4000
+]

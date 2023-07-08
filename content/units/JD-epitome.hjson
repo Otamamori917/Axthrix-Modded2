@@ -14,26 +14,29 @@ mineWalls: true
 mineSpeed: 10
 weapons: [
   {
-    name: crystallize
+    name: epitome-w
     shootY: 1
     x: 0
     y: 0
     top: false
     mirror: false
-    reload: 100
+    reload: 10
     inaccuracy: 10
     shake: 0.4
     chargeSound: plasmadrop
-    shootStatusDuration: 160
+    shootStatusDuration: 90
     shootStatus: unmoving
     shootSound: plasmaboom
+    cooldownTime: 300
+    heatColor FFFFFF
     shoot: {
-      firstShotDelay: 120
+      firstShotDelay: 80
       shots: 100
       shotDelay: 1
     }
     bullet: { 
       type: BasicBulletType
+      buildingDamageMultiplier: 0.6
       sprite: a-error-bullet-top
       backSprite: a-error-bullet-bottom
       shootEffect: none
@@ -45,7 +48,7 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       spin: 4
-      damage: 50
+      damage: 100
       lifetime: 80
       speed: 2.5
       backColor: 000000
