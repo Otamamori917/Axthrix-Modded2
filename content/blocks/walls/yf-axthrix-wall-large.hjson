@@ -5,9 +5,9 @@ size: 2
 width: 7
 length: 6
 shieldHealth: 7000
-cooldownBrokenBase: 1
-cooldownLiquid: 1.8
-cooldownNormal: 1.2
+cooldownBrokenBase: 12
+cooldownLiquid: 16
+cooldownNormal: 14
 requirements: [
   bismuth/6
   platinum/6

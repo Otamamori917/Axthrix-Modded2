@@ -2,12 +2,12 @@ type: DirectionalForceProjector
 buildCostMultiplier: 0.1
 health: 2500
 size: 1
-width: 5
+width: 3
 length: 3
 shieldHealth: 3500
-cooldownBrokenBase: 1
-cooldownLiquid: 2
-cooldownNormal: 1.4
+cooldownBrokenBase: 12
+cooldownLiquid: 16
+cooldownNormal: 14
 requirements: [
   bismuth/2
   platinum/2
