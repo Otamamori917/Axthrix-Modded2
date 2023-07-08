@@ -1,0 +1,12 @@
+type: Wall
+buildCostMultiplier: 0.1
+health: 5200
+size: 2
+chanceDeflect: 8
+requirements: [
+  platinum/8
+  titanium/8
+  cobalt/8
+]
+category: defense
+research: yb-reinforced-wall

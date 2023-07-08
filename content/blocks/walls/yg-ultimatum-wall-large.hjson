@@ -1,0 +1,16 @@
+type: Wall
+buildCostMultiplier: 0.1
+health: 22000
+size: 2
+absorbLasers: true
+chanceDeflect: 40
+requirements: [
+  lead/1
+  thorium/1
+  bismuth/1
+  curium/1
+  livermorium/1
+  oganesson/1
+]
+category: defense
+research: heat-plate

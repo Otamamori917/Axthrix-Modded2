@@ -1,0 +1,65 @@
+type: flying
+health: 16450
+flying: true
+circleTarget: true
+accel: 6
+drag: 2
+speed: 8
+rotateSpeed: 18
+armor: 80
+hitSize: 6
+engineSize: 6
+buildSpeed: 10
+mineWalls: true
+mineSpeed: 10
+weapons: [
+  {
+    name: crystallize
+    shootY: 1
+    x: 0
+    y: 0
+    top: false
+    mirror: false
+    reload: 100
+    inaccuracy: 10
+    shake: 0.4
+    chargeSound: plasmadrop
+    shootStatusDuration: 160
+    shootStatus: unmoving
+    shootSound: plasmaboom
+    shoot: {
+      firstShotDelay: 120
+      shots: 100
+      shotDelay:
+    }
+    bullet: { 
+    type: BasicBulletType
+      sprite: a-error-bullet-top
+      backSprite: a-error-bullet-bottom
+      shootEffect: none
+      smokeEffect: none
+      reflectable: false
+      absorbable: false
+      width: 18
+      height: 18
+      shrinkX: 0
+      shrinkY: 0
+      spin: 4
+      damage: 50
+      lifetime: 80
+      speed: 2.5
+      backColor: 000000
+      frontColor: 353535
+      trailEffect: hitFuse 
+      trailInterval: 0
+      trailParam: 0
+      trailColor: 000000
+      trailLength: 7
+      trailWidth: 4
+      laserAbsorb: false
+      homingRange: 600
+      homingPower: 0.09
+      homingDelay: 30
+    } 
+  }
+] 

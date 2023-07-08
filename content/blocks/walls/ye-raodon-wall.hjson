@@ -1,0 +1,17 @@
+type: ShockwaveTower
+buildCostMultiplier: 0.1
+health: 2000
+size: 1
+range: 4
+reload: 180
+bulletDamage: 10
+shake: 0
+shootSound: none
+requirements: [
+  titanium/2
+  lutetium/1
+  gold/1
+  bismuth/2
+]
+category: defense
+research: yb-reinforced-wall

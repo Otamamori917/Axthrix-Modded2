@@ -5,8 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296e7ba8-3b28-4d92-b15b-8e318d5b38a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/ya-compound-wall-large.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/ya-compound-wall.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yb-reinforced-wall-large.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yb-reinforced-wall.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yc-radioactive-wall-large.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yc-radioactive-wall.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yd-biomass-wall-large.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yd-biomass-wall.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/ye-raodon-wall-large.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/ye-raodon-wall.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yf-axthrix-wall-large.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yf-axthrix-wall.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yg-ultimatum-wall-large.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/walls/yg-ultimatum-wall.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/units/JD-epitome.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/ya-compound-wall-large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/ya-compound-wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yb-reinforced-wall-large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yb-reinforced-walll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yc-radioactive-wall-large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yc-radioactive-walll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yd-biomass-wall-large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yd-biomass-walll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/ye-raodon-wall-large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/ye-raodon-wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yf-axthrix-wall-large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yf-axthrix-wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yg-ultimatum-wall-large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/blocks/walls/yg-ultimatum-walll.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/walls/axthrix-wall-large.hjson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/walls/axthrix-wall.hjson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/JA-argyros.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JA-argyros.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/walls/axthrix-wall-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/walls/axthrix-wall.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +54,28 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2S9JfGnqwdMEpHpiAfto8GPUphW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Admin/Documents/GitHub/Axthrix-Modded2"
+    "last_opened_file_path": "C:/Users/Admin/Documents/GitHub/Axthrix-Modded2/content/units",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub\Axthrix-Modded2\content\units" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,5 +86,8 @@
       <updated>1688552966810</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

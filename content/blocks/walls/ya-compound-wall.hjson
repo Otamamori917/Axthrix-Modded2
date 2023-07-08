@@ -1,0 +1,10 @@
+type: Wall
+buildCostMultiplier: 0.1
+health: 500
+size: 1
+requirements: [
+  copper/3
+  lead/3
+]
+category: defense
+research: copper

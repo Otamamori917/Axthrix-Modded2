@@ -1,0 +1,17 @@
+type: DirectionalForceProjector
+buildCostMultiplier: 0.1
+health: 10000
+size: 2
+width: 4
+shieldHealth: 700
+cooldownBrokenBase: 0.20
+cooldownLiquid: 1.8
+cooldownNormal: 1.2
+requirements: [
+  bismuth/6
+  platinum/6
+  curium/6
+  heat-plate/6
+]
+category: defense
+research: yf-axthrix-wall

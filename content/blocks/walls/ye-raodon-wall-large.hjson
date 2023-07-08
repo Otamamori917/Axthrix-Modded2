@@ -1,0 +1,17 @@
+type: ShockwaveTower
+buildCostMultiplier: 0.1
+health: 8000
+size: 2
+range: 8
+reload: 180
+bulletDamage: 20
+shake: 0
+shootSound: none
+requirements: [
+  titanium/6
+  lutetium/6
+  gold/6
+  bismuth/6
+]
+category: defense
+research: ye-raodon-wall

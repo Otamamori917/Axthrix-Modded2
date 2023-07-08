@@ -1,0 +1,13 @@
+type: Wall
+buildCostMultiplier: 0.1
+health: 2000
+size: 1
+absorbLasers: true
+requirements: [
+  bismuth/1
+  thorium/2
+  curium/1
+  lead/2
+]
+category: defense
+research: yb-reinforced-wall

@@ -37,7 +37,7 @@ weapons: [
       absorbable: false
       width: 6
       height: 8
-      damage: 1
+      damage: 10
       lifetime: 80
       speed: 4
       frontColor: 95abd9  

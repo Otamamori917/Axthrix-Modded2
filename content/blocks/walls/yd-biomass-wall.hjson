@@ -1,0 +1,13 @@
+type: Router
+buildCostMultiplier: 0.1
+health: 800
+size: 1
+underBullets: false
+requirements: [
+  bismuth/2
+  titanium/1
+  spore-pod/2
+  silicon/1
+]
+category: defense
+research: yc-radioactive-wall

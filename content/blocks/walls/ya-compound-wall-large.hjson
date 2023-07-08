@@ -1,0 +1,10 @@
+type: Wall
+buildCostMultiplier: 0.1
+health: 2000
+size: 2
+requirements: [
+  copper/12
+  lead/12
+]
+category: defense
+research: ya-compound-wall

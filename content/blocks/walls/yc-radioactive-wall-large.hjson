@@ -1,0 +1,13 @@
+type: Wall
+buildCostMultiplier: 0.1
+health: 8000
+size: 1
+absorbLasers: true
+requirements: [
+  bismuth/6
+  thorium/6
+  curium/6
+  lead/6
+]
+category: defense
+research: yc-radioactive-wall
