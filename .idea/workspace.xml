@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296e7ba8-3b28-4d92-b15b-8e318d5b38a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/blocks/effects/cores/ZD-paragon.hjson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprites/units/JD-epitome-cell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprites/units/JD-epitome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprites/units/epitome-w-heat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/units/JD-epitome.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/JD-epitome.hjson" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

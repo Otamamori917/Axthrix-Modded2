@@ -8,27 +8,26 @@ speed: 8
 rotateSpeed: 18
 armor: 80
 hitSize: 6
-engineSize: 6
+engineSize: 0
 buildSpeed: 10
 mineWalls: true
 mineSpeed: 10
 weapons: [
   {
     name: epitome-w
-    shootY: 1
+    shootY: 3
     x: 0
     y: 0
     top: false
     mirror: false
     reload: 10
     inaccuracy: 10
-    shake: 0.4
     chargeSound: plasmadrop
     shootStatusDuration: 90
     shootStatus: unmoving
     shootSound: plasmaboom
     cooldownTime: 300
-    heatColor: FFFFFF
+    heatColor: 353535
     shoot: {
       firstShotDelay: 80
       shots: 100
