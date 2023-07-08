@@ -30,10 +30,10 @@ weapons: [
     shoot: {
       firstShotDelay: 120
       shots: 100
-      shotDelay:
+      shotDelay: 1
     }
     bullet: { 
-    type: BasicBulletType
+      type: BasicBulletType
       sprite: a-error-bullet-top
       backSprite: a-error-bullet-bottom
       shootEffect: none
