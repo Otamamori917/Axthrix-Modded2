@@ -13,6 +13,7 @@ buildSpeed: 10
 mineWalls: true
 mineSpeed: 10
 omniMovement: false
+faceTarget: true
 weapons: [
   {
     name: epitome-w
@@ -24,7 +25,7 @@ weapons: [
     reload: 100
     inaccuracy: 10
     chargeSound: plasmadrop
-    shootStatusDuration: 90
+    shootStatusDuration: 200
     shootStatus: unmoving
     shootSound: plasmaboom
     cooldownTime: 300

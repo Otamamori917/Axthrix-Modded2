@@ -14,6 +14,7 @@ buildSpeed: 4
 mineWalls: true
 mineSpeed: 4
 omniMovement: false
+faceTarget: true
 weapons: [
   {
     shootY: 1

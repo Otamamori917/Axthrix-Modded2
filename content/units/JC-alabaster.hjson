@@ -14,6 +14,7 @@ buildSpeed: 6
 mineWalls: true
 mineSpeed: 6
 omniMovement: false
+faceTarget: true
 weapons: [
   {
     name: crystalize
