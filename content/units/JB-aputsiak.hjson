@@ -26,7 +26,7 @@ weapons: [
     inaccuracy: 0
     chargeSound: plasmadrop
     shootStatusDuration: 30
-    shootStatus: unmoving
+    shootStatus: slow
     shootSound: plasmaboom
     shoot: {
       firstShotDelay: 20

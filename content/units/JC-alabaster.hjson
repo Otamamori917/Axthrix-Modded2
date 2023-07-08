@@ -28,7 +28,7 @@ weapons: [
     shake: 0.4
     chargeSound: plasmadrop
     shootStatusDuration: 60
-    shootStatus: unmoving
+    shootStatus: slow
     shootSound: plasmaboom
     shoot: {
       firstShotDelay: 20

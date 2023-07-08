@@ -26,7 +26,7 @@ weapons: [
     inaccuracy: 10
     chargeSound: plasmadrop
     shootStatusDuration: 200
-    shootStatus: unmoving
+    shootStatus: slow
     shootSound: plasmaboom
     cooldownTime: 300
     heatColor: FFFFFF
