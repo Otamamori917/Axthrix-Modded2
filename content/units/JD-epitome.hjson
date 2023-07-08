@@ -28,7 +28,7 @@ weapons: [
     shootStatus: unmoving
     shootSound: plasmaboom
     cooldownTime: 300
-    heatColor FFFFFF
+    heatColor: FFFFFF
     shoot: {
       firstShotDelay: 80
       shots: 100
